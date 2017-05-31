@@ -1,0 +1,7 @@
+*.lic
+GIPC/Input/*
+GIPC/Output/*
+GIPC/GIPC.prj/*
+CAL/Input/*
+CAL/Output/*
+CAL/CALP.prj/*
