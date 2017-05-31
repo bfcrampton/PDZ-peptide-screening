@@ -1,0 +1,23 @@
+Run as:
+combgen -m his2-dipeptide-enumeration-mmfrag.ini -logfile his2-dipeptide-enumeration.log -infile his2-dipeptide-enumeration.in -outfile his2-dipeptide-enumeration.mae -r 5 -unt
+Running on Bryans-Retina-Macbook
+
+Now handling input command file, echoing non-comment lines,
+prefixed by line numbers; ignore any WARNING messages....
+
+[4] Core: his2-dipeptide-enumeration-core.mae
+[7] Chain: 1 1 1 1f 1t
+[8] Frag: 1 1 peptide-reagent-preparation
+
+Input specs lead to 22-member comb lib
+
+Proceed with generation....
+Reached end of comb lib
+
+Running the untangler:
+ "/opt/schrodinger/suites2017-1/ligprep" -HOST "localhost:4" -NJOBS 4 -unt -bff 14 -imae "his2-dipeptide-enumeration-tang.mae" -omae "his2-dipeptide-enumeration-unt.mae"
+Untangler started; jobid=Bryans-Retina-Macbook-0-59124574, launch succeeded
+"his2-dipeptide-enumeration-unt"  	Bryans-Retina-Macbook-0-59124574	finished 2017-05-09-18:41:22 on Bryans-Retina-Macbook
+Untangler succeeded
+
+Size of output file "his2-dipeptide-enumeration.mae" is 143892 bytes

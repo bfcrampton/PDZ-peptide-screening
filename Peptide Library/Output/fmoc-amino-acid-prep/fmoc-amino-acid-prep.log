@@ -1,0 +1,43 @@
+LigPrep (version 41012). Copyright Schrodinger, LLC. All rights reserved.
+
+LigPrep command:
+$SCHRODINGER/ligprep -bff 16 -pht 2.0 -epik -s 5 -imae fmoc-amino-acid-prep.maegz -omae fmoc-amino-acid-prep-out.maegz
+
+Processing steps:
+$DO/htreat.pyc -t All-None -a all -s -l 200 <infile.mae> <outfile.mae>
+$DO/desalter.pyc <infile.mae> <outfile.mae>
+$DO/neutralizer.pyc -m 200 <infile.mae> <outfile.mae>
+$DO/epik.pyc -pht 2.0 -ph 7.0 -tn 8 -ma 200 -imae <infile.mae> -omae <outfile.mae>
+$DO/guard.pyc <infile.mae> <outfile.mae>
+$DO/stereoizer.pyc -n 5 <infile.mae> <outfile.mae>
+$DO/cgx.pyc -optimize -ffld 16 -epsilon 10.0 <infile.mae> <outfile.mae>
+
+DO=$SCHRODINGER/run -FROM macromodel ../../lib/Darwin-x86_64/python_packages/ligprep3/
+
+# counts of output and dropped structures after processing steps
+# index  htreat  desalt  neutra   epik    guard  stereo    cgx   title
+       1   1/0     1/0     1/0     1/0     1/0     1/0     1/0   'fmoc-Ala(A)'
+       2   1/0     1/0     1/0     1/0     1/0     1/0     1/0   'fmoc-Arg(R)'
+       3   1/0     1/0     1/0     1/0     1/0     1/0     1/0   'fmoc-Asn(N)'
+       4   1/0     1/0     1/0     1/0     1/0     1/0     1/0   'fmoc-Asp(D)'
+       5   1/0     1/0     1/0     1/0     1/0     1/0     1/0   'fmoc-Cys(C)'
+       6   1/0     1/0     1/0     1/0     1/0     1/0     1/0   'fmoc-Gln(Q)'
+       7   1/0     1/0     1/0     1/0     1/0     1/0     1/0   'fmoc-Glu(E)'
+       8   1/0     1/0     1/0     1/0     1/0     1/0     1/0   'fmoc-Gly(G)'
+       9   1/0     1/0     1/0     3/0     3/0     3/0     3/0   'fmoc-His(H)'
+      10   1/0     1/0     1/0     1/0     1/0     1/0     1/0   'fmoc-Ile(I)'
+      11   1/0     1/0     1/0     1/0     1/0     1/0     1/0   'fmoc-Leu(L)'
+      12   1/0     1/0     1/0     1/0     1/0     1/0     1/0   'fmoc-Lys(K)'
+      13   1/0     1/0     1/0     1/0     1/0     1/0     1/0   'fmoc-Met(M)'
+      14   1/0     1/0     1/0     1/0     1/0     1/0     1/0   'fmoc-Phe(F)'
+      15   1/0     1/0     1/0     1/0     1/0     1/0     1/0   'fmoc-Pro(P)'
+      16   1/0     1/0     1/0     1/0     1/0     1/0     1/0   'fmoc-Ser(S)'
+      17   1/0     1/0     1/0     1/0     1/0     1/0     1/0   'fmoc-Thr(T)'
+      18   1/0     1/0     1/0     1/0     1/0     1/0     1/0   'fmoc-Trp(W)'
+      19   1/0     1/0     1/0     1/0     1/0     1/0     1/0   'fmoc-Tyr(Y)'
+      20   1/0     1/0     1/0     1/0     1/0     1/0     1/0   'fmoc-Val(V)'
+
+# of processed structures in "fmoc-amino-acid-prep-out.maegz" : 22
+# of dropped structures in "fmoc-amino-acid-prep-dropped.maegz" : 0
+
+backend run time: 0 hours 0 minutes 26.226 seconds

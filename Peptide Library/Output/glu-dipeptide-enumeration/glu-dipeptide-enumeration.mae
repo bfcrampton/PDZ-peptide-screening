@@ -1,0 +1,3701 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_combgen_index
+ i_combgen_index_track
+ s_combgen_comp_vec
+ s_combgen_comp_vec_track
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ s_st_Chirality_1
+ s_st_Chirality_2
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ "E; [Ala(A)]" 
+  1
+  1
+  1 
+  1 
+  glu-dipeptide-enumeration-tang.mae 
+  1
+  37012
+  2_S_1_3_8_6 
+  18_S_28_19_21_22 
+  0
+  OPLS_2005 
+  -17.997399417546
+  1
+  "E; [Ala(A)]-1" 
+  2
+ m_depend[4] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_combgen_index 
+  2 10 s_combgen_comp_vec 
+  3 10 s_st_Chirality_1 
+  4 10 s_st_Chirality_2 
+  :::
+ } 
+ m_atom[29] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -0.116840 -0.403018 0.128528 2 E A 38 0.13500 0.13500 "GLU " " N  " "  1f" 7 1 3 1 2E2EFF  "N4"  <> <> <>
+  2 3 1.266490 -0.134644 -0.339721 2 E A 24 0.06250 0.06250 "GLU " " CA " "    " 6 0 3 1 808080  "C5"  1 <> <>
+  3 2 1.249441 0.230443 -1.836971 2 E A 24 0.44500 0.44500 "GLU " " C  " "    " 6 0 3 1 808080  "C6"  <> <> <>
+  4 15 1.848301 1.273994 -2.175926 2 E A 70 -0.72250 -0.72250 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  <> <> <>
+  5 44 -0.587613 -0.937804 -0.586882 2 E A 21 0.31000 0.31000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  <>  10.003    0.483 
+  6 41 1.694714 0.697601 0.225229 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  7 18 0.618725 -0.521807 -2.614362 2 E A 70 -0.72250 -0.72250 "GLU " "    " "    " 8 -1 3 1 FF2E2E  "O12"  <>   2.526    0.460 
+  8 3 2.166468 -1.375596 -0.112689 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  9 3 2.716658 -1.517802 1.325123 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  10 2 1.647598 -1.748213 2.399172 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  11 15 1.787142 -1.138050 3.480432 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  <> <> <>
+  12 18 0.693200 -2.505890 2.115028 2 E A 70 -0.80000 -0.80000 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  <>   4.549    0.220 
+  13 41 1.639017 -2.284947 -0.406229 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  14 41 3.031386 -1.321772 -0.776276 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  15 41 3.409589 -2.358683 1.364238 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  16 41 3.299126 -0.631887 1.582730 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  17 44 -0.038182 -0.980657 0.954882 2 E A 21 0.31000 0.31000 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  <>  10.003    0.483 
+  18 3 -1.900251 1.204386 -0.554925 3 A A 24 0.25000 0.25000 "ALA " " CA " "    " 6 0 3 1 696969  "C5"  1 <> <>
+  19 2 -0.873087 0.713366 0.470762 3 A A 24 0.62250 0.62250 "ALA " " C  " "rpc1" 6 0 3 1 696969  "C6"  <> <> <>
+  20 15 -0.746718 1.270168 1.560340 3 A A 70 -0.50000 -0.50000 "ALA " " O  " "    " 8 0 3 1 FF2F2F  "O7"  <> <> <>
+  21 3 -1.576438 2.629854 -1.029232 3 A A 24 -0.18000 -0.18000 "ALA " " CB " "    " 6 0 3 1 696969  "C8"  <> <> <>
+  22 41 -1.883267 0.538134 -1.418672 3 A A 21 0.06000 0.06000 "ALA " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  23 41 -0.578817 2.687745 -1.465551 3 A A 21 0.06000 0.06000 "ALA " " HB1" "    " 1 0 3 0 FFFFFF  "H16"  <> <> <>
+  24 41 -2.282677 2.956900 -1.792960 3 A A 21 0.06000 0.06000 "ALA " " HB2" "    " 1 0 3 0 FFFFFF  "H17"  <> <> <>
+  25 41 -1.620725 3.347678 -0.208929 3 A A 21 0.06000 0.06000 "ALA " " HB3" "    " 1 0 3 0 FFFFFF  "H18"  <> <> <>
+  26 44 -3.472306 0.199120 0.288592 3 A A 21 0.33000 0.33000 "ALA " " H  " "    " 1 0 3 1 FFFFFF  "H9"  <>   9.641    1.474 
+  27 44 -3.310531 1.751843 0.817746 3 A A 21 0.33000 0.33000 "ALA " "    " "    " 1 0 3 1 FFFFFF  "H11"  <>   9.641    1.474 
+  28 32 -3.259699 1.146528 0.010354 3 X A 43 -0.30000 -0.30000 "ALA " " N  " "  c1" 7 1 0 1 5757FF  "N13"  <> <> <>
+  29 44 -3.927181 1.452475 -0.683121 3 X A 21 0.33000 0.33000 "ALA " "    " "    " 1 0 0 1 FFFFFF  "H14"  <> <> <>
+  :::
+ } 
+ m_bond[28] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 17 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 7 1 3 3
+  10 8 9 1 3 3
+  11 8 13 1 3 3
+  12 8 14 1 3 3
+  13 9 10 1 3 3
+  14 9 15 1 3 3
+  15 9 16 1 3 3
+  16 10 11 2 3 3
+  17 10 12 1 3 3
+  18 18 19 1 3 3
+  19 18 21 1 3 3
+  20 18 22 1 3 3
+  21 18 28 1 3 3
+  22 19 20 2 3 3
+  23 21 23 1 3 3
+  24 21 24 1 3 3
+  25 21 25 1 3 3
+  26 26 28 1 3 3
+  27 27 28 1 3 3
+  28 28 29 1 1 1
+  :::
+ } 
+ combgen_build[1] { 
+  i_combgen_growth
+  i_combgen_growth_node
+  s_combgen_from_growname
+  s_combgen_to_growname
+  s_combgen_attach_name
+  s_combgen_fragment_name
+  s_combgen_fraglib_name
+  s_combgen_baselib_name
+  :::
+  1 1 1 1f  1t  1  Ala(A)  peptide-reagent-preparation  peptide-reagent-preparation 
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_combgen_index
+ i_combgen_index_track
+ s_combgen_comp_vec
+ s_combgen_comp_vec_track
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ s_st_Chirality_1
+ s_st_Chirality_2
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ "E; [Arg(R)]" 
+  2
+  2
+  2 
+  2 
+  glu-dipeptide-enumeration-tang.mae 
+  2
+  37012
+  2_S_1_3_8_6 
+  18_S_40_19_23_21 
+  0
+  OPLS_2005 
+  -2.58410004325252
+  1
+  "E; [Arg(R)]-1" 
+  2
+ m_depend[4] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_combgen_index 
+  2 10 s_combgen_comp_vec 
+  3 10 s_st_Chirality_1 
+  4 10 s_st_Chirality_2 
+  :::
+ } 
+ m_atom[43] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 3.089502 -0.578866 0.130438 2 E A 38 0.13500 0.13500 "GLU " " N  " "  1f" 7 1 3 1 2E2EFF  "N4"  <> <> <>
+  2 3 4.105352 0.315613 0.736225 2 E A 24 0.06250 0.06250 "GLU " " CA " "    " 6 0 3 1 808080  "C5"  1 <> <>
+  3 2 5.008935 -0.557727 1.620440 2 E A 24 0.44500 0.44500 "GLU " " C  " "    " 6 0 3 1 808080  "C6"  <> <> <>
+  4 15 6.215799 -0.636741 1.303806 2 E A 70 -0.72250 -0.72250 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  <> <> <>
+  5 44 3.588949 -1.377497 -0.233746 2 E A 21 0.31000 0.31000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  <>  10.003    0.483 
+  6 41 4.727848 0.737338 -0.057178 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  7 18 4.474219 -1.160993 2.578785 2 E A 70 -0.72250 -0.72250 "GLU " "    " "    " 8 -1 3 1 FF2E2E  "O12"  <>   2.526    0.460 
+  8 3 3.469172 1.464240 1.565782 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  9 3 3.464839 2.813716 0.819626 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  10 2 2.425391 3.784833 1.378573 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  11 15 1.225276 3.443850 1.286646 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  <> <> <>
+  12 18 2.843724 4.854456 1.869684 2 E A 70 -0.80000 -0.80000 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  <>   4.549    0.220 
+  13 41 2.462392 1.179513 1.875714 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  14 41 4.014729 1.618116 2.499002 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  15 41 4.458734 3.262609 0.851250 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  16 41 3.232209 2.667078 -0.234974 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  17 44 2.482525 -0.900200 0.870388 2 E A 21 0.31000 0.31000 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  <>  10.003    0.483 
+  18 3 0.855237 0.257931 -0.607871 3 R A 24 0.25000 0.25000 "ARG " " CA " "    " 6 0 3 1 696969  "C5"  1 <> <>
+  19 2 2.331903 -0.040733 -0.903873 3 R A 24 0.62250 0.62250 "ARG " " C  " "rpc1" 6 0 3 1 696969  "C6"  <> <> <>
+  20 15 2.808904 0.159780 -2.019961 3 R A 70 -0.50000 -0.50000 "ARG " " O  " "    " 8 0 3 1 FF2F2F  "O7"  <> <> <>
+  21 41 0.693140 0.182745 0.468526 3 R A 21 0.06000 0.06000 "ARG " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  22 44 1.098277 2.285249 -0.446638 3 R A 21 0.33000 0.33000 "ARG " " H  " "    " 1 0 3 1 FFFFFF  "H5"  <>   9.559    0.483 
+  23 3 -0.103513 -0.725364 -1.316788 3 R A 2 -0.12000 -0.12000 "ARG " " CB " "    " 6 0 3 1 A0A0A0  "C7"  <> <> <>
+  24 3 0.085087 -2.209157 -0.943500 3 R A 2 -0.05000 -0.05000 "ARG " " CG " "    " 6 0 3 1 A0A0A0  "C8"  <> <> <>
+  25 3 -0.966775 -3.113951 -1.603239 3 R A 2 0.19000 0.19000 "ARG " " CD " "    " 6 0 3 1 A0A0A0  "C9"  <> <> <>
+  26 25 -0.790270 -4.520011 -1.212686 3 R A 43 -0.69997 -0.69997 "ARG " " NE " "    " 7 0 3 1 5757FF  "N10"  <> <> <>
+  27 2 -1.629093 -5.527040 -1.518160 3 R A 2 0.63990 0.63990 "ARG " " CZ " "    " 6 0 3 1 A0A0A0  "C11"  <> <> <>
+  28 25 -2.744524 -5.319237 -2.235064 3 R A 43 -0.79997 -0.79997 "ARG " " NH1" "    " 7 0 3 1 5757FF  "N12"  <> <> <>
+  29 41 -1.129228 -0.437691 -1.080916 3 R A 21 0.06000 0.06000 "ARG " " HB2" "    " 1 0 3 1 FFFFFF  "H14"  <> <> <>
+  30 41 -0.006245 -0.614865 -2.398153 3 R A 21 0.06000 0.06000 "ARG " " HB3" "    " 1 0 3 1 FFFFFF  "H15"  <> <> <>
+  31 41 1.078965 -2.548325 -1.237590 3 R A 21 0.06000 0.06000 "ARG " " HG2" "    " 1 0 3 1 FFFFFF  "H16"  <> <> <>
+  32 41 0.028445 -2.319735 0.140402 3 R A 21 0.06000 0.06000 "ARG " " HG3" "    " 1 0 3 1 FFFFFF  "H17"  <> <> <>
+  33 41 -1.967888 -2.793037 -1.313347 3 R A 21 0.06000 0.06000 "ARG " " HD2" "    " 1 0 3 1 FFFFFF  "H18"  <> <> <>
+  34 41 -0.904655 -3.039729 -2.689584 3 R A 21 0.06000 0.06000 "ARG " " HD3" "    " 1 0 3 1 FFFFFF  "H19"  <> <> <>
+  35 43 0.042361 -4.737489 -0.683309 3 R A 21 0.44000 0.44000 "ARG " " HE " "    " 1 0 3 1 FFFFFF  "H20"  <>  12.254    0.860 
+  36 43 -3.360136 -6.089928 -2.453892 3 R A 21 0.46000 0.46000 "ARG " "HH12" "    " 1 0 3 1 FFFFFF  "H21"  <>  14.552    1.650 
+  37 43 -2.975773 -4.391355 -2.560205 3 R A 21 0.46000 0.46000 "ARG " "HH11" "    " 1 0 3 1 FFFFFF  "H22"  <>  14.552    1.650 
+  38 44 -1.966666 -7.533217 -1.316810 3 R A 21 0.46000 0.46000 "ARG " "    " "    " 1 0 3 1 FFFFFF  "H23"  <>  11.629    0.860 
+  39 44 0.708445 1.784698 -1.969391 3 R A 21 0.33000 0.33000 "ARG " "    " "    " 1 0 3 1 FFFFFF  "H24"  <>   9.559    0.483 
+  40 32 0.528613 1.645508 -0.985304 3 X A 43 -0.30000 -0.30000 "ARG " " N  " "  c1" 7 1 0 1 5757FF  "N26"  <> <> <>
+  41 44 -0.443869 1.833437 -0.788324 3 X A 21 0.33000 0.33000 "ARG " "    " "    " 1 0 0 1 FFFFFF  "H27"  <> <> <>
+  42 31 -1.345245 -6.766930 -1.097528 3 X A 43 -0.79997 -0.79997 "ARG " " NH2" "  c1" 7 1 0 1 5757FF  "N27"  <> <> <>
+  43 44 -0.510474 -6.944965 -0.557148 3 X A 21 0.46000 0.46000 "ARG " "    " "    " 1 0 0 1 FFFFFF  "H28"  <> <> <>
+  :::
+ } 
+ m_bond[42] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 17 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 7 1 3 3
+  10 8 9 1 3 3
+  11 8 13 1 3 3
+  12 8 14 1 3 3
+  13 9 10 1 3 3
+  14 9 15 1 3 3
+  15 9 16 1 3 3
+  16 10 11 2 3 3
+  17 10 12 1 3 3
+  18 18 19 1 3 3
+  19 18 21 1 3 3
+  20 18 23 1 3 3
+  21 18 40 1 3 3
+  22 19 20 2 3 3
+  23 22 40 1 3 3
+  24 23 24 1 3 3
+  25 23 29 1 3 3
+  26 23 30 1 3 3
+  27 24 25 1 3 3
+  28 24 31 1 3 3
+  29 24 32 1 3 3
+  30 25 26 1 3 3
+  31 25 33 1 3 3
+  32 25 34 1 3 3
+  33 26 27 1 3 3
+  34 26 35 1 3 3
+  35 27 28 1 3 3
+  36 27 42 2 3 3
+  37 28 36 1 3 3
+  38 28 37 1 3 3
+  39 38 42 1 3 3
+  40 39 40 1 3 3
+  41 40 41 1 1 1
+  42 42 43 1 1 1
+  :::
+ } 
+ combgen_build[1] { 
+  i_combgen_growth
+  i_combgen_growth_node
+  s_combgen_from_growname
+  s_combgen_to_growname
+  s_combgen_attach_name
+  s_combgen_fragment_name
+  s_combgen_fraglib_name
+  s_combgen_baselib_name
+  :::
+  1 1 1 1f  1t  1  Arg(R)  peptide-reagent-preparation  peptide-reagent-preparation 
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_combgen_index
+ i_combgen_index_track
+ s_combgen_comp_vec
+ s_combgen_comp_vec_track
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ s_st_Chirality_1
+ s_st_Chirality_2
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ "E; [Asn(N)]" 
+  3
+  3
+  3 
+  3 
+  glu-dipeptide-enumeration-tang.mae 
+  3
+  37012
+  2_S_1_3_8_6 
+  18_S_32_19_23_21 
+  0
+  OPLS_2005 
+  -22.3920399642649
+  1
+  "E; [Asn(N)]-1" 
+  2
+ m_depend[4] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_combgen_index 
+  2 10 s_combgen_comp_vec 
+  3 10 s_st_Chirality_1 
+  4 10 s_st_Chirality_2 
+  :::
+ } 
+ m_atom[33] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 0.495413 0.604886 1.157061 2 E A 38 0.13500 0.13500 "GLU " " N  " "  1f" 7 1 3 1 2E2EFF  "N4"  <> <> <>
+  2 3 1.203575 -0.009973 0.005902 2 E A 24 0.06250 0.06250 "GLU " " CA " "    " 6 0 3 1 808080  "C5"  1 <> <>
+  3 2 0.181107 -0.432324 -1.068944 2 E A 24 0.44500 0.44500 "GLU " " C  " "    " 6 0 3 1 808080  "C6"  <> <> <>
+  4 15 0.264162 0.129278 -2.182685 2 E A 70 -0.72250 -0.72250 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  <> <> <>
+  5 44 -0.305398 0.028406 1.371835 2 E A 21 0.31000 0.31000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  <>  10.003    0.483 
+  6 41 1.904659 0.716275 -0.413449 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  7 18 -0.705178 -1.254333 -0.745113 2 E A 70 -0.72250 -0.72250 "GLU " "    " "    " 8 -1 3 1 FF2E2E  "O12"  <>   2.526    0.460 
+  8 3 2.029455 -1.216955 0.504767 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  9 3 2.913666 -1.878292 -0.575531 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  10 2 3.840344 -2.974997 -0.037506 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  11 15 4.572303 -3.544367 -0.875464 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  <> <> <>
+  12 18 3.812179 -3.231227 1.187044 2 E A 70 -0.80000 -0.80000 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  <>   4.549    0.220 
+  13 41 2.670414 -0.870757 1.317446 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  14 41 1.370486 -1.966858 0.946397 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  15 41 2.292811 -2.316581 -1.357491 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  16 41 3.533525 -1.121007 -1.056886 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  17 44 1.127421 0.572947 1.943861 2 E A 21 0.31000 0.31000 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  <>  10.003    0.483 
+  18 3 -1.388106 2.221895 0.720970 3 N A 24 0.25000 0.25000 "ASN " " CA " "    " 6 0 3 1 696969  "C5"  1 <> <>
+  19 2 0.095989 1.931915 0.998978 3 N A 24 0.62250 0.62250 "ASN " " C  " "rpc1" 6 0 3 1 696969  "C6"  <> <> <>
+  20 15 0.903552 2.854804 1.088755 3 N A 70 -0.50000 -0.50000 "ASN " " O  " "    " 8 0 3 1 FF2F2F  "O7"  <> <> <>
+  21 41 -1.583673 3.216224 1.125999 3 N A 21 0.06000 0.06000 "ASN " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  22 44 -1.037622 3.016635 -1.134235 3 N A 21 0.33000 0.33000 "ASN " " H  " "    " 1 0 3 1 FFFFFF  "H5"  <>   9.238    0.483 
+  23 3 -2.346965 1.225552 1.420035 3 N A 2 -0.12000 -0.12000 "ASN " " CB " "    " 6 0 3 1 A0A0A0  "C7"  <> <> <>
+  24 2 -3.820307 1.621900 1.287595 3 N A 2 0.50000 0.50000 "ASN " " CG " "    " 6 0 3 1 A0A0A0  "C8"  <> <> <>
+  25 15 -4.227967 2.667185 1.787757 3 N A 70 -0.50000 -0.50000 "ASN " " OD1" "    " 8 0 3 1 FF2F2F  "O9"  <>  -1.424    0.900 
+  26 25 -4.614969 0.804072 0.592619 3 N A 43 -0.76000 -0.76000 "ASN " " ND2" "    " 7 0 3 1 5757FF  "N10"  <> <> <>
+  27 41 -2.213343 0.217486 1.025878 3 N A 21 0.06000 0.06000 "ASN " " HB2" "    " 1 0 3 1 FFFFFF  "H11"  <> <> <>
+  28 41 -2.115291 1.170375 2.484826 3 N A 21 0.06000 0.06000 "ASN " " HB3" "    " 1 0 3 1 FFFFFF  "H12"  <> <> <>
+  29 43 -5.592473 1.033431 0.479372 3 N A 21 0.38000 0.38000 "ASN " "HD22" "    " 1 0 3 1 FFFFFF  "H13"  <>  14.107    0.950 
+  30 43 -4.248153 -0.050735 0.198263 3 N A 21 0.38000 0.38000 "ASN " "HD21" "    " 1 0 3 1 FFFFFF  "H14"  <>  14.107    0.950 
+  31 44 -1.444899 1.422183 -1.169417 3 N A 21 0.33000 0.33000 "ASN " "    " "    " 1 0 3 1 FFFFFF  "H15"  <>   9.238    0.483 
+  32 32 -1.640063 2.312813 -0.731408 3 X A 43 -0.30000 -0.30000 "ASN " " N  " "  c1" 7 1 0 1 5757FF  "N17"  <> <> <>
+  33 44 -2.604629 2.563691 -0.894646 3 X A 21 0.33000 0.33000 "ASN " "    " "    " 1 0 0 1 FFFFFF  "H18"  <> <> <>
+  :::
+ } 
+ m_bond[32] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 17 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 7 1 3 3
+  10 8 9 1 3 3
+  11 8 13 1 3 3
+  12 8 14 1 3 3
+  13 9 10 1 3 3
+  14 9 15 1 3 3
+  15 9 16 1 3 3
+  16 10 11 2 3 3
+  17 10 12 1 3 3
+  18 18 19 1 3 3
+  19 18 21 1 3 3
+  20 18 23 1 3 3
+  21 18 32 1 3 3
+  22 19 20 2 3 3
+  23 22 32 1 3 3
+  24 23 24 1 3 3
+  25 23 27 1 3 3
+  26 23 28 1 3 3
+  27 24 25 2 3 3
+  28 24 26 1 3 3
+  29 26 29 1 3 3
+  30 26 30 1 3 3
+  31 31 32 1 3 3
+  32 32 33 1 1 1
+  :::
+ } 
+ combgen_build[1] { 
+  i_combgen_growth
+  i_combgen_growth_node
+  s_combgen_from_growname
+  s_combgen_to_growname
+  s_combgen_attach_name
+  s_combgen_fragment_name
+  s_combgen_fraglib_name
+  s_combgen_baselib_name
+  :::
+  1 1 1 1f  1t  1  Asn(N)  peptide-reagent-preparation  peptide-reagent-preparation 
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_combgen_index
+ i_combgen_index_track
+ s_combgen_comp_vec
+ s_combgen_comp_vec_track
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ s_st_Chirality_1
+ s_st_Chirality_2
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ "E; [Asp(D)]" 
+  4
+  4
+  4 
+  4 
+  glu-dipeptide-enumeration-tang.mae 
+  4
+  37012
+  2_S_1_3_8_6 
+  18_S_29_19_23_21 
+  0
+  OPLS_2005 
+  -32.4331907212196
+  1
+  "E; [Asp(D)]-1" 
+  2
+ m_depend[4] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_combgen_index 
+  2 10 s_combgen_comp_vec 
+  3 10 s_st_Chirality_1 
+  4 10 s_st_Chirality_2 
+  :::
+ } 
+ m_atom[31] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 0.581612 0.801841 -0.986851 2 E A 38 0.13500 0.13500 "GLU " " N  " "  1f" 7 1 3 1 2E2EFF  "N4"  <> <> <>
+  2 3 1.870612 0.460747 -0.336847 2 E A 24 0.06250 0.06250 "GLU " " CA " "    " 6 0 3 1 808080  "C5"  1 <> <>
+  3 2 2.520131 -0.643900 -1.185991 2 E A 24 0.44500 0.44500 "GLU " " C  " "    " 6 0 3 1 808080  "C6"  <> <> <>
+  4 15 3.566778 -0.346856 -1.802073 2 E A 70 -0.72250 -0.72250 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  <> <> <>
+  5 44 0.774933 0.970068 -1.963706 2 E A 21 0.31000 0.31000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  <>  10.003    0.483 
+  6 41 2.515001 1.343233 -0.359736 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  7 18 1.946453 -1.755661 -1.236362 2 E A 70 -0.72250 -0.72250 "GLU " "    " "    " 8 -1 3 1 FF2E2E  "O12"  <>   2.526    0.460 
+  8 3 1.684963 0.016042 1.139714 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  9 3 2.994119 -0.335776 1.877692 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  10 2 2.821070 -0.502950 3.392096 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  11 15 3.869439 -0.560491 4.069923 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  <> <> <>
+  12 18 1.659712 -0.568302 3.854722 2 E A 70 -0.80000 -0.80000 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  <>   4.549    0.220 
+  13 41 1.205989 0.827358 1.688601 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  14 41 0.996374 -0.829041 1.193887 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  15 41 3.422572 -1.255346 1.478116 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  16 41 3.729827 0.451646 1.708894 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  17 44 -0.021335 -0.005646 -0.923434 2 E A 21 0.31000 0.31000 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  <>  10.003    0.483 
+  18 3 -1.310948 1.639958 0.395843 3 D A 24 0.25000 0.25000 "ASP " " CA " "    " 6 0 3 1 696969  "C5"  1 <> <>
+  19 2 -0.077229 1.915551 -0.481455 3 D A 24 0.62250 0.62250 "ASP " " C  " "rpc1" 6 0 3 1 696969  "C6"  <> <> <>
+  20 15 0.303357 3.059846 -0.728944 3 D A 70 -0.50000 -0.50000 "ASP " " O  " "    " 8 0 3 1 FF2F2F  "O7"  <> <> <>
+  21 41 -1.134670 0.718484 0.951450 3 D A 21 0.06000 0.06000 "ASP " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  22 44 -0.630551 2.790755 1.952344 3 D A 21 0.33000 0.33000 "ASP " " H  " "    " 1 0 3 1 FFFFFF  "H5"  <>   9.070    0.860 
+  23 3 -2.600298 1.453805 -0.441594 3 D A 2 -0.22000 -0.22000 "ASP " " CB " "    " 6 0 3 1 A0A0A0  "C7"  <> <> <>
+  24 2 -2.994337 2.667268 -1.291447 3 D A 2 0.70000 0.70000 "ASP " " CG " "    " 6 0 3 1 A0A0A0  "C8"  <> <> <>
+  25 15 -2.754910 2.604074 -2.516079 3 D A 70 -0.80000 -0.80000 "ASP " " OD1" "    " 8 0 3 1 FF2F2F  "O9"  <> <> <>
+  26 41 -2.489886 0.588442 -1.097125 3 D A 21 0.06000 0.06000 "ASP " " HB2" "    " 1 0 3 1 FFFFFF  "H11"  <> <> <>
+  27 41 -3.434565 1.215448 0.219514 3 D A 21 0.06000 0.06000 "ASP " " HB3" "    " 1 0 3 1 FFFFFF  "H12"  <> <> <>
+  28 44 -1.652029 3.583313 0.926198 3 D A 21 0.33000 0.33000 "ASP " "    " "    " 1 0 3 1 FFFFFF  "H13"  <>   9.070    0.860 
+  29 32 -1.473264 2.709356 1.401558 3 X A 43 -0.30000 -0.30000 "ASP " " N  " "  c1" 7 1 0 1 5757FF  "N16"  <> <> <>
+  30 44 -2.253930 2.492213 2.004201 3 X A 21 0.33000 0.33000 "ASP " "    " "    " 1 0 0 1 FFFFFF  "H17"  <> <> <>
+  31 18 -3.501940 3.639721 -0.692424 3 X A 70 -0.80000 -0.80000 "ASP " " OD2" "  c1" 8 -1 0 1 FF2F2F  "O16"  <> <> <>
+  :::
+ } 
+ m_bond[30] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 17 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 7 1 3 3
+  10 8 9 1 3 3
+  11 8 13 1 3 3
+  12 8 14 1 3 3
+  13 9 10 1 3 3
+  14 9 15 1 3 3
+  15 9 16 1 3 3
+  16 10 11 2 3 3
+  17 10 12 1 3 3
+  18 18 19 1 3 3
+  19 18 21 1 3 3
+  20 18 23 1 3 3
+  21 18 29 1 3 3
+  22 19 20 2 3 3
+  23 22 29 1 3 3
+  24 23 24 1 3 3
+  25 23 26 1 3 3
+  26 23 27 1 3 3
+  27 24 25 2 3 3
+  28 24 31 1 3 3
+  29 28 29 1 3 3
+  30 29 30 1 1 1
+  :::
+ } 
+ combgen_build[1] { 
+  i_combgen_growth
+  i_combgen_growth_node
+  s_combgen_from_growname
+  s_combgen_to_growname
+  s_combgen_attach_name
+  s_combgen_fragment_name
+  s_combgen_fraglib_name
+  s_combgen_baselib_name
+  :::
+  1 1 1 1f  1t  1  Asp(D)  peptide-reagent-preparation  peptide-reagent-preparation 
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_combgen_index
+ i_combgen_index_track
+ s_combgen_comp_vec
+ s_combgen_comp_vec_track
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ s_st_Chirality_1
+ s_st_Chirality_2
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ "E; [Cys(C)]" 
+  5
+  5
+  5 
+  5 
+  glu-dipeptide-enumeration-tang.mae 
+  5
+  37012
+  2_S_1_3_8_6 
+  18_R_29_23_19_21 
+  0
+  OPLS_2005 
+  -14.6691703059509
+  1
+  "E; [Cys(C)]-1" 
+  2
+ m_depend[4] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_combgen_index 
+  2 10 s_combgen_comp_vec 
+  3 10 s_st_Chirality_1 
+  4 10 s_st_Chirality_2 
+  :::
+ } 
+ m_atom[30] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 0.262216 -0.352763 -1.023574 2 E A 38 0.13500 0.13500 "GLU " " N  " "  1f" 7 1 3 1 2E2EFF  "N4"  <> <> <>
+  2 3 1.584923 -0.387292 -0.354630 2 E A 24 0.06250 0.06250 "GLU " " CA " "    " 6 0 3 1 808080  "C5"  1 <> <>
+  3 2 2.090029 -1.835530 -0.450523 2 E A 24 0.44500 0.44500 "GLU " " C  " "    " 6 0 3 1 808080  "C6"  <> <> <>
+  4 15 3.082991 -2.043716 -1.180877 2 E A 70 -0.72250 -0.72250 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  <> <> <>
+  5 44 0.377092 -0.798092 -1.922805 2 E A 21 0.31000 0.31000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  <>  10.003    0.483 
+  6 41 2.271557 0.260475 -0.905268 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  7 18 1.454422 -2.717412 0.170735 2 E A 70 -0.72250 -0.72250 "GLU " "    " "    " 8 -1 3 1 FF2E2E  "O12"  <>   2.526    0.460 
+  8 3 1.508529 0.098524 1.117601 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  9 3 2.853253 0.094325 1.874903 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  10 2 2.808751 0.848798 3.209569 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  11 15 3.901026 1.011954 3.794371 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  <> <> <>
+  12 18 1.700336 1.256295 3.625395 2 E A 70 -0.80000 -0.80000 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  <>   4.549    0.220 
+  13 41 1.136401 1.121947 1.120279 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  14 41 0.774696 -0.489094 1.672167 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  15 41 3.179034 -0.928370 2.067122 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  16 41 3.622891 0.556701 1.255644 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  17 44 -0.373402 -0.915215 -0.476388 2 E A 21 0.31000 0.31000 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  <>  10.003    0.483 
+  18 3 -1.401729 1.348936 -0.276858 3 C A 24 0.25000 0.25000 "CYS " " CA " "    " 6 0 3 1 696969  "C5"  1 <> <>
+  19 2 -0.285185 0.908558 -1.231750 3 C A 24 0.62250 0.62250 "CYS " " C  " "rpc1" 6 0 3 1 696969  "C6"  <> <> <>
+  20 15 0.094364 1.637455 -2.147079 3 C A 70 -0.50000 -0.50000 "CYS " " O  " "    " 8 0 3 1 FF2F2F  "O7"  <> <> <>
+  21 41 -1.492616 0.587476 0.499952 3 C A 21 0.06000 0.06000 "CYS " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  22 44 -0.191035 2.499597 0.911787 3 C A 21 0.33000 0.33000 "CYS " " H  " "    " 1 0 3 1 FFFFFF  "H5"  <>   9.451    0.700 
+  23 3 -2.746916 1.465688 -1.020217 3 C A 2 0.06000 0.06000 "CYS " " CB " "    " 6 0 3 1 A0A0A0  "C7"  <> <> <>
+  24 49 -4.114519 1.474989 0.171642 3 C A 13 -0.33500 -0.33500 "CYS " " SG " "    " 16 0 3 1 E1E11E  "S8"  <> <> <>
+  25 41 -2.787725 2.367059 -1.633315 3 C A 21 0.06000 0.06000 "CYS " " HB2" "    " 1 0 3 1 FFFFFF  "H9"  <> <> <>
+  26 41 -2.898105 0.615345 -1.687076 3 C A 21 0.06000 0.06000 "CYS " " HB3" "    " 1 0 3 1 FFFFFF  "H10"  <> <> <>
+  27 41 -5.094594 1.532031 -0.735077 3 C A 21 0.15500 0.15500 "CYS " " HG " "    " 1 0 3 1 FFFFFF  "H11"  <>   8.515    0.860 
+  28 44 -0.930753 3.343997 -0.295985 3 C A 21 0.33000 0.33000 "CYS " "    " "    " 1 0 3 1 FFFFFF  "H12"  <>   9.451    0.700 
+  29 32 -1.051349 2.616227 0.394200 3 X A 43 -0.30000 -0.30000 "CYS " " N  " "  c1" 7 1 0 1 5757FF  "N14"  <> <> <>
+  30 44 -1.790576 2.875325 1.032212 3 X A 21 0.33000 0.33000 "CYS " "    " "    " 1 0 0 1 FFFFFF  "H15"  <> <> <>
+  :::
+ } 
+ m_bond[29] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 17 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 7 1 3 3
+  10 8 9 1 3 3
+  11 8 13 1 3 3
+  12 8 14 1 3 3
+  13 9 10 1 3 3
+  14 9 15 1 3 3
+  15 9 16 1 3 3
+  16 10 11 2 3 3
+  17 10 12 1 3 3
+  18 18 19 1 3 3
+  19 18 21 1 3 3
+  20 18 23 1 3 3
+  21 18 29 1 3 3
+  22 19 20 2 3 3
+  23 22 29 1 3 3
+  24 23 24 1 3 3
+  25 23 25 1 3 3
+  26 23 26 1 3 3
+  27 24 27 1 3 3
+  28 28 29 1 3 3
+  29 29 30 1 1 1
+  :::
+ } 
+ combgen_build[1] { 
+  i_combgen_growth
+  i_combgen_growth_node
+  s_combgen_from_growname
+  s_combgen_to_growname
+  s_combgen_attach_name
+  s_combgen_fragment_name
+  s_combgen_fraglib_name
+  s_combgen_baselib_name
+  :::
+  1 1 1 1f  1t  1  Cys(C)  peptide-reagent-preparation  peptide-reagent-preparation 
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_combgen_index
+ i_combgen_index_track
+ s_combgen_comp_vec
+ s_combgen_comp_vec_track
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ s_st_Chirality_1
+ s_st_Chirality_2
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ "E; [Gln(Q)]" 
+  6
+  6
+  6 
+  6 
+  glu-dipeptide-enumeration-tang.mae 
+  6
+  37012
+  2_S_1_3_8_6 
+  18_S_35_19_23_21 
+  0
+  OPLS_2005 
+  -14.7877046687921
+  1
+  "E; [Gln(Q)]-1" 
+  2
+ m_depend[4] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_combgen_index 
+  2 10 s_combgen_comp_vec 
+  3 10 s_st_Chirality_1 
+  4 10 s_st_Chirality_2 
+  :::
+ } 
+ m_atom[36] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -0.764661 -0.258261 -1.128365 2 E A 38 0.13500 0.13500 "GLU " " N  " "  1f" 7 1 3 1 2E2EFF  "N4"  <> <> <>
+  2 3 -0.359851 0.691510 -0.061302 2 E A 24 0.06250 0.06250 "GLU " " CA " "    " 6 0 3 1 808080  "C5"  1 <> <>
+  3 2 0.262458 -0.087092 1.115982 2 E A 24 0.44500 0.44500 "GLU " " C  " "    " 6 0 3 1 808080  "C6"  <> <> <>
+  4 15 1.388236 0.283457 1.513087 2 E A 70 -0.72250 -0.72250 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  <> <> <>
+  5 44 -1.092222 -1.102196 -0.680475 2 E A 21 0.31000 0.31000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  <>  10.003    0.483 
+  6 41 0.365313 1.404528 -0.462611 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  7 18 -0.372944 -1.065529 1.570440 2 E A 70 -0.72250 -0.72250 "GLU " "    " "    " 8 -1 3 1 FF2E2E  "O12"  <>   2.526    0.460 
+  8 3 -1.597143 1.493533 0.399855 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  9 3 -1.289859 2.612137 1.419155 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  10 2 -2.476816 3.542693 1.692307 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  11 15 -2.216222 4.630427 2.250523 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  <> <> <>
+  12 18 -3.619145 3.163235 1.349923 2 E A 70 -0.80000 -0.80000 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  <>   4.549    0.220 
+  13 41 -2.057779 1.941490 -0.482418 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  14 41 -2.346976 0.817763 0.815673 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  15 41 -0.968921 2.184281 2.369239 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  16 41 -0.460977 3.220107 1.054485 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  17 44 -1.542033 0.163319 -1.615637 2 E A 21 0.31000 0.31000 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  <>  10.003    0.483 
+  18 3 1.249255 -1.629065 -1.727972 3 Q A 24 0.25000 0.25000 "GLN " " CA " "    " 6 0 3 1 696969  "C5"  1 <> <>
+  19 2 0.202717 -0.563746 -2.083344 3 Q A 24 0.62250 0.62250 "GLN " " C  " "rpc1" 6 0 3 1 696969  "C6"  <> <> <>
+  20 15 0.212577 -0.010017 -3.181366 3 Q A 70 -0.50000 -0.50000 "GLN " " O  " "    " 8 0 3 1 FF2F2F  "O7"  <> <> <>
+  21 41 0.947089 -2.106858 -0.795715 3 Q A 21 0.06000 0.06000 "GLN " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  22 44 0.377781 -3.118378 -2.835035 3 Q A 21 0.33000 0.33000 "GLN " " H  " "    " 1 0 3 1 FFFFFF  "H5"  <>   9.388    0.483 
+  23 3 2.642818 -0.994729 -1.544386 3 Q A 2 -0.12000 -0.12000 "GLN " " CB " "    " 6 0 3 1 A0A0A0  "C7"  <> <> <>
+  24 3 3.610188 -1.891527 -0.748903 3 Q A 2 -0.12000 -0.12000 "GLN " " CG " "    " 6 0 3 1 A0A0A0  "C8"  <> <> <>
+  25 2 4.977557 -1.237048 -0.532832 3 Q A 2 0.50000 0.50000 "GLN " " CD " "    " 6 0 3 1 A0A0A0  "C9"  <> <> <>
+  26 15 5.497859 -0.558920 -1.416737 3 Q A 70 -0.50000 -0.50000 "GLN " " OE1" "    " 8 0 3 1 FF2F2F  "O10"  <>  -0.645    0.900 
+  27 25 5.564589 -1.436400 0.649491 3 Q A 43 -0.76000 -0.76000 "GLN " " NE2" "    " 7 0 3 1 5757FF  "N11"  <> <> <>
+  28 41 3.065551 -0.752838 -2.521214 3 Q A 21 0.06000 0.06000 "GLN " " HB2" "    " 1 0 3 1 FFFFFF  "H12"  <> <> <>
+  29 41 2.551112 -0.042346 -1.019543 3 Q A 21 0.06000 0.06000 "GLN " " HB3" "    " 1 0 3 1 FFFFFF  "H13"  <> <> <>
+  30 41 3.169700 -2.132264 0.220293 3 Q A 21 0.06000 0.06000 "GLN " " HG2" "    " 1 0 3 1 FFFFFF  "H14"  <> <> <>
+  31 41 3.763210 -2.837640 -1.268791 3 Q A 21 0.06000 0.06000 "GLN " " HG3" "    " 1 0 3 1 FFFFFF  "H15"  <> <> <>
+  32 43 6.464727 -1.019061 0.837946 3 Q A 21 0.38000 0.38000 "GLN " "HE22" "    " 1 0 3 1 FFFFFF  "H16"  <>  14.673    0.950 
+  33 43 5.104298 -1.990278 1.357437 3 Q A 21 0.38000 0.38000 "GLN " "HE21" "    " 1 0 3 1 FFFFFF  "H17"  <>  14.673    0.950 
+  34 44 1.557251 -2.291840 -3.638836 3 Q A 21 0.33000 0.33000 "GLN " "    " "    " 1 0 3 1 FFFFFF  "H18"  <>   9.388    0.483 
+  35 32 1.289047 -2.691397 -2.750348 3 X A 43 -0.30000 -0.30000 "GLN " " N  " "  c1" 7 1 0 1 5757FF  "N20"  <> <> <>
+  36 44 1.965072 -3.391914 -2.480725 3 X A 21 0.33000 0.33000 "GLN " "    " "    " 1 0 0 1 FFFFFF  "H21"  <> <> <>
+  :::
+ } 
+ m_bond[35] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 17 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 7 1 3 3
+  10 8 9 1 3 3
+  11 8 13 1 3 3
+  12 8 14 1 3 3
+  13 9 10 1 3 3
+  14 9 15 1 3 3
+  15 9 16 1 3 3
+  16 10 11 2 3 3
+  17 10 12 1 3 3
+  18 18 19 1 3 3
+  19 18 21 1 3 3
+  20 18 23 1 3 3
+  21 18 35 1 3 3
+  22 19 20 2 3 3
+  23 22 35 1 3 3
+  24 23 24 1 3 3
+  25 23 28 1 3 3
+  26 23 29 1 3 3
+  27 24 25 1 3 3
+  28 24 30 1 3 3
+  29 24 31 1 3 3
+  30 25 26 2 3 3
+  31 25 27 1 3 3
+  32 27 32 1 3 3
+  33 27 33 1 3 3
+  34 34 35 1 3 3
+  35 35 36 1 1 1
+  :::
+ } 
+ combgen_build[1] { 
+  i_combgen_growth
+  i_combgen_growth_node
+  s_combgen_from_growname
+  s_combgen_to_growname
+  s_combgen_attach_name
+  s_combgen_fragment_name
+  s_combgen_fraglib_name
+  s_combgen_baselib_name
+  :::
+  1 1 1 1f  1t  1  Gln(Q)  peptide-reagent-preparation  peptide-reagent-preparation 
+  :::
+ } 
+} 
+
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_combgen_index
+ i_combgen_index_track
+ s_combgen_comp_vec
+ s_combgen_comp_vec_track
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ s_st_Chirality_1
+ s_st_Chirality_2
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ "E; [Glu(E)]" 
+  7
+  7
+  7 
+  7 
+  glu-dipeptide-enumeration-tang.mae 
+  7
+  37012
+  2_S_1_3_8_6 
+  18_S_32_19_23_21 
+  0
+  OPLS_2005 
+  -18.9992269035084
+  1
+  "E; [Glu(E)]-1" 
+  2
+ m_depend[4] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_combgen_index 
+  2 10 s_combgen_comp_vec 
+  3 10 s_st_Chirality_1 
+  4 10 s_st_Chirality_2 
+  :::
+ } 
+ m_atom[34] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 0.272821 0.183471 -0.165672 2 E A 38 0.13500 0.13500 "GLU " " N  " "  1f" 7 1 3 1 2E2EFF  "N4"  <> <> <>
+  2 3 -0.342770 1.534827 -0.104404 2 E A 24 0.06250 0.06250 "GLU " " CA " "    " 6 0 3 1 808080  "C5"  1 <> <>
+  3 2 -0.129559 2.143629 1.297396 2 E A 24 0.44500 0.44500 "GLU " " C  " "    " 6 0 3 1 808080  "C6"  <> <> <>
+  4 15 0.575187 3.174312 1.366744 2 E A 70 -0.72250 -0.72250 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  <> <> <>
+  5 44 -0.007671 -0.311669 0.671003 2 E A 21 0.31000 0.31000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  <>  10.003    0.483 
+  6 41 0.111434 2.177292 -0.862461 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  7 18 -0.643557 1.557889 2.276561 2 E A 70 -0.72250 -0.72250 "GLU " "    " "    " 8 -1 3 1 FF2E2E  "O12"  <>   2.526    0.460 
+  8 3 -1.845330 1.422897 -0.452023 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  9 3 -2.581786 2.777794 -0.533053 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  10 2 -3.972930 2.684015 -1.169123 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  11 15 -4.424111 3.729493 -1.685334 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  <> <> <>
+  12 18 -4.568256 1.584064 -1.130556 2 E A 70 -0.80000 -0.80000 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  <>   4.549    0.220 
+  13 41 -1.931233 0.919942 -1.416801 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  14 41 -2.351176 0.772649 0.264228 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  15 41 -2.687233 3.213570 0.460901 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  16 41 -1.988608 3.480228 -1.119949 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  17 44 -0.141313 -0.289949 -0.954623 2 E A 21 0.31000 0.31000 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  <>  10.003    0.483 
+  18 3 2.278711 -1.301325 -0.130426 3 E A 24 0.25000 0.25000 "GLU " " CA " "    " 6 0 3 1 696969  "C5"  1 <> <>
+  19 2 1.662257 0.095413 -0.301900 3 E A 24 0.62250 0.62250 "GLU " " C  " "rpc1" 6 0 3 1 696969  "C6"  <> <> <>
+  20 15 2.377853 1.062986 -0.567704 3 E A 70 -0.50000 -0.50000 "GLU " " O  " "    " 8 0 3 1 FF2F2F  "O7"  <> <> <>
+  21 41 1.520576 -2.038298 -0.398288 3 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  22 44 3.052883 -1.370050 -2.025473 3 E A 21 0.33000 0.33000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H5"  <>  10.003    0.483 
+  23 3 2.764914 -1.579203 1.312698 3 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  "C7"  <> <> <>
+  24 3 1.703285 -1.471146 2.427113 3 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  "C8"  <> <> <>
+  25 2 0.567783 -2.478499 2.241827 3 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  "C9"  <> <> <>
+  26 15 -0.470950 -2.066742 1.681422 3 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  "O10"  <> <> <>
+  27 41 3.206963 -2.576206 1.351605 3 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  "H12"  <> <> <>
+  28 41 3.579142 -0.893564 1.551824 3 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  "H13"  <> <> <>
+  29 41 2.172472 -1.658501 3.393723 3 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  "H14"  <> <> <>
+  30 41 1.297604 -0.461690 2.486965 3 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  "H15"  <> <> <>
+  31 44 4.120016 -0.837708 -0.887176 3 E A 21 0.33000 0.33000 "GLU " "    " "    " 1 0 3 1 FFFFFF  "H16"  <>  10.003    0.483 
+  32 32 3.386779 -1.504884 -1.082073 3 X A 43 -0.30000 -0.30000 "GLU " " N  " "  c1" 7 1 0 1 5757FF  "N19"  <> <> <>
+  33 44 3.748608 -2.442560 -0.981625 3 X A 21 0.33000 0.33000 "GLU " "    " "    " 1 0 0 1 FFFFFF  "H20"  <> <> <>
+  34 18 0.779854 -3.651287 2.617084 3 X A 70 -0.80000 -0.80000 "GLU " " OE2" "  c1" 8 -1 0 1 FF2F2F  "O19"  <> <> <>
+  :::
+ } 
+ m_bond[33] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 17 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 7 1 3 3
+  10 8 9 1 3 3
+  11 8 13 1 3 3
+  12 8 14 1 3 3
+  13 9 10 1 3 3
+  14 9 15 1 3 3
+  15 9 16 1 3 3
+  16 10 11 2 3 3
+  17 10 12 1 3 3
+  18 18 19 1 3 3
+  19 18 21 1 3 3
+  20 18 23 1 3 3
+  21 18 32 1 3 3
+  22 19 20 2 3 3
+  23 22 32 1 3 3
+  24 23 24 1 3 3
+  25 23 27 1 3 3
+  26 23 28 1 3 3
+  27 24 25 1 3 3
+  28 24 29 1 3 3
+  29 24 30 1 3 3
+  30 25 26 2 3 3
+  31 25 34 1 3 3
+  32 31 32 1 3 3
+  33 32 33 1 1 1
+  :::
+ } 
+ combgen_build[1] { 
+  i_combgen_growth
+  i_combgen_growth_node
+  s_combgen_from_growname
+  s_combgen_to_growname
+  s_combgen_attach_name
+  s_combgen_fragment_name
+  s_combgen_fraglib_name
+  s_combgen_baselib_name
+  :::
+  1 1 1 1f  1t  1  Glu(E)  peptide-reagent-preparation  peptide-reagent-preparation 
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_combgen_index
+ i_combgen_index_track
+ s_combgen_comp_vec
+ s_combgen_comp_vec_track
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ "E; [Gly(G)]" 
+  8
+  8
+  8 
+  8 
+  glu-dipeptide-enumeration-tang.mae 
+  8
+  37012
+  2_S_1_3_8_6 
+  0
+  OPLS_2005 
+  -15.5991481493877
+  1
+  "E; [Gly(G)]-1" 
+  2
+ m_depend[3] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_combgen_index 
+  2 10 s_combgen_comp_vec 
+  3 10 s_st_Chirality_1 
+  :::
+ } 
+ m_atom[26] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -0.246580 -0.366707 0.955935 2 E A 38 0.13500 0.13500 "GLU " " N  " "  1f" 7 1 3 1 2E2EFF  "N4"  <> <> <>
+  2 3 1.139189 -0.040657 0.534237 2 E A 24 0.06250 0.06250 "GLU " " CA " "    " 6 0 3 1 808080  "C5"  1 <> <>
+  3 2 1.133379 0.478703 -0.918776 2 E A 24 0.44500 0.44500 "GLU " " C  " "    " 6 0 3 1 808080  "C6"  <> <> <>
+  4 15 1.509443 1.657205 -1.100900 2 E A 70 -0.72250 -0.72250 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  <> <> <>
+  5 44 -0.676256 -0.902975 0.215796 2 E A 21 0.31000 0.31000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  <>  10.003    0.483 
+  6 41 1.541906 0.726646 1.200415 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  7 18 0.687762 -0.279247 -1.809271 2 E A 70 -0.72250 -0.72250 "GLU " "    " "    " 8 -1 3 1 FF2E2E  "O12"  <>   2.526    0.460 
+  8 3 2.026051 -1.297311 0.682910 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  9 3 3.523584 -1.059635 0.389982 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  10 2 4.421412 -2.249659 0.747670 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  11 15 5.652793 -2.035070 0.758036 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  <> <> <>
+  12 18 3.878624 -3.348397 1.001188 2 E A 70 -0.80000 -0.80000 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  <>   4.549    0.220 
+  13 41 1.923897 -1.662489 1.706292 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  14 41 1.651697 -2.099418 0.044098 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  15 41 3.673007 -0.828007 -0.664988 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  16 41 3.872974 -0.193063 0.952717 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  17 44 -0.179135 -0.953108 1.774932 2 E A 21 0.31000 0.31000 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  <>  10.003    0.483 
+  18 3 -1.993794 1.245252 0.195448 3 G A 24 0.19000 0.19000 "GLY " " CA " "    " 6 0 3 1 696969  "C5"  <> <> <>
+  19 2 -1.054851 0.719533 1.282354 3 G A 24 0.62250 0.62250 "GLY " " C  " "rpc1" 6 0 3 1 696969  "C6"  <> <> <>
+  20 15 -1.023276 1.238243 2.396768 3 G A 70 -0.50000 -0.50000 "GLY " " O  " "    " 8 0 3 1 FF2F2F  "O7"  <> <> <>
+  21 41 -3.005418 1.326606 0.593946 3 G A 21 0.06000 0.06000 "GLY " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  22 44 -2.165731 2.924829 -0.964537 3 G A 21 0.33000 0.33000 "GLY " " H  " "    " 1 0 3 1 FFFFFF  "H5"  <>   9.641    1.474 
+  23 41 -2.027663 0.561307 -0.653612 3 G A 21 0.06000 0.06000 "GLY " " HA3" "    " 1 0 3 1 FFFFFF  "H7"  <> <> <>
+  24 44 -1.514791 3.207148 0.525909 3 G A 21 0.33000 0.33000 "GLY " "    " "    " 1 0 3 1 FFFFFF  "H8"  <>   9.641    1.474 
+  25 32 -1.536545 2.570681 -0.258301 3 X A 43 -0.30000 -0.30000 "GLY " " N  " "  c1" 7 1 0 1 5757FF  "N10"  <> <> <>
+  26 44 -0.606950 2.490462 -0.649499 3 X A 21 0.33000 0.33000 "GLY " "    " "    " 1 0 0 1 FFFFFF  "H11"  <> <> <>
+  :::
+ } 
+ m_bond[25] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 17 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 7 1 3 3
+  10 8 9 1 3 3
+  11 8 13 1 3 3
+  12 8 14 1 3 3
+  13 9 10 1 3 3
+  14 9 15 1 3 3
+  15 9 16 1 3 3
+  16 10 11 2 3 3
+  17 10 12 1 3 3
+  18 18 19 1 3 3
+  19 18 21 1 3 3
+  20 18 23 1 3 3
+  21 18 25 1 3 3
+  22 19 20 2 3 3
+  23 22 25 1 3 3
+  24 24 25 1 3 3
+  25 25 26 1 1 1
+  :::
+ } 
+ combgen_build[1] { 
+  i_combgen_growth
+  i_combgen_growth_node
+  s_combgen_from_growname
+  s_combgen_to_growname
+  s_combgen_attach_name
+  s_combgen_fragment_name
+  s_combgen_fraglib_name
+  s_combgen_baselib_name
+  :::
+  1 1 1 1f  1t  1  Gly(G)  peptide-reagent-preparation  peptide-reagent-preparation 
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_combgen_index
+ i_combgen_index_track
+ s_combgen_comp_vec
+ s_combgen_comp_vec_track
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ s_st_Chirality_1
+ s_st_Chirality_2
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ "E; [His(H)]" 
+  9
+  9
+  9 
+  9 
+  glu-dipeptide-enumeration-tang.mae 
+  9
+  37012
+  2_S_1_3_8_6 
+  18_S_35_19_23_21 
+  0
+  OPLS_2005 
+  -6.4695935820403
+  1
+  "E; [His(H)]-1" 
+  2
+ m_depend[4] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_combgen_index 
+  2 10 s_combgen_comp_vec 
+  3 10 s_st_Chirality_1 
+  4 10 s_st_Chirality_2 
+  :::
+ } 
+ m_atom[36] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -0.074879 -0.723103 0.970324 2 E A 38 0.13500 0.13500 "GLU " " N  " "  1f" 7 1 3 1 2E2EFF  "N4"  <> <> <>
+  2 3 0.945659 -0.167242 0.047424 2 E A 24 0.06250 0.06250 "GLU " " CA " "    " 6 0 3 1 808080  "C5"  1 <> <>
+  3 2 0.273563 0.254593 -1.274804 2 E A 24 0.44500 0.44500 "GLU " " C  " "    " 6 0 3 1 808080  "C6"  <> <> <>
+  4 15 0.494841 1.415967 -1.680157 2 E A 70 -0.72250 -0.72250 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  <> <> <>
+  5 44 -0.729313 -1.257129 0.416452 2 E A 21 0.31000 0.31000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  <>  10.003    0.483 
+  6 41 1.425927 0.696494 0.514715 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  7 18 -0.476287 -0.574193 -1.839403 2 E A 70 -0.72250 -0.72250 "GLU " "    " "    " 8 -1 3 1 FF2E2E  "O12"  <>   2.526    0.460 
+  8 3 2.036967 -1.232564 -0.202748 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  9 3 3.237487 -0.735182 -1.037063 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  10 2 4.411343 -1.720618 -1.075965 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  11 15 5.524819 -1.252109 -1.397592 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  <> <> <>
+  12 18 4.187990 -2.918783 -0.792160 2 E A 70 -0.80000 -0.80000 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  <>   4.549    0.220 
+  13 41 2.404627 -1.575378 0.765944 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  14 41 1.598812 -2.110507 -0.681323 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  15 41 2.930894 -0.530602 -2.063191 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  16 41 3.600461 0.207630 -0.625797 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  17 44 0.405752 -1.355686 1.593193 2 E A 21 0.31000 0.31000 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  <>  10.003    0.483 
+  18 3 -2.062762 0.783638 1.207447 3 H A 24 0.25000 0.25000 "HIS " " CA " "    " 6 0 3 1 696969  "C5"  1 <> <>
+  19 2 -0.756461 0.199170 1.760452 3 H A 24 0.62250 0.62250 "HIS " " C  " "rpc1" 6 0 3 1 696969  "C6"  <> <> <>
+  20 15 -0.343102 0.516865 2.874498 3 H A 70 -0.50000 -0.50000 "HIS " " O  " "    " 8 0 3 1 FF2F2F  "O7"  <> <> <>
+  21 41 -2.278317 0.306392 0.250809 3 H A 21 0.06000 0.06000 "HIS " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  22 44 -3.275005 -0.531819 2.208926 3 H A 21 0.33000 0.33000 "HIS " " H  " "    " 1 0 3 1 FFFFFF  "H5"  <>   8.788    0.483 
+  23 3 -1.939137 2.304826 0.986235 3 H A 2 -0.29700 -0.29700 "HIS " " CB " "    " 6 0 3 1 A0A0A0  "C7"  <> <> <>
+  24 2 -3.137417 2.941002 0.326771 3 H A 2 0.50400 0.50400 "HIS " " CG " "    " 6 0 3 1 A0A0A0  "C8"  <> <> <>
+  25 25 -3.517789 2.640029 -0.985000 3 H A 43 -0.56400 -0.56400 "HIS " " ND1" "    " 7 0 3 1 5757FF  "N9"  <>   6.102    0.763 
+  26 2 -4.018179 3.868952 0.844044 3 H A 2 -0.26100 -0.26100 "HIS " " CD2" "    " 6 0 3 1 A0A0A0  "C10"  <> <> <>
+  27 2 -4.591672 3.386190 -1.208275 3 H A 2 0.18200 0.18200 "HIS " " CE1" "    " 6 0 3 1 A0A0A0  "C11"  <> <> <>
+  28 25 -4.934797 4.132960 -0.158149 3 H A 43 -0.29100 -0.29100 "HIS " " NE2" "    " 7 0 3 1 5757FF  "N12"  <> <> <>
+  29 41 -1.769400 2.807501 1.939720 3 H A 21 0.06000 0.06000 "HIS " " HB2" "    " 1 0 3 1 FFFFFF  "H13"  <> <> <>
+  30 41 -1.068289 2.528589 0.369599 3 H A 21 0.06000 0.06000 "HIS " " HB3" "    " 1 0 3 1 FFFFFF  "H14"  <> <> <>
+  31 41 -4.063620 4.350799 1.809674 3 H A 21 0.18300 0.18300 "HIS " " HD2" "    " 1 0 3 1 FFFFFF  "H15"  <> <> <>
+  32 41 -5.131628 3.388427 -2.143907 3 H A 21 0.09800 0.09800 "HIS " " HE1" "    " 1 0 3 1 FFFFFF  "H16"  <> <> <>
+  33 43 -5.712221 4.776375 -0.109193 3 H A 21 0.32600 0.32600 "HIS " " HE2" "    " 1 0 3 1 FFFFFF  "H17"  <>  12.944    0.763 
+  34 44 -3.037122 0.893816 3.003794 3 H A 21 0.33000 0.33000 "HIS " "    " "    " 1 0 3 1 FFFFFF  "H18"  <>   8.788    0.483 
+  35 32 -3.193942 0.469063 2.100546 3 X A 43 -0.30000 -0.30000 "HIS " " N  " "  c1" 7 1 0 1 5757FF  "N20"  <> <> <>
+  36 44 -4.047684 0.833005 1.701234 3 X A 21 0.33000 0.33000 "HIS " "    " "    " 1 0 0 1 FFFFFF  "H21"  <> <> <>
+  :::
+ } 
+ m_bond[36] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 17 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 7 1 3 3
+  10 8 9 1 3 3
+  11 8 13 1 3 3
+  12 8 14 1 3 3
+  13 9 10 1 3 3
+  14 9 15 1 3 3
+  15 9 16 1 3 3
+  16 10 11 2 3 3
+  17 10 12 1 3 3
+  18 18 19 1 3 3
+  19 18 21 1 3 3
+  20 18 23 1 3 3
+  21 18 35 1 3 3
+  22 19 20 2 3 3
+  23 22 35 1 3 3
+  24 23 24 1 3 3
+  25 23 29 1 3 3
+  26 23 30 1 3 3
+  27 24 25 1 3 3
+  28 24 26 2 3 3
+  29 25 27 2 3 3
+  30 26 28 1 3 3
+  31 26 31 1 3 3
+  32 27 28 1 3 3
+  33 27 32 1 3 3
+  34 28 33 1 3 3
+  35 34 35 1 3 3
+  36 35 36 1 1 1
+  :::
+ } 
+ combgen_build[1] { 
+  i_combgen_growth
+  i_combgen_growth_node
+  s_combgen_from_growname
+  s_combgen_to_growname
+  s_combgen_attach_name
+  s_combgen_fragment_name
+  s_combgen_fraglib_name
+  s_combgen_baselib_name
+  :::
+  1 1 1 1f  1t  1  His(H)  peptide-reagent-preparation  peptide-reagent-preparation 
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_combgen_index
+ i_combgen_index_track
+ s_combgen_comp_vec
+ s_combgen_comp_vec_track
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ s_st_Chirality_1
+ s_st_Chirality_2
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ "E; [His(H)]" 
+  10
+  10
+  10 
+  10 
+  glu-dipeptide-enumeration-tang.mae 
+  10
+  37012
+  2_S_1_3_8_6 
+  18_S_35_19_23_21 
+  0
+  OPLS_2005 
+  -6.97750236368939
+  1
+  "E; [His(H)]-1" 
+  2
+ m_depend[4] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_combgen_index 
+  2 10 s_combgen_comp_vec 
+  3 10 s_st_Chirality_1 
+  4 10 s_st_Chirality_2 
+  :::
+ } 
+ m_atom[36] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 0.073191 0.405170 1.462154 2 E A 38 0.13500 0.13500 "GLU " " N  " "  1f" 7 1 3 1 2E2EFF  "N4"  <> <> <>
+  2 3 0.816319 -0.059588 0.263509 2 E A 24 0.06250 0.06250 "GLU " " CA " "    " 6 0 3 1 808080  "C5"  1 <> <>
+  3 2 -0.160035 -0.722041 -0.730776 2 E A 24 0.44500 0.44500 "GLU " " C  " "    " 6 0 3 1 808080  "C6"  <> <> <>
+  4 15 -0.123053 -0.326258 -1.916023 2 E A 70 -0.72250 -0.72250 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  <> <> <>
+  5 44 -0.653819 -0.269567 1.652989 2 E A 21 0.31000 0.31000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  <>  10.003    0.483 
+  6 41 1.311232 0.791856 -0.210981 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  7 18 -0.953081 -1.582947 -0.286356 2 E A 70 -0.72250 -0.72250 "GLU " "    " "    " 8 -1 3 1 FF2E2E  "O12"  <>   2.526    0.460 
+  8 3 1.913868 -1.054420 0.703188 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  9 3 2.850891 -1.518391 -0.433344 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  10 2 4.064279 -2.318479 0.054092 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  11 15 5.017113 -2.431353 -0.747207 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  <> <> <>
+  12 18 4.028269 -2.807568 1.205500 2 E A 70 -0.80000 -0.80000 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  <>   4.549    0.220 
+  13 41 2.515620 -0.574525 1.476980 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  14 41 1.458746 -1.925162 1.178884 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  15 41 2.305701 -2.133036 -1.150152 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  16 41 3.216769 -0.649345 -0.981558 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  17 44 0.725083 0.395654 2.232867 2 E A 21 0.31000 0.31000 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  <>  10.003    0.483 
+  18 3 -1.842027 1.848910 0.732424 3 H A 24 0.25000 0.25000 "HIS " " CA " "    " 6 0 3 1 696969  "C5"  1 <> <>
+  19 2 -0.467447 1.687330 1.395541 3 H A 24 0.62250 0.62250 "HIS " " C  " "rpc1" 6 0 3 1 696969  "C6"  <> <> <>
+  20 15 0.125517 2.656519 1.866223 3 H A 70 -0.50000 -0.50000 "HIS " " O  " "    " 8 0 3 1 FF2F2F  "O7"  <> <> <>
+  21 41 -2.241779 0.854668 0.530513 3 H A 21 0.06000 0.06000 "HIS " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  22 44 -2.879187 1.971311 2.495724 3 H A 21 0.33000 0.33000 "HIS " " H  " "    " 1 0 3 1 FFFFFF  "H5"  <>   8.788    0.483 
+  23 3 -1.728339 2.616297 -0.600106 3 H A 2 -0.29700 -0.29700 "HIS " " CB " "    " 6 0 3 1 A0A0A0  "C7"  <> <> <>
+  24 2 -2.928559 2.480147 -1.504286 3 H A 2 -0.26100 -0.26100 "HIS " " CG " "    " 6 0 3 1 A0A0A0  "C8"  <> <> <>
+  25 25 -4.112078 3.172122 -1.304375 3 H A 43 -0.29100 -0.29100 "HIS " " ND1" "    " 7 0 3 1 5757FF  "N9"  <>   6.102    0.763 
+  26 2 -3.139700 1.699478 -2.621526 3 H A 2 0.50400 0.50400 "HIS " " CD2" "    " 6 0 3 1 A0A0A0  "C10"  <> <> <>
+  27 2 -4.953143 2.800573 -2.273387 3 H A 2 0.18200 0.18200 "HIS " " CE1" "    " 6 0 3 1 A0A0A0  "C11"  <> <> <>
+  28 25 -4.432629 1.908068 -3.106847 3 H A 43 -0.56400 -0.56400 "HIS " " NE2" "    " 7 0 3 1 5757FF  "N12"  <> <> <>
+  29 41 -1.539805 3.675757 -0.419780 3 H A 21 0.06000 0.06000 "HIS " " HB2" "    " 1 0 3 1 FFFFFF  "H13"  <> <> <>
+  30 41 -0.867525 2.255770 -1.164341 3 H A 21 0.06000 0.06000 "HIS " " HB3" "    " 1 0 3 1 FFFFFF  "H14"  <> <> <>
+  31 41 -2.468109 1.004906 -3.105739 3 H A 21 0.18300 0.18300 "HIS " " HD2" "    " 1 0 3 1 FFFFFF  "H15"  <> <> <>
+  32 41 -5.956077 3.189529 -2.371865 3 H A 21 0.09800 0.09800 "HIS " " HE1" "    " 1 0 3 1 FFFFFF  "H16"  <> <> <>
+  33 43 -4.301620 3.851070 -0.581156 3 H A 21 0.32600 0.32600 "HIS " " HE2" "    " 1 0 3 1 FFFFFF  "H17"  <>  12.944    0.763 
+  34 44 -2.466045 3.436495 1.860380 3 H A 21 0.33000 0.33000 "HIS " "    " "    " 1 0 3 1 FFFFFF  "H18"  <>   8.788    0.483 
+  35 32 -2.796206 2.506640 1.643526 3 X A 43 -0.30000 -0.30000 "HIS " " N  " "  c1" 7 1 0 1 5757FF  "N20"  <> <> <>
+  36 44 -3.698838 2.565730 1.194180 3 X A 21 0.33000 0.33000 "HIS " "    " "    " 1 0 0 1 FFFFFF  "H21"  <> <> <>
+  :::
+ } 
+ m_bond[36] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 17 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 7 1 3 3
+  10 8 9 1 3 3
+  11 8 13 1 3 3
+  12 8 14 1 3 3
+  13 9 10 1 3 3
+  14 9 15 1 3 3
+  15 9 16 1 3 3
+  16 10 11 2 3 3
+  17 10 12 1 3 3
+  18 18 19 1 3 3
+  19 18 21 1 3 3
+  20 18 23 1 3 3
+  21 18 35 1 3 3
+  22 19 20 2 3 3
+  23 22 35 1 3 3
+  24 23 29 1 3 3
+  25 23 30 1 3 3
+  26 23 24 1 1 1
+  27 24 26 2 1 1
+  28 24 25 1 1 1
+  29 25 33 1 1 1
+  30 25 27 1 1 1
+  31 26 31 1 1 1
+  32 26 28 1 1 1
+  33 27 32 1 1 1
+  34 27 28 2 1 1
+  35 34 35 1 3 3
+  36 35 36 1 1 1
+  :::
+ } 
+ combgen_build[1] { 
+  i_combgen_growth
+  i_combgen_growth_node
+  s_combgen_from_growname
+  s_combgen_to_growname
+  s_combgen_attach_name
+  s_combgen_fragment_name
+  s_combgen_fraglib_name
+  s_combgen_baselib_name
+  :::
+  1 1 1 1f  1t  1  His(H)  peptide-reagent-preparation  peptide-reagent-preparation 
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_combgen_index
+ i_combgen_index_track
+ s_combgen_comp_vec
+ s_combgen_comp_vec_track
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ s_st_Chirality_1
+ s_st_Chirality_2
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ "E; [His(H)]" 
+  11
+  11
+  11 
+  11 
+  glu-dipeptide-enumeration-tang.mae 
+  11
+  37012
+  2_S_1_3_8_6 
+  18_S_34_19_23_21 
+  0
+  OPLS_2005 
+  0.616468907659662
+  1
+  "E; [His(H)]-1" 
+  2
+ m_depend[4] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_combgen_index 
+  2 10 s_combgen_comp_vec 
+  3 10 s_st_Chirality_1 
+  4 10 s_st_Chirality_2 
+  :::
+ } 
+ m_atom[37] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 0.112155 0.471001 1.487264 2 E A 38 0.13500 0.13500 "GLU " " N  " "  1f" 7 1 3 1 2E2EFF  "N4"  <> <> <>
+  2 3 0.806318 -0.012310 0.266303 2 E A 24 0.06250 0.06250 "GLU " " CA " "    " 6 0 3 1 808080  "C5"  1 <> <>
+  3 2 -0.214462 -0.638363 -0.707202 2 E A 24 0.44500 0.44500 "GLU " " C  " "    " 6 0 3 1 808080  "C6"  <> <> <>
+  4 15 -0.200700 -0.228860 -1.888073 2 E A 70 -0.72250 -0.72250 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  <> <> <>
+  5 44 -0.595541 -0.208292 1.728163 2 E A 21 0.31000 0.31000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  <>  10.003    0.483 
+  6 41 1.314473 0.827132 -0.215487 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  7 18 -1.025403 -1.474363 -0.248388 2 E A 70 -0.72250 -0.72250 "GLU " "    " "    " 8 -1 3 1 FF2E2E  "O12"  <>   2.526    0.460 
+  8 3 1.884544 -1.041094 0.672554 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  9 3 2.784038 -1.519702 -0.488340 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  10 2 3.974759 -2.375924 -0.040831 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  11 15 4.817963 -2.658668 -0.919157 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  <> <> <>
+  12 18 4.032406 -2.736347 1.156241 2 E A 70 -0.80000 -0.80000 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  <>   4.549    0.220 
+  13 41 2.514457 -0.583985 1.437621 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  14 41 1.416659 -1.904068 1.149894 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  15 41 2.202543 -2.098512 -1.206468 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  16 41 3.175733 -0.656298 -1.027153 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  17 44 0.799628 0.486164 2.226827 2 E A 21 0.31000 0.31000 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  <>  10.003    0.483 
+  18 3 -1.858152 1.877687 0.828395 3 H A 24 0.25000 0.25000 "HIS " " CA " "    " 6 0 3 1 696969  "C5"  1 <> <>
+  19 2 -0.446134 1.746290 1.415939 3 H A 24 0.62250 0.62250 "HIS " " C  " "rpc1" 6 0 3 1 696969  "C6"  <> <> <>
+  20 15 0.162292 2.734977 1.821073 3 H A 70 -0.50000 -0.50000 "HIS " " O  " "    " 8 0 3 1 FF2F2F  "O7"  <> <> <>
+  21 41 -2.252654 0.875628 0.658655 3 H A 21 0.06000 0.06000 "HIS " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  22 44 -2.799789 1.989761 2.645354 3 H A 21 0.33000 0.33000 "HIS " " H  " "    " 1 0 3 1 FFFFFF  "H5"  <>   8.788    0.483 
+  23 3 -1.830182 2.636870 -0.515251 3 H A 2 -0.00500 -0.00500 "HIS " " CB " "    " 6 0 3 1 A0A0A0  "C7"  <> <> <>
+  24 2 -3.072148 2.464712 -1.355280 3 H A 2 0.21500 0.21500 "HIS " " CG " "    " 6 0 3 1 A0A0A0  "C8"  <> <> <>
+  25 2 -3.439437 1.446338 -2.216484 3 H A 2 0.21500 0.21500 "HIS " " CD2" "    " 6 0 3 1 A0A0A0  "C10"  <> <> <>
+  26 2 -5.027509 2.941647 -2.205662 3 H A 2 0.38500 0.38500 "HIS " " CE1" "    " 6 0 3 1 A0A0A0  "C11"  <> <> <>
+  27 25 -4.680690 1.771323 -2.737499 3 H A 43 -0.54000 -0.54000 "HIS " " NE2" "    " 7 0 3 1 5757FF  "N12"  <> <> <>
+  28 41 -1.649221 3.700774 -0.354120 3 H A 21 0.06000 0.06000 "HIS " " HB2" "    " 1 0 3 1 FFFFFF  "H13"  <> <> <>
+  29 41 -0.994048 2.288141 -1.121916 3 H A 21 0.06000 0.06000 "HIS " " HB3" "    " 1 0 3 1 FFFFFF  "H14"  <> <> <>
+  30 41 -2.938074 0.532857 -2.502703 3 H A 21 0.11500 0.11500 "HIS " " HD2" "    " 1 0 3 1 FFFFFF  "H15"  <> <> <>
+  31 41 -5.946805 3.461581 -2.433497 3 H A 21 0.11500 0.11500 "HIS " " HE1" "    " 1 0 3 1 FFFFFF  "H16"  <> <> <>
+  32 43 -5.213474 1.230014 -3.404537 3 H A 21 0.46000 0.46000 "HIS " " HE2" "    " 1 0 3 1 FFFFFF  "H17"  <>  12.944    0.763 
+  33 44 -2.438619 3.458277 1.992468 3 H A 21 0.33000 0.33000 "HIS " "    " "    " 1 0 3 1 FFFFFF  "H18"  <>   8.788    0.483 
+  34 32 -2.770980 2.525767 1.789389 3 X A 43 -0.30000 -0.30000 "HIS " " N  " "  c1" 7 1 0 1 5757FF  "N20"  <> <> <>
+  35 44 -3.699904 2.576389 1.396237 3 X A 21 0.33000 0.33000 "HIS " "    " "    " 1 0 0 1 FFFFFF  "H21"  <> <> <>
+  36 31 -4.100075 3.396714 -1.363931 3 X A 43 -0.54000 -0.54000 "HIS " " ND1" "  c1" 7 1 0 1 5757FF  "N21"  <> <> <>
+  37 44 -4.131346 4.271950 -0.859959 3 X A 21 0.46000 0.46000 "HIS " "    " "    " 1 0 0 1 FFFFFF  "H22"  <> <> <>
+  :::
+ } 
+ m_bond[37] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 17 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 7 1 3 3
+  10 8 9 1 3 3
+  11 8 13 1 3 3
+  12 8 14 1 3 3
+  13 9 10 1 3 3
+  14 9 15 1 3 3
+  15 9 16 1 3 3
+  16 10 11 2 3 3
+  17 10 12 1 3 3
+  18 18 19 1 3 3
+  19 18 21 1 3 3
+  20 18 23 1 3 3
+  21 18 34 1 3 3
+  22 19 20 2 3 3
+  23 22 34 1 3 3
+  24 23 24 1 3 3
+  25 23 28 1 3 3
+  26 23 29 1 3 3
+  27 24 25 2 3 3
+  28 24 36 1 3 3
+  29 25 27 1 3 3
+  30 25 30 1 3 3
+  31 26 27 1 3 3
+  32 26 31 1 3 3
+  33 26 36 2 3 3
+  34 27 32 1 3 3
+  35 33 34 1 3 3
+  36 34 35 1 1 1
+  37 36 37 1 1 1
+  :::
+ } 
+ combgen_build[1] { 
+  i_combgen_growth
+  i_combgen_growth_node
+  s_combgen_from_growname
+  s_combgen_to_growname
+  s_combgen_attach_name
+  s_combgen_fragment_name
+  s_combgen_fraglib_name
+  s_combgen_baselib_name
+  :::
+  1 1 1 1f  1t  1  His(H)  peptide-reagent-preparation  peptide-reagent-preparation 
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_combgen_index
+ i_combgen_index_track
+ s_combgen_comp_vec
+ s_combgen_comp_vec_track
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ s_st_Chirality_1
+ s_st_Chirality_2
+ s_st_Chirality_3
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ "E; [Ile(I)]" 
+  12
+  12
+  12 
+  12 
+  glu-dipeptide-enumeration-tang.mae 
+  12
+  37012
+  2_S_1_3_8_6 
+  18_S_37_19_23_21 
+  23_S_18_24_25_27 
+  0
+  OPLS_2005 
+  -6.99621917854621
+  1
+  "E; [Ile(I)]-1" 
+  2
+ m_depend[5] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_combgen_index 
+  2 10 s_combgen_comp_vec 
+  3 10 s_st_Chirality_1 
+  4 10 s_st_Chirality_2 
+  5 10 s_st_Chirality_3 
+  :::
+ } 
+ m_atom[38] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 0.657274 1.117521 1.140739 2 E A 38 0.13500 0.13500 "GLU " " N  " "  1f" 7 1 3 1 2E2EFF  "N4"  <> <> <>
+  2 3 -0.208304 1.971904 0.293033 2 E A 24 0.06250 0.06250 "GLU " " CA " "    " 6 0 3 1 808080  "C5"  1 <> <>
+  3 2 -1.497190 2.223642 1.091014 2 E A 24 0.44500 0.44500 "GLU " " C  " "    " 6 0 3 1 808080  "C6"  <> <> <>
+  4 15 -1.687125 3.385635 1.511101 2 E A 70 -0.72250 -0.72250 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  <> <> <>
+  5 44 0.681994 1.543623 2.056070 2 E A 21 0.31000 0.31000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  <>  10.003    0.483 
+  6 41 0.295278 2.928357 0.131193 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  7 18 -2.250411 1.247176 1.306921 2 E A 70 -0.72250 -0.72250 "GLU " "    " "    " 8 -1 3 1 FF2E2E  "O12"  <>   2.526    0.460 
+  8 3 -0.501979 1.320463 -1.084708 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  9 3 -1.393195 2.159070 -2.024719 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  10 2 -1.377446 1.669848 -3.478235 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  11 15 -1.857026 2.444590 -4.333431 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  <> <> <>
+  12 18 -0.886541 0.543580 -3.720100 2 E A 70 -0.80000 -0.80000 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  <>   4.549    0.220 
+  13 41 0.446393 1.159037 -1.594255 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  14 41 -0.942251 0.330746 -0.950276 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  15 41 -2.424521 2.163010 -1.670330 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  16 41 -1.055940 3.196290 -2.017753 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  17 44 0.210671 0.216218 1.229141 2 E A 21 0.31000 0.31000 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  <>  10.003    0.483 
+  18 3 2.308889 -0.367344 -0.001533 3 I A 24 0.25000 0.25000 "ILE " " CA " "    " 6 0 3 1 696969  "C5"  1 <> <>
+  19 2 1.968261 0.953709 0.706679 3 I A 24 0.62250 0.62250 "ILE " " C  " "rpc1" 6 0 3 1 696969  "C6"  <> <> <>
+  20 15 2.824928 1.816580 0.892865 3 I A 70 -0.50000 -0.50000 "ILE " " O  " "    " 8 0 3 1 FF2F2F  "O7"  <> <> <>
+  21 41 1.378510 -0.914538 -0.162839 3 I A 21 0.06000 0.06000 "ILE " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  22 44 2.191014 0.470826 -1.869707 3 I A 21 0.33000 0.33000 "ILE " " H  " "    " 1 0 3 1 FFFFFF  "H5"  <>   9.888    0.945 
+  23 3 3.269902 -1.275332 0.822255 3 I A 2 -0.06000 -0.06000 "ILE " " CB " "    " 6 0 3 1 A0A0A0  "C7"  1 <> <>
+  24 3 3.534368 -2.620966 0.099648 3 I A 2 -0.12000 -0.12000 "ILE " " CG1" "    " 6 0 3 1 A0A0A0  "C8"  <> <> <>
+  25 3 2.758436 -1.526531 2.259947 3 I A 2 -0.18000 -0.18000 "ILE " " CG2" "    " 6 0 3 1 A0A0A0  "C9"  <> <> <>
+  26 3 4.684829 -3.446730 0.693924 3 I A 2 -0.18000 -0.18000 "ILE " " CD1" "    " 6 0 3 1 A0A0A0  "C10"  <> <> <>
+  27 41 4.225029 -0.753378 0.903824 3 I A 21 0.06000 0.06000 "ILE " " HB " "    " 1 0 3 1 FFFFFF  "H11"  <> <> <>
+  28 41 2.623682 -3.221202 0.088283 3 I A 21 0.06000 0.06000 "ILE " "HG12" "    " 1 0 3 1 FFFFFF  "H12"  <> <> <>
+  29 41 3.784712 -2.443349 -0.945818 3 I A 21 0.06000 0.06000 "ILE " "HG13" "    " 1 0 3 1 FFFFFF  "H13"  <> <> <>
+  30 41 1.791126 -2.029866 2.252627 3 I A 21 0.06000 0.06000 "ILE " "HG21" "    " 1 0 3 1 FFFFFF  "H14"  <> <> <>
+  31 41 3.447963 -2.146237 2.831558 3 I A 21 0.06000 0.06000 "ILE " "HG22" "    " 1 0 3 1 FFFFFF  "H15"  <> <> <>
+  32 41 2.648887 -0.603108 2.828004 3 I A 21 0.06000 0.06000 "ILE " "HG23" "    " 1 0 3 1 FFFFFF  "H16"  <> <> <>
+  33 41 4.887125 -4.321280 0.074923 3 I A 21 0.06000 0.06000 "ILE " "HD11" "    " 1 0 3 1 FFFFFF  "H17"  <> <> <>
+  34 41 5.604088 -2.862969 0.748828 3 I A 21 0.06000 0.06000 "ILE " "HD12" "    " 1 0 3 1 FFFFFF  "H18"  <> <> <>
+  35 41 4.453739 -3.809917 1.694761 3 I A 21 0.06000 0.06000 "ILE " "HD13" "    " 1 0 3 1 FFFFFF  "H19"  <> <> <>
+  36 44 3.716411 0.453246 -1.244667 3 I A 21 0.33000 0.33000 "ILE " "    " "    " 1 0 3 1 FFFFFF  "H20"  <>   9.888    0.945 
+  37 32 2.859004 -0.072403 -1.340084 3 X A 43 -0.30000 -0.30000 "ILE " " N  " "  c1" 7 1 0 1 5757FF  "N22"  <> <> <>
+  38 44 3.045515 -0.936941 -1.827916 3 X A 21 0.33000 0.33000 "ILE " "    " "    " 1 0 0 1 FFFFFF  "H23"  <> <> <>
+  :::
+ } 
+ m_bond[37] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 17 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 7 1 3 3
+  10 8 9 1 3 3
+  11 8 13 1 3 3
+  12 8 14 1 3 3
+  13 9 10 1 3 3
+  14 9 15 1 3 3
+  15 9 16 1 3 3
+  16 10 11 2 3 3
+  17 10 12 1 3 3
+  18 18 19 1 3 3
+  19 18 21 1 3 3
+  20 18 23 1 3 3
+  21 18 37 1 3 3
+  22 19 20 2 3 3
+  23 22 37 1 3 3
+  24 23 24 1 3 3
+  25 23 25 1 3 3
+  26 23 27 1 3 3
+  27 24 26 1 3 3
+  28 24 28 1 3 3
+  29 24 29 1 3 3
+  30 25 30 1 3 3
+  31 25 31 1 3 3
+  32 25 32 1 3 3
+  33 26 33 1 3 3
+  34 26 34 1 3 3
+  35 26 35 1 3 3
+  36 36 37 1 3 3
+  37 37 38 1 1 1
+  :::
+ } 
+ combgen_build[1] { 
+  i_combgen_growth
+  i_combgen_growth_node
+  s_combgen_from_growname
+  s_combgen_to_growname
+  s_combgen_attach_name
+  s_combgen_fragment_name
+  s_combgen_fraglib_name
+  s_combgen_baselib_name
+  :::
+  1 1 1 1f  1t  1  Ile(I)  peptide-reagent-preparation  peptide-reagent-preparation 
+  :::
+ } 
+} 
+
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_combgen_index
+ i_combgen_index_track
+ s_combgen_comp_vec
+ s_combgen_comp_vec_track
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ s_st_Chirality_1
+ s_st_Chirality_2
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ "E; [Leu(L)]" 
+  13
+  13
+  13 
+  13 
+  glu-dipeptide-enumeration-tang.mae 
+  13
+  37012
+  2_S_1_3_8_6 
+  18_S_37_19_23_21 
+  0
+  OPLS_2005 
+  -12.9944843675662
+  1
+  "E; [Leu(L)]-1" 
+  2
+ m_depend[4] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_combgen_index 
+  2 10 s_combgen_comp_vec 
+  3 10 s_st_Chirality_1 
+  4 10 s_st_Chirality_2 
+  :::
+ } 
+ m_atom[38] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 1.006242 1.418820 0.987489 2 E A 38 0.13500 0.13500 "GLU " " N  " "  1f" 7 1 3 1 2E2EFF  "N4"  <> <> <>
+  2 3 0.046130 2.234320 0.205311 2 E A 24 0.06250 0.06250 "GLU " " CA " "    " 6 0 3 1 808080  "C5"  1 <> <>
+  3 2 -1.050012 2.684985 1.183356 2 E A 24 0.44500 0.44500 "GLU " " C  " "    " 6 0 3 1 808080  "C6"  <> <> <>
+  4 15 -1.133536 3.909803 1.419087 2 E A 70 -0.72250 -0.72250 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  <> <> <>
+  5 44 1.253687 1.959102 1.804062 2 E A 21 0.31000 0.31000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  <>  10.003    0.483 
+  6 41 0.566953 3.118223 -0.171119 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  7 18 -1.761262 1.799119 1.709571 2 E A 70 -0.72250 -0.72250 "GLU " "    " "    " 8 -1 3 1 FF2E2E  "O12"  <>   2.526    0.460 
+  8 3 -0.546776 1.450861 -0.996531 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  9 3 -1.556452 2.240524 -1.856709 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  10 2 -1.922363 1.545125 -3.174451 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  11 15 -2.781476 2.111669 -3.883209 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  <> <> <>
+  12 18 -1.343258 0.473323 -3.464092 2 E A 70 -0.80000 -0.80000 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  <>   4.549    0.220 
+  13 41 0.276101 1.155601 -1.645923 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  14 41 -1.007744 0.522933 -0.653371 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  15 41 -2.474412 2.419445 -1.295648 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  16 41 -1.143226 3.219841 -2.100510 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  17 44 0.522095 0.589219 1.299111 2 E A 21 0.31000 0.31000 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  <>  10.003    0.483 
+  18 3 2.248585 -0.367744 -0.229123 3 L A 24 0.25000 0.25000 "LEU " " CA " "    " 6 0 3 1 696969  "C5"  1 <> <>
+  19 2 2.179782 1.058397 0.335363 3 L A 24 0.62250 0.62250 "LEU " " C  " "rpc1" 6 0 3 1 696969  "C6"  <> <> <>
+  20 15 3.128111 1.834573 0.229341 3 L A 70 -0.50000 -0.50000 "LEU " " O  " "    " 8 0 3 1 FF2F2F  "O7"  <> <> <>
+  21 41 1.249290 -0.803220 -0.203545 3 L A 21 0.06000 0.06000 "LEU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  22 44 1.968282 0.214442 -2.173105 3 L A 21 0.33000 0.33000 "LEU " " H  " "    " 1 0 3 1 FFFFFF  "H5"  <>   9.888    0.483 
+  23 3 3.211805 -1.274690 0.571132 3 L A 2 -0.12000 -0.12000 "LEU " " CB " "    " 6 0 3 1 A0A0A0  "C7"  <> <> <>
+  24 3 2.885994 -1.458715 2.072822 3 L A 2 -0.06000 -0.06000 "LEU " " CG " "    " 6 0 3 1 A0A0A0  "C8"  <> <> <>
+  25 3 1.516866 -2.121582 2.303116 3 L A 2 -0.18000 -0.18000 "LEU " " CD1" "    " 6 0 3 1 A0A0A0  "C9"  <> <> <>
+  26 3 3.993110 -2.265797 2.767673 3 L A 2 -0.18000 -0.18000 "LEU " " CD2" "    " 6 0 3 1 A0A0A0  "C10"  <> <> <>
+  27 41 3.241168 -2.258283 0.099681 3 L A 21 0.06000 0.06000 "LEU " " HB2" "    " 1 0 3 1 FFFFFF  "H11"  <> <> <>
+  28 41 4.224194 -0.877287 0.477923 3 L A 21 0.06000 0.06000 "LEU " " HB3" "    " 1 0 3 1 FFFFFF  "H12"  <> <> <>
+  29 41 2.866805 -0.480411 2.553660 3 L A 21 0.06000 0.06000 "LEU " " HG " "    " 1 0 3 1 FFFFFF  "H13"  <> <> <>
+  30 41 1.459808 -3.094840 1.814504 3 L A 21 0.06000 0.06000 "LEU " "HD11" "    " 1 0 3 1 FFFFFF  "H14"  <> <> <>
+  31 41 1.331388 -2.274517 3.366860 3 L A 21 0.06000 0.06000 "LEU " "HD12" "    " 1 0 3 1 FFFFFF  "H15"  <> <> <>
+  32 41 0.700188 -1.508016 1.923745 3 L A 21 0.06000 0.06000 "LEU " "HD13" "    " 1 0 3 1 FFFFFF  "H16"  <> <> <>
+  33 41 4.076310 -3.268835 2.347772 3 L A 21 0.06000 0.06000 "LEU " "HD21" "    " 1 0 3 1 FFFFFF  "H17"  <> <> <>
+  34 41 4.963278 -1.779415 2.661428 3 L A 21 0.06000 0.06000 "LEU " "HD22" "    " 1 0 3 1 FFFFFF  "H18"  <> <> <>
+  35 41 3.795710 -2.368291 3.835294 3 L A 21 0.06000 0.06000 "LEU " "HD23" "    " 1 0 3 1 FFFFFF  "H19"  <> <> <>
+  36 44 3.553533 0.075146 -1.743594 3 L A 21 0.33000 0.33000 "LEU " "    " "    " 1 0 3 1 FFFFFF  "H20"  <>   9.888    0.483 
+  37 32 2.636035 -0.337116 -1.652080 3 X A 43 -0.30000 -0.30000 "LEU " " N  " "  c1" 7 1 0 1 5757FF  "N22"  <> <> <>
+  38 44 2.649900 -1.277402 -2.020614 3 X A 21 0.33000 0.33000 "LEU " "    " "    " 1 0 0 1 FFFFFF  "H23"  <> <> <>
+  :::
+ } 
+ m_bond[37] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 17 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 7 1 3 3
+  10 8 9 1 3 3
+  11 8 13 1 3 3
+  12 8 14 1 3 3
+  13 9 10 1 3 3
+  14 9 15 1 3 3
+  15 9 16 1 3 3
+  16 10 11 2 3 3
+  17 10 12 1 3 3
+  18 18 19 1 3 3
+  19 18 21 1 3 3
+  20 18 23 1 3 3
+  21 18 37 1 3 3
+  22 19 20 2 3 3
+  23 22 37 1 3 3
+  24 23 24 1 3 3
+  25 23 27 1 3 3
+  26 23 28 1 3 3
+  27 24 25 1 3 3
+  28 24 26 1 3 3
+  29 24 29 1 3 3
+  30 25 30 1 3 3
+  31 25 31 1 3 3
+  32 25 32 1 3 3
+  33 26 33 1 3 3
+  34 26 34 1 3 3
+  35 26 35 1 3 3
+  36 36 37 1 3 3
+  37 37 38 1 1 1
+  :::
+ } 
+ combgen_build[1] { 
+  i_combgen_growth
+  i_combgen_growth_node
+  s_combgen_from_growname
+  s_combgen_to_growname
+  s_combgen_attach_name
+  s_combgen_fragment_name
+  s_combgen_fraglib_name
+  s_combgen_baselib_name
+  :::
+  1 1 1 1f  1t  1  Leu(L)  peptide-reagent-preparation  peptide-reagent-preparation 
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_combgen_index
+ i_combgen_index_track
+ s_combgen_comp_vec
+ s_combgen_comp_vec_track
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ s_st_Chirality_1
+ s_st_Chirality_2
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ "E; [Lys(K)]" 
+  14
+  14
+  14 
+  14 
+  glu-dipeptide-enumeration-tang.mae 
+  14
+  37012
+  2_S_1_3_8_6 
+  18_S_38_19_23_21 
+  0
+  OPLS_2005 
+  -9.01644379125529
+  1
+  "E; [Lys(K)]-1" 
+  2
+ m_depend[4] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_combgen_index 
+  2 10 s_combgen_comp_vec 
+  3 10 s_st_Chirality_1 
+  4 10 s_st_Chirality_2 
+  :::
+ } 
+ m_atom[41] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 2.052060 0.663717 1.188955 2 E A 38 0.13500 0.13500 "GLU " " N  " "  1f" 7 1 3 1 2E2EFF  "N4"  <> <> <>
+  2 3 3.083970 -0.405762 1.173236 2 E A 24 0.06250 0.06250 "GLU " " CA " "    " 6 0 3 1 808080  "C5"  1 <> <>
+  3 2 2.443731 -1.779769 1.464434 2 E A 24 0.44500 0.44500 "GLU " " C  " "    " 6 0 3 1 808080  "C6"  <> <> <>
+  4 15 2.806163 -2.741413 0.751235 2 E A 70 -0.72250 -0.72250 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  <> <> <>
+  5 44 1.437001 0.482130 1.969318 2 E A 21 0.31000 0.31000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  <>  10.003    0.483 
+  6 41 3.567343 -0.423658 0.193190 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  7 18 1.580963 -1.846699 2.369264 2 E A 70 -0.72250 -0.72250 "GLU " "    " "    " 8 -1 3 1 FF2E2E  "O12"  <>   2.526    0.460 
+  8 3 4.165264 -0.075493 2.225672 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  9 3 5.381059 -1.027453 2.220612 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  10 2 6.538385 -0.544091 3.101062 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  11 15 7.677738 -0.969980 2.812755 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  <> <> <>
+  12 18 6.274946 0.232363 4.046510 2 E A 70 -0.80000 -0.80000 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  <>   4.549    0.220 
+  13 41 4.519377 0.940549 2.042657 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  14 41 3.719055 -0.059397 3.221827 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  15 41 5.090339 -2.021616 2.560651 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  16 41 5.751754 -1.140572 1.201008 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  17 44 2.535157 1.533236 1.362191 2 E A 21 0.31000 0.31000 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  <>  10.003    0.483 
+  18 3 -0.152663 0.346960 0.039953 3 K A 24 0.25000 0.25000 "LYS " " CA " "    " 6 0 3 1 696969  "C5"  1 <> <>
+  19 2 1.307501 0.827365 0.021849 3 K A 24 0.62250 0.62250 "LYS " " C  " "rpc1" 6 0 3 1 696969  "C6"  <> <> <>
+  20 15 1.782381 1.371463 -0.973813 3 K A 70 -0.50000 -0.50000 "LYS " " O  " "    " 8 0 3 1 FF2F2F  "O7"  <> <> <>
+  21 41 -0.318654 -0.229543 0.950948 3 K A 21 0.06000 0.06000 "LYS " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  22 44 -0.867139 2.053118 0.926802 3 K A 21 0.33000 0.33000 "LYS " " H  " "    " 1 0 3 1 FFFFFF  "H5"  <>   9.661    0.483 
+  23 3 -0.512465 -0.543849 -1.173077 3 K A 2 -0.12000 -0.12000 "LYS " " CB " "    " 6 0 3 1 A0A0A0  "C7"  <> <> <>
+  24 3 0.309258 -1.840088 -1.261335 3 K A 2 -0.12000 -0.12000 "LYS " " CG " "    " 6 0 3 1 A0A0A0  "C8"  <> <> <>
+  25 3 -0.150531 -2.800133 -2.367518 3 K A 2 -0.12000 -0.12000 "LYS " " CD " "    " 6 0 3 1 A0A0A0  "C9"  <> <> <>
+  26 3 0.796154 -3.999944 -2.543693 3 K A 2 0.19000 0.19000 "LYS " " CE " "    " 6 0 3 1 A0A0A0  "C10"  <> <> <>
+  27 41 -1.568649 -0.809861 -1.109813 3 K A 21 0.06000 0.06000 "LYS " " HB2" "    " 1 0 3 1 FFFFFF  "H12"  <> <> <>
+  28 41 -0.401521 0.020087 -2.100636 3 K A 21 0.06000 0.06000 "LYS " " HB3" "    " 1 0 3 1 FFFFFF  "H13"  <> <> <>
+  29 41 1.359409 -1.595455 -1.423055 3 K A 21 0.06000 0.06000 "LYS " " HG2" "    " 1 0 3 1 FFFFFF  "H14"  <> <> <>
+  30 41 0.245085 -2.357719 -0.304778 3 K A 21 0.06000 0.06000 "LYS " " HG3" "    " 1 0 3 1 FFFFFF  "H15"  <> <> <>
+  31 41 -1.162646 -3.149837 -2.159911 3 K A 21 0.06000 0.06000 "LYS " " HD2" "    " 1 0 3 1 FFFFFF  "H16"  <> <> <>
+  32 41 -0.202806 -2.258108 -3.312641 3 K A 21 0.06000 0.06000 "LYS " " HD3" "    " 1 0 3 1 FFFFFF  "H17"  <> <> <>
+  33 41 0.463927 -4.613088 -3.381883 3 K A 21 0.06000 0.06000 "LYS " " HE2" "    " 1 0 3 1 FFFFFF  "H18"  <> <> <>
+  34 41 1.804485 -3.658711 -2.780252 3 K A 21 0.06000 0.06000 "LYS " " HE3" "    " 1 0 3 1 FFFFFF  "H19"  <> <> <>
+  35 44 1.462985 -5.633699 -1.508389 3 K A 21 0.33000 0.33000 "LYS " " HZ3" "    " 1 0 3 1 FFFFFF  "H20"  <>  10.086    0.198 
+  36 44 1.208614 -4.309956 -0.562610 3 K A 21 0.33000 0.33000 "LYS " "    " "    " 1 0 3 1 FFFFFF  "H21"  <>  10.086    0.198 
+  37 44 -0.935933 2.077021 -0.720334 3 K A 21 0.33000 0.33000 "LYS " "    " "    " 1 0 3 1 FFFFFF  "H22"  <>   9.661    0.483 
+  38 32 -1.063902 1.504232 0.102157 3 X A 43 -0.30000 -0.30000 "LYS " " N  " "  c1" 7 1 0 1 5757FF  "N24"  <> <> <>
+  39 44 -2.019726 1.179044 0.137312 3 X A 21 0.33000 0.33000 "LYS " "    " "    " 1 0 0 1 FFFFFF  "H25"  <> <> <>
+  40 32 0.850217 -4.848619 -1.339571 3 X A 43 -0.30000 -0.30000 "LYS " " NZ " "  c1" 7 1 0 1 5757FF  "N25"  <> <> <>
+  41 44 -0.075074 -5.186745 -1.117670 3 X A 21 0.33000 0.33000 "LYS " "    " "    " 1 0 0 1 FFFFFF  "H26"  <> <> <>
+  :::
+ } 
+ m_bond[40] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 17 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 7 1 3 3
+  10 8 9 1 3 3
+  11 8 13 1 3 3
+  12 8 14 1 3 3
+  13 9 10 1 3 3
+  14 9 15 1 3 3
+  15 9 16 1 3 3
+  16 10 11 2 3 3
+  17 10 12 1 3 3
+  18 18 19 1 3 3
+  19 18 21 1 3 3
+  20 18 23 1 3 3
+  21 18 38 1 3 3
+  22 19 20 2 3 3
+  23 22 38 1 3 3
+  24 23 24 1 3 3
+  25 23 27 1 3 3
+  26 23 28 1 3 3
+  27 24 25 1 3 3
+  28 24 29 1 3 3
+  29 24 30 1 3 3
+  30 25 26 1 3 3
+  31 25 31 1 3 3
+  32 25 32 1 3 3
+  33 26 33 1 3 3
+  34 26 34 1 3 3
+  35 26 40 1 3 3
+  36 35 40 1 3 3
+  37 36 40 1 3 3
+  38 37 38 1 3 3
+  39 38 39 1 1 1
+  40 40 41 1 1 1
+  :::
+ } 
+ combgen_build[1] { 
+  i_combgen_growth
+  i_combgen_growth_node
+  s_combgen_from_growname
+  s_combgen_to_growname
+  s_combgen_attach_name
+  s_combgen_fragment_name
+  s_combgen_fraglib_name
+  s_combgen_baselib_name
+  :::
+  1 1 1 1f  1t  1  Lys(K)  peptide-reagent-preparation  peptide-reagent-preparation 
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_combgen_index
+ i_combgen_index_track
+ s_combgen_comp_vec
+ s_combgen_comp_vec_track
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ s_st_Chirality_1
+ s_st_Chirality_2
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ "E; [Met(M)]" 
+  15
+  15
+  15 
+  15 
+  glu-dipeptide-enumeration-tang.mae 
+  15
+  37012
+  2_S_1_3_8_6 
+  18_S_35_19_23_21 
+  0
+  OPLS_2005 
+  -14.7272266608781
+  1
+  "E; [Met(M)]-1" 
+  2
+ m_depend[4] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_combgen_index 
+  2 10 s_combgen_comp_vec 
+  3 10 s_st_Chirality_1 
+  4 10 s_st_Chirality_2 
+  :::
+ } 
+ m_atom[36] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 0.078532 -0.092807 -0.537531 2 E A 38 0.13500 0.13500 "GLU " " N  " "  1f" 7 1 3 1 2E2EFF  "N4"  <> <> <>
+  2 3 -0.447748 1.081150 0.202502 2 E A 24 0.06250 0.06250 "GLU " " CA " "    " 6 0 3 1 808080  "C5"  1 <> <>
+  3 2 -0.534457 0.744894 1.703916 2 E A 24 0.44500 0.44500 "GLU " " C  " "    " 6 0 3 1 808080  "C6"  <> <> <>
+  4 15 0.143976 1.446338 2.485130 2 E A 70 -0.72250 -0.72250 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  <> <> <>
+  5 44 -0.361102 -0.917185 -0.154339 2 E A 21 0.31000 0.31000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  <>  10.003    0.483 
+  6 41 0.226140 1.927535 0.053578 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  7 18 -1.235124 -0.236187 2.042176 2 E A 70 -0.72250 -0.72250 "GLU " "    " "    " 8 -1 3 1 FF2E2E  "O12"  <>   2.526    0.460 
+  8 3 -1.839291 1.462831 -0.363970 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  9 3 -2.393724 2.823838 0.114903 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  10 2 -1.605569 4.043526 -0.381150 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  11 15 -1.741078 5.101363 0.270216 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  <> <> <>
+  12 18 -0.894937 3.911490 -1.403115 2 E A 70 -0.80000 -0.80000 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  <>   4.549    0.220 
+  13 41 -1.794946 1.466231 -1.454351 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  14 41 -2.567038 0.686902 -0.122636 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  15 41 -3.419395 2.934255 -0.237715 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  16 41 -2.443692 2.850101 1.204216 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  17 44 -0.217390 0.011571 -1.496833 2 E A 21 0.31000 0.31000 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  <>  10.003    0.483 
+  18 3 2.024465 -1.561503 0.030757 3 M A 24 0.25000 0.25000 "MET " " CA " "    " 6 0 3 1 696969  "C5"  1 <> <>
+  19 2 1.463521 -0.251171 -0.544887 3 M A 24 0.62250 0.62250 "MET " " C  " "rpc1" 6 0 3 1 696969  "C6"  <> <> <>
+  20 15 2.210958 0.599362 -1.028299 3 M A 70 -0.50000 -0.50000 "MET " " O  " "    " 8 0 3 1 FF2F2F  "O7"  <> <> <>
+  21 41 1.284377 -2.341491 -0.152920 3 M A 21 0.06000 0.06000 "MET " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  22 44 3.041086 -2.073533 -1.674144 3 M A 21 0.33000 0.33000 "MET " " H  " "    " 1 0 3 1 FFFFFF  "H5"  <>   9.430    0.483 
+  23 3 2.281943 -1.504345 1.552957 3 M A 2 -0.12000 -0.12000 "MET " " CB " "    " 6 0 3 1 A0A0A0  "C7"  <> <> <>
+  24 3 3.251824 -0.404825 2.021404 3 M A 2 0.04750 0.04750 "MET " " CG " "    " 6 0 3 1 A0A0A0  "C8"  <> <> <>
+  25 49 3.576763 -0.442714 3.802504 3 M A 13 -0.33500 -0.33500 "MET " " SD " "    " 16 0 3 1 E1E11E  "S9"  <> <> <>
+  26 3 4.608551 1.038592 3.952527 3 M A 2 -0.01250 -0.01250 "MET " " CE " "    " 6 0 3 1 A0A0A0  "C10"  <> <> <>
+  27 41 1.335540 -1.388852 2.079506 3 M A 21 0.06000 0.06000 "MET " " HB2" "    " 1 0 3 1 FFFFFF  "H11"  <> <> <>
+  28 41 2.668324 -2.471583 1.876742 3 M A 21 0.06000 0.06000 "MET " " HB3" "    " 1 0 3 1 FFFFFF  "H12"  <> <> <>
+  29 41 4.206116 -0.493476 1.502005 3 M A 21 0.06000 0.06000 "MET " " HG2" "    " 1 0 3 1 FFFFFF  "H13"  <> <> <>
+  30 41 2.851615 0.580126 1.780436 3 M A 21 0.06000 0.06000 "MET " " HG3" "    " 1 0 3 1 FFFFFF  "H14"  <> <> <>
+  31 41 4.918330 1.177487 4.988274 3 M A 21 0.06000 0.06000 "MET " " HE1" "    " 1 0 3 1 FFFFFF  "H15"  <> <> <>
+  32 41 5.500821 0.947170 3.333367 3 M A 21 0.06000 0.06000 "MET " " HE2" "    " 1 0 3 1 FFFFFF  "H16"  <> <> <>
+  33 41 4.053319 1.922175 3.636584 3 M A 21 0.06000 0.06000 "MET " " HE3" "    " 1 0 3 1 FFFFFF  "H17"  <> <> <>
+  34 44 3.962259 -1.283815 -0.559837 3 M A 21 0.33000 0.33000 "MET " "    " "    " 1 0 3 1 FFFFFF  "H18"  <>   9.430    0.483 
+  35 32 3.242889 -1.981705 -0.688773 3 X A 43 -0.30000 -0.30000 "MET " " N  " "  c1" 7 1 0 1 5757FF  "N20"  <> <> <>
+  36 44 3.563955 -2.867653 -0.324900 3 X A 21 0.33000 0.33000 "MET " "    " "    " 1 0 0 1 FFFFFF  "H21"  <> <> <>
+  :::
+ } 
+ m_bond[35] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 17 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 7 1 3 3
+  10 8 9 1 3 3
+  11 8 13 1 3 3
+  12 8 14 1 3 3
+  13 9 10 1 3 3
+  14 9 15 1 3 3
+  15 9 16 1 3 3
+  16 10 11 2 3 3
+  17 10 12 1 3 3
+  18 18 19 1 3 3
+  19 18 21 1 3 3
+  20 18 23 1 3 3
+  21 18 35 1 3 3
+  22 19 20 2 3 3
+  23 22 35 1 3 3
+  24 23 24 1 3 3
+  25 23 27 1 3 3
+  26 23 28 1 3 3
+  27 24 25 1 3 3
+  28 24 29 1 3 3
+  29 24 30 1 3 3
+  30 25 26 1 3 3
+  31 26 31 1 3 3
+  32 26 32 1 3 3
+  33 26 33 1 3 3
+  34 34 35 1 3 3
+  35 35 36 1 1 1
+  :::
+ } 
+ combgen_build[1] { 
+  i_combgen_growth
+  i_combgen_growth_node
+  s_combgen_from_growname
+  s_combgen_to_growname
+  s_combgen_attach_name
+  s_combgen_fragment_name
+  s_combgen_fraglib_name
+  s_combgen_baselib_name
+  :::
+  1 1 1 1f  1t  1  Met(M)  peptide-reagent-preparation  peptide-reagent-preparation 
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_combgen_index
+ i_combgen_index_track
+ s_combgen_comp_vec
+ s_combgen_comp_vec_track
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ s_st_Chirality_1
+ s_st_Chirality_2
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ "E; [Phe(F)]" 
+  16
+  16
+  16 
+  16 
+  glu-dipeptide-enumeration-tang.mae 
+  16
+  37012
+  2_S_1_3_8_6 
+  18_S_38_19_23_21 
+  0
+  OPLS_2005 
+  -10.9137946722302
+  1
+  "E; [Phe(F)]-1" 
+  2
+ m_depend[4] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_combgen_index 
+  2 10 s_combgen_comp_vec 
+  3 10 s_st_Chirality_1 
+  4 10 s_st_Chirality_2 
+  :::
+ } 
+ m_atom[39] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 0.405540 0.567260 0.991406 2 E A 38 0.13500 0.13500 "GLU " " N  " "  1f" 7 1 3 1 2E2EFF  "N4"  <> <> <>
+  2 3 1.232564 -0.032813 -0.085803 2 E A 24 0.06250 0.06250 "GLU " " CA " "    " 6 0 3 1 808080  "C5"  1 <> <>
+  3 2 0.323345 -0.537250 -1.225152 2 E A 24 0.44500 0.44500 "GLU " " C  " "    " 6 0 3 1 808080  "C6"  <> <> <>
+  4 15 0.488600 -0.023491 -2.352738 2 E A 70 -0.72250 -0.72250 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  <> <> <>
+  5 44 -0.356747 -0.067002 1.182870 2 E A 21 0.31000 0.31000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  <>  10.003    0.483 
+  6 41 1.922892 0.723427 -0.467819 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  7 18 -0.565296 -1.371260 -0.940220 2 E A 70 -0.72250 -0.72250 "GLU " "    " "    " 8 -1 3 1 FF2E2E  "O12"  <>   2.526    0.460 
+  8 3 2.079096 -1.181965 0.505701 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  9 3 3.090813 -1.801528 -0.481932 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  10 2 4.067801 -2.778509 0.180803 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  11 15 5.164952 -2.950286 -0.392917 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  <> <> <>
+  12 18 3.709368 -3.342381 1.238780 2 E A 70 -0.80000 -0.80000 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  <>   4.549    0.220 
+  13 41 2.626580 -0.793913 1.366498 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  14 41 1.425833 -1.962918 0.899399 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  15 41 2.570776 -2.330370 -1.281142 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  16 41 3.670035 -1.008423 -0.956695 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  17 44 0.986802 0.621413 1.815125 2 E A 21 0.31000 0.31000 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  <>  10.003    0.483 
+  18 3 -1.593099 1.996493 0.439259 3 F A 24 0.25000 0.25000 "PHE " " CA " "    " 6 0 3 1 696969  "C5"  1 <> <>
+  19 2 -0.094439 1.846521 0.747970 3 F A 24 0.62250 0.62250 "PHE " " C  " "rpc1" 6 0 3 1 696969  "C6"  <> <> <>
+  20 15 0.634236 2.836055 0.790571 3 F A 70 -0.50000 -0.50000 "PHE " " O  " "    " 8 0 3 1 FF2F2F  "O7"  <> <> <>
+  21 41 -1.877408 2.998709 0.763182 3 F A 21 0.06000 0.06000 "PHE " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  22 44 -1.290601 2.647841 -1.479637 3 F A 21 0.33000 0.33000 "PHE " " H  " "    " 1 0 3 1 FFFFFF  "H5"  <>   9.290    0.483 
+  23 3 -2.475472 0.981983 1.199181 3 F A 2 -0.00500 -0.00500 "PHE " " CB " "    " 6 0 3 1 A0A0A0  "C7"  <> <> <>
+  24 2 -3.962857 1.273908 1.122588 3 F A 2 -0.11500 -0.11500 "PHE " " CG " "    " 6 0 3 1 A0A0A0  "C8"  <> <> <>
+  25 2 -4.535399 2.251732 1.963252 3 F A 2 -0.11500 -0.11500 "PHE " " CD1" "    " 6 0 3 1 A0A0A0  "C9"  <> <> <>
+  26 2 -4.779269 0.571699 0.210486 3 F A 2 -0.11500 -0.11500 "PHE " " CD2" "    " 6 0 3 1 A0A0A0  "C10"  <> <> <>
+  27 2 -5.914976 2.526318 1.891631 3 F A 2 -0.11500 -0.11500 "PHE " " CE1" "    " 6 0 3 1 A0A0A0  "C11"  <> <> <>
+  28 2 -6.158718 0.847231 0.139523 3 F A 2 -0.11500 -0.11500 "PHE " " CE2" "    " 6 0 3 1 A0A0A0  "C12"  <> <> <>
+  29 2 -6.726640 1.824376 0.979750 3 F A 2 -0.11500 -0.11500 "PHE " " CZ " "    " 6 0 3 1 A0A0A0  "C13"  <> <> <>
+  30 41 -2.299976 -0.030210 0.832029 3 F A 21 0.06000 0.06000 "PHE " " HB2" "    " 1 0 3 1 FFFFFF  "H14"  <> <> <>
+  31 41 -2.198845 0.967847 2.254868 3 F A 21 0.06000 0.06000 "PHE " " HB3" "    " 1 0 3 1 FFFFFF  "H15"  <> <> <>
+  32 41 -3.918819 2.794447 2.665043 3 F A 21 0.11500 0.11500 "PHE " " HD1" "    " 1 0 3 1 FFFFFF  "H16"  <> <> <>
+  33 41 -4.351972 -0.179904 -0.437509 3 F A 21 0.11500 0.11500 "PHE " " HD2" "    " 1 0 3 1 FFFFFF  "H17"  <> <> <>
+  34 41 -6.351235 3.274954 2.536836 3 F A 21 0.11500 0.11500 "PHE " " HE1" "    " 1 0 3 1 FFFFFF  "H18"  <> <> <>
+  35 41 -6.781942 0.308485 -0.559215 3 F A 21 0.11500 0.11500 "PHE " " HE2" "    " 1 0 3 1 FFFFFF  "H19"  <> <> <>
+  36 41 -7.784767 2.034632 0.925547 3 F A 21 0.11500 0.11500 "PHE " " HZ " "    " 1 0 3 1 FFFFFF  "H20"  <> <> <>
+  37 44 -1.567809 1.028702 -1.368912 3 F A 21 0.33000 0.33000 "PHE " "    " "    " 1 0 3 1 FFFFFF  "H21"  <>   9.290    0.483 
+  38 32 -1.837390 1.936954 -1.014603 3 X A 43 -0.30000 -0.30000 "PHE " " N  " "  c1" 7 1 0 1 5757FF  "N23"  <> <> <>
+  39 44 -2.818221 2.091034 -1.200523 3 X A 21 0.33000 0.33000 "PHE " "    " "    " 1 0 0 1 FFFFFF  "H24"  <> <> <>
+  :::
+ } 
+ m_bond[39] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 17 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 7 1 3 3
+  10 8 9 1 3 3
+  11 8 13 1 3 3
+  12 8 14 1 3 3
+  13 9 10 1 3 3
+  14 9 15 1 3 3
+  15 9 16 1 3 3
+  16 10 11 2 3 3
+  17 10 12 1 3 3
+  18 18 19 1 3 3
+  19 18 21 1 3 3
+  20 18 23 1 3 3
+  21 18 38 1 3 3
+  22 19 20 2 3 3
+  23 22 38 1 3 3
+  24 23 24 1 3 3
+  25 23 30 1 3 3
+  26 23 31 1 3 3
+  27 24 25 2 3 3
+  28 24 26 1 3 3
+  29 25 27 1 3 3
+  30 25 32 1 3 3
+  31 26 28 2 3 3
+  32 26 33 1 3 3
+  33 27 29 2 3 3
+  34 27 34 1 3 3
+  35 28 29 1 3 3
+  36 28 35 1 3 3
+  37 29 36 1 3 3
+  38 37 38 1 3 3
+  39 38 39 1 1 1
+  :::
+ } 
+ combgen_build[1] { 
+  i_combgen_growth
+  i_combgen_growth_node
+  s_combgen_from_growname
+  s_combgen_to_growname
+  s_combgen_attach_name
+  s_combgen_fragment_name
+  s_combgen_fraglib_name
+  s_combgen_baselib_name
+  :::
+  1 1 1 1f  1t  1  Phe(F)  peptide-reagent-preparation  peptide-reagent-preparation 
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_combgen_index
+ i_combgen_index_track
+ s_combgen_comp_vec
+ s_combgen_comp_vec_track
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ s_st_Chirality_1
+ s_st_Chirality_2
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ "E; [Pro(P)]" 
+  17
+  17
+  17 
+  17 
+  glu-dipeptide-enumeration-tang.mae 
+  17
+  37012
+  2_S_1_3_8_6 
+  18_S_31_19_23_21 
+  0
+  OPLS_2005 
+  -7.23219481347224
+  1
+  "E; [Pro(P)]-1" 
+  2
+ m_depend[4] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_combgen_index 
+  2 10 s_combgen_comp_vec 
+  3 10 s_st_Chirality_1 
+  4 10 s_st_Chirality_2 
+  :::
+ } 
+ m_atom[33] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 0.351396 0.602149 -1.092221 2 E A 38 0.13500 0.13500 "GLU " " N  " "  1f" 7 1 3 1 2E2EFF  "N4"  <> <> <>
+  2 3 1.631079 0.350417 -0.386862 2 E A 24 0.06250 0.06250 "GLU " " CA " "    " 6 0 3 1 808080  "C5"  1 <> <>
+  3 2 2.340791 -0.778417 -1.150723 2 E A 24 0.44500 0.44500 "GLU " " C  " "    " 6 0 3 1 808080  "C6"  <> <> <>
+  4 15 3.376385 -0.473952 -1.781304 2 E A 70 -0.72250 -0.72250 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  <> <> <>
+  5 44 0.571221 0.698351 -2.073237 2 E A 21 0.31000 0.31000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  <>  10.003    0.483 
+  6 41 2.245317 1.252475 -0.445285 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  7 18 1.817901 -1.915777 -1.130026 2 E A 70 -0.72250 -0.72250 "GLU " "    " "    " 8 -1 3 1 FF2E2E  "O12"  <>   2.526    0.460 
+  8 3 1.414264 -0.011936 1.107203 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  9 3 2.706007 -0.282866 1.907081 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  10 2 2.486434 -0.356807 3.423540 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  11 15 3.511171 -0.471464 4.129476 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  <> <> <>
+  12 18 1.314563 -0.291656 3.859898 2 E A 70 -0.80000 -0.80000 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  <>   4.549    0.220 
+  13 41 0.902481 0.820211 1.588534 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  14 41 0.743360 -0.868403 1.195121 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  15 41 3.168477 -1.214707 1.580013 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  16 41 3.428890 0.510513 1.713047 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  17 44 -0.228278 -0.217297 -0.981430 2 E A 21 0.31000 0.31000 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  <>  10.003    0.483 
+  18 3 -1.518600 1.513984 0.277240 3 P A 24 0.23000 0.23000 "PRO " " CA " "    " 6 0 3 1 696969  "C5"  1 <> <>
+  19 2 -0.351579 1.733099 -0.693784 3 P A 24 0.62250 0.62250 "PRO " " C  " "rpc1" 6 0 3 1 696969  "C6"  <> <> <>
+  20 15 -0.055596 2.856694 -1.098102 3 P A 70 -0.50000 -0.50000 "PRO " " O  " "    " 8 0 3 1 FF2F2F  "O7"  <> <> <>
+  21 41 -1.543858 0.476664 0.615709 3 P A 21 0.06000 0.06000 "PRO " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  22 3 -2.737796 2.882562 1.820069 3 P A 2 0.17000 0.17000 "PRO " " CD " "    " 6 0 3 1 A0A0A0  "C6"  <> <> <>
+  23 3 -2.866791 1.878825 -0.357771 3 P A 2 -0.12000 -0.12000 "PRO " " CB " "    " 6 0 3 1 A0A0A0  "C7"  <> <> <>
+  24 3 -3.726010 2.238808 0.845161 3 P A 2 -0.12000 -0.12000 "PRO " " CG " "    " 6 0 3 1 A0A0A0  "C8"  <> <> <>
+  25 41 -2.987284 2.661375 2.858215 3 P A 21 0.06000 0.06000 "PRO " " HD3" "    " 1 0 3 1 FFFFFF  "H9"  <> <> <>
+  26 41 -2.734415 3.966424 1.700048 3 P A 21 0.06000 0.06000 "PRO " " HD2" "    " 1 0 3 1 FFFFFF  "H10"  <> <> <>
+  27 41 -2.779173 2.748357 -1.011948 3 P A 21 0.06000 0.06000 "PRO " " HB2" "    " 1 0 3 1 FFFFFF  "H11"  <> <> <>
+  28 41 -3.291168 1.061604 -0.942296 3 P A 21 0.06000 0.06000 "PRO " " HB3" "    " 1 0 3 1 FFFFFF  "H12"  <> <> <>
+  29 41 -4.134909 1.328102 1.285276 3 P A 21 0.06000 0.06000 "PRO " " HG3" "    " 1 0 3 1 FFFFFF  "H13"  <> <> <>
+  30 41 -4.561611 2.892668 0.593507 3 P A 21 0.06000 0.06000 "PRO " " HG2" "    " 1 0 3 1 FFFFFF  "H14"  <> <> <>
+  31 32 -1.394111 2.373491 1.474592 3 X A 43 -0.20000 -0.20000 "PRO " " N  " "  c1" 7 1 0 1 5757FF  "N16"  <> <> <>
+  32 44 -0.797428 3.159421 1.257061 3 X A 21 0.31000 0.31000 "PRO " "    " "    " 1 0 0 1 FFFFFF  "H17"  <> <> <>
+  33 44 -0.999305 1.845478 2.240807 3 X A 21 0.31000 0.31000 "PRO " "    " "    " 1 0 0 1 FFFFFF  "H18"  <> <> <>
+  :::
+ } 
+ m_bond[33] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 17 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 7 1 3 3
+  10 8 9 1 3 3
+  11 8 13 1 3 3
+  12 8 14 1 3 3
+  13 9 10 1 3 3
+  14 9 15 1 3 3
+  15 9 16 1 3 3
+  16 10 11 2 3 3
+  17 10 12 1 3 3
+  18 18 19 1 3 3
+  19 18 21 1 3 3
+  20 18 23 1 3 3
+  21 18 31 1 3 3
+  22 19 20 2 3 3
+  23 22 24 1 3 3
+  24 22 25 1 3 3
+  25 22 26 1 3 3
+  26 22 31 1 3 3
+  27 23 24 1 3 3
+  28 23 27 1 3 3
+  29 23 28 1 3 3
+  30 24 29 1 3 3
+  31 24 30 1 3 3
+  32 31 32 1 1 1
+  33 31 33 1 1 1
+  :::
+ } 
+ combgen_build[1] { 
+  i_combgen_growth
+  i_combgen_growth_node
+  s_combgen_from_growname
+  s_combgen_to_growname
+  s_combgen_attach_name
+  s_combgen_fragment_name
+  s_combgen_fraglib_name
+  s_combgen_baselib_name
+  :::
+  1 1 1 1f  1t  1  Pro(P)  peptide-reagent-preparation  peptide-reagent-preparation 
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_combgen_index
+ i_combgen_index_track
+ s_combgen_comp_vec
+ s_combgen_comp_vec_track
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ s_st_Chirality_1
+ s_st_Chirality_2
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ "E; [Ser(S)]" 
+  18
+  18
+  18 
+  18 
+  glu-dipeptide-enumeration-tang.mae 
+  18
+  37012
+  2_S_1_3_8_6 
+  18_S_29_19_23_21 
+  0
+  OPLS_2005 
+  -25.6194973808979
+  1
+  "E; [Ser(S)]-1" 
+  2
+ m_depend[4] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_combgen_index 
+  2 10 s_combgen_comp_vec 
+  3 10 s_st_Chirality_1 
+  4 10 s_st_Chirality_2 
+  :::
+ } 
+ m_atom[30] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -0.001157 0.008588 0.742323 2 E A 38 0.13500 0.13500 "GLU " " N  " "  1f" 7 1 3 1 2E2EFF  "N4"  <> <> <>
+  2 3 1.427689 0.348833 0.504628 2 E A 24 0.06250 0.06250 "GLU " " CA " "    " 6 0 3 1 808080  "C5"  1 <> <>
+  3 2 1.640038 1.160261 -0.794082 2 E A 24 0.44500 0.44500 "GLU " " C  " "    " 6 0 3 1 808080  "C6"  <> <> <>
+  4 15 2.482428 2.082405 -0.749422 2 E A 70 -0.72250 -0.72250 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  <> <> <>
+  5 44 -0.337920 -0.475956 -0.078085 2 E A 21 0.31000 0.31000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  <>  10.003    0.483 
+  6 41 1.754891 0.963787 1.346369 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  7 18 0.950955 0.874993 -1.799722 2 E A 70 -0.72250 -0.72250 "GLU " "    " "    " 8 -1 3 1 FF2E2E  "O12"  <>   2.526    0.460 
+  8 3 2.312552 -0.928221 0.523985 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  9 3 2.129754 -1.962622 -0.618026 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  10 2 0.748497 -2.624281 -0.652573 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  11 15 0.333243 -3.137680 0.409348 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  <> <> <>
+  12 18 0.104341 -2.553074 -1.721180 2 E A 70 -0.80000 -0.80000 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  <>   4.549    0.220 
+  13 41 3.357799 -0.615673 0.519755 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  14 41 2.180246 -1.430828 1.483206 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  15 41 2.346044 -1.510544 -1.586367 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  16 41 2.866582 -2.756944 -0.495661 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  17 44 -0.030247 -0.642630 1.513683 2 E A 21 0.31000 0.31000 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  <>  10.003    0.483 
+  18 3 -1.973626 1.384579 0.018984 3 S A 24 0.25000 0.25000 "SER " " CA " "    " 6 0 3 1 696969  "C5"  1 <> <>
+  19 2 -0.868927 1.057646 1.039885 3 S A 24 0.62250 0.62250 "SER " " C  " "rpc1" 6 0 3 1 696969  "C6"  <> <> <>
+  20 15 -0.770698 1.700792 2.083924 3 S A 70 -0.50000 -0.50000 "SER " " O  " "    " 8 0 3 1 FF2F2F  "O7"  <> <> <>
+  21 41 -2.830838 1.746007 0.588797 3 S A 21 0.06000 0.06000 "SER " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  22 44 -1.304807 3.294221 -0.283687 3 S A 21 0.33000 0.33000 "SER " " H  " "    " 1 0 3 1 FFFFFF  "H5"  <>   9.903    2.220 
+  23 3 -2.446745 0.179657 -0.828607 3 S A 2 0.14500 0.14500 "SER " " CB " "    " 6 0 3 1 A0A0A0  "C7"  <> <> <>
+  24 16 -2.886544 -0.890677 -0.016780 3 S A 70 -0.68300 -0.68300 "SER " " OG " "    " 8 0 3 1 FF2F2F  "O8"  <>  -1.471    0.950 
+  25 41 -3.272213 0.476503 -1.476473 3 S A 21 0.06000 0.06000 "SER " " HB2" "    " 1 0 3 1 FFFFFF  "H9"  <> <> <>
+  26 41 -1.651989 -0.180395 -1.482993 3 S A 21 0.06000 0.06000 "SER " " HB3" "    " 1 0 3 1 FFFFFF  "H10"  <> <> <>
+  27 42 -3.110995 -1.621391 -0.574577 3 S A 21 0.41800 0.41800 "SER " " HG " "    " 1 0 3 1 FFFFFF  "H11"  <>  13.655    2.000 
+  28 44 -0.751078 2.211415 -1.396247 3 S A 21 0.33000 0.33000 "SER " "    " "    " 1 0 3 1 FFFFFF  "H12"  <>   9.903    2.220 
+  29 32 -1.554479 2.497115 -0.851641 3 X A 43 -0.30000 -0.30000 "SER " " N  " "  c1" 7 1 0 1 5757FF  "N14"  <> <> <>
+  30 44 -2.309961 2.747050 -1.473174 3 X A 21 0.33000 0.33000 "SER " "    " "    " 1 0 0 1 FFFFFF  "H15"  <> <> <>
+  :::
+ } 
+ m_bond[29] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 17 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 7 1 3 3
+  10 8 9 1 3 3
+  11 8 13 1 3 3
+  12 8 14 1 3 3
+  13 9 10 1 3 3
+  14 9 15 1 3 3
+  15 9 16 1 3 3
+  16 10 11 2 3 3
+  17 10 12 1 3 3
+  18 18 19 1 3 3
+  19 18 21 1 3 3
+  20 18 23 1 3 3
+  21 18 29 1 3 3
+  22 19 20 2 3 3
+  23 22 29 1 3 3
+  24 23 24 1 3 3
+  25 23 25 1 3 3
+  26 23 26 1 3 3
+  27 24 27 1 3 3
+  28 28 29 1 3 3
+  29 29 30 1 1 1
+  :::
+ } 
+ combgen_build[1] { 
+  i_combgen_growth
+  i_combgen_growth_node
+  s_combgen_from_growname
+  s_combgen_to_growname
+  s_combgen_attach_name
+  s_combgen_fragment_name
+  s_combgen_fraglib_name
+  s_combgen_baselib_name
+  :::
+  1 1 1 1f  1t  1  Ser(S)  peptide-reagent-preparation  peptide-reagent-preparation 
+  :::
+ } 
+} 
+
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_combgen_index
+ i_combgen_index_track
+ s_combgen_comp_vec
+ s_combgen_comp_vec_track
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ s_st_Chirality_1
+ s_st_Chirality_2
+ s_st_Chirality_3
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ "E; [Thr(T)]" 
+  19
+  19
+  19 
+  19 
+  glu-dipeptide-enumeration-tang.mae 
+  19
+  37012
+  2_S_1_3_8_6 
+  18_S_32_19_23_21 
+  23_R_24_18_25_26 
+  0
+  OPLS_2005 
+  -17.8093202666796
+  1
+  "E; [Thr(T)]-1" 
+  2
+ m_depend[5] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_combgen_index 
+  2 10 s_combgen_comp_vec 
+  3 10 s_st_Chirality_1 
+  4 10 s_st_Chirality_2 
+  5 10 s_st_Chirality_3 
+  :::
+ } 
+ m_atom[33] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 0.048821 0.520948 -0.573431 2 E A 38 0.13500 0.13500 "GLU " " N  " "  1f" 7 1 3 1 2E2EFF  "N4"  <> <> <>
+  2 3 -0.673988 1.047836 0.612442 2 E A 24 0.06250 0.06250 "GLU " " CA " "    " 6 0 3 1 808080  "C5"  1 <> <>
+  3 2 -0.777816 -0.053187 1.684320 2 E A 24 0.44500 0.44500 "GLU " " C  " "    " 6 0 3 1 808080  "C6"  <> <> <>
+  4 15 -0.264970 0.185508 2.799084 2 E A 70 -0.72250 -0.72250 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  <> <> <>
+  5 44 -0.277234 -0.418137 -0.749630 2 E A 21 0.31000 0.31000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  <>  10.003    0.483 
+  6 41 -0.132561 1.900884 1.029773 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  7 18 -1.314102 -1.136038 1.358595 2 E A 70 -0.72250 -0.72250 "GLU " "    " "    " 8 -1 3 1 FF2E2E  "O12"  <>   2.526    0.460 
+  8 3 -2.090131 1.535740 0.213377 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  9 3 -2.137075 2.973112 -0.352850 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  10 2 -1.375733 3.164541 -1.669043 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  11 15 -0.711265 4.215054 -1.793222 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  <> <> <>
+  12 18 -1.446892 2.248522 -2.518196 2 E A 70 -0.80000 -0.80000 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  <>   4.549    0.220 
+  13 41 -2.548230 0.838618 -0.490593 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  14 41 -2.740150 1.522852 1.090099 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  15 41 -3.174931 3.258819 -0.526348 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  16 41 -1.749909 3.671424 0.390607 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  17 44 -0.223740 1.098460 -1.357761 2 E A 21 0.31000 0.31000 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  <>  10.003    0.483 
+  18 3 2.184959 -0.775959 -0.246078 3 T A 24 0.25000 0.25000 "THR " " CA " "    " 6 0 3 1 696969  "C5"  1 <> <>
+  19 2 1.441022 0.545225 -0.510956 3 T A 24 0.62250 0.62250 "THR " " C  " "rpc1" 6 0 3 1 696969  "C6"  <> <> <>
+  20 15 2.068149 1.591162 -0.665930 3 T A 70 -0.50000 -0.50000 "THR " " O  " "    " 8 0 3 1 FF2F2F  "O7"  <> <> <>
+  21 41 3.192163 -0.651355 -0.647088 3 T A 21 0.06000 0.06000 "THR " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  22 44 2.799761 -0.176942 1.611263 3 T A 21 0.33000 0.33000 "THR " " H  " "    " 1 0 3 1 FFFFFF  "H5"  <>   9.903    2.220 
+  23 3 1.549004 -2.020939 -0.922406 3 T A 2 0.20500 0.20500 "THR " " CB " "    " 6 0 3 1 A0A0A0  "C7"  1 <> <>
+  24 16 2.405919 -3.130337 -0.731206 3 T A 70 -0.68300 -0.68300 "THR " " OG1" "    " 8 0 3 1 FF2F2F  "O8"  <>  -1.471    0.950 
+  25 3 1.364471 -1.888541 -2.446130 3 T A 2 -0.18000 -0.18000 "THR " " CG2" "    " 6 0 3 1 A0A0A0  "C9"  <> <> <>
+  26 41 0.588335 -2.258214 -0.463827 3 T A 21 0.06000 0.06000 "THR " " HB " "    " 1 0 3 1 FFFFFF  "H10"  <> <> <>
+  27 42 2.404649 -3.367109 0.183609 3 T A 21 0.41800 0.41800 "THR " " HG1" "    " 1 0 3 1 FFFFFF  "H11"  <>  15.413    2.000 
+  28 41 0.649955 -1.109213 -2.709244 3 T A 21 0.06000 0.06000 "THR " "HG21" "    " 1 0 3 1 FFFFFF  "H12"  <> <> <>
+  29 41 2.307740 -1.654268 -2.941179 3 T A 21 0.06000 0.06000 "THR " "HG22" "    " 1 0 3 1 FFFFFF  "H13"  <> <> <>
+  30 41 0.988948 -2.818310 -2.875353 3 T A 21 0.06000 0.06000 "THR " "HG23" "    " 1 0 3 1 FFFFFF  "H14"  <> <> <>
+  31 44 1.422841 -1.079126 1.634110 3 T A 21 0.33000 0.33000 "THR " "    " "    " 1 0 3 1 FFFFFF  "H15"  <>   9.903    2.220 
+  32 32 2.334285 -0.977618 1.207845 3 X A 43 -0.30000 -0.30000 "THR " " N  " "  c1" 7 1 0 1 5757FF  "N17"  <> <> <>
+  33 44 2.882298 -1.807532 1.381441 3 X A 21 0.33000 0.33000 "THR " "    " "    " 1 0 0 1 FFFFFF  "H18"  <> <> <>
+  :::
+ } 
+ m_bond[32] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 17 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 7 1 3 3
+  10 8 9 1 3 3
+  11 8 13 1 3 3
+  12 8 14 1 3 3
+  13 9 10 1 3 3
+  14 9 15 1 3 3
+  15 9 16 1 3 3
+  16 10 11 2 3 3
+  17 10 12 1 3 3
+  18 18 19 1 3 3
+  19 18 21 1 3 3
+  20 18 23 1 3 3
+  21 18 32 1 3 3
+  22 19 20 2 3 3
+  23 22 32 1 3 3
+  24 23 24 1 3 3
+  25 23 25 1 3 3
+  26 23 26 1 3 3
+  27 24 27 1 3 3
+  28 25 28 1 3 3
+  29 25 29 1 3 3
+  30 25 30 1 3 3
+  31 31 32 1 3 3
+  32 32 33 1 1 1
+  :::
+ } 
+ combgen_build[1] { 
+  i_combgen_growth
+  i_combgen_growth_node
+  s_combgen_from_growname
+  s_combgen_to_growname
+  s_combgen_attach_name
+  s_combgen_fragment_name
+  s_combgen_fraglib_name
+  s_combgen_baselib_name
+  :::
+  1 1 1 1f  1t  1  Thr(T)  peptide-reagent-preparation  peptide-reagent-preparation 
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_combgen_index
+ i_combgen_index_track
+ s_combgen_comp_vec
+ s_combgen_comp_vec_track
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ s_st_Chirality_1
+ s_st_Chirality_2
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ "E; [Trp(W)]" 
+  20
+  20
+  20 
+  20 
+  glu-dipeptide-enumeration-tang.mae 
+  20
+  37012
+  2_S_1_3_8_6 
+  18_S_42_19_23_21 
+  0
+  OPLS_2005 
+  -15.9968984683044
+  1
+  "E; [Trp(W)]-1" 
+  2
+ m_depend[4] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_combgen_index 
+  2 10 s_combgen_comp_vec 
+  3 10 s_st_Chirality_1 
+  4 10 s_st_Chirality_2 
+  :::
+ } 
+ m_atom[43] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 0.810970 1.200384 -1.245724 2 E A 38 0.13500 0.13500 "GLU " " N  " "  1f" 7 1 3 1 2E2EFF  "N4"  <> <> <>
+  2 3 1.719468 0.474030 -0.326809 2 E A 24 0.06250 0.06250 "GLU " " CA " "    " 6 0 3 1 808080  "C5"  1 <> <>
+  3 2 2.473355 -0.558716 -1.179242 2 E A 24 0.44500 0.44500 "GLU " " C  " "    " 6 0 3 1 808080  "C6"  <> <> <>
+  4 15 3.689216 -0.349342 -1.380855 2 E A 70 -0.72250 -0.72250 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  <> <> <>
+  5 44 1.361936 1.472298 -2.047258 2 E A 21 0.31000 0.31000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  <>  10.003    0.483 
+  6 41 2.443245 1.182810 0.083349 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  7 18 1.818267 -1.513792 -1.654658 2 E A 70 -0.72250 -0.72250 "GLU " "    " "    " 8 -1 3 1 FF2E2E  "O12"  <>   2.526    0.460 
+  8 3 0.951704 -0.193565 0.845559 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  9 3 1.839787 -0.953197 1.853356 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  10 2 1.107685 -1.339670 3.144200 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  11 15 1.817324 -1.754548 4.085433 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  <> <> <>
+  12 18 -0.137341 -1.213625 3.181165 2 E A 70 -0.80000 -0.80000 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  <>   4.549    0.220 
+  13 41 0.424271 0.583350 1.397101 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  14 41 0.180180 -0.862591 0.460111 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  15 41 2.242750 -1.859344 1.400229 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  16 41 2.694227 -0.332725 2.126419 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  17 44 0.104177 0.550815 -1.558982 2 E A 21 0.31000 0.31000 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  <>  10.003    0.483 
+  18 3 -1.246393 2.212651 -0.265684 3 W A 24 0.25000 0.25000 "TRP " " CA " "    " 6 0 3 1 696969  "C5"  1 <> <>
+  19 2 0.209141 2.342679 -0.730237 3 W A 24 0.62250 0.62250 "TRP " " C  " "rpc1" 6 0 3 1 696969  "C6"  <> <> <>
+  20 15 0.808290 3.414763 -0.659044 3 W A 70 -0.50000 -0.50000 "TRP " " O  " "    " 8 0 3 1 FF2F2F  "O7"  <> <> <>
+  21 41 -1.523684 1.157506 -0.283650 3 W A 21 0.06000 0.06000 "TRP " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  22 44 -0.797282 2.104636 1.731590 3 W A 21 0.33000 0.33000 "TRP " " H  " "    " 1 0 3 1 FFFFFF  "H5"  <>   9.184    0.483 
+  23 3 -2.198002 2.982784 -1.201072 3 W A 2 -0.12000 -0.12000 "TRP " " CB " "    " 6 0 3 1 A0A0A0  "C7"  <> <> <>
+  24 2 -3.652391 2.919792 -0.836865 3 W A 2 0.07500 0.07500 "TRP " " CG " "    " 6 0 3 1 A0A0A0  "C8"  <> <> <>
+  25 2 -4.396704 3.959636 -0.395789 3 W A 2 -0.11500 -0.11500 "TRP " " CD1" "    " 6 0 3 1 A0A0A0  "C9"  <> <> <>
+  26 2 -4.552471 1.768882 -0.869564 3 W A 2 -0.05500 -0.05500 "TRP " " CD2" "    " 6 0 3 1 A0A0A0  "C10"  <> <> <>
+  27 25 -5.685399 3.534938 -0.149820 3 W A 43 -0.57000 -0.57000 "TRP " " NE1" "    " 7 0 3 1 5757FF  "N11"  <> <> <>
+  28 2 -5.842406 2.192342 -0.424208 3 W A 2 0.13000 0.13000 "TRP " " CE2" "    " 6 0 3 1 A0A0A0  "C12"  <> <> <>
+  29 2 -4.414660 0.406620 -1.229166 3 W A 2 -0.11500 -0.11500 "TRP " " CE3" "    " 6 0 3 1 A0A0A0  "C13"  <> <> <>
+  30 2 -6.935928 1.312624 -0.338707 3 W A 2 -0.11500 -0.11500 "TRP " " CZ2" "    " 6 0 3 1 A0A0A0  "C14"  <> <> <>
+  31 2 -5.504214 -0.485033 -1.148187 3 W A 2 -0.11500 -0.11500 "TRP " " CZ3" "    " 6 0 3 1 A0A0A0  "C15"  <> <> <>
+  32 2 -6.762792 -0.034769 -0.703688 3 W A 2 -0.11500 -0.11500 "TRP " " CH2" "    " 6 0 3 1 A0A0A0  "C16"  <> <> <>
+  33 41 -1.904228 4.033377 -1.238856 3 W A 21 0.06000 0.06000 "TRP " " HB2" "    " 1 0 3 1 FFFFFF  "H17"  <> <> <>
+  34 41 -2.099198 2.606717 -2.220421 3 W A 21 0.06000 0.06000 "TRP " " HB3" "    " 1 0 3 1 FFFFFF  "H18"  <> <> <>
+  35 41 -4.025648 4.964833 -0.257942 3 W A 21 0.11500 0.11500 "TRP " " HD1" "    " 1 0 3 1 FFFFFF  "H19"  <> <> <>
+  36 43 -6.409476 4.154720 0.186226 3 W A 21 0.42000 0.42000 "TRP " " HE1" "    " 1 0 3 1 FFFFFF  "H20"  <>  15.535    1.060 
+  37 41 -3.458112 0.041764 -1.572657 3 W A 21 0.11500 0.11500 "TRP " " HE3" "    " 1 0 3 1 FFFFFF  "H21"  <> <> <>
+  38 41 -7.897608 1.666376 0.002834 3 W A 21 0.11500 0.11500 "TRP " " HZ2" "    " 1 0 3 1 FFFFFF  "H22"  <> <> <>
+  39 41 -5.373870 -1.519882 -1.429145 3 W A 21 0.11500 0.11500 "TRP " " HZ3" "    " 1 0 3 1 FFFFFF  "H23"  <> <> <>
+  40 41 -7.593558 -0.722352 -0.643638 3 W A 21 0.11500 0.11500 "TRP " " HH2" "    " 1 0 3 1 FFFFFF  "H24"  <> <> <>
+  41 44 -1.122813 3.633036 1.205912 3 W A 21 0.33000 0.33000 "TRP " "    " "    " 1 0 3 1 FFFFFF  "H25"  <>   9.184    0.483 
+  42 32 -1.391086 2.661884 1.132976 3 X A 43 -0.30000 -0.30000 "TRP " " N  " "  c1" 7 1 0 1 5757FF  "N27"  <> <> <>
+  43 44 -2.352303 2.554682 1.424750 3 X A 21 0.33000 0.33000 "TRP " "    " "    " 1 0 0 1 FFFFFF  "H28"  <> <> <>
+  :::
+ } 
+ m_bond[44] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 17 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 7 1 3 3
+  10 8 9 1 3 3
+  11 8 13 1 3 3
+  12 8 14 1 3 3
+  13 9 10 1 3 3
+  14 9 15 1 3 3
+  15 9 16 1 3 3
+  16 10 11 2 3 3
+  17 10 12 1 3 3
+  18 18 19 1 3 3
+  19 18 21 1 3 3
+  20 18 23 1 3 3
+  21 18 42 1 3 3
+  22 19 20 2 3 3
+  23 22 42 1 3 3
+  24 23 24 1 3 3
+  25 23 33 1 3 3
+  26 23 34 1 3 3
+  27 24 25 2 3 3
+  28 24 26 1 3 3
+  29 25 27 1 3 3
+  30 25 35 1 3 3
+  31 26 28 2 3 3
+  32 26 29 1 3 3
+  33 27 28 1 3 3
+  34 27 36 1 3 3
+  35 28 30 1 3 3
+  36 29 31 2 3 3
+  37 29 37 1 3 3
+  38 30 32 2 3 3
+  39 30 38 1 3 3
+  40 31 32 1 3 3
+  41 31 39 1 3 3
+  42 32 40 1 3 3
+  43 41 42 1 3 3
+  44 42 43 1 1 1
+  :::
+ } 
+ combgen_build[1] { 
+  i_combgen_growth
+  i_combgen_growth_node
+  s_combgen_from_growname
+  s_combgen_to_growname
+  s_combgen_attach_name
+  s_combgen_fragment_name
+  s_combgen_fraglib_name
+  s_combgen_baselib_name
+  :::
+  1 1 1 1f  1t  1  Trp(W)  peptide-reagent-preparation  peptide-reagent-preparation 
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_combgen_index
+ i_combgen_index_track
+ s_combgen_comp_vec
+ s_combgen_comp_vec_track
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ s_st_Chirality_1
+ s_st_Chirality_2
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ "E; [TYR(Y)]" 
+  21
+  21
+  21 
+  21 
+  glu-dipeptide-enumeration-tang.mae 
+  21
+  37012
+  2_S_1_3_8_6 
+  18_S_39_19_23_21 
+  0
+  OPLS_2005 
+  -10.885682768081
+  1
+  "E; [TYR(Y)]-1" 
+  2
+ m_depend[4] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_combgen_index 
+  2 10 s_combgen_comp_vec 
+  3 10 s_st_Chirality_1 
+  4 10 s_st_Chirality_2 
+  :::
+ } 
+ m_atom[40] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 1.089878 1.209050 0.970482 2 E A 38 0.13500 0.13500 "GLU " " N  " "  1f" 7 1 3 1 2E2EFF  "N4"  <> <> <>
+  2 3 -0.136409 1.797654 0.380332 2 E A 24 0.06250 0.06250 "GLU " " CA " "    " 6 0 3 1 808080  "C5"  1 <> <>
+  3 2 -1.063161 2.152131 1.553689 2 E A 24 0.44500 0.44500 "GLU " " C  " "    " 6 0 3 1 808080  "C6"  <> <> <>
+  4 15 -1.260350 3.366476 1.775387 2 E A 70 -0.72250 -0.72250 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  <> <> <>
+  5 44 1.404273 1.845664 1.688898 2 E A 21 0.31000 0.31000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  <>  10.003    0.483 
+  6 41 0.135585 2.718191 -0.142368 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  7 18 -1.526216 1.210074 2.236146 2 E A 70 -0.72250 -0.72250 "GLU " "    " "    " 8 -1 3 1 FF2E2E  "O12"  <>   2.526    0.460 
+  8 3 -0.823630 0.835170 -0.625278 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  9 3 -2.108662 1.386394 -1.278664 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  10 2 -2.600584 0.554756 -2.470057 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  11 15 -3.590162 1.000428 -3.089143 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  <> <> <>
+  12 18 -1.988251 -0.499765 -2.754051 2 E A 70 -0.80000 -0.80000 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  <>   4.549    0.220 
+  13 41 -0.117375 0.619516 -1.425545 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  14 41 -1.037991 -0.122467 -0.147682 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  15 41 -2.913020 1.446834 -0.544839 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  16 41 -1.931055 2.402588 -1.632657 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  17 44 0.830121 0.340713 1.416005 2 E A 21 0.31000 0.31000 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  <>  10.003    0.483 
+  18 3 2.370410 -0.453219 -0.375022 3 Y A 24 0.25000 0.25000 "TYR " " CA " "    " 6 0 3 1 696969  "C5"  1 <> <>
+  19 2 2.146599 0.989783 0.093861 3 Y A 24 0.62250 0.62250 "TYR " " C  " "rpc1" 6 0 3 1 696969  "C6"  <> <> <>
+  20 15 2.878848 1.904216 -0.281580 3 Y A 70 -0.50000 -0.50000 "TYR " " O  " "    " 8 0 3 1 FF2F2F  "O7"  <> <> <>
+  21 41 1.542874 -1.064131 -0.010284 3 Y A 21 0.06000 0.06000 "TYR " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  22 44 1.456358 -0.200799 -2.192602 3 Y A 21 0.33000 0.33000 "TYR " " H  " "    " 1 0 3 1 FFFFFF  "H5"  <>   9.241    0.483 
+  23 3 3.689705 -1.016391 0.188990 3 Y A 2 -0.00500 -0.00500 "TYR " " CB " "    " 6 0 3 1 A0A0A0  "C7"  <> <> <>
+  24 2 3.886704 -2.502866 -0.050614 3 Y A 2 -0.11500 -0.11500 "TYR " " CG " "    " 6 0 3 1 A0A0A0  "C8"  <> <> <>
+  25 2 3.186554 -3.443127 0.734102 3 Y A 2 -0.11500 -0.11500 "TYR " " CD1" "    " 6 0 3 1 A0A0A0  "C9"  <> <> <>
+  26 2 4.768247 -2.952281 -1.056779 3 Y A 2 -0.11500 -0.11500 "TYR " " CD2" "    " 6 0 3 1 A0A0A0  "C10"  <> <> <>
+  27 2 3.365962 -4.822670 0.514307 3 Y A 2 -0.11500 -0.11500 "TYR " " CE1" "    " 6 0 3 1 A0A0A0  "C11"  <> <> <>
+  28 2 4.948040 -4.331974 -1.275846 3 Y A 2 -0.11500 -0.11500 "TYR " " CE2" "    " 6 0 3 1 A0A0A0  "C12"  <> <> <>
+  29 2 4.247494 -5.268257 -0.490027 3 Y A 2 0.15000 0.15000 "TYR " " CZ " "    " 6 0 3 1 A0A0A0  "C13"  <> <> <>
+  30 16 4.421693 -6.605284 -0.699192 3 Y A 70 -0.58500 -0.58500 "TYR " " OH " "    " 8 0 3 1 FF2F2F  "O14"  <> <> <>
+  31 41 4.539479 -0.470838 -0.225369 3 Y A 21 0.06000 0.06000 "TYR " " HB2" "    " 1 0 3 1 FFFFFF  "H15"  <> <> <>
+  32 41 3.730819 -0.852049 1.267226 3 Y A 21 0.06000 0.06000 "TYR " " HB3" "    " 1 0 3 1 FFFFFF  "H16"  <> <> <>
+  33 41 2.509783 -3.110132 1.507510 3 Y A 21 0.11500 0.11500 "TYR " " HD1" "    " 1 0 3 1 FFFFFF  "H17"  <> <> <>
+  34 41 5.311611 -2.242667 -1.663750 3 Y A 21 0.11500 0.11500 "TYR " " HD2" "    " 1 0 3 1 FFFFFF  "H18"  <> <> <>
+  35 41 2.827608 -5.537943 1.119243 3 Y A 21 0.11500 0.11500 "TYR " " HE1" "    " 1 0 3 1 FFFFFF  "H19"  <> <> <>
+  36 41 5.625775 -4.668615 -2.046928 3 Y A 21 0.11500 0.11500 "TYR " " HE2" "    " 1 0 3 1 FFFFFF  "H20"  <> <> <>
+  37 42 5.043337 -6.800152 -1.383982 3 Y A 21 0.43500 0.43500 "TYR " " HH " "    " 1 0 3 1 FFFFFF  "H21"  <>   9.473    0.640 
+  38 44 3.086323 0.044362 -2.229264 3 Y A 21 0.33000 0.33000 "TYR " "    " "    " 1 0 3 1 FFFFFF  "H22"  <>   9.241    0.483 
+  39 32 2.347880 -0.530153 -1.848690 3 X A 43 -0.30000 -0.30000 "TYR " " N  " "  c1" 7 1 0 1 5757FF  "N24"  <> <> <>
+  40 44 2.482487 -1.488667 -2.137965 3 X A 21 0.33000 0.33000 "TYR " "    " "    " 1 0 0 1 FFFFFF  "H25"  <> <> <>
+  :::
+ } 
+ m_bond[40] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 17 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 7 1 3 3
+  10 8 9 1 3 3
+  11 8 13 1 3 3
+  12 8 14 1 3 3
+  13 9 10 1 3 3
+  14 9 15 1 3 3
+  15 9 16 1 3 3
+  16 10 11 2 3 3
+  17 10 12 1 3 3
+  18 18 19 1 3 3
+  19 18 21 1 3 3
+  20 18 23 1 3 3
+  21 18 39 1 3 3
+  22 19 20 2 3 3
+  23 22 39 1 3 3
+  24 23 24 1 3 3
+  25 23 31 1 3 3
+  26 23 32 1 3 3
+  27 24 25 2 3 3
+  28 24 26 1 3 3
+  29 25 27 1 3 3
+  30 25 33 1 3 3
+  31 26 28 2 3 3
+  32 26 34 1 3 3
+  33 27 29 2 3 3
+  34 27 35 1 3 3
+  35 28 29 1 3 3
+  36 28 36 1 3 3
+  37 29 30 1 3 3
+  38 30 37 1 3 3
+  39 38 39 1 3 3
+  40 39 40 1 1 1
+  :::
+ } 
+ combgen_build[1] { 
+  i_combgen_growth
+  i_combgen_growth_node
+  s_combgen_from_growname
+  s_combgen_to_growname
+  s_combgen_attach_name
+  s_combgen_fragment_name
+  s_combgen_fraglib_name
+  s_combgen_baselib_name
+  :::
+  1 1 1 1f  1t  1  TYR(Y)  peptide-reagent-preparation  peptide-reagent-preparation 
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_combgen_index
+ i_combgen_index_track
+ s_combgen_comp_vec
+ s_combgen_comp_vec_track
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ s_st_Chirality_1
+ s_st_Chirality_2
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_m_ct_format
+ :::
+ "E; [Asp(V)]" 
+  22
+  22
+  22 
+  22 
+  glu-dipeptide-enumeration-tang.mae 
+  22
+  37012
+  2_S_1_3_8_6 
+  18_S_34_19_23_21 
+  0
+  OPLS_2005 
+  -6.20985735546993
+  1
+  "E; [Asp(V)]-1" 
+  2
+ m_depend[4] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_combgen_index 
+  2 10 s_combgen_comp_vec 
+  3 10 s_st_Chirality_1 
+  4 10 s_st_Chirality_2 
+  :::
+ } 
+ m_atom[35] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 0.094174 0.112292 0.425824 2 E A 38 0.13500 0.13500 "GLU " " N  " "  1f" 7 1 3 1 2E2EFF  "N4"  <> <> <>
+  2 3 -0.585696 1.403358 0.161367 2 E A 24 0.06250 0.06250 "GLU " " CA " "    " 6 0 3 1 808080  "C5"  1 <> <>
+  3 2 -2.038345 1.225032 0.631847 2 E A 24 0.44500 0.44500 "GLU " " C  " "    " 6 0 3 1 808080  "C6"  <> <> <>
+  4 15 -2.381851 1.846231 1.661075 2 E A 70 -0.72250 -0.72250 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  <> <> <>
+  5 44 -0.166770 -0.154106 1.364009 2 E A 21 0.31000 0.31000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  <>  10.003    0.483 
+  6 41 -0.122438 2.186277 0.766508 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  7 18 -2.766785 0.430528 -0.005170 2 E A 70 -0.72250 -0.72250 "GLU " "    " "    " 8 -1 3 1 FF2E2E  "O12"  <>   2.526    0.460 
+  8 3 -0.505274 1.805944 -1.334332 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  9 3 -1.175535 3.154893 -1.672444 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  10 2 -0.913090 3.631954 -3.105864 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  <> <> <>
+  11 15 -1.226817 4.813704 -3.366439 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  <> <> <>
+  12 18 -0.411448 2.822847 -3.918569 2 E A 70 -0.80000 -0.80000 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  <>   4.549    0.220 
+  13 41 0.545252 1.876099 -1.618249 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  14 41 -0.932703 1.018886 -1.958175 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  15 41 -2.254598 3.091613 -1.529125 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  16 41 -0.813134 3.923546 -0.988706 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  <> <> <>
+  17 44 -0.299458 -0.565018 -0.211452 2 E A 21 0.31000 0.31000 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  <>  10.003    0.483 
+  18 3 2.126986 -1.292287 0.041570 3 V A 24 0.25000 0.25000 "VAL " " CA " "    " 6 0 3 1 696969  "C5"  1 <> <>
+  19 2 1.486505 0.073303 0.339141 3 V A 24 0.62250 0.62250 "VAL " " C  " "rpc1" 6 0 3 1 696969  "C6"  <> <> <>
+  20 15 2.194763 1.059413 0.540468 3 V A 70 -0.50000 -0.50000 "VAL " " O  " "    " 8 0 3 1 FF2F2F  "O7"  <> <> <>
+  21 41 3.189393 -1.116588 -0.135486 3 V A 21 0.06000 0.06000 "VAL " " HA " "    " 1 0 3 0 FFFFFF  "H15"  <> <> <>
+  22 44 2.481020 -1.669205 2.023716 3 V A 21 0.33000 0.33000 "VAL " " H  " "    " 1 0 3 1 FFFFFF  "H5"  <>   9.940    0.860 
+  23 3 1.547934 -2.009193 -1.212357 3 V A 2 -0.06000 -0.06000 "VAL " " CB " "    " 6 0 3 1 A0A0A0  "C7"  <> <> <>
+  24 3 1.707550 -1.178044 -2.500372 3 V A 2 -0.18000 -0.18000 "VAL " " CG1" "    " 6 0 3 1 A0A0A0  "C8"  <> <> <>
+  25 3 2.180068 -3.397830 -1.428395 3 V A 2 -0.18000 -0.18000 "VAL " " CG2" "    " 6 0 3 1 A0A0A0  "C9"  <> <> <>
+  26 41 0.479627 -2.171100 -1.059743 3 V A 21 0.06000 0.06000 "VAL " " HB " "    " 1 0 3 1 FFFFFF  "H10"  <> <> <>
+  27 41 2.756707 -0.961969 -2.704745 3 V A 21 0.06000 0.06000 "VAL " "HG11" "    " 1 0 3 1 FFFFFF  "H11"  <> <> <>
+  28 41 1.307791 -1.711994 -3.362969 3 V A 21 0.06000 0.06000 "VAL " "HG12" "    " 1 0 3 1 FFFFFF  "H12"  <> <> <>
+  29 41 1.178492 -0.228619 -2.448495 3 V A 21 0.06000 0.06000 "VAL " "HG13" "    " 1 0 3 1 FFFFFF  "H13"  <> <> <>
+  30 41 3.261173 -3.326009 -1.553130 3 V A 21 0.06000 0.06000 "VAL " "HG21" "    " 1 0 3 1 FFFFFF  "H14"  <> <> <>
+  31 41 1.983256 -4.071869 -0.594704 3 V A 21 0.06000 0.06000 "VAL " "HG22" "    " 1 0 3 1 FFFFFF  "H15"  <> <> <>
+  32 41 1.777418 -3.876434 -2.321706 3 V A 21 0.06000 0.06000 "VAL " "HG23" "    " 1 0 3 1 FFFFFF  "H16"  <> <> <>
+  33 44 1.085558 -2.349274 1.461631 3 V A 21 0.33000 0.33000 "VAL " "    " "    " 1 0 3 1 FFFFFF  "H17"  <>   9.940    0.860 
+  34 32 2.050487 -2.145886 1.243647 3 X A 43 -0.30000 -0.30000 "VAL " " N  " "  c1" 7 1 0 1 5757FF  "N19"  <> <> <>
+  35 44 2.543024 -3.010754 1.070283 3 X A 21 0.33000 0.33000 "VAL " "    " "    " 1 0 0 1 FFFFFF  "H20"  <> <> <>
+  :::
+ } 
+ m_bond[34] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 17 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 7 1 3 3
+  10 8 9 1 3 3
+  11 8 13 1 3 3
+  12 8 14 1 3 3
+  13 9 10 1 3 3
+  14 9 15 1 3 3
+  15 9 16 1 3 3
+  16 10 11 2 3 3
+  17 10 12 1 3 3
+  18 18 19 1 3 3
+  19 18 21 1 3 3
+  20 18 23 1 3 3
+  21 18 34 1 3 3
+  22 19 20 2 3 3
+  23 22 34 1 3 3
+  24 23 24 1 3 3
+  25 23 25 1 3 3
+  26 23 26 1 3 3
+  27 24 27 1 3 3
+  28 24 28 1 3 3
+  29 24 29 1 3 3
+  30 25 30 1 3 3
+  31 25 31 1 3 3
+  32 25 32 1 3 3
+  33 33 34 1 3 3
+  34 34 35 1 1 1
+  :::
+ } 
+ combgen_build[1] { 
+  i_combgen_growth
+  i_combgen_growth_node
+  s_combgen_from_growname
+  s_combgen_to_growname
+  s_combgen_attach_name
+  s_combgen_fragment_name
+  s_combgen_fraglib_name
+  s_combgen_baselib_name
+  :::
+  1 1 1 1f  1t  1  Asp(V)  peptide-reagent-preparation  peptide-reagent-preparation 
+  :::
+ } 
+} 
+

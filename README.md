@@ -1,17 +1,82 @@
 # Peptide Virtual Screening Manual
 
 ## Introduction
-Blah
+This is a guide and summary of the work I (Bryan Crampton 17') did, with
+direction from Professor Spaller, from October 2016 to June 2017.
+
+The work is an extension of the that done in
+[Chemically Modified Peptide Scaffolds Target the CFTR-Associated Ligand PDZ Domain](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0103650).
+Their study demonstrated the potential of developing novel CAL-PDZ peptide
+inhibitors by coupling organic acids to a Lysine amino acid inserted into
+varying positions of the
+[iCAL36](http://onlinelibrary.wiley.com/doi/10.1002/anie.201005575/full) peptide
+sequence: ANSRWPTSII. It was determined that the P(-1) residue––counting from
+the right, starting at P(0)––tolerated these modifications best. In fact, every
+acid modification coupled to Lysine at the P(-1) position demonstrated a greater
+binding affinity to CAL-PDZ than iCAL36 itself. These peptides were
+ANSRWPTS[Ac-K]I, ANSRWPTS[BB-K]I, ANSRWPTS[FB-K]I, and ANSRWPTS[Tfa-K]I.
+
+Based on this proof of concept, my project aimed to take the screening process
+for these modified peptides *in silico* due to the time consuming and costly
+process of synthesizing and purifying peptides, as well as running binding
+assays. Additionally, these are not standard peptides and require a [modified
+synthesis procedure](LINK TO MY PROTOCOL). The protocol which I used to
+virtually screen these modified peptides is described below.
+
+I ended up using the Schrödinger
+[Small-Molecule Drug Discovery Suite](https://www.schrodinger.com/suites/small-molecule-drug-discovery-suite)
+for this process due to it's comprehensive capability to manipulate the
+peptides, as well as run docking and solvation simulation models. The process
+for Glide SP-PEP docking, followed by Prime MM-GBSA simulation was taken from
+[Improved Docking of Polypeptides with Glide](http://pubs.acs.org/doi/abs/10.1021/ci400128m)
+which demonstrated its accuracy compared to competitors––58% success rate with
+docked poses having a RMSD ≤ 2.0 Å compared to the crystal structure.
+This software is commercial and requires a license to use. During my work, I had
+near unlimited access to jobs through a trial that has expired, however the
+[Norris Cotten Cancer](http://cancer.dartmouth.edu/researchers.html) recently
+purchased a limited license.
+
+The primary other software considered for use
+was [Rosetta's](https://www.rosettacommons.org)
+[FlexPepDock](https://www.rosettacommons.org/docs/latest/application_documentation/docking/flex-pep-dock)
+–– an open source alternative. It excels at determining correct docked poses
+of peptides by sequence. In our case, however, we know the general docked
+conformation of the iCAL36 derivatives which vary only in the region of
+modification. Essentially, we want to keep most of the peptide backbone
+reasonably fixed and only allow the varied region to move freely in space to
+identify the lowest-energy pose. This is not FlexPepDock's strength, but can
+be easily achieved through Shcödinger's Glide. Whether or not this would have
+been possible to achieve with FlexPepDock was not investigated Assumedly it
+could be with enough work, given that the software is open source.
 
 ## Schrödinger Software Setup
-Install fro [BLAH]
+### Installation
+Create an account with [Schrödinger](https://www.schrodinger.com) and download
+the Small-Molecule-Drug-Discovery-Suite for your OS
+[here](https://www.schrodinger.com/downloads/releases). Follow the installation
+instructions included in the download. Generally it just requires run
+`./INSTALL` from the unarchived download folder. It is assumed that this is
+being run on a unix-based OS (macOS or linux), but everything should be
+relatively similar on Windows. Wherever you decide to install the software
+(default is `~/schrodinger/suites2017-1/`), please add it to your `~/.bashrc`
+or `~/.zshrc` so that `$SCHRODINGER` can be accessed anywhere in terminal. This
+can be acheived by appending the following line:
+```bash
+export SCHRODINGER="/opt/schrodinger/suites2017-1/"
+```
 
-Preparation jobs are run through the **maestro** visual interface. They
-could all just as easily be run through command line, however it is much
-easier to run them visually––especially since the enumeration step requires
-visual selection of attachment atoms anyway. The command line equivalents
-for each job can be accessed in the job's logs via the **Job Monitor** utility
-located in the **Jobs** tab in the upper right hand corner of the **maestro**
+### Execution Method
+#### [Maestro](https://www.schrodinger.com/maestro)
+In this process, it will be explained how to run all jobs via the visual
+interface. This can be accessed via your Applications folder (macOS) or by
+running `$SCHRODINGER/maestro` in terminal.
+
+#### Bash Execution
+All jobs that are run can easily be executed via command line, however it is
+much easier to run them visually––especially since the library enumeration step
+requires visual selection of attachment atoms anyway.
+  Note: The command line equivalents for each job can be accessed in the job's logs via the **Job Monitor** utility
+  located in the **Jobs** tab in the upper right hand corner of the **maestro**
 interface.
 
 All jobs can be accessed from the **Tasks** tab in the upper right hand corner
@@ -115,8 +180,55 @@ to be docked into a single file (select the group and right click ––> `Expor
 
 
 ## Google Cloud Engine and VPN Setup (optional)
-This is really only needed for the screening part, preparation and library
-enumeration jobs take reasonable amounts of time on a normal computer.
+### Usage
+Use of Google Cloud––specifically Google Compute Engine (GCE) is really only
+necessary for the screening part––Glide docking and Prime MMGBSA simulation.
+Preparation and library enumeration jobs take reasonable amounts of time on a
+normal computer.
+
+### Creation and Setup Automation
+Under the `Google Cloud` directory, there are various scripts to automate the
+creation and setup of a number of GCE instances. They are all rather simple,
+and simply demonstrate the ability to automate these task with relative ease.
+They utilize basic bash commands as well as the gcloud sdk, which must be
+[installed](https://cloud.google.com/sdk/downloads). The
+[gcloud reference](https://cloud.google.com/sdk/gcloud/reference/)
+provides detailed explanations of all parameters for these commands. The scripts
+are documented and can be investigated as needed. The general protocol to run
+these scripts is outlined below. It is assumed all commands are executed within
+the `Google Cloud` directory.
+
+#### Requirements
+1. A local installation of the [Schrödinger Software Setup](Schrödinger-Software-Setup)
+1. A local installation of the [gcloud SDK](https://cloud.google.com/sdk/downloads)
+initialized with an active Google Cloud account (run `gloud init` and sign in)
+1. A custom `researcher-5-9-17` image on your Google Cloud Console with the
+Schrödinger software pre-installed. A `researcher-5-9-17.raw.gz` file should be
+provided. This can be uploaded to Google Cloud storage bucket. An image on GCE
+can then be created using this bucket URL. Details on this process can be found
+[here](https://cloud.google.com/compute/docs/images/create-delete-deprecate-private-images)
+or within `image-disk.sh`. This image can be further customized, but has latest
+version of Schrödinger, a vncserver library, and other various dependencies
+installed: python 2.7, Chrome Remote Desktop, etc. It is a derivative of Ubuntu.
+
+#### Instance Creation
+1. Customize the `zones`, `cpu_counts`, and `memory_counts` variables in
+`create-instances.sh`. These were maxed out to the quotas at the time (for my
+GCE account). CPU quotas are described [here](https://cloud.google.com/compute/quotas)
+and custom machine types (maximum memory per CPU ratio) is outlined [here](https://cloud.google.com/compute/docs/instances/creating-instance-with-custom-machine-type).
+  - **Side Note**: I have always used the maximum amount of memory per CPU that
+  is possible. This is because the Glide docking jobs are extremely memory
+  intensive. I additionally create virtual swap-memory––preventing crashing when
+  the instances run out of memory (which happens often). That being said, the
+  Prime MMGBSA simulations are not very memory intensive and it would probably
+  be cheaper to use lower-memory instances for these jobs.
+1. Run `./create-instances.sh` and watch to ensure no errors occur
+1. Verify the instances have been created on [Google Cloud Console](https://console.cloud.google.com/compute/instances)
+
+#### Instance Setup
+1. Ensure the machine you are currently on has access to the network in which
+the Schödinger license server is located (either physical or via VPN).
+1.
 
 Run this job on a computer within a network which has access to the Schrödinger
 license server. Replace `LICENSE_SERVER_URL` in the line below with the provider
@@ -161,3 +273,8 @@ a panel which allows enabling of distributed jobs.
 control panel on the top right of Maestro.
 
 #### Prime MMGBSA Simulation
+
+
+## References
+[@1]: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0103650 "Chemically Modified Peptide Scaffolds Target the CFTR-Associated Ligand PDZ Domain"
+[@2]: http://onlinelibrary.wiley.com/doi/10.1002/anie.201005575/full "Engineering Peptide Inhibitors To Overcome PDZ Binding Promiscuity"

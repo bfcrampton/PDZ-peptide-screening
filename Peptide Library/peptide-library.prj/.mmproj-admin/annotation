@@ -1,0 +1,419 @@
+--- This project was created on Tue May  9 17:15:33 2017
+
+-----
+Tue May  9 17:49:17 2017
+Starting ReagentPrep
+Job name: peptide-reagent-preparation
+Job ID: Bryans-Retina-Macbook-0-5912395c
+Host: localhost:4
+CPUs: 4
+Using selected entries
+Generate ionization at pH: 7
+Generate up to 10 stereoisomers
+Generate 1 conformer
+Generate tautomers
+-----
+Tue May  9 18:00:12 2017
+Starting ReagentPrep
+Job name: peptide-reagent-preparation
+Job ID: Bryans-Retina-Macbook-0-59123bec
+Host: localhost:4
+CPUs: 4
+Using selected entries
+Generate ionization at pH: 7
+Generate up to 10 stereoisomers
+Generate 1 conformer
+Generate tautomers
+-----
+Tue May  9 18:04:43 2017
+Starting CombGen
+Job name: ala-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-59123cfb
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:05:47 2017
+Starting CombGen
+Job name: arg-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-59123d3b
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:08:08 2017
+Starting CombGen
+Job name: asn-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-59123dc7
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:08:39 2017
+Starting CombGen
+Job name: asp-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-59123de7
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:09:33 2017
+Starting CombGen
+Job name: cys-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-59123e1d
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:10:31 2017
+Starting CombGen
+Job name: gln-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-59123e56
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:14:26 2017
+Starting ReagentPrep
+Job name: peptide-reagent-preparation
+Job ID: Bryans-Retina-Macbook-0-59123f41
+Host: localhost:4
+CPUs: 4
+Using selected entries
+Generate ionization at pH: 7
+Generate up to 10 stereoisomers
+Generate 1 conformer
+Generate tautomers
+-----
+Tue May  9 18:31:25 2017
+Starting CombGen
+Job name: ala-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-5912433d
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:32:07 2017
+Starting CombGen
+Job name: arg-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-59124367
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:32:40 2017
+Starting CombGen
+Job name: asn-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-59124388
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:33:11 2017
+Starting CombGen
+Job name: asp-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-591243a7
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:33:39 2017
+Starting CombGen
+Job name: cys-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-591243c2
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:34:09 2017
+Starting CombGen
+Job name: gln-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-591243e0
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:35:29 2017
+Starting CombGen
+Job name: glu-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-59124431
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:35:55 2017
+Starting CombGen
+Job name: gly-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-5912444a
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:40:13 2017
+Starting CombGen
+Job name: his1-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-5912454d
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:40:46 2017
+Starting CombGen
+Job name: his2-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-5912456e
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:41:12 2017
+Starting CombGen
+Job name: his3-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-1-59124587
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:42:02 2017
+Starting CombGen
+Job name: ile-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-591245ba
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:42:29 2017
+Starting CombGen
+Job name: leu-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-591245d5
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:43:09 2017
+Starting CombGen
+Job name: lys-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-591245fc
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:43:35 2017
+Starting CombGen
+Job name: met-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-59124616
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:44:03 2017
+Starting CombGen
+Job name: Phe-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-59124633
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:45:09 2017
+Starting CombGen
+Job name: phe-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-59124674
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:45:41 2017
+Starting CombGen
+Job name: pro-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-59124695
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:46:06 2017
+Starting CombGen
+Job name: ser-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-591246ae
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:46:28 2017
+Starting CombGen
+Job name: thr-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-591246c3
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:46:54 2017
+Starting CombGen
+Job name: trp-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-591246dd
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:47:40 2017
+Starting CombGen
+Job name: tyr-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-5912470b
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 18:48:08 2017
+Starting CombGen
+Job name: val-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-59124728
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 19:40:05 2017
+Starting ReagentPrep
+Job name: fmoc-peptide-reagent-preparation
+Job ID: Bryans-Retina-Macbook-0-59125355
+Host: localhost:4
+CPUs: 4
+Using selected entries
+Generate ionization at pH: 7
+Generate up to 10 stereoisomers
+Generate 1 conformer
+Generate tautomers
+-----
+Tue May  9 19:45:08 2017
+Starting ReagentPrep
+Job name: fmoc-peptide-reagent-preparation
+Job ID: Bryans-Retina-Macbook-0-59125483
+Host: localhost:4
+CPUs: 4
+Using selected entries
+Generate ionization at pH: 7
+Generate up to 10 stereoisomers
+Generate 1 conformer
+Generate tautomers
+-----
+Tue May  9 19:52:16 2017
+Starting CombGen
+Job name: ala-fmoc-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-59125630
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 19:52:45 2017
+Starting CombGen
+Job name: arg-fmoc-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-5912564d
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 19:53:15 2017
+Starting CombGen
+Job name: asn-fmoc-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-5912566b
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 19:53:38 2017
+Starting CombGen
+Job name: asp-fmoc-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-59125681
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 19:54:00 2017
+Starting CombGen
+Job name: cys-fmoc-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-59125697
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 19:54:23 2017
+Starting CombGen
+Job name: gln-fmoc-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-591256af
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 19:54:41 2017
+Starting CombGen
+Job name: glu-fmoc-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-1-591256c0
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 19:55:10 2017
+Starting CombGen
+Job name: gly-fmoc-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-591256dd
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 19:55:42 2017
+Starting CombGen
+Job name: his1-fmoc-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-591256fe
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 19:56:06 2017
+Starting CombGen
+Job name: his2-fmoc-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-59125715
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 19:56:30 2017
+Starting CombGen
+Job name: his3-fmoc-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-5912572d
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 19:56:57 2017
+Starting CombGen
+Job name: ile-fmoc-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-59125748
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 19:57:19 2017
+Starting CombGen
+Job name: leu-fmoc-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-5912575f
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 19:57:45 2017
+Starting CombGen
+Job name: lys-fmoc-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-59125778
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 19:58:06 2017
+Starting CombGen
+Job name: met-fmoc-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-5912578d
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 19:58:26 2017
+Starting CombGen
+Job name: phe-fmoc-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-591257a2
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 20:01:45 2017
+Starting CombGen
+Job name: pro-fmoc-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-59125868
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 20:02:05 2017
+Starting CombGen
+Job name: ser-fmoc-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-5912587c
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 20:02:24 2017
+Starting CombGen
+Job name: thr-fmoc-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-5912588f
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 20:02:56 2017
+Starting CombGen
+Job name: trp-fmoc-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-591258af
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 20:03:57 2017
+Starting CombGen
+Job name: tyr-fmoc-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-591258ed
+Untangling is on
+Host: localhost:4
+-----
+Tue May  9 20:04:28 2017
+Starting CombGen
+Job name: val-fmoc-dipeptide-enumeration
+Job ID: Bryans-Retina-Macbook-0-5912590b
+Untangling is on
+Host: localhost:4

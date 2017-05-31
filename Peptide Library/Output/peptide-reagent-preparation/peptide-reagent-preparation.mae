@@ -1,0 +1,6742 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_ionizer_Ion_state_n
+ i_ionizer_Tot_Q
+ s_ionizer_Ion_centers
+ s_ionizer_Ion_types
+ s_ionizer_Ion_ctrs_in
+ r_ionizer_Ionization_penalty
+ r_ionizer_Ionization_penalty_charging
+ r_ionizer_Ionization_penalty_neutral
+ s_lp_tautomerizer_action
+ r_mmod_Potential_Energy-OPLS-2005
+ b_mmod_Minimization_Converged-OPLS-2005
+ r_mmod_RMS_Derivative-OPLS-2005
+ i_mmod_Times_Found-OPLS-2005
+ r_mmod_Relative_Potential_Energy-OPLS-2005
+ b_mmod_Chiralities_Consistent-OPLS-2005
+ i_mmod_Conformation-OPLS-2005
+ i_mmod_Serial_Number-OPLS-2005
+ i_qp_#stars
+ i_qp_#amine
+ i_qp_#amidine
+ i_qp_#acid
+ i_qp_#amide
+ i_qp_#rotor
+ i_qp_#rtvFG
+ i_qp_CNS
+ r_qp_mol_MW
+ r_qp_dipole
+ r_qp_SASA
+ r_qp_FOSA
+ r_qp_FISA
+ r_qp_PISA
+ r_qp_WPSA
+ r_qp_volume
+ r_qp_donorHB
+ r_qp_accptHB
+ r_qp_dip^2/V
+ r_qp_ACxDN^.5/SA
+ r_qp_glob
+ r_qp_QPpolrz
+ r_qp_QPlogPC16
+ r_qp_QPlogPoct
+ r_qp_QPlogPw
+ r_qp_QPlogPo/w
+ r_qp_QPlogS
+ r_qp_CIQPlogS
+ r_qp_QPlogHERG
+ r_qp_QPPCaco
+ r_qp_QPlogBB
+ r_qp_QPPMDCK
+ r_qp_QPlogKp
+ r_qp_IP(eV)
+ r_qp_EA(eV)
+ i_qp_#metab
+ r_qp_QPlogKhsa
+ i_qp_HumanOralAbsorption
+ r_qp_PercentHumanOralAbsorption
+ r_qp_SAfluorine
+ r_qp_SAamideO
+ r_qp_PSA
+ i_qp_#NandO
+ i_qp_RuleOfFive
+ i_qp_RuleOfThree
+ i_qp_#ringatoms
+ i_qp_#in34
+ i_qp_#in56
+ i_qp_#noncon
+ i_qp_#nonHatm
+ r_qp_Jm
+ i_chemfeatures_acceptor_atom
+ i_chemfeatures_acceptor_dist
+ i_chemfeatures_donor_atom
+ i_chemfeatures_donor_dist
+ i_chemfeatures_positive_atom
+ i_chemfeatures_positive_dist
+ i_chemfeatures_negative_atom
+ i_chemfeatures_negative_dist
+ i_chemfeatures_aromatic_atom
+ i_chemfeatures_aromatic_dist
+ i_chemfeatures_hydrophobe_atom
+ i_chemfeatures_hydrophobe_dist
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_m_subgroup_title
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ Ala(A) 
+  148 
+  Structure2 
+  37012
+  1
+  2
+  1_S_13_2_4_5 
+  0
+  OPLS3 
+  2.50476898825495
+  1
+  Ala(A)-1 
+  1
+  1
+  13 
+  N5 
+  1 
+    0.0002 
+    0.0002 
+    0.0000 
+  " #1" 
+  4.20780277252197
+  1
+  0.0399455167353153
+  1
+  0
+  1
+  1
+  1
+  7
+  1
+  0
+  0
+  0
+  2
+  1
+  1
+      87.121 
+       0.000 
+     283.393 
+     187.406 
+      95.987 
+       0.000 
+       0.000 
+     412.287 
+       2.000 
+       3.000 
+     0.0000000 
+     0.0149709 
+     0.9453121 
+       9.062 
+       3.294 
+       6.866 
+       6.497 
+      -0.603 
+       0.835 
+       0.734 
+      -3.143 
+     303.776 
+       0.125 
+     150.984 
+      -5.159 
+       0.000 
+       0.000 
+  3
+      -0.793 
+  2
+      67.847 
+       0.000 
+       0.000 
+      52.625 
+  2
+  0
+  0
+  0
+  0
+  0
+  0
+  6
+  4.13153635642985
+  3
+  2
+  9
+  4
+  13
+  3
+  0
+  0
+  0
+  0
+  0
+  0
+  "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation" 
+  peptide-reagent-preparation.bld 
+  1
+  peptide-reagent-preparation 
+  peptide-reagent-preparation 
+  0
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 s_st_Chirality_1 
+  3 10 i_ionizer_Ion_state_n 
+  4 10 i_ionizer_Tot_Q 
+  5 10 s_ionizer_Ion_centers 
+  6 10 s_ionizer_Ion_types 
+  7 10 s_ionizer_Ion_ctrs_in 
+  8 10 r_ionizer_Ionization_penalty 
+  9 10 r_ionizer_Ionization_penalty_charging 
+  10 10 r_ionizer_Ionization_penalty_neutral 
+  11 10 s_lp_tautomerizer_action 
+  12 20 r_mmod_Potential_Energy-OPLS-2005 
+  13 20 b_mmod_Minimization_Converged-OPLS-2005 
+  14 20 r_mmod_RMS_Derivative-OPLS-2005 
+  15 20 i_mmod_Times_Found-OPLS-2005 
+  16 20 r_mmod_Relative_Potential_Energy-OPLS-2005 
+  17 20 b_mmod_Chiralities_Consistent-OPLS-2005 
+  18 20 i_mmod_Conformation-OPLS-2005 
+  19 10 i_mmod_Serial_Number-OPLS-2005 
+  :::
+ } 
+ m_atom[14] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_Hcount
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 1.454259 0.163745 0.020672 2 A A 24 0.25000 0.25000 "ALA " " CA " "    " 6 0 3 1 696969  C5  1 1 <> <>
+  2 2 2.030112 0.862833 -1.216383 2 A A 24 0.52000 0.52000 "ALA " " C  " "rpc1" 6 0 3 1 696969  C6  0 <> <> <>
+  3 15 3.068280 0.472756 -1.746373 2 A A 70 -0.44000 -0.44000 "ALA " " O  " "    " 8 0 3 1 FF2F2F  O7  0 <> <> <>
+  4 3 2.371078 -0.943037 0.571643 2 A A 24 -0.18000 -0.18000 "ALA " " CB " "    " 6 0 3 1 696969  C8  3 <> <> <>
+  5 41 1.330691 0.924884 0.791983 2 A A 21 0.06000 0.06000 "ALA " " HA " "    " 1 0 3 0 FFFFFF  H15  0 <> <> <>
+  6 41 1.955050 -1.380304 1.479858 2 A A 21 0.06000 0.06000 "ALA " " HB1" "    " 1 0 3 0 FFFFFF  H16  0 <> <> <>
+  7 41 2.509108 -1.749662 -0.149883 2 A A 21 0.06000 0.06000 "ALA " " HB2" "    " 1 0 3 0 FFFFFF  H17  0 <> <> <>
+  8 41 3.357129 -0.551063 0.824933 2 A A 21 0.06000 0.06000 "ALA " " HB3" "    " 1 0 3 0 FFFFFF  H18  0 <> <> <>
+  9 44 -0.472941 0.370365 -0.615604 2 A A 21 0.33000 0.33000 "ALA " " H  " "    " 1 0 3 1 FFFFFF  H9  0 <>   9.641    1.474 
+  10 16 1.319744 1.923023 -1.696075 2 X A 70 -0.53000 -0.53000 "ALA " "    " "rpc2" 8 0 3 1 FF2F2F  O12  1 <>   2.362    0.775 
+  11 44 0.196947 -1.086773 -0.996062 2 A A 21 0.33000 0.33000 "ALA " "    " "    " 1 0 3 1 FFFFFF  H11  0 <>   9.641    1.474 
+  12 42 1.726954 2.312094 -2.455608 2 A A 21 0.45000 0.45000 "ALA " "    " "    " 1 0 0 1 FFFFFF  H12  0 <> <> <>
+  13 32 0.118104 -0.377730 -0.281125 2 X A 43 -0.30000 -0.30000 "ALA " " N  " "  c1" 7 1 0 1 5757FF  N13  3 <> <> <>
+  14 44 -0.283536 -0.780310 0.553357 2 X A 21 0.33000 0.33000 "ALA " "    " "    " 1 0 0 1 FFFFFF  H14  0 <> <> <>
+  :::
+ } 
+ m_bond[13] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 4 1 3 3
+  3 1 5 1 3 3
+  4 1 13 1 3 3
+  5 2 3 2 3 3
+  6 2 10 1 3 3
+  7 4 6 1 3 3
+  8 4 7 1 3 3
+  9 4 8 1 3 3
+  10 9 13 1 3 3
+  11 10 12 1 1 1
+  12 11 13 1 3 3
+  13 13 14 1 1 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_epik_Chemistry_Notes
+ i_ionizer_Ion_state_n
+ i_ionizer_Tot_Q
+ s_ionizer_Ion_centers
+ s_ionizer_Ion_types
+ s_ionizer_Ion_ctrs_in
+ r_ionizer_Ionization_penalty
+ r_ionizer_Ionization_penalty_charging
+ r_ionizer_Ionization_penalty_neutral
+ s_lp_tautomerizer_action
+ r_mmod_Potential_Energy-OPLS-2005
+ b_mmod_Minimization_Converged-OPLS-2005
+ r_mmod_RMS_Derivative-OPLS-2005
+ i_mmod_Times_Found-OPLS-2005
+ r_mmod_Relative_Potential_Energy-OPLS-2005
+ b_mmod_Chiralities_Consistent-OPLS-2005
+ i_mmod_Conformation-OPLS-2005
+ i_mmod_Serial_Number-OPLS-2005
+ i_qp_#stars
+ i_qp_#amine
+ i_qp_#amidine
+ i_qp_#acid
+ i_qp_#amide
+ i_qp_#rotor
+ i_qp_#rtvFG
+ i_qp_CNS
+ r_qp_mol_MW
+ r_qp_dipole
+ r_qp_SASA
+ r_qp_FOSA
+ r_qp_FISA
+ r_qp_PISA
+ r_qp_WPSA
+ r_qp_volume
+ r_qp_donorHB
+ r_qp_accptHB
+ r_qp_dip^2/V
+ r_qp_ACxDN^.5/SA
+ r_qp_glob
+ r_qp_QPpolrz
+ r_qp_QPlogPC16
+ r_qp_QPlogPoct
+ r_qp_QPlogPw
+ r_qp_QPlogPo/w
+ r_qp_QPlogS
+ r_qp_CIQPlogS
+ r_qp_QPlogHERG
+ r_qp_QPPCaco
+ r_qp_QPlogBB
+ r_qp_QPPMDCK
+ r_qp_QPlogKp
+ r_qp_IP(eV)
+ r_qp_EA(eV)
+ i_qp_#metab
+ r_qp_QPlogKhsa
+ i_qp_HumanOralAbsorption
+ r_qp_PercentHumanOralAbsorption
+ r_qp_SAfluorine
+ r_qp_SAamideO
+ r_qp_PSA
+ i_qp_#NandO
+ i_qp_RuleOfFive
+ i_qp_RuleOfThree
+ i_qp_#ringatoms
+ i_qp_#in34
+ i_qp_#in56
+ i_qp_#noncon
+ i_qp_#nonHatm
+ r_qp_Jm
+ i_chemfeatures_acceptor_atom
+ i_chemfeatures_acceptor_dist
+ i_chemfeatures_donor_atom
+ i_chemfeatures_donor_dist
+ i_chemfeatures_positive_atom
+ i_chemfeatures_positive_dist
+ i_chemfeatures_negative_atom
+ i_chemfeatures_negative_dist
+ i_chemfeatures_aromatic_atom
+ i_chemfeatures_aromatic_dist
+ i_chemfeatures_hydrophobe_atom
+ i_chemfeatures_hydrophobe_dist
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_m_subgroup_title
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ Arg(R) 
+  149 
+  Structure2 
+  37012
+  1
+  3
+  1_S_25_2_7_4 
+  0
+  OPLS3 
+  18.015720038936
+  1
+  Arg(R)-1 
+  "This compound has an imine and may undergo hydrolysis." 
+  3
+  2
+  25_27 
+  N5_N4 
+  1_14 
+    0.0002 
+    0.0002 
+    0.0000 
+  " #1" 
+  21.7483043670654
+  1
+  0.028387350961566
+  1
+  0
+  1
+  1
+  2
+  0
+  1
+  1
+  0
+  0
+  7
+  1
+  -2
+     172.230 
+       0.000 
+     437.719 
+     201.138 
+     236.581 
+       0.000 
+       0.000 
+     682.871 
+       6.000 
+       5.000 
+     0.0000000 
+     0.0279801 
+     0.8567652 
+      16.680 
+       7.337 
+      16.607 
+      14.550 
+      -1.407 
+       0.078 
+       0.128 
+      -4.576 
+      14.103 
+      -1.609 
+       5.468 
+      -9.333 
+       0.000 
+       0.000 
+  4
+      -0.930 
+  2
+      26.316 
+       0.000 
+       0.000 
+     122.573 
+  5
+  1
+  1
+  0
+  0
+  0
+  0
+  12
+  9.57425575746727e-05
+  12
+  8
+  20
+  9
+  27
+  8
+  0
+  0
+  0
+  0
+  0
+  0
+  "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation" 
+  peptide-reagent-preparation.bld 
+  2
+  peptide-reagent-preparation 
+  peptide-reagent-preparation 
+  0
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 s_st_Chirality_1 
+  3 10 i_ionizer_Ion_state_n 
+  4 10 i_ionizer_Tot_Q 
+  5 10 s_ionizer_Ion_centers 
+  6 10 s_ionizer_Ion_types 
+  7 10 s_ionizer_Ion_ctrs_in 
+  8 10 r_ionizer_Ionization_penalty 
+  9 10 r_ionizer_Ionization_penalty_charging 
+  10 10 r_ionizer_Ionization_penalty_neutral 
+  11 10 s_lp_tautomerizer_action 
+  12 20 r_mmod_Potential_Energy-OPLS-2005 
+  13 20 b_mmod_Minimization_Converged-OPLS-2005 
+  14 20 r_mmod_RMS_Derivative-OPLS-2005 
+  15 20 i_mmod_Times_Found-OPLS-2005 
+  16 20 r_mmod_Relative_Potential_Energy-OPLS-2005 
+  17 20 b_mmod_Chiralities_Consistent-OPLS-2005 
+  18 20 i_mmod_Conformation-OPLS-2005 
+  19 10 i_mmod_Serial_Number-OPLS-2005 
+  :::
+ } 
+ m_atom[28] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_Hcount
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 0.181487 2.074112 -0.880048 2 R A 24 0.25000 0.25000 "ARG " " CA " "    " 6 0 3 1 696969  C5  1 1 <> <>
+  2 2 -1.134291 2.094870 -1.667996 2 R A 24 0.52000 0.52000 "ARG " " C  " "rpc1" 6 0 3 1 696969  C6  0 <> <> <>
+  3 15 -1.844162 1.095161 -1.754136 2 R A 70 -0.44000 -0.44000 "ARG " " O  " "    " 8 0 3 1 FF2F2F  O7  0 <> <> <>
+  4 41 0.957249 2.440417 -1.553743 2 R A 21 0.06000 0.06000 "ARG " " HA " "    " 1 0 3 0 FFFFFF  H15  0 <> <> <>
+  5 44 -0.146030 3.933842 -0.108077 2 R A 21 0.33000 0.33000 "ARG " " H  " "    " 1 0 3 1 FFFFFF  H5  0 <>   9.559    0.483 
+  6 16 -1.473811 3.282841 -2.244211 2 R A 70 -0.53000 -0.53000 "ARG " "    " "rpc2" 8 0 3 1 FF2F2F  O12  1 <>   2.324    0.460 
+  7 3 0.575035 0.657792 -0.398888 2 R A 2 -0.12000 -0.12000 "ARG " " CB " "    " 6 0 3 1 A0A0A0  C7  2 <> <> <>
+  8 3 1.970740 0.581419 0.245679 2 R A 2 -0.05000 -0.05000 "ARG " " CG " "    " 6 0 3 1 A0A0A0  C8  2 <> <> <>
+  9 3 2.351643 -0.851260 0.646251 2 R A 2 0.19000 0.19000 "ARG " " CD " "    " 6 0 3 1 A0A0A0  C9  2 <> <> <>
+  10 25 3.690448 -0.900705 1.250660 2 R A 43 -0.69997 -0.69997 "ARG " " NE " "    " 7 0 3 1 5757FF  N10  1 <> <> <>
+  11 2 4.275646 -1.994902 1.768689 2 R A 2 0.63990 0.63990 "ARG " " CZ " "    " 6 0 3 1 A0A0A0  C11  0 <> <> <>
+  12 25 5.506684 -1.897400 2.286392 2 R A 43 -0.79997 -0.79997 "ARG " " NH1" "    " 7 0 3 1 5757FF  N12  2 <> <> <>
+  13 41 -0.169080 0.285787 0.307601 2 R A 21 0.06000 0.06000 "ARG " " HB2" "    " 1 0 3 1 FFFFFF  H14  0 <> <> <>
+  14 41 0.553889 -0.027368 -1.248314 2 R A 21 0.06000 0.06000 "ARG " " HB3" "    " 1 0 3 1 FFFFFF  H15  0 <> <> <>
+  15 41 2.713432 0.970381 -0.452419 2 R A 21 0.06000 0.06000 "ARG " " HG2" "    " 1 0 3 1 FFFFFF  H16  0 <> <> <>
+  16 41 2.009455 1.221985 1.127422 2 R A 21 0.06000 0.06000 "ARG " " HG3" "    " 1 0 3 1 FFFFFF  H17  0 <> <> <>
+  17 41 1.626930 -1.244637 1.360040 2 R A 21 0.06000 0.06000 "ARG " " HD2" "    " 1 0 3 1 FFFFFF  H18  0 <> <> <>
+  18 41 2.336069 -1.505661 -0.226120 2 R A 21 0.06000 0.06000 "ARG " " HD3" "    " 1 0 3 1 FFFFFF  H19  0 <> <> <>
+  19 43 4.206996 -0.032890 1.256108 2 R A 21 0.44000 0.44000 "ARG " " HE " "    " 1 0 3 1 FFFFFF  H20  0 <>  12.254    0.860 
+  20 43 5.962453 -2.708560 2.679211 2 R A 21 0.46000 0.46000 "ARG " "HH12" "    " 1 0 3 1 FFFFFF  H21  0 <>  14.552    1.650 
+  21 43 5.993354 -1.012577 2.289212 2 R A 21 0.46000 0.46000 "ARG " "HH11" "    " 1 0 3 1 FFFFFF  H22  0 <>  14.552    1.650 
+  22 44 4.101840 -3.997861 2.168175 2 R A 21 0.46000 0.46000 "ARG " "    " "    " 1 0 3 1 FFFFFF  H23  0 <>  11.629    0.860 
+  23 44 -0.622082 2.713051 0.889897 2 R A 21 0.33000 0.33000 "ARG " "    " "    " 1 0 3 1 FFFFFF  H24  0 <>   9.559    0.483 
+  24 42 -2.292024 3.232002 -2.715618 2 R A 21 0.45000 0.45000 "ARG " "    " "    " 1 0 0 1 FFFFFF  H25  0 <> <> <>
+  25 32 0.095232 3.019414 0.248107 2 X A 43 -0.30000 -0.30000 "ARG " " N  " "  c1" 7 1 0 1 5757FF  N26  3 <> <> <>
+  26 44 0.982783 3.067155 0.726816 2 X A 21 0.33000 0.33000 "ARG " "    " "    " 1 0 0 1 FFFFFF  H27  0 <> <> <>
+  27 31 3.652695 -3.182384 1.776997 2 X A 43 -0.79997 -0.79997 "ARG " " NH2" "  c1" 7 1 0 1 5757FF  N27  2 <> <> <>
+  28 44 2.725291 -3.268757 1.387527 2 X A 21 0.46000 0.46000 "ARG " "    " "    " 1 0 0 1 FFFFFF  H28  0 <> <> <>
+  :::
+ } 
+ m_bond[27] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 4 1 3 3
+  3 1 7 1 3 3
+  4 1 25 1 3 3
+  5 2 3 2 3 3
+  6 2 6 1 3 3
+  7 5 25 1 3 3
+  8 6 24 1 1 1
+  9 7 8 1 3 3
+  10 7 13 1 3 3
+  11 7 14 1 3 3
+  12 8 9 1 3 3
+  13 8 15 1 3 3
+  14 8 16 1 3 3
+  15 9 10 1 3 3
+  16 9 17 1 3 3
+  17 9 18 1 3 3
+  18 10 11 1 3 3
+  19 10 19 1 3 3
+  20 11 12 1 3 3
+  21 11 27 2 3 3
+  22 12 20 1 3 3
+  23 12 21 1 3 3
+  24 22 27 1 3 3
+  25 23 25 1 3 3
+  26 25 26 1 1 1
+  27 27 28 1 1 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_ionizer_Ion_state_n
+ i_ionizer_Tot_Q
+ s_ionizer_Ion_centers
+ s_ionizer_Ion_types
+ s_ionizer_Ion_ctrs_in
+ r_ionizer_Ionization_penalty
+ r_ionizer_Ionization_penalty_charging
+ r_ionizer_Ionization_penalty_neutral
+ s_lp_tautomerizer_action
+ r_mmod_Potential_Energy-OPLS-2005
+ b_mmod_Minimization_Converged-OPLS-2005
+ r_mmod_RMS_Derivative-OPLS-2005
+ i_mmod_Times_Found-OPLS-2005
+ r_mmod_Relative_Potential_Energy-OPLS-2005
+ b_mmod_Chiralities_Consistent-OPLS-2005
+ i_mmod_Conformation-OPLS-2005
+ i_mmod_Serial_Number-OPLS-2005
+ i_qp_#stars
+ i_qp_#amine
+ i_qp_#amidine
+ i_qp_#acid
+ i_qp_#amide
+ i_qp_#rotor
+ i_qp_#rtvFG
+ i_qp_CNS
+ r_qp_mol_MW
+ r_qp_dipole
+ r_qp_SASA
+ r_qp_FOSA
+ r_qp_FISA
+ r_qp_PISA
+ r_qp_WPSA
+ r_qp_volume
+ r_qp_donorHB
+ r_qp_accptHB
+ r_qp_dip^2/V
+ r_qp_ACxDN^.5/SA
+ r_qp_glob
+ r_qp_QPpolrz
+ r_qp_QPlogPC16
+ r_qp_QPlogPoct
+ r_qp_QPlogPw
+ r_qp_QPlogPo/w
+ r_qp_QPlogS
+ r_qp_CIQPlogS
+ r_qp_QPlogHERG
+ r_qp_QPPCaco
+ r_qp_QPlogBB
+ r_qp_QPPMDCK
+ r_qp_QPlogKp
+ r_qp_IP(eV)
+ r_qp_EA(eV)
+ i_qp_#metab
+ r_qp_QPlogKhsa
+ i_qp_HumanOralAbsorption
+ r_qp_PercentHumanOralAbsorption
+ r_qp_SAfluorine
+ r_qp_SAamideO
+ r_qp_PSA
+ i_qp_#NandO
+ i_qp_RuleOfFive
+ i_qp_RuleOfThree
+ i_qp_#ringatoms
+ i_qp_#in34
+ i_qp_#in56
+ i_qp_#noncon
+ i_qp_#nonHatm
+ r_qp_Jm
+ i_chemfeatures_acceptor_atom
+ i_chemfeatures_acceptor_dist
+ i_chemfeatures_donor_atom
+ i_chemfeatures_donor_dist
+ i_chemfeatures_positive_atom
+ i_chemfeatures_positive_dist
+ i_chemfeatures_negative_atom
+ i_chemfeatures_negative_dist
+ i_chemfeatures_aromatic_atom
+ i_chemfeatures_aromatic_dist
+ i_chemfeatures_hydrophobe_atom
+ i_chemfeatures_hydrophobe_dist
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_m_subgroup_title
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ Asn(N) 
+  150 
+  Structure2 
+  37012
+  1
+  2
+  1_S_17_2_7_4 
+  0
+  OPLS3 
+  7.09886455168414
+  1
+  Asn(N)-1 
+  1
+  1
+  17 
+  N5 
+  1 
+    0.0002 
+    0.0002 
+    0.0000 
+  " #1" 
+  -23.8091564178467
+  1
+  0.000218760265852325
+  1
+  0
+  1
+  1
+  3
+  2
+  1
+  0
+  0
+  1
+  4
+  1
+  -1
+     130.146 
+       0.000 
+     331.201 
+     133.641 
+     197.561 
+       0.000 
+       0.000 
+     503.861 
+       3.000 
+       4.500 
+     0.0000000 
+     0.0235332 
+     0.9245842 
+      11.442 
+       5.036 
+      11.012 
+      12.756 
+      -1.985 
+       1.906 
+       1.088 
+      -2.104 
+      15.915 
+      -0.820 
+      13.734 
+      -6.839 
+       0.000 
+       0.000 
+  5
+      -1.148 
+  2
+      36.833 
+       0.000 
+      39.889 
+     104.402 
+  4
+  0
+  1
+  0
+  0
+  0
+  0
+  9
+  1.51854040586602
+  9
+  5
+  13
+  6
+  17
+  3
+  0
+  0
+  0
+  0
+  0
+  0
+  "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation" 
+  peptide-reagent-preparation.bld 
+  3
+  peptide-reagent-preparation 
+  peptide-reagent-preparation 
+  0
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 s_st_Chirality_1 
+  3 10 i_ionizer_Ion_state_n 
+  4 10 i_ionizer_Tot_Q 
+  5 10 s_ionizer_Ion_centers 
+  6 10 s_ionizer_Ion_types 
+  7 10 s_ionizer_Ion_ctrs_in 
+  8 10 r_ionizer_Ionization_penalty 
+  9 10 r_ionizer_Ionization_penalty_charging 
+  10 10 r_ionizer_Ionization_penalty_neutral 
+  11 10 s_lp_tautomerizer_action 
+  12 20 r_mmod_Potential_Energy-OPLS-2005 
+  13 20 b_mmod_Minimization_Converged-OPLS-2005 
+  14 20 r_mmod_RMS_Derivative-OPLS-2005 
+  15 20 i_mmod_Times_Found-OPLS-2005 
+  16 20 r_mmod_Relative_Potential_Energy-OPLS-2005 
+  17 20 b_mmod_Chiralities_Consistent-OPLS-2005 
+  18 20 i_mmod_Conformation-OPLS-2005 
+  19 10 i_mmod_Serial_Number-OPLS-2005 
+  :::
+ } 
+ m_atom[18] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_Hcount
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 0.146853 -0.391534 0.502727 2 N A 24 0.25000 0.25000 "ASN " " CA " "    " 6 0 3 1 696969  C5  1 1 <> <>
+  2 2 -0.794614 -0.317500 1.710334 2 N A 24 0.52000 0.52000 "ASN " " C  " "rpc1" 6 0 3 1 696969  C6  0 <> <> <>
+  3 15 -0.582341 -0.973174 2.728093 2 N A 70 -0.44000 -0.44000 "ASN " " O  " "    " 8 0 3 1 FF2F2F  O7  0 <> <> <>
+  4 41 -0.476519 -0.636093 -0.358790 2 N A 21 0.06000 0.06000 "ASN " " HA " "    " 1 0 3 0 FFFFFF  H15  0 <> <> <>
+  5 44 -0.008291 1.610068 0.131410 2 N A 21 0.33000 0.33000 "ASN " " H  " "    " 1 0 3 1 FFFFFF  H5  0 <>   9.238    0.483 
+  6 16 -1.860237 0.524950 1.594385 2 N A 70 -0.53000 -0.53000 "ASN " "    " "rpc2" 8 0 3 1 FF2F2F  O12  1 <>   2.368    0.815 
+  7 3 1.234602 -1.484761 0.654662 2 N A 2 -0.12000 -0.12000 "ASN " " CB " "    " 6 0 3 1 A0A0A0  C7  2 <> <> <>
+  8 2 2.105172 -1.645387 -0.595402 2 N A 2 0.50000 0.50000 "ASN " " CG " "    " 6 0 3 1 A0A0A0  C8  0 <> <> <>
+  9 15 1.590058 -1.886560 -1.683729 2 N A 70 -0.50000 -0.50000 "ASN " " OD1" "    " 8 0 3 1 FF2F2F  O9  0 <>  -1.424    0.900 
+  10 25 3.421225 -1.473207 -0.455409 2 N A 43 -0.76000 -0.76000 "ASN " " ND2" "    " 7 0 3 1 5757FF  N10  2 <> <> <>
+  11 41 1.868381 -1.269801 1.517156 2 N A 21 0.06000 0.06000 "ASN " " HB2" "    " 1 0 3 1 FFFFFF  H11  0 <> <> <>
+  12 41 0.767387 -2.450946 0.851995 2 N A 21 0.06000 0.06000 "ASN " " HB3" "    " 1 0 3 1 FFFFFF  H12  0 <> <> <>
+  13 43 4.021214 -1.567062 -1.262672 2 N A 21 0.38000 0.38000 "ASN " "HD22" "    " 1 0 3 1 FFFFFF  H13  0 <>  14.107    0.950 
+  14 43 3.819876 -1.281566 0.452303 2 N A 21 0.38000 0.38000 "ASN " "HD21" "    " 1 0 3 1 FFFFFF  H14  0 <>  14.107    0.950 
+  15 44 1.312166 1.208226 1.032260 2 N A 21 0.33000 0.33000 "ASN " "    " "    " 1 0 3 1 FFFFFF  H15  0 <>   9.238    0.483 
+  16 42 -2.403192 0.524284 2.368534 2 N A 21 0.45000 0.45000 "ASN " "    " "    " 1 0 0 1 FFFFFF  H16  0 <> <> <>
+  17 32 0.736442 0.937242 0.248037 2 X A 43 -0.30000 -0.30000 "ASN " " N  " "  c1" 7 1 0 1 5757FF  N17  3 <> <> <>
+  18 44 1.296802 0.904760 -0.591826 2 X A 21 0.33000 0.33000 "ASN " "    " "    " 1 0 0 1 FFFFFF  H18  0 <> <> <>
+  :::
+ } 
+ m_bond[17] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 4 1 3 3
+  3 1 7 1 3 3
+  4 1 17 1 3 3
+  5 2 3 2 3 3
+  6 2 6 1 3 3
+  7 5 17 1 3 3
+  8 6 16 1 1 1
+  9 7 8 1 3 3
+  10 7 11 1 3 3
+  11 7 12 1 3 3
+  12 8 9 2 3 3
+  13 8 10 1 3 3
+  14 10 13 1 3 3
+  15 10 14 1 3 3
+  16 15 17 1 3 3
+  17 17 18 1 1 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_ionizer_Ion_state_n
+ i_ionizer_Tot_Q
+ s_ionizer_Ion_centers
+ s_ionizer_Ion_types
+ s_ionizer_Ion_ctrs_in
+ r_ionizer_Ionization_penalty
+ r_ionizer_Ionization_penalty_charging
+ r_ionizer_Ionization_penalty_neutral
+ s_lp_tautomerizer_action
+ r_mmod_Potential_Energy-OPLS-2005
+ b_mmod_Minimization_Converged-OPLS-2005
+ r_mmod_RMS_Derivative-OPLS-2005
+ i_mmod_Times_Found-OPLS-2005
+ r_mmod_Relative_Potential_Energy-OPLS-2005
+ b_mmod_Chiralities_Consistent-OPLS-2005
+ i_mmod_Conformation-OPLS-2005
+ i_mmod_Serial_Number-OPLS-2005
+ i_qp_#stars
+ i_qp_#amine
+ i_qp_#amidine
+ i_qp_#acid
+ i_qp_#amide
+ i_qp_#rotor
+ i_qp_#rtvFG
+ i_qp_CNS
+ r_qp_mol_MW
+ r_qp_dipole
+ r_qp_SASA
+ r_qp_FOSA
+ r_qp_FISA
+ r_qp_PISA
+ r_qp_WPSA
+ r_qp_volume
+ r_qp_donorHB
+ r_qp_accptHB
+ r_qp_dip^2/V
+ r_qp_ACxDN^.5/SA
+ r_qp_glob
+ r_qp_QPpolrz
+ r_qp_QPlogPC16
+ r_qp_QPlogPoct
+ r_qp_QPlogPw
+ r_qp_QPlogPo/w
+ r_qp_QPlogS
+ r_qp_CIQPlogS
+ r_qp_QPlogHERG
+ r_qp_QPPCaco
+ r_qp_QPlogBB
+ r_qp_QPPMDCK
+ r_qp_QPlogKp
+ r_qp_IP(eV)
+ r_qp_EA(eV)
+ i_qp_#metab
+ r_qp_QPlogKhsa
+ i_qp_HumanOralAbsorption
+ r_qp_PercentHumanOralAbsorption
+ r_qp_SAfluorine
+ r_qp_SAamideO
+ r_qp_PSA
+ i_qp_#NandO
+ i_qp_RuleOfFive
+ i_qp_RuleOfThree
+ i_qp_#ringatoms
+ i_qp_#in34
+ i_qp_#in56
+ i_qp_#noncon
+ i_qp_#nonHatm
+ r_qp_Jm
+ i_chemfeatures_acceptor_atom
+ i_chemfeatures_acceptor_dist
+ i_chemfeatures_donor_atom
+ i_chemfeatures_donor_dist
+ i_chemfeatures_positive_atom
+ i_chemfeatures_positive_dist
+ i_chemfeatures_negative_atom
+ i_chemfeatures_negative_dist
+ i_chemfeatures_aromatic_atom
+ i_chemfeatures_aromatic_dist
+ i_chemfeatures_hydrophobe_atom
+ i_chemfeatures_hydrophobe_dist
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_m_subgroup_title
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ Asp(D) 
+  151 
+  Structure2 
+  37012
+  1
+  3
+  1_S_14_2_7_4 
+  0
+  OPLS3 
+  2.38935736022831
+  1
+  Asp(D)-1 
+  3
+  0
+  14_16 
+  N5_OM 
+  1_11 
+    0.0008 
+    0.0008 
+    0.0000 
+  " #1" 
+  -51.6735496520996
+  1
+  0.00294108758680522
+  1
+  0
+  1
+  1
+  4
+  3
+  1
+  0
+  1
+  0
+  4
+  1
+  -1
+     131.131 
+       0.000 
+     324.763 
+     136.537 
+     188.226 
+       0.000 
+       0.000 
+     492.680 
+       2.000 
+       4.000 
+     0.0000000 
+     0.0174184 
+     0.9289125 
+      10.995 
+       4.666 
+       9.352 
+       7.768 
+      -2.780 
+      -0.009 
+       0.399 
+      -1.601 
+      10.267 
+      -0.733 
+       4.935 
+      -6.667 
+       0.000 
+       0.000 
+  4
+      -0.967 
+  2
+      28.769 
+       0.000 
+       0.000 
+      99.745 
+  4
+  0
+  1
+  0
+  0
+  0
+  0
+  9
+  0.0276521297610062
+  9
+  5
+  5
+  4
+  14
+  3
+  9
+  5
+  0
+  0
+  0
+  0
+  "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation" 
+  peptide-reagent-preparation.bld 
+  4
+  peptide-reagent-preparation 
+  peptide-reagent-preparation 
+  0
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 s_st_Chirality_1 
+  3 10 i_ionizer_Ion_state_n 
+  4 10 i_ionizer_Tot_Q 
+  5 10 s_ionizer_Ion_centers 
+  6 10 s_ionizer_Ion_types 
+  7 10 s_ionizer_Ion_ctrs_in 
+  8 10 r_ionizer_Ionization_penalty 
+  9 10 r_ionizer_Ionization_penalty_charging 
+  10 10 r_ionizer_Ionization_penalty_neutral 
+  11 10 s_lp_tautomerizer_action 
+  12 20 r_mmod_Potential_Energy-OPLS-2005 
+  13 20 b_mmod_Minimization_Converged-OPLS-2005 
+  14 20 r_mmod_RMS_Derivative-OPLS-2005 
+  15 20 i_mmod_Times_Found-OPLS-2005 
+  16 20 r_mmod_Relative_Potential_Energy-OPLS-2005 
+  17 20 b_mmod_Chiralities_Consistent-OPLS-2005 
+  18 20 i_mmod_Conformation-OPLS-2005 
+  19 10 i_mmod_Serial_Number-OPLS-2005 
+  :::
+ } 
+ m_atom[16] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_Hcount
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 0.081554 -0.402190 0.477242 2 D A 24 0.25000 0.25000 "ASP " " CA " "    " 6 0 3 1 696969  C5  1 1 <> <>
+  2 2 -0.835517 -0.316248 1.702508 2 D A 24 0.52000 0.52000 "ASP " " C  " "rpc1" 6 0 3 1 696969  C6  0 <> <> <>
+  3 15 -0.478430 -0.735787 2.801368 2 D A 70 -0.44000 -0.44000 "ASP " " O  " "    " 8 0 3 1 FF2F2F  O7  0 <> <> <>
+  4 41 -0.475346 -0.940805 -0.290872 2 D A 21 0.06000 0.06000 "ASP " " HA " "    " 1 0 3 0 FFFFFF  H15  0 <> <> <>
+  5 44 -0.538699 1.394780 -0.285167 2 D A 21 0.33000 0.33000 "ASP " " H  " "    " 1 0 3 1 FFFFFF  H5  0 <>   9.070    0.860 
+  6 16 -2.056116 0.258196 1.504178 2 D A 70 -0.53000 -0.53000 "ASP " "    " "rpc2" 8 0 3 1 FF2F2F  O12  1 <>   2.397    0.535 
+  7 3 1.396330 -1.180299 0.751970 2 D A 2 -0.22000 -0.22000 "ASP " " CB " "    " 6 0 3 1 A0A0A0  C7  2 <> <> <>
+  8 2 2.386358 -1.236612 -0.419535 2 D A 2 0.70000 0.70000 "ASP " " CG " "    " 6 0 3 1 A0A0A0  C8  0 <> <> <>
+  9 15 1.992822 -0.854773 -1.544485 2 D A 70 -0.80000 -0.80000 "ASP " " OD1" "    " 8 0 3 1 FF2F2F  O9  0 <> <> <>
+  10 41 1.922122 -0.731475 1.596390 2 D A 21 0.06000 0.06000 "ASP " " HB2" "    " 1 0 3 1 FFFFFF  H11  0 <> <> <>
+  11 41 1.166069 -2.205882 1.043752 2 D A 21 0.06000 0.06000 "ASP " " HB3" "    " 1 0 3 1 FFFFFF  H12  0 <> <> <>
+  12 44 0.838447 1.496850 0.625296 2 D A 21 0.33000 0.33000 "ASP " "    " "    " 1 0 3 1 FFFFFF  H13  0 <>   9.070    0.860 
+  13 42 -2.573853 0.276625 2.294949 2 D A 21 0.45000 0.45000 "ASP " "    " "    " 1 0 0 1 FFFFFF  H15  0 <> <> <>
+  14 32 0.338285 0.948460 -0.058905 2 X A 43 -0.30000 -0.30000 "ASP " " N  " "  c1" 7 1 0 1 5757FF  N16  3 <> <> <>
+  15 44 0.902482 0.848690 -0.894030 2 X A 21 0.33000 0.33000 "ASP " "    " "    " 1 0 0 1 FFFFFF  H17  0 <> <> <>
+  16 18 3.532818 -1.659342 -0.160513 2 X A 70 -0.80000 -0.80000 "ASP " " OD2" "  c1" 8 -1 0 1 FF2F2F  O16  0 <> <> <>
+  :::
+ } 
+ m_bond[15] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 4 1 3 3
+  3 1 7 1 3 3
+  4 1 14 1 3 3
+  5 2 3 2 3 3
+  6 2 6 1 3 3
+  7 5 14 1 3 3
+  8 6 13 1 1 1
+  9 7 8 1 3 3
+  10 7 10 1 3 3
+  11 7 11 1 3 3
+  12 8 9 2 3 3
+  13 8 16 1 3 3
+  14 12 14 1 3 3
+  15 14 15 1 1 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_ionizer_Ion_state_n
+ i_ionizer_Tot_Q
+ s_ionizer_Ion_centers
+ s_ionizer_Ion_types
+ s_ionizer_Ion_ctrs_in
+ r_ionizer_Ionization_penalty
+ r_ionizer_Ionization_penalty_charging
+ r_ionizer_Ionization_penalty_neutral
+ s_lp_tautomerizer_action
+ r_mmod_Potential_Energy-OPLS-2005
+ b_mmod_Minimization_Converged-OPLS-2005
+ r_mmod_RMS_Derivative-OPLS-2005
+ i_mmod_Times_Found-OPLS-2005
+ r_mmod_Relative_Potential_Energy-OPLS-2005
+ b_mmod_Chiralities_Consistent-OPLS-2005
+ i_mmod_Conformation-OPLS-2005
+ i_mmod_Serial_Number-OPLS-2005
+ i_qp_#stars
+ i_qp_#amine
+ i_qp_#amidine
+ i_qp_#acid
+ i_qp_#amide
+ i_qp_#rotor
+ i_qp_#rtvFG
+ i_qp_CNS
+ r_qp_mol_MW
+ r_qp_dipole
+ r_qp_SASA
+ r_qp_FOSA
+ r_qp_FISA
+ r_qp_PISA
+ r_qp_WPSA
+ r_qp_volume
+ r_qp_donorHB
+ r_qp_accptHB
+ r_qp_dip^2/V
+ r_qp_ACxDN^.5/SA
+ r_qp_glob
+ r_qp_QPpolrz
+ r_qp_QPlogPC16
+ r_qp_QPlogPoct
+ r_qp_QPlogPw
+ r_qp_QPlogPo/w
+ r_qp_QPlogS
+ r_qp_CIQPlogS
+ r_qp_QPlogHERG
+ r_qp_QPPCaco
+ r_qp_QPlogBB
+ r_qp_QPPMDCK
+ r_qp_QPlogKp
+ r_qp_IP(eV)
+ r_qp_EA(eV)
+ i_qp_#metab
+ r_qp_QPlogKhsa
+ i_qp_HumanOralAbsorption
+ r_qp_PercentHumanOralAbsorption
+ r_qp_SAfluorine
+ r_qp_SAamideO
+ r_qp_PSA
+ i_qp_#NandO
+ i_qp_RuleOfFive
+ i_qp_RuleOfThree
+ i_qp_#ringatoms
+ i_qp_#in34
+ i_qp_#in56
+ i_qp_#noncon
+ i_qp_#nonHatm
+ r_qp_Jm
+ i_chemfeatures_acceptor_atom
+ i_chemfeatures_acceptor_dist
+ i_chemfeatures_donor_atom
+ i_chemfeatures_donor_dist
+ i_chemfeatures_positive_atom
+ i_chemfeatures_positive_dist
+ i_chemfeatures_negative_atom
+ i_chemfeatures_negative_dist
+ i_chemfeatures_aromatic_atom
+ i_chemfeatures_aromatic_dist
+ i_chemfeatures_hydrophobe_atom
+ i_chemfeatures_hydrophobe_dist
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_m_subgroup_title
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ Cys(C) 
+  153 
+  Structure2 
+  37012
+  1
+  2
+  1_R_14_7_2_4 
+  0
+  OPLS3 
+  1.93578465203792
+  1
+  Cys(C)-1 
+  1
+  1
+  14 
+  N5 
+  1 
+    0.0021 
+    0.0002 
+    0.0019 
+  " #1" 
+  7.08127069473267
+  1
+  0.0214968919754028
+  1
+  0
+  1
+  1
+  6
+  4
+  1
+  0
+  0
+  0
+  4
+  2
+  1
+     119.181 
+       0.000 
+     310.010 
+     143.603 
+      90.767 
+       0.000 
+      75.639 
+     462.557 
+       2.000 
+       2.500 
+     0.0000000 
+     0.0114046 
+     0.9330396 
+       9.789 
+       4.221 
+       7.025 
+       5.618 
+       0.135 
+       0.421 
+       0.288 
+      -3.342 
+     340.449 
+       0.211 
+     443.390 
+      -4.871 
+       0.000 
+       0.000 
+  4
+      -0.753 
+  2
+      73.054 
+       0.000 
+       0.000 
+      51.808 
+  2
+  0
+  0
+  0
+  0
+  0
+  0
+  7
+  4.23259439497836
+  3
+  2
+  11
+  5
+  14
+  3
+  0
+  0
+  0
+  0
+  0
+  0
+  "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation" 
+  peptide-reagent-preparation.bld 
+  6
+  peptide-reagent-preparation 
+  peptide-reagent-preparation 
+  0
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 s_st_Chirality_1 
+  3 10 i_ionizer_Ion_state_n 
+  4 10 i_ionizer_Tot_Q 
+  5 10 s_ionizer_Ion_centers 
+  6 10 s_ionizer_Ion_types 
+  7 10 s_ionizer_Ion_ctrs_in 
+  8 10 r_ionizer_Ionization_penalty 
+  9 10 r_ionizer_Ionization_penalty_charging 
+  10 10 r_ionizer_Ionization_penalty_neutral 
+  11 10 s_lp_tautomerizer_action 
+  12 20 r_mmod_Potential_Energy-OPLS-2005 
+  13 20 b_mmod_Minimization_Converged-OPLS-2005 
+  14 20 r_mmod_RMS_Derivative-OPLS-2005 
+  15 20 i_mmod_Times_Found-OPLS-2005 
+  16 20 r_mmod_Relative_Potential_Energy-OPLS-2005 
+  17 20 b_mmod_Chiralities_Consistent-OPLS-2005 
+  18 20 i_mmod_Conformation-OPLS-2005 
+  19 10 i_mmod_Serial_Number-OPLS-2005 
+  :::
+ } 
+ m_atom[15] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_Hcount
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 0.194707 0.478158 0.196772 2 C A 24 0.25000 0.25000 "CYS " " CA " "    " 6 0 3 1 696969  C5  1 1 <> <>
+  2 2 -0.650673 1.725125 -0.087047 2 C A 24 0.52000 0.52000 "CYS " " C  " "rpc1" 6 0 3 1 696969  C6  0 <> <> <>
+  3 15 -0.203018 2.855505 0.093519 2 C A 70 -0.44000 -0.44000 "CYS " " O  " "    " 8 0 3 1 FF2F2F  O7  0 <> <> <>
+  4 41 -0.401844 -0.154972 0.855192 2 C A 21 0.06000 0.06000 "CYS " " HA " "    " 1 0 3 0 FFFFFF  H15  0 <> <> <>
+  5 44 -0.467847 -0.501844 -1.468589 2 C A 21 0.33000 0.33000 "CYS " " H  " "    " 1 0 3 1 FFFFFF  H5  0 <>   9.451    0.700 
+  6 16 -1.907534 1.506092 -0.567783 2 C A 70 -0.53000 -0.53000 "CYS " "    " "rpc2" 8 0 3 1 FF2F2F  O12  1 <>   1.996    0.535 
+  7 3 1.530395 0.802696 0.899919 2 C A 2 0.06000 0.06000 "CYS " " CB " "    " 6 0 3 1 A0A0A0  C7  2 <> <> <>
+  8 49 2.302999 -0.727018 1.496999 2 C A 13 -0.33500 -0.33500 "CYS " " SG " "    " 16 0 3 1 E1E11E  S8  1 <> <> <>
+  9 41 2.218317 1.320808 0.230242 2 C A 21 0.06000 0.06000 "CYS " " HB2" "    " 1 0 3 1 FFFFFF  H9  0 <> <> <>
+  10 41 1.368767 1.450248 1.763042 2 C A 21 0.06000 0.06000 "CYS " " HB3" "    " 1 0 3 1 FFFFFF  H10  0 <> <> <>
+  11 41 3.363859 -0.141115 2.060557 2 C A 21 0.15500 0.15500 "CYS " " HG " "    " 1 0 3 1 FFFFFF  H11  0 <>   8.515    0.860 
+  12 44 0.955980 0.299628 -1.694609 2 C A 21 0.33000 0.33000 "CYS " "    " "    " 1 0 3 1 FFFFFF  H12  0 <>   9.451    0.700 
+  13 42 -2.377914 2.311722 -0.722273 2 C A 21 0.45000 0.45000 "CYS " "    " "    " 1 0 0 1 FFFFFF  H13  0 <> <> <>
+  14 32 0.423202 -0.269802 -1.052907 2 X A 43 -0.30000 -0.30000 "CYS " " N  " "  c1" 7 1 0 1 5757FF  N14  3 <> <> <>
+  15 44 0.934160 -1.116585 -0.846722 2 X A 21 0.33000 0.33000 "CYS " "    " "    " 1 0 0 1 FFFFFF  H15  0 <> <> <>
+  :::
+ } 
+ m_bond[14] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 4 1 3 3
+  3 1 7 1 3 3
+  4 1 14 1 3 3
+  5 2 3 2 3 3
+  6 2 6 1 3 3
+  7 5 14 1 3 3
+  8 6 13 1 1 1
+  9 7 8 1 3 3
+  10 7 9 1 3 3
+  11 7 10 1 3 3
+  12 8 11 1 3 3
+  13 12 14 1 3 3
+  14 14 15 1 1 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_ionizer_Ion_state_n
+ i_ionizer_Tot_Q
+ s_ionizer_Ion_centers
+ s_ionizer_Ion_types
+ s_ionizer_Ion_ctrs_in
+ r_ionizer_Ionization_penalty
+ r_ionizer_Ionization_penalty_charging
+ r_ionizer_Ionization_penalty_neutral
+ s_lp_tautomerizer_action
+ r_mmod_Potential_Energy-OPLS-2005
+ b_mmod_Minimization_Converged-OPLS-2005
+ r_mmod_RMS_Derivative-OPLS-2005
+ i_mmod_Times_Found-OPLS-2005
+ r_mmod_Relative_Potential_Energy-OPLS-2005
+ b_mmod_Chiralities_Consistent-OPLS-2005
+ i_mmod_Conformation-OPLS-2005
+ i_mmod_Serial_Number-OPLS-2005
+ i_qp_#stars
+ i_qp_#amine
+ i_qp_#amidine
+ i_qp_#acid
+ i_qp_#amide
+ i_qp_#rotor
+ i_qp_#rtvFG
+ i_qp_CNS
+ r_qp_mol_MW
+ r_qp_dipole
+ r_qp_SASA
+ r_qp_FOSA
+ r_qp_FISA
+ r_qp_PISA
+ r_qp_WPSA
+ r_qp_volume
+ r_qp_donorHB
+ r_qp_accptHB
+ r_qp_dip^2/V
+ r_qp_ACxDN^.5/SA
+ r_qp_glob
+ r_qp_QPpolrz
+ r_qp_QPlogPC16
+ r_qp_QPlogPoct
+ r_qp_QPlogPw
+ r_qp_QPlogPo/w
+ r_qp_QPlogS
+ r_qp_CIQPlogS
+ r_qp_QPlogHERG
+ r_qp_QPPCaco
+ r_qp_QPlogBB
+ r_qp_QPPMDCK
+ r_qp_QPlogKp
+ r_qp_IP(eV)
+ r_qp_EA(eV)
+ i_qp_#metab
+ r_qp_QPlogKhsa
+ i_qp_HumanOralAbsorption
+ r_qp_PercentHumanOralAbsorption
+ r_qp_SAfluorine
+ r_qp_SAamideO
+ r_qp_PSA
+ i_qp_#NandO
+ i_qp_RuleOfFive
+ i_qp_RuleOfThree
+ i_qp_#ringatoms
+ i_qp_#in34
+ i_qp_#in56
+ i_qp_#noncon
+ i_qp_#nonHatm
+ r_qp_Jm
+ i_chemfeatures_acceptor_atom
+ i_chemfeatures_acceptor_dist
+ i_chemfeatures_donor_atom
+ i_chemfeatures_donor_dist
+ i_chemfeatures_positive_atom
+ i_chemfeatures_positive_dist
+ i_chemfeatures_negative_atom
+ i_chemfeatures_negative_dist
+ i_chemfeatures_aromatic_atom
+ i_chemfeatures_aromatic_dist
+ i_chemfeatures_hydrophobe_atom
+ i_chemfeatures_hydrophobe_dist
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_m_subgroup_title
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ Gln(Q) 
+  154 
+  Structure2 
+  37012
+  1
+  2
+  1_S_20_2_7_4 
+  0
+  OPLS3 
+  8.03879276699776
+  1
+  Gln(Q)-1 
+  1
+  1
+  20 
+  N5 
+  1 
+    0.0002 
+    0.0002 
+    0.0000 
+  " #1" 
+  -0.916726291179657
+  1
+  0.00466610072180629
+  1
+  0
+  1
+  1
+  1
+  2
+  1
+  0
+  0
+  1
+  5
+  1
+  -1
+     144.173 
+       0.000 
+     363.720 
+     161.402 
+     202.318 
+       0.000 
+       0.000 
+     563.471 
+       4.000 
+       5.500 
+     0.0000000 
+     0.0302430 
+     0.9070787 
+      13.186 
+       5.771 
+      13.179 
+      14.968 
+      -2.118 
+       1.650 
+       1.057 
+      -2.387 
+      14.806 
+      -0.979 
+      12.275 
+      -6.831 
+       0.000 
+       0.000 
+  5
+      -1.179 
+  2
+      35.492 
+       0.000 
+      38.162 
+     105.411 
+  4
+  0
+  1
+  0
+  0
+  0
+  0
+  10
+  0.950791993757145
+  10
+  6
+  16
+  7
+  20
+  3
+  0
+  0
+  0
+  0
+  0
+  0
+  "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation" 
+  peptide-reagent-preparation.bld 
+  7
+  peptide-reagent-preparation 
+  peptide-reagent-preparation 
+  0
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 s_st_Chirality_1 
+  3 10 i_ionizer_Ion_state_n 
+  4 10 i_ionizer_Tot_Q 
+  5 10 s_ionizer_Ion_centers 
+  6 10 s_ionizer_Ion_types 
+  7 10 s_ionizer_Ion_ctrs_in 
+  8 10 r_ionizer_Ionization_penalty 
+  9 10 r_ionizer_Ionization_penalty_charging 
+  10 10 r_ionizer_Ionization_penalty_neutral 
+  11 10 s_lp_tautomerizer_action 
+  12 20 r_mmod_Potential_Energy-OPLS-2005 
+  13 20 b_mmod_Minimization_Converged-OPLS-2005 
+  14 20 r_mmod_RMS_Derivative-OPLS-2005 
+  15 20 i_mmod_Times_Found-OPLS-2005 
+  16 20 r_mmod_Relative_Potential_Energy-OPLS-2005 
+  17 20 b_mmod_Chiralities_Consistent-OPLS-2005 
+  18 20 i_mmod_Conformation-OPLS-2005 
+  19 10 i_mmod_Serial_Number-OPLS-2005 
+  :::
+ } 
+ m_atom[21] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_Hcount
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 0.134052 -0.072952 0.465823 2 Q A 24 0.25000 0.25000 "GLN " " CA " "    " 6 0 3 1 696969  C5  1 1 <> <>
+  2 2 -0.904514 -0.178313 1.589527 2 Q A 24 0.52000 0.52000 "GLN " " C  " "rpc1" 6 0 3 1 696969  C6  0 <> <> <>
+  3 15 -0.566500 -0.297365 2.765241 2 Q A 70 -0.44000 -0.44000 "GLN " " O  " "    " 8 0 3 1 FF2F2F  O7  0 <> <> <>
+  4 41 -0.129133 -0.828193 -0.275899 2 Q A 21 0.06000 0.06000 "GLN " " HA " "    " 1 0 3 0 FFFFFF  H15  0 <> <> <>
+  5 44 -0.922278 1.377898 -0.506252 2 Q A 21 0.33000 0.33000 "GLN " " H  " "    " 1 0 3 1 FFFFFF  H5  0 <>   9.388    0.483 
+  6 16 -2.212247 -0.110039 1.210255 2 Q A 70 -0.53000 -0.53000 "GLN " "    " "rpc2" 8 0 3 1 FF2F2F  O12  1 <>   2.247    0.460 
+  7 3 1.578299 -0.334630 0.948093 2 Q A 2 -0.12000 -0.12000 "GLN " " CB " "    " 6 0 3 1 A0A0A0  C7  2 <> <> <>
+  8 3 2.593036 -0.472326 -0.205719 2 Q A 2 -0.12000 -0.12000 "GLN " " CG " "    " 6 0 3 1 A0A0A0  C8  2 <> <> <>
+  9 2 4.009369 -0.795093 0.280887 2 Q A 2 0.50000 0.50000 "GLN " " CD " "    " 6 0 3 1 A0A0A0  C9  0 <> <> <>
+  10 15 4.413592 -0.388815 1.367912 2 Q A 70 -0.50000 -0.50000 "GLN " " OE1" "    " 8 0 3 1 FF2F2F  O10  0 <>  -0.645    0.900 
+  11 25 4.773169 -1.534582 -0.525409 2 Q A 43 -0.76000 -0.76000 "GLN " " NE2" "    " 7 0 3 1 5757FF  N11  2 <> <> <>
+  12 41 1.888867 0.463774 1.624858 2 Q A 21 0.06000 0.06000 "GLN " " HB2" "    " 1 0 3 1 FFFFFF  H12  0 <> <> <>
+  13 41 1.601618 -1.255274 1.534680 2 Q A 21 0.06000 0.06000 "GLN " " HB3" "    " 1 0 3 1 FFFFFF  H13  0 <> <> <>
+  14 41 2.263257 -1.255463 -0.890130 2 Q A 21 0.06000 0.06000 "GLN " " HG2" "    " 1 0 3 1 FFFFFF  H14  0 <> <> <>
+  15 41 2.640253 0.450993 -0.783451 2 Q A 21 0.06000 0.06000 "GLN " " HG3" "    " 1 0 3 1 FFFFFF  H15  0 <> <> <>
+  16 43 5.712447 -1.769854 -0.238891 2 Q A 21 0.38000 0.38000 "GLN " "HE22" "    " 1 0 3 1 FFFFFF  H16  0 <>  14.673    0.950 
+  17 43 4.416320 -1.856824 -1.412958 2 Q A 21 0.38000 0.38000 "GLN " "HE21" "    " 1 0 3 1 FFFFFF  H17  0 <>  14.673    0.950 
+  18 44 0.256576 1.967663 0.483582 2 Q A 21 0.33000 0.33000 "GLN " "    " "    " 1 0 3 1 FFFFFF  H18  0 <>   9.388    0.483 
+  19 42 -2.802165 -0.180991 1.945832 2 Q A 21 0.45000 0.45000 "GLN " "    " "    " 1 0 0 1 FFFFFF  H19  0 <> <> <>
+  20 32 0.026085 1.245502 -0.183926 2 X A 43 -0.30000 -0.30000 "GLN " " N  " "  c1" 7 1 0 1 5757FF  N20  3 <> <> <>
+  21 44 0.660882 1.292943 -0.967634 2 X A 21 0.33000 0.33000 "GLN " "    " "    " 1 0 0 1 FFFFFF  H21  0 <> <> <>
+  :::
+ } 
+ m_bond[20] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 4 1 3 3
+  3 1 7 1 3 3
+  4 1 20 1 3 3
+  5 2 3 2 3 3
+  6 2 6 1 3 3
+  7 5 20 1 3 3
+  8 6 19 1 1 1
+  9 7 8 1 3 3
+  10 7 12 1 3 3
+  11 7 13 1 3 3
+  12 8 9 1 3 3
+  13 8 14 1 3 3
+  14 8 15 1 3 3
+  15 9 10 2 3 3
+  16 9 11 1 3 3
+  17 11 16 1 3 3
+  18 11 17 1 3 3
+  19 18 20 1 3 3
+  20 20 21 1 1 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_ionizer_Ion_state_n
+ i_ionizer_Tot_Q
+ s_ionizer_Ion_centers
+ s_ionizer_Ion_types
+ s_ionizer_Ion_ctrs_in
+ r_ionizer_Ionization_penalty
+ r_ionizer_Ionization_penalty_charging
+ r_ionizer_Ionization_penalty_neutral
+ s_lp_tautomerizer_action
+ r_mmod_Potential_Energy-OPLS-2005
+ b_mmod_Minimization_Converged-OPLS-2005
+ r_mmod_RMS_Derivative-OPLS-2005
+ i_mmod_Times_Found-OPLS-2005
+ r_mmod_Relative_Potential_Energy-OPLS-2005
+ b_mmod_Chiralities_Consistent-OPLS-2005
+ i_mmod_Conformation-OPLS-2005
+ i_mmod_Serial_Number-OPLS-2005
+ i_qp_#stars
+ i_qp_#amine
+ i_qp_#amidine
+ i_qp_#acid
+ i_qp_#amide
+ i_qp_#rotor
+ i_qp_#rtvFG
+ i_qp_CNS
+ r_qp_mol_MW
+ r_qp_dipole
+ r_qp_SASA
+ r_qp_FOSA
+ r_qp_FISA
+ r_qp_PISA
+ r_qp_WPSA
+ r_qp_volume
+ r_qp_donorHB
+ r_qp_accptHB
+ r_qp_dip^2/V
+ r_qp_ACxDN^.5/SA
+ r_qp_glob
+ r_qp_QPpolrz
+ r_qp_QPlogPC16
+ r_qp_QPlogPoct
+ r_qp_QPlogPw
+ r_qp_QPlogPo/w
+ r_qp_QPlogS
+ r_qp_CIQPlogS
+ r_qp_QPlogHERG
+ r_qp_QPPCaco
+ r_qp_QPlogBB
+ r_qp_QPPMDCK
+ r_qp_QPlogKp
+ r_qp_IP(eV)
+ r_qp_EA(eV)
+ i_qp_#metab
+ r_qp_QPlogKhsa
+ i_qp_HumanOralAbsorption
+ r_qp_PercentHumanOralAbsorption
+ r_qp_SAfluorine
+ r_qp_SAamideO
+ r_qp_PSA
+ i_qp_#NandO
+ i_qp_RuleOfFive
+ i_qp_RuleOfThree
+ i_qp_#ringatoms
+ i_qp_#in34
+ i_qp_#in56
+ i_qp_#noncon
+ i_qp_#nonHatm
+ r_qp_Jm
+ i_chemfeatures_acceptor_atom
+ i_chemfeatures_acceptor_dist
+ i_chemfeatures_donor_atom
+ i_chemfeatures_donor_dist
+ i_chemfeatures_positive_atom
+ i_chemfeatures_positive_dist
+ i_chemfeatures_negative_atom
+ i_chemfeatures_negative_dist
+ i_chemfeatures_aromatic_atom
+ i_chemfeatures_aromatic_dist
+ i_chemfeatures_hydrophobe_atom
+ i_chemfeatures_hydrophobe_dist
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_m_subgroup_title
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ Glu(E) 
+  155 
+  Structure2 
+  37012
+  1
+  3
+  1_S_17_2_7_4 
+  0
+  OPLS3 
+  9.35096518682759
+  1
+  Glu(E)-1 
+  3
+  0
+  17_19 
+  N5_OM 
+  1_12 
+    0.0008 
+    0.0008 
+    0.0000 
+  " #1" 
+  10.3416795730591
+  1
+  0.00975751876831055
+  1
+  0
+  1
+  1
+  2
+  2
+  1
+  0
+  1
+  0
+  5
+  1
+  -1
+     145.158 
+       0.000 
+     358.585 
+     163.102 
+     195.483 
+       0.000 
+       0.000 
+     553.988 
+       3.000 
+       5.000 
+     0.0000000 
+     0.0241512 
+     0.9097190 
+      12.806 
+       5.419 
+      11.576 
+      10.127 
+      -2.616 
+      -0.235 
+       0.366 
+      -1.911 
+       8.763 
+      -0.914 
+       4.158 
+      -6.705 
+       0.000 
+       0.000 
+  4
+      -0.991 
+  2
+      28.497 
+       0.000 
+       0.000 
+     101.648 
+  4
+  0
+  1
+  0
+  0
+  0
+  0
+  10
+  0.0166804106235881
+  10
+  6
+  5
+  4
+  17
+  3
+  10
+  6
+  0
+  0
+  0
+  0
+  "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation" 
+  peptide-reagent-preparation.bld 
+  8
+  peptide-reagent-preparation 
+  peptide-reagent-preparation 
+  0
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 s_st_Chirality_1 
+  3 10 i_ionizer_Ion_state_n 
+  4 10 i_ionizer_Tot_Q 
+  5 10 s_ionizer_Ion_centers 
+  6 10 s_ionizer_Ion_types 
+  7 10 s_ionizer_Ion_ctrs_in 
+  8 10 r_ionizer_Ionization_penalty 
+  9 10 r_ionizer_Ionization_penalty_charging 
+  10 10 r_ionizer_Ionization_penalty_neutral 
+  11 10 s_lp_tautomerizer_action 
+  12 20 r_mmod_Potential_Energy-OPLS-2005 
+  13 20 b_mmod_Minimization_Converged-OPLS-2005 
+  14 20 r_mmod_RMS_Derivative-OPLS-2005 
+  15 20 i_mmod_Times_Found-OPLS-2005 
+  16 20 r_mmod_Relative_Potential_Energy-OPLS-2005 
+  17 20 b_mmod_Chiralities_Consistent-OPLS-2005 
+  18 20 i_mmod_Conformation-OPLS-2005 
+  19 10 i_mmod_Serial_Number-OPLS-2005 
+  :::
+ } 
+ m_atom[19] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_Hcount
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 0.161973 -0.116724 0.435169 2 E A 24 0.25000 0.25000 "GLU " " CA " "    " 6 0 3 1 696969  C5  1 1 <> <>
+  2 2 -0.826427 -0.445665 1.560824 2 E A 24 0.52000 0.52000 "GLU " " C  " "rpc1" 6 0 3 1 696969  C6  0 <> <> <>
+  3 15 -0.472881 -1.057294 2.566664 2 E A 70 -0.44000 -0.44000 "GLU " " O  " "    " 8 0 3 1 FF2F2F  O7  0 <> <> <>
+  4 41 -0.270880 -0.501180 -0.489251 2 E A 21 0.06000 0.06000 "GLU " " HA " "    " 1 0 3 0 FFFFFF  H15  0 <> <> <>
+  5 44 -0.634684 1.739122 0.132872 2 E A 21 0.33000 0.33000 "GLU " " H  " "    " 1 0 3 1 FFFFFF  H5  0 <>  10.003    0.483 
+  6 16 -2.105760 -0.007298 1.387178 2 E A 70 -0.53000 -0.53000 "GLU " "    " "rpc2" 8 0 3 1 FF2F2F  O12  1 <>   2.526    0.460 
+  7 3 1.548856 -0.764621 0.634735 2 E A 2 -0.12000 -0.12000 "GLU " " CB " "    " 6 0 3 1 A0A0A0  C7  2 <> <> <>
+  8 3 2.513663 -0.515186 -0.543926 2 E A 2 -0.22000 -0.22000 "GLU " " CG " "    " 6 0 3 1 A0A0A0  C8  2 <> <> <>
+  9 2 3.845145 -1.260813 -0.416969 2 E A 2 0.70000 0.70000 "GLU " " CD " "    " 6 0 3 1 A0A0A0  C9  0 <> <> <>
+  10 15 4.228319 -1.590789 0.726961 2 E A 70 -0.80000 -0.80000 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  O10  0 <> <> <>
+  11 41 1.998742 -0.392626 1.557307 2 E A 21 0.06000 0.06000 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  H12  0 <> <> <>
+  12 41 1.426702 -1.841344 0.768107 2 E A 21 0.06000 0.06000 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  H13  0 <> <> <>
+  13 41 2.039181 -0.822078 -1.476988 2 E A 21 0.06000 0.06000 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  H14  0 <> <> <>
+  14 41 2.737462 0.547267 -0.639302 2 E A 21 0.06000 0.06000 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  H15  0 <> <> <>
+  15 44 0.676106 1.732380 1.135356 2 E A 21 0.33000 0.33000 "GLU " "    " "    " 1 0 3 1 FFFFFF  H16  0 <>  10.003    0.483 
+  16 42 -2.664872 -0.243245 2.112182 2 E A 21 0.45000 0.45000 "GLU " "    " "    " 1 0 0 1 FFFFFF  H18  0 <> <> <>
+  17 32 0.281764 1.344642 0.290338 2 X A 43 -0.30000 -0.30000 "GLU " " N  " "  c1" 7 1 0 1 5757FF  N19  3 <> <> <>
+  18 44 0.884471 1.555897 -0.491947 2 X A 21 0.33000 0.33000 "GLU " "    " "    " 1 0 0 1 FFFFFF  H20  0 <> <> <>
+  19 18 4.468425 -1.472906 -1.479221 2 X A 70 -0.80000 -0.80000 "GLU " " OE2" "  c1" 8 -1 0 1 FF2F2F  O19  0 <> <> <>
+  :::
+ } 
+ m_bond[18] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 4 1 3 3
+  3 1 7 1 3 3
+  4 1 17 1 3 3
+  5 2 3 2 3 3
+  6 2 6 1 3 3
+  7 5 17 1 3 3
+  8 6 16 1 1 1
+  9 7 8 1 3 3
+  10 7 11 1 3 3
+  11 7 12 1 3 3
+  12 8 9 1 3 3
+  13 8 13 1 3 3
+  14 8 14 1 3 3
+  15 9 10 2 3 3
+  16 9 19 1 3 3
+  17 15 17 1 3 3
+  18 17 18 1 1 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ i_epik_Tot_abs_Q
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_ionizer_Ion_state_n
+ i_ionizer_Tot_Q
+ s_ionizer_Ion_centers
+ s_ionizer_Ion_types
+ s_ionizer_Ion_ctrs_in
+ r_ionizer_Ionization_penalty
+ r_ionizer_Ionization_penalty_charging
+ r_ionizer_Ionization_penalty_neutral
+ s_lp_tautomerizer_action
+ r_mmod_Potential_Energy-OPLS-2005
+ b_mmod_Minimization_Converged-OPLS-2005
+ r_mmod_RMS_Derivative-OPLS-2005
+ i_mmod_Times_Found-OPLS-2005
+ r_mmod_Relative_Potential_Energy-OPLS-2005
+ b_mmod_Chiralities_Consistent-OPLS-2005
+ i_mmod_Conformation-OPLS-2005
+ i_mmod_Serial_Number-OPLS-2005
+ i_qp_#stars
+ i_qp_#amine
+ i_qp_#amidine
+ i_qp_#acid
+ i_qp_#amide
+ i_qp_#rotor
+ i_qp_#rtvFG
+ i_qp_CNS
+ r_qp_mol_MW
+ r_qp_dipole
+ r_qp_SASA
+ r_qp_FOSA
+ r_qp_FISA
+ r_qp_PISA
+ r_qp_WPSA
+ r_qp_volume
+ r_qp_donorHB
+ r_qp_accptHB
+ r_qp_dip^2/V
+ r_qp_ACxDN^.5/SA
+ r_qp_glob
+ r_qp_QPpolrz
+ r_qp_QPlogPC16
+ r_qp_QPlogPoct
+ r_qp_QPlogPw
+ r_qp_QPlogPo/w
+ r_qp_QPlogS
+ r_qp_CIQPlogS
+ r_qp_QPlogHERG
+ r_qp_QPPCaco
+ r_qp_QPlogBB
+ r_qp_QPPMDCK
+ r_qp_QPlogKp
+ r_qp_IP(eV)
+ r_qp_EA(eV)
+ i_qp_#metab
+ r_qp_QPlogKhsa
+ i_qp_HumanOralAbsorption
+ r_qp_PercentHumanOralAbsorption
+ r_qp_SAfluorine
+ r_qp_SAamideO
+ r_qp_PSA
+ i_qp_#NandO
+ i_qp_RuleOfFive
+ i_qp_RuleOfThree
+ i_qp_#ringatoms
+ i_qp_#in34
+ i_qp_#in56
+ i_qp_#noncon
+ i_qp_#nonHatm
+ r_qp_Jm
+ i_chemfeatures_acceptor_atom
+ i_chemfeatures_acceptor_dist
+ i_chemfeatures_donor_atom
+ i_chemfeatures_donor_dist
+ i_chemfeatures_positive_atom
+ i_chemfeatures_positive_dist
+ i_chemfeatures_negative_atom
+ i_chemfeatures_negative_dist
+ i_chemfeatures_aromatic_atom
+ i_chemfeatures_aromatic_dist
+ i_chemfeatures_hydrophobe_atom
+ i_chemfeatures_hydrophobe_dist
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_m_subgroup_title
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ Gly(G) 
+  157 
+  Structure2 
+  37012
+  1
+  2
+  0
+  OPLS3 
+  2.02671047598636
+  1
+  Gly(G)-1 
+  1
+  1
+  10 
+  N5 
+  1 
+    0.0002 
+    0.0002 
+    0.0000 
+  " #1" 
+  3.07910180091858
+  1
+  0.017162099480629
+  1
+  0
+  1
+  1
+  4
+  8
+  1
+  0
+  0
+  0
+  2
+  1
+  0
+      73.094 
+       0.000 
+     255.572 
+     137.371 
+     118.201 
+       0.000 
+       0.000 
+     356.522 
+       2.000 
+       3.000 
+     0.0000000 
+     0.0166006 
+     0.9514279 
+       6.830 
+       2.867 
+       6.470 
+       6.581 
+      -1.048 
+       1.199 
+       0.802 
+      -3.044 
+     187.024 
+      -0.029 
+      89.379 
+      -5.569 
+       0.000 
+       0.000 
+  3
+      -0.884 
+  2
+      61.469 
+       0.000 
+       0.000 
+      56.390 
+  2
+  0
+  0
+  0
+  0
+  0
+  0
+  5
+  3.12444164158502
+  3
+  2
+  5
+  4
+  10
+  3
+  0
+  0
+  0
+  0
+  0
+  0
+  "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation" 
+  peptide-reagent-preparation.bld 
+  10
+  peptide-reagent-preparation 
+  peptide-reagent-preparation 
+  0
+  2
+ m_depend[18] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 i_ionizer_Ion_state_n 
+  3 10 i_ionizer_Tot_Q 
+  4 10 s_ionizer_Ion_centers 
+  5 10 s_ionizer_Ion_types 
+  6 10 s_ionizer_Ion_ctrs_in 
+  7 10 r_ionizer_Ionization_penalty 
+  8 10 r_ionizer_Ionization_penalty_charging 
+  9 10 r_ionizer_Ionization_penalty_neutral 
+  10 10 s_lp_tautomerizer_action 
+  11 20 r_mmod_Potential_Energy-OPLS-2005 
+  12 20 b_mmod_Minimization_Converged-OPLS-2005 
+  13 20 r_mmod_RMS_Derivative-OPLS-2005 
+  14 20 i_mmod_Times_Found-OPLS-2005 
+  15 20 r_mmod_Relative_Potential_Energy-OPLS-2005 
+  16 20 b_mmod_Chiralities_Consistent-OPLS-2005 
+  17 20 i_mmod_Conformation-OPLS-2005 
+  18 10 i_mmod_Serial_Number-OPLS-2005 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_Hcount
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 1.225172 -0.120422 0.569064 2 G A 24 0.19000 0.19000 "GLY " " CA " "    " 6 0 3 1 696969  C5  2 <> <>
+  2 2 1.999583 -1.358478 0.114225 2 G A 24 0.52000 0.52000 "GLY " " C  " "rpc1" 6 0 3 1 696969  C6  0 <> <>
+  3 15 1.936559 -1.827524 -1.020757 2 G A 70 -0.44000 -0.44000 "GLY " " O  " "    " 8 0 3 1 FF2F2F  O7  0 <> <>
+  4 41 1.923283 0.644996 0.909590 2 G A 21 0.06000 0.06000 "GLY " " HA " "    " 1 0 3 0 FFFFFF  H15  0 <> <>
+  5 44 -0.097837 1.232047 -0.222511 2 G A 21 0.33000 0.33000 "GLY " " H  " "    " 1 0 3 1 FFFFFF  H5  0   9.641    1.474 
+  6 16 2.758800 -1.862836 1.127453 2 G A 70 -0.53000 -0.53000 "GLY " "    " "rpc2" 8 0 3 1 FF2F2F  O12  1   2.311    0.430 
+  7 41 0.578004 -0.379467 1.407664 2 G A 21 0.06000 0.06000 "GLY " " HA3" "    " 1 0 3 1 FFFFFF  H7  0 <> <>
+  8 44 1.012379 0.663256 -1.305559 2 G A 21 0.33000 0.33000 "GLY " "    " "    " 1 0 3 1 FFFFFF  H8  0   9.641    1.474 
+  9 42 3.246192 -2.629652 0.866656 2 G A 21 0.45000 0.45000 "GLY " "    " "    " 1 0 0 1 FFFFFF  H9  0 <> <>
+  10 32 0.408166 0.415778 -0.534759 2 X A 43 -0.30000 -0.30000 "GLY " " N  " "  c1" 7 1 0 1 5757FF  N10  3 <> <>
+  11 44 -0.243365 -0.293024 -0.840635 2 X A 21 0.33000 0.33000 "GLY " "    " "    " 1 0 0 1 FFFFFF  H11  0 <> <>
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 4 1 3 3
+  3 1 7 1 3 3
+  4 1 10 1 3 3
+  5 2 3 2 3 3
+  6 2 6 1 3 3
+  7 5 10 1 3 3
+  8 6 9 1 1 1
+  9 8 10 1 3 3
+  10 10 11 1 1 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_ionizer_Ion_state_n
+ i_ionizer_Tot_Q
+ s_ionizer_Ion_centers
+ s_ionizer_Ion_types
+ s_ionizer_Ion_ctrs_in
+ r_ionizer_Ionization_penalty
+ r_ionizer_Ionization_penalty_charging
+ r_ionizer_Ionization_penalty_neutral
+ s_lp_tautomerizer_action
+ r_mmod_Potential_Energy-OPLS-2005
+ b_mmod_Minimization_Converged-OPLS-2005
+ r_mmod_RMS_Derivative-OPLS-2005
+ i_mmod_Times_Found-OPLS-2005
+ r_mmod_Relative_Potential_Energy-OPLS-2005
+ b_mmod_Chiralities_Consistent-OPLS-2005
+ i_mmod_Conformation-OPLS-2005
+ i_mmod_Serial_Number-OPLS-2005
+ i_qp_#stars
+ i_qp_#amine
+ i_qp_#amidine
+ i_qp_#acid
+ i_qp_#amide
+ i_qp_#rotor
+ i_qp_#rtvFG
+ i_qp_CNS
+ r_qp_mol_MW
+ r_qp_dipole
+ r_qp_SASA
+ r_qp_FOSA
+ r_qp_FISA
+ r_qp_PISA
+ r_qp_WPSA
+ r_qp_volume
+ r_qp_donorHB
+ r_qp_accptHB
+ r_qp_dip^2/V
+ r_qp_ACxDN^.5/SA
+ r_qp_glob
+ r_qp_QPpolrz
+ r_qp_QPlogPC16
+ r_qp_QPlogPoct
+ r_qp_QPlogPw
+ r_qp_QPlogPo/w
+ r_qp_QPlogS
+ r_qp_CIQPlogS
+ r_qp_QPlogHERG
+ r_qp_QPPCaco
+ r_qp_QPlogBB
+ r_qp_QPPMDCK
+ r_qp_QPlogKp
+ r_qp_IP(eV)
+ r_qp_EA(eV)
+ i_qp_#metab
+ r_qp_QPlogKhsa
+ i_qp_HumanOralAbsorption
+ r_qp_PercentHumanOralAbsorption
+ r_qp_SAfluorine
+ r_qp_SAamideO
+ r_qp_PSA
+ i_qp_#NandO
+ i_qp_RuleOfFive
+ i_qp_RuleOfThree
+ i_qp_#ringatoms
+ i_qp_#in34
+ i_qp_#in56
+ i_qp_#noncon
+ i_qp_#nonHatm
+ r_qp_Jm
+ i_chemfeatures_acceptor_atom
+ i_chemfeatures_acceptor_dist
+ i_chemfeatures_donor_atom
+ i_chemfeatures_donor_dist
+ i_chemfeatures_positive_atom
+ i_chemfeatures_positive_dist
+ i_chemfeatures_negative_atom
+ i_chemfeatures_negative_dist
+ i_chemfeatures_aromatic_atom
+ i_chemfeatures_aromatic_dist
+ i_chemfeatures_hydrophobe_atom
+ i_chemfeatures_hydrophobe_dist
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_m_subgroup_title
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ His(H) 
+  158 
+  Structure2 
+  37012
+  0.499999999999999
+  2
+  1_S_20_2_7_4 
+  0
+  OPLS3 
+  4.03727164021185
+  1
+  His(H)-1 
+  1
+  1
+  20 
+  N5 
+  1 
+    0.4109 
+    0.0002 
+    0.4107 
+  "System-11-ct_220-4H-imidazole-1-3-diium_0 from System-11-ct_220-4H-imidazole-1-3-diium_0_1 to System-11-ct_220-4H-imidazole-1-3-diium_0_1 #1" 
+  18.3681411743164
+  1
+  0.000766144599765539
+  1
+  0
+  1
+  1
+  5
+  0
+  1
+  0
+  0
+  0
+  4
+  1
+  -1
+     153.183 
+       0.000 
+     371.103 
+     131.439 
+     145.056 
+      94.607 
+       0.000 
+     581.515 
+       3.000 
+       5.000 
+     0.0000000 
+     0.0233365 
+     0.9079137 
+      15.453 
+       6.012 
+      11.882 
+      10.679 
+      -0.631 
+       0.111 
+      -0.028 
+      -4.199 
+     104.047 
+      -0.452 
+      47.421 
+      -5.538 
+       0.000 
+       0.000 
+  4
+      -0.743 
+  2
+      59.357 
+       0.000 
+       0.000 
+      79.300 
+  4
+  0
+  0
+  5
+  0
+  5
+  0
+  11
+  0.573076381149816
+  9
+  5
+  17
+  7
+  20
+  3
+  0
+  0
+  11
+  6
+  0
+  0
+  "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation" 
+  peptide-reagent-preparation.bld 
+  11
+  peptide-reagent-preparation 
+  peptide-reagent-preparation 
+  0
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 s_st_Chirality_1 
+  3 10 i_ionizer_Ion_state_n 
+  4 10 i_ionizer_Tot_Q 
+  5 10 s_ionizer_Ion_centers 
+  6 10 s_ionizer_Ion_types 
+  7 10 s_ionizer_Ion_ctrs_in 
+  8 10 r_ionizer_Ionization_penalty 
+  9 10 r_ionizer_Ionization_penalty_charging 
+  10 10 r_ionizer_Ionization_penalty_neutral 
+  11 10 s_lp_tautomerizer_action 
+  12 20 r_mmod_Potential_Energy-OPLS-2005 
+  13 20 b_mmod_Minimization_Converged-OPLS-2005 
+  14 20 r_mmod_RMS_Derivative-OPLS-2005 
+  15 20 i_mmod_Times_Found-OPLS-2005 
+  16 20 r_mmod_Relative_Potential_Energy-OPLS-2005 
+  17 20 b_mmod_Chiralities_Consistent-OPLS-2005 
+  18 20 i_mmod_Conformation-OPLS-2005 
+  19 10 i_mmod_Serial_Number-OPLS-2005 
+  :::
+ } 
+ m_atom[21] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_Hcount
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 -0.020510 -0.434179 0.568070 2 H A 24 0.25000 0.25000 "HIS " " CA " "    " 6 0 3 1 696969  C5  1 1 <> <>
+  2 2 -1.138523 0.011623 1.518262 2 H A 24 0.52000 0.52000 "HIS " " C  " "rpc1" 6 0 3 1 696969  C6  0 <> <> <>
+  3 15 -1.051680 -0.155051 2.732933 2 H A 70 -0.44000 -0.44000 "HIS " " O  " "    " 8 0 3 1 FF2F2F  O7  0 <> <> <>
+  4 41 -0.491530 -1.059493 -0.191391 2 H A 21 0.06000 0.06000 "HIS " " HA " "    " 1 0 3 0 FFFFFF  H15  0 <> <> <>
+  5 44 -0.192108 1.243675 -0.582111 2 H A 21 0.33000 0.33000 "HIS " " H  " "    " 1 0 3 1 FFFFFF  H5  0 <>   8.788    0.483 
+  6 16 -2.214968 0.616612 0.940536 2 H A 70 -0.53000 -0.53000 "HIS " "    " "rpc2" 8 0 3 1 FF2F2F  O12  1 <>   1.975    0.535 
+  7 3 1.082172 -1.255990 1.274365 2 H A 2 -0.29700 -0.29700 "HIS " " CB " "    " 6 0 3 1 A0A0A0  C7  2 <> <> <>
+  8 2 2.120992 -1.889271 0.376912 2 H A 2 0.50400 0.50400 "HIS " " CG " "    " 6 0 3 1 A0A0A0  C8  0 <> <> <>
+  9 25 3.319000 -2.401845 0.884770 2 H A 43 -0.56400 -0.56400 "HIS " " ND1" "    " 7 0 3 1 5757FF  N9  0 <>   6.102    0.763 
+  10 2 2.096303 -2.099207 -0.988842 2 H A 2 -0.26100 -0.26100 "HIS " " CD2" "    " 6 0 3 1 A0A0A0  C10  1 <> <> <>
+  11 2 3.963620 -2.882810 -0.169848 2 H A 2 0.18200 0.18200 "HIS " " CE1" "    " 6 0 3 1 A0A0A0  C11  1 <> <> <>
+  12 25 3.286730 -2.728312 -1.307801 2 H A 43 -0.29100 -0.29100 "HIS " " NE2" "    " 7 0 3 1 5757FF  N12  1 <> <> <>
+  13 41 1.604381 -0.624648 1.995209 2 H A 21 0.06000 0.06000 "HIS " " HB2" "    " 1 0 3 1 FFFFFF  H13  0 <> <> <>
+  14 41 0.631910 -2.065716 1.850696 2 H A 21 0.06000 0.06000 "HIS " " HB3" "    " 1 0 3 1 FFFFFF  H14  0 <> <> <>
+  15 41 1.353510 -1.868110 -1.738027 2 H A 21 0.18300 0.18300 "HIS " " HD2" "    " 1 0 3 1 FFFFFF  H15  0 <> <> <>
+  16 41 4.934450 -3.353072 -0.111299 2 H A 21 0.09800 0.09800 "HIS " " HE1" "    " 1 0 3 1 FFFFFF  H16  0 <> <> <>
+  17 43 3.585167 -3.026005 -2.226122 2 H A 21 0.32600 0.32600 "HIS " " HE2" "    " 1 0 3 1 FFFFFF  H17  0 <>  12.944    0.763 
+  18 44 0.979116 1.348997 0.571835 2 H A 21 0.33000 0.33000 "HIS " "    " "    " 1 0 3 1 FFFFFF  H18  0 <>   8.788    0.483 
+  19 42 -2.868293 0.866413 1.576793 2 H A 21 0.45000 0.45000 "HIS " "    " "    " 1 0 0 1 FFFFFF  H19  0 <> <> <>
+  20 32 0.549610 0.743089 -0.112824 2 X A 43 -0.30000 -0.30000 "HIS " " N  " "  c1" 7 1 0 1 5757FF  N20  3 <> <> <>
+  21 44 1.241825 0.450843 -0.787251 2 X A 21 0.33000 0.33000 "HIS " "    " "    " 1 0 0 1 FFFFFF  H21  0 <> <> <>
+  :::
+ } 
+ m_bond[21] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 4 1 3 3
+  3 1 7 1 3 3
+  4 1 20 1 3 3
+  5 2 3 2 3 3
+  6 2 6 1 3 3
+  7 5 20 1 3 3
+  8 6 19 1 1 1
+  9 7 8 1 3 3
+  10 7 13 1 3 3
+  11 7 14 1 3 3
+  12 8 9 1 3 3
+  13 8 10 2 3 3
+  14 9 11 2 3 3
+  15 10 12 1 3 3
+  16 10 15 1 3 3
+  17 11 12 1 3 3
+  18 11 16 1 3 3
+  19 12 17 1 3 3
+  20 18 20 1 3 3
+  21 20 21 1 1 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_ionizer_Ion_state_n
+ i_ionizer_Tot_Q
+ s_ionizer_Ion_centers
+ s_ionizer_Ion_types
+ s_ionizer_Ion_ctrs_in
+ r_ionizer_Ionization_penalty
+ r_ionizer_Ionization_penalty_charging
+ r_ionizer_Ionization_penalty_neutral
+ s_lp_tautomerizer_action
+ r_mmod_Potential_Energy-OPLS-2005
+ b_mmod_Minimization_Converged-OPLS-2005
+ r_mmod_RMS_Derivative-OPLS-2005
+ i_mmod_Times_Found-OPLS-2005
+ r_mmod_Relative_Potential_Energy-OPLS-2005
+ b_mmod_Chiralities_Consistent-OPLS-2005
+ i_mmod_Conformation-OPLS-2005
+ i_mmod_Serial_Number-OPLS-2005
+ i_qp_#stars
+ i_qp_#amine
+ i_qp_#amidine
+ i_qp_#acid
+ i_qp_#amide
+ i_qp_#rotor
+ i_qp_#rtvFG
+ i_qp_CNS
+ r_qp_mol_MW
+ r_qp_dipole
+ r_qp_SASA
+ r_qp_FOSA
+ r_qp_FISA
+ r_qp_PISA
+ r_qp_WPSA
+ r_qp_volume
+ r_qp_donorHB
+ r_qp_accptHB
+ r_qp_dip^2/V
+ r_qp_ACxDN^.5/SA
+ r_qp_glob
+ r_qp_QPpolrz
+ r_qp_QPlogPC16
+ r_qp_QPlogPoct
+ r_qp_QPlogPw
+ r_qp_QPlogPo/w
+ r_qp_QPlogS
+ r_qp_CIQPlogS
+ r_qp_QPlogHERG
+ r_qp_QPPCaco
+ r_qp_QPlogBB
+ r_qp_QPPMDCK
+ r_qp_QPlogKp
+ r_qp_IP(eV)
+ r_qp_EA(eV)
+ i_qp_#metab
+ r_qp_QPlogKhsa
+ i_qp_HumanOralAbsorption
+ r_qp_PercentHumanOralAbsorption
+ r_qp_SAfluorine
+ r_qp_SAamideO
+ r_qp_PSA
+ i_qp_#NandO
+ i_qp_RuleOfFive
+ i_qp_RuleOfThree
+ i_qp_#ringatoms
+ i_qp_#in34
+ i_qp_#in56
+ i_qp_#noncon
+ i_qp_#nonHatm
+ r_qp_Jm
+ i_chemfeatures_acceptor_atom
+ i_chemfeatures_acceptor_dist
+ i_chemfeatures_donor_atom
+ i_chemfeatures_donor_dist
+ i_chemfeatures_positive_atom
+ i_chemfeatures_positive_dist
+ i_chemfeatures_negative_atom
+ i_chemfeatures_negative_dist
+ i_chemfeatures_aromatic_atom
+ i_chemfeatures_aromatic_dist
+ i_chemfeatures_hydrophobe_atom
+ i_chemfeatures_hydrophobe_dist
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_m_subgroup_title
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ His(H) 
+  159 
+  Structure2 
+  37012
+  0.499999999999999
+  2
+  1_S_20_2_7_4 
+  0
+  OPLS3 
+  4.03727164021185
+  1
+  His(H)-1 
+  1
+  1
+  20 
+  N5 
+  1 
+    0.4109 
+    0.0002 
+    0.4107 
+  "System-11-ct_220-4H-imidazole-1-3-diium_0 from System-11-ct_220-4H-imidazole-1-3-diium_0_1 to System-11-ct_220-4H-imidazole-1-3-diium_0_1_II_mirror #1" 
+  16.3240146636963
+  1
+  0.00489059556275606
+  1
+  0
+  1
+  1
+  6
+  0
+  1
+  0
+  0
+  0
+  4
+  1
+  -1
+     153.183 
+       0.000 
+     374.137 
+     133.097 
+     139.668 
+     101.372 
+       0.000 
+     585.838 
+       3.000 
+       4.500 
+     0.0000000 
+     0.0208325 
+     0.9050087 
+      15.691 
+       6.040 
+      11.638 
+      10.203 
+      -0.425 
+       0.042 
+      -0.121 
+      -4.279 
+     117.039 
+      -0.416 
+      53.852 
+      -5.415 
+       0.000 
+       0.000 
+  4
+      -0.706 
+  2
+      61.477 
+       0.000 
+       0.000 
+      79.239 
+  4
+  0
+  0
+  5
+  0
+  5
+  0
+  11
+  0.649169889570162
+  12
+  6
+  17
+  6
+  20
+  3
+  0
+  0
+  12
+  6
+  0
+  0
+  "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation" 
+  peptide-reagent-preparation.bld 
+  12
+  peptide-reagent-preparation 
+  peptide-reagent-preparation 
+  0
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 s_st_Chirality_1 
+  3 10 i_ionizer_Ion_state_n 
+  4 10 i_ionizer_Tot_Q 
+  5 10 s_ionizer_Ion_centers 
+  6 10 s_ionizer_Ion_types 
+  7 10 s_ionizer_Ion_ctrs_in 
+  8 10 r_ionizer_Ionization_penalty 
+  9 10 r_ionizer_Ionization_penalty_charging 
+  10 10 r_ionizer_Ionization_penalty_neutral 
+  11 10 s_lp_tautomerizer_action 
+  12 20 r_mmod_Potential_Energy-OPLS-2005 
+  13 20 b_mmod_Minimization_Converged-OPLS-2005 
+  14 20 r_mmod_RMS_Derivative-OPLS-2005 
+  15 20 i_mmod_Times_Found-OPLS-2005 
+  16 20 r_mmod_Relative_Potential_Energy-OPLS-2005 
+  17 20 b_mmod_Chiralities_Consistent-OPLS-2005 
+  18 20 i_mmod_Conformation-OPLS-2005 
+  19 10 i_mmod_Serial_Number-OPLS-2005 
+  :::
+ } 
+ m_atom[21] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_Hcount
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 -0.061219 -0.706330 0.898214 2 H A 24 0.25000 0.25000 "HIS " " CA " "    " 6 0 3 1 696969  C5  1 1 <> <>
+  2 2 -0.850963 0.345068 1.687707 2 H A 24 0.52000 0.52000 "HIS " " C  " "rpc1" 6 0 3 1 696969  C6  0 <> <> <>
+  3 15 -0.285976 1.276060 2.257760 2 H A 70 -0.44000 -0.44000 "HIS " " O  " "    " 8 0 3 1 FF2F2F  O7  0 <> <> <>
+  4 41 -0.341165 -1.680085 1.302001 2 H A 21 0.06000 0.06000 "HIS " " HA " "    " 1 0 3 0 FFFFFF  H15  0 <> <> <>
+  5 44 -1.470848 -0.833986 -0.572851 2 H A 21 0.33000 0.33000 "HIS " " H  " "    " 1 0 3 1 FFFFFF  H5  0 <>   8.788    0.483 
+  6 16 -2.205716 0.193289 1.706463 2 H A 70 -0.53000 -0.53000 "HIS " "    " "rpc2" 8 0 3 1 FF2F2F  O12  1 <>   1.975    0.535 
+  7 3 1.469426 -0.542691 1.024959 2 H A 2 -0.29700 -0.29700 "HIS " " CB " "    " 6 0 3 1 A0A0A0  C7  2 <> <> <>
+  8 2 2.283838 -1.573501 0.279531 2 H A 2 -0.26100 -0.26100 "HIS " " CG " "    " 6 0 3 1 A0A0A0  C8  0 <> <> <>
+  9 25 2.184997 -2.932721 0.529321 2 H A 43 -0.29100 -0.29100 "HIS " " ND1" "    " 7 0 3 1 5757FF  N9  1 <>   6.102    0.763 
+  10 2 3.234042 -1.448141 -0.712396 2 H A 2 0.50400 0.50400 "HIS " " CD2" "    " 6 0 3 1 A0A0A0  C10  1 <> <> <>
+  11 2 3.035258 -3.548283 -0.296742 2 H A 2 0.18200 0.18200 "HIS " " CE1" "    " 6 0 3 1 A0A0A0  C11  1 <> <> <>
+  12 25 3.702322 -2.710875 -1.081734 2 H A 43 -0.56400 -0.56400 "HIS " " NE2" "    " 7 0 3 1 5757FF  N12  0 <> <> <>
+  13 41 1.771618 0.443293 0.667764 2 H A 21 0.06000 0.06000 "HIS " " HB2" "    " 1 0 3 1 FFFFFF  H13  0 <> <> <>
+  14 41 1.761261 -0.588722 2.075394 2 H A 21 0.06000 0.06000 "HIS " " HB3" "    " 1 0 3 1 FFFFFF  H14  0 <> <> <>
+  15 41 3.612134 -0.554981 -1.188282 2 H A 21 0.18300 0.18300 "HIS " " HD2" "    " 1 0 3 1 FFFFFF  H15  0 <> <> <>
+  16 41 3.170010 -4.619898 -0.321552 2 H A 21 0.09800 0.09800 "HIS " " HE1" "    " 1 0 3 1 FFFFFF  H16  0 <> <> <>
+  17 43 1.595317 -3.379869 1.217212 2 H A 21 0.32600 0.32600 "HIS " " HE2" "    " 1 0 3 1 FFFFFF  H17  0 <>  12.944    0.763 
+  18 44 -0.240338 0.208001 -0.920088 2 H A 21 0.33000 0.33000 "HIS " "    " "    " 1 0 3 1 FFFFFF  H18  0 <>   8.788    0.483 
+  19 42 -2.633509 0.869038 2.210766 2 H A 21 0.45000 0.45000 "HIS " "    " "    " 1 0 0 1 FFFFFF  H19  0 <> <> <>
+  20 32 -0.472904 -0.687690 -0.516091 2 X A 43 -0.30000 -0.30000 "HIS " " N  " "  c1" 7 1 0 1 5757FF  N20  3 <> <> <>
+  21 44 0.009631 -1.421420 -1.014617 2 X A 21 0.33000 0.33000 "HIS " "    " "    " 1 0 0 1 FFFFFF  H21  0 <> <> <>
+  :::
+ } 
+ m_bond[21] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 4 1 3 3
+  3 1 7 1 3 3
+  4 1 20 1 3 3
+  5 2 3 2 3 3
+  6 2 6 1 3 3
+  7 5 20 1 3 3
+  8 6 19 1 1 1
+  9 7 13 1 3 3
+  10 7 14 1 3 3
+  11 7 8 1 1 1
+  12 8 10 2 1 1
+  13 8 9 1 1 1
+  14 9 17 1 1 1
+  15 9 11 1 1 1
+  16 10 15 1 1 1
+  17 10 12 1 1 1
+  18 11 16 1 1 1
+  19 11 12 2 1 1
+  20 18 20 1 3 3
+  21 20 21 1 1 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_ionizer_Ion_state_n
+ i_ionizer_Tot_Q
+ s_ionizer_Ion_centers
+ s_ionizer_Ion_types
+ s_ionizer_Ion_ctrs_in
+ r_ionizer_Ionization_penalty
+ r_ionizer_Ionization_penalty_charging
+ r_ionizer_Ionization_penalty_neutral
+ s_lp_tautomerizer_action
+ r_mmod_Potential_Energy-OPLS-2005
+ b_mmod_Minimization_Converged-OPLS-2005
+ r_mmod_RMS_Derivative-OPLS-2005
+ i_mmod_Times_Found-OPLS-2005
+ r_mmod_Relative_Potential_Energy-OPLS-2005
+ b_mmod_Chiralities_Consistent-OPLS-2005
+ i_mmod_Conformation-OPLS-2005
+ i_mmod_Serial_Number-OPLS-2005
+ i_qp_#stars
+ i_qp_#amine
+ i_qp_#amidine
+ i_qp_#acid
+ i_qp_#amide
+ i_qp_#rotor
+ i_qp_#rtvFG
+ i_qp_CNS
+ r_qp_mol_MW
+ r_qp_dipole
+ r_qp_SASA
+ r_qp_FOSA
+ r_qp_FISA
+ r_qp_PISA
+ r_qp_WPSA
+ r_qp_volume
+ r_qp_donorHB
+ r_qp_accptHB
+ r_qp_dip^2/V
+ r_qp_ACxDN^.5/SA
+ r_qp_glob
+ r_qp_QPpolrz
+ r_qp_QPlogPC16
+ r_qp_QPlogPoct
+ r_qp_QPlogPw
+ r_qp_QPlogPo/w
+ r_qp_QPlogS
+ r_qp_CIQPlogS
+ r_qp_QPlogHERG
+ r_qp_QPPCaco
+ r_qp_QPlogBB
+ r_qp_QPPMDCK
+ r_qp_QPlogKp
+ r_qp_IP(eV)
+ r_qp_EA(eV)
+ i_qp_#metab
+ r_qp_QPlogKhsa
+ i_qp_HumanOralAbsorption
+ r_qp_PercentHumanOralAbsorption
+ r_qp_SAfluorine
+ r_qp_SAamideO
+ r_qp_PSA
+ i_qp_#NandO
+ i_qp_RuleOfFive
+ i_qp_RuleOfThree
+ i_qp_#ringatoms
+ i_qp_#in34
+ i_qp_#in56
+ i_qp_#noncon
+ i_qp_#nonHatm
+ r_qp_Jm
+ i_chemfeatures_acceptor_atom
+ i_chemfeatures_acceptor_dist
+ i_chemfeatures_donor_atom
+ i_chemfeatures_donor_dist
+ i_chemfeatures_positive_atom
+ i_chemfeatures_positive_dist
+ i_chemfeatures_negative_atom
+ i_chemfeatures_negative_dist
+ i_chemfeatures_aromatic_atom
+ i_chemfeatures_aromatic_dist
+ i_chemfeatures_hydrophobe_atom
+ i_chemfeatures_hydrophobe_dist
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_m_subgroup_title
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ His(H) 
+  160 
+  Structure2 
+  37012
+  1
+  2
+  1_S_19_2_7_4 
+  0
+  OPLS3 
+  4.03727164021185
+  1
+  His(H)-1 
+  3
+  2
+  19_21 
+  N5_N4 
+  1_10 
+    0.4109 
+    0.4109 
+    0.0000 
+  "System-11-ct_220-4H-imidazole-1-3-diium_1 from System-11-ct_220-4H-imidazole-1-3-diium_1_1 to System-11-ct_220-4H-imidazole-1-3-diium_1_1 #1" 
+  49.1663475036621
+  1
+  0.00336238089948893
+  1
+  0
+  1
+  1
+  7
+  0
+  1
+  0
+  0
+  0
+  4
+  1
+  -1
+     153.183 
+       0.000 
+     374.484 
+     132.167 
+     140.559 
+     101.758 
+       0.000 
+     586.270 
+       3.000 
+       5.000 
+     0.0000000 
+     0.0231258 
+     0.9046143 
+      15.712 
+       6.050 
+      11.892 
+      10.705 
+      -0.570 
+       0.068 
+      -0.028 
+      -4.287 
+     114.782 
+      -0.424 
+      52.731 
+      -5.430 
+       0.000 
+       0.000 
+  4
+      -0.739 
+  2
+      60.478 
+       0.000 
+       0.000 
+      79.468 
+  4
+  0
+  0
+  5
+  0
+  5
+  0
+  11
+  0.665690712288623
+  3
+  2
+  16
+  7
+  21
+  5
+  0
+  0
+  11
+  6
+  0
+  0
+  "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation" 
+  peptide-reagent-preparation.bld 
+  13
+  peptide-reagent-preparation 
+  peptide-reagent-preparation 
+  0
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 s_st_Chirality_1 
+  3 10 i_ionizer_Ion_state_n 
+  4 10 i_ionizer_Tot_Q 
+  5 10 s_ionizer_Ion_centers 
+  6 10 s_ionizer_Ion_types 
+  7 10 s_ionizer_Ion_ctrs_in 
+  8 10 r_ionizer_Ionization_penalty 
+  9 10 r_ionizer_Ionization_penalty_charging 
+  10 10 r_ionizer_Ionization_penalty_neutral 
+  11 10 s_lp_tautomerizer_action 
+  12 20 r_mmod_Potential_Energy-OPLS-2005 
+  13 20 b_mmod_Minimization_Converged-OPLS-2005 
+  14 20 r_mmod_RMS_Derivative-OPLS-2005 
+  15 20 i_mmod_Times_Found-OPLS-2005 
+  16 20 r_mmod_Relative_Potential_Energy-OPLS-2005 
+  17 20 b_mmod_Chiralities_Consistent-OPLS-2005 
+  18 20 i_mmod_Conformation-OPLS-2005 
+  19 10 i_mmod_Serial_Number-OPLS-2005 
+  :::
+ } 
+ m_atom[22] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_Hcount
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 -0.082418 -0.685201 0.806568 2 H A 24 0.25000 0.25000 "HIS " " CA " "    " 6 0 3 1 696969  C5  1 1 <> <>
+  2 2 -0.881033 0.249507 1.722725 2 H A 24 0.52000 0.52000 "HIS " " C  " "rpc1" 6 0 3 1 696969  C6  0 <> <> <>
+  3 15 -0.319165 1.073976 2.440295 2 H A 70 -0.44000 -0.44000 "HIS " " O  " "    " 8 0 3 1 FF2F2F  O7  0 <> <> <>
+  4 41 -0.408120 -1.700748 1.035433 2 H A 21 0.06000 0.06000 "HIS " " HA " "    " 1 0 3 0 FFFFFF  H15  0 <> <> <>
+  5 44 -1.434591 -0.500221 -0.709019 2 H A 21 0.33000 0.33000 "HIS " " H  " "    " 1 0 3 1 FFFFFF  H5  0 <>   8.788    0.483 
+  6 16 -2.237721 0.123758 1.678326 2 H A 70 -0.53000 -0.53000 "HIS " "    " "rpc2" 8 0 3 1 FF2F2F  O12  1 <>   1.975    0.535 
+  7 3 1.444076 -0.592983 1.037551 2 H A 2 -0.00500 -0.00500 "HIS " " CB " "    " 6 0 3 1 A0A0A0  C7  2 <> <> <>
+  8 2 2.266466 -1.613237 0.286263 2 H A 2 0.21500 0.21500 "HIS " " CG " "    " 6 0 3 1 A0A0A0  C8  0 <> <> <>
+  9 2 3.103218 -1.474159 -0.806728 2 H A 2 0.21500 0.21500 "HIS " " CD2" "    " 6 0 3 1 A0A0A0  C10  1 <> <> <>
+  10 2 3.111939 -3.570079 -0.199445 2 H A 2 0.38500 0.38500 "HIS " " CE1" "    " 6 0 3 1 A0A0A0  C11  1 <> <> <>
+  11 25 3.618845 -2.726871 -1.096542 2 H A 43 -0.54000 -0.54000 "HIS " " NE2" "    " 7 0 3 1 5757FF  N12  1 <> <> <>
+  12 41 1.801057 0.399843 0.758568 2 H A 21 0.06000 0.06000 "HIS " " HB2" "    " 1 0 3 1 FFFFFF  H13  0 <> <> <>
+  13 41 1.673168 -0.709317 2.098234 2 H A 21 0.06000 0.06000 "HIS " " HB3" "    " 1 0 3 1 FFFFFF  H14  0 <> <> <>
+  14 41 3.376673 -0.610673 -1.395826 2 H A 21 0.11500 0.11500 "HIS " " HD2" "    " 1 0 3 1 FFFFFF  H15  0 <> <> <>
+  15 41 3.341638 -4.625476 -0.161571 2 H A 21 0.11500 0.11500 "HIS " " HE1" "    " 1 0 3 1 FFFFFF  H16  0 <> <> <>
+  16 43 4.268719 -2.955658 -1.836396 2 H A 21 0.46000 0.46000 "HIS " " HE2" "    " 1 0 3 1 FFFFFF  H17  0 <>  12.944    0.763 
+  17 44 -0.152633 0.522045 -0.847104 2 H A 21 0.33000 0.33000 "HIS " "    " "    " 1 0 3 1 FFFFFF  H18  0 <>   8.788    0.483 
+  18 42 -2.674013 0.724557 2.264173 2 H A 21 0.45000 0.45000 "HIS " "    " "    " 1 0 0 1 FFFFFF  H19  0 <> <> <>
+  19 32 -0.433042 -0.416809 -0.601033 2 X A 43 -0.30000 -0.30000 "HIS " " N  " "  c1" 7 1 0 1 5757FF  N20  3 <> <> <>
+  20 44 0.025445 -1.080932 -1.207757 2 X A 21 0.33000 0.33000 "HIS " "    " "    " 1 0 0 1 FFFFFF  H21  0 <> <> <>
+  21 31 2.292249 -2.952143 0.649599 2 X A 43 -0.54000 -0.54000 "HIS " " ND1" "  c1" 7 1 0 1 5757FF  N21  1 <> <> <>
+  22 44 1.805148 -3.380942 1.424746 2 X A 21 0.46000 0.46000 "HIS " "    " "    " 1 0 0 1 FFFFFF  H22  0 <> <> <>
+  :::
+ } 
+ m_bond[22] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 4 1 3 3
+  3 1 7 1 3 3
+  4 1 19 1 3 3
+  5 2 3 2 3 3
+  6 2 6 1 3 3
+  7 5 19 1 3 3
+  8 6 18 1 1 1
+  9 7 8 1 3 3
+  10 7 12 1 3 3
+  11 7 13 1 3 3
+  12 8 9 2 3 3
+  13 8 21 1 3 3
+  14 9 11 1 3 3
+  15 9 14 1 3 3
+  16 10 11 1 3 3
+  17 10 15 1 3 3
+  18 10 21 2 3 3
+  19 11 16 1 3 3
+  20 17 19 1 3 3
+  21 19 20 1 1 1
+  22 21 22 1 1 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_st_Chirality_2
+ i_ionizer_Ion_state_n
+ i_ionizer_Tot_Q
+ s_ionizer_Ion_centers
+ s_ionizer_Ion_types
+ s_ionizer_Ion_ctrs_in
+ r_ionizer_Ionization_penalty
+ r_ionizer_Ionization_penalty_charging
+ r_ionizer_Ionization_penalty_neutral
+ s_lp_tautomerizer_action
+ r_mmod_Potential_Energy-OPLS-2005
+ b_mmod_Minimization_Converged-OPLS-2005
+ r_mmod_RMS_Derivative-OPLS-2005
+ i_mmod_Times_Found-OPLS-2005
+ r_mmod_Relative_Potential_Energy-OPLS-2005
+ b_mmod_Chiralities_Consistent-OPLS-2005
+ i_mmod_Conformation-OPLS-2005
+ i_mmod_Serial_Number-OPLS-2005
+ i_qp_#stars
+ i_qp_#amine
+ i_qp_#amidine
+ i_qp_#acid
+ i_qp_#amide
+ i_qp_#rotor
+ i_qp_#rtvFG
+ i_qp_CNS
+ r_qp_mol_MW
+ r_qp_dipole
+ r_qp_SASA
+ r_qp_FOSA
+ r_qp_FISA
+ r_qp_PISA
+ r_qp_WPSA
+ r_qp_volume
+ r_qp_donorHB
+ r_qp_accptHB
+ r_qp_dip^2/V
+ r_qp_ACxDN^.5/SA
+ r_qp_glob
+ r_qp_QPpolrz
+ r_qp_QPlogPC16
+ r_qp_QPlogPoct
+ r_qp_QPlogPw
+ r_qp_QPlogPo/w
+ r_qp_QPlogS
+ r_qp_CIQPlogS
+ r_qp_QPlogHERG
+ r_qp_QPPCaco
+ r_qp_QPlogBB
+ r_qp_QPPMDCK
+ r_qp_QPlogKp
+ r_qp_IP(eV)
+ r_qp_EA(eV)
+ i_qp_#metab
+ r_qp_QPlogKhsa
+ i_qp_HumanOralAbsorption
+ r_qp_PercentHumanOralAbsorption
+ r_qp_SAfluorine
+ r_qp_SAamideO
+ r_qp_PSA
+ i_qp_#NandO
+ i_qp_RuleOfFive
+ i_qp_RuleOfThree
+ i_qp_#ringatoms
+ i_qp_#in34
+ i_qp_#in56
+ i_qp_#noncon
+ i_qp_#nonHatm
+ r_qp_Jm
+ i_chemfeatures_acceptor_atom
+ i_chemfeatures_acceptor_dist
+ i_chemfeatures_donor_atom
+ i_chemfeatures_donor_dist
+ i_chemfeatures_positive_atom
+ i_chemfeatures_positive_dist
+ i_chemfeatures_negative_atom
+ i_chemfeatures_negative_dist
+ i_chemfeatures_aromatic_atom
+ i_chemfeatures_aromatic_dist
+ i_chemfeatures_hydrophobe_atom
+ i_chemfeatures_hydrophobe_dist
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_m_subgroup_title
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ Ile(I) 
+  161 
+  Structure2 
+  37012
+  1
+  2
+  1_S_22_2_7_4 
+  0
+  OPLS3 
+  13.5420051565174
+  1
+  Ile(I)-1 
+  7_S_1_8_9_11 
+  1
+  1
+  22 
+  N5 
+  1 
+    0.0002 
+    0.0002 
+    0.0000 
+  " #1" 
+  44.34228515625
+  1
+  0.000232661463087425
+  1
+  0
+  1
+  1
+  8
+  1
+  1
+  0
+  0
+  0
+  4
+  1
+  1
+     129.202 
+       0.000 
+     362.525 
+     283.268 
+      79.256 
+       0.000 
+       0.000 
+     573.626 
+       2.000 
+       3.000 
+     0.0000000 
+     0.0117030 
+     0.9209720 
+      14.234 
+       4.698 
+       8.252 
+       6.132 
+       0.420 
+      -0.012 
+       0.229 
+      -3.537 
+     437.735 
+       0.098 
+     224.090 
+      -4.659 
+       0.000 
+       0.000 
+  3
+      -0.551 
+  3
+      76.679 
+       0.000 
+       0.000 
+      48.595 
+  2
+  0
+  0
+  0
+  0
+  0
+  0
+  9
+  2.75632015526176
+  3
+  2
+  5
+  4
+  22
+  3
+  0
+  0
+  0
+  0
+  0
+  0
+  "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation" 
+  peptide-reagent-preparation.bld 
+  14
+  peptide-reagent-preparation 
+  peptide-reagent-preparation 
+  0
+  2
+ m_depend[20] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 s_st_Chirality_1 
+  3 10 s_st_Chirality_2 
+  4 10 i_ionizer_Ion_state_n 
+  5 10 i_ionizer_Tot_Q 
+  6 10 s_ionizer_Ion_centers 
+  7 10 s_ionizer_Ion_types 
+  8 10 s_ionizer_Ion_ctrs_in 
+  9 10 r_ionizer_Ionization_penalty 
+  10 10 r_ionizer_Ionization_penalty_charging 
+  11 10 r_ionizer_Ionization_penalty_neutral 
+  12 10 s_lp_tautomerizer_action 
+  13 20 r_mmod_Potential_Energy-OPLS-2005 
+  14 20 b_mmod_Minimization_Converged-OPLS-2005 
+  15 20 r_mmod_RMS_Derivative-OPLS-2005 
+  16 20 i_mmod_Times_Found-OPLS-2005 
+  17 20 r_mmod_Relative_Potential_Energy-OPLS-2005 
+  18 20 b_mmod_Chiralities_Consistent-OPLS-2005 
+  19 20 i_mmod_Conformation-OPLS-2005 
+  20 10 i_mmod_Serial_Number-OPLS-2005 
+  :::
+ } 
+ m_atom[23] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_Hcount
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 0.097737 0.295473 0.313104 2 I A 24 0.25000 0.25000 "ILE " " CA " "    " 6 0 3 1 696969  C5  1 1 <> <>
+  2 2 -0.523247 -0.468975 1.490885 2 I A 24 0.52000 0.52000 "ILE " " C  " "rpc1" 6 0 3 1 696969  C6  0 <> <> <>
+  3 15 0.169638 -0.885785 2.416539 2 I A 70 -0.44000 -0.44000 "ILE " " O  " "    " 8 0 3 1 FF2F2F  O7  0 <> <> <>
+  4 41 -0.483061 0.043689 -0.575490 2 I A 21 0.06000 0.06000 "ILE " " HA " "    " 1 0 3 0 FFFFFF  H15  0 <> <> <>
+  5 44 -1.082698 1.918888 0.692301 2 I A 21 0.33000 0.33000 "ILE " " H  " "    " 1 0 3 1 FFFFFF  H5  0 <>   9.888    0.945 
+  6 16 -1.880204 -0.597338 1.480376 2 I A 70 -0.53000 -0.53000 "ILE " "    " "rpc2" 8 0 3 1 FF2F2F  O12  1 <>   2.474    0.791 
+  7 3 1.593354 -0.048675 0.030024 2 I A 2 -0.06000 -0.06000 "ILE " " CB " "    " 6 0 3 1 A0A0A0  C7  1 1 <> <>
+  8 3 2.176849 0.812695 -1.120465 2 I A 2 -0.12000 -0.12000 "ILE " " CG1" "    " 6 0 3 1 A0A0A0  C8  2 <> <> <>
+  9 3 1.789202 -1.551814 -0.278531 2 I A 2 -0.18000 -0.18000 "ILE " " CG2" "    " 6 0 3 1 A0A0A0  C9  3 <> <> <>
+  10 3 3.696155 0.682632 -1.306154 2 I A 2 -0.18000 -0.18000 "ILE " " CD1" "    " 6 0 3 1 A0A0A0  C10  3 <> <> <>
+  11 41 2.165893 0.181490 0.930353 2 I A 21 0.06000 0.06000 "ILE " " HB " "    " 1 0 3 1 FFFFFF  H11  0 <> <> <>
+  12 41 1.674909 0.568876 -2.057742 2 I A 21 0.06000 0.06000 "ILE " "HG12" "    " 1 0 3 1 FFFFFF  H12  0 <> <> <>
+  13 41 1.977187 1.868435 -0.940983 2 I A 21 0.06000 0.06000 "ILE " "HG13" "    " 1 0 3 1 FFFFFF  H13  0 <> <> <>
+  14 41 2.841156 -1.804013 -0.405580 2 I A 21 0.06000 0.06000 "ILE " "HG21" "    " 1 0 3 1 FFFFFF  H14  0 <> <> <>
+  15 41 1.423228 -2.195000 0.520668 2 I A 21 0.06000 0.06000 "ILE " "HG22" "    " 1 0 3 1 FFFFFF  H15  0 <> <> <>
+  16 41 1.268312 -1.837419 -1.192937 2 I A 21 0.06000 0.06000 "ILE " "HG23" "    " 1 0 3 1 FFFFFF  H16  0 <> <> <>
+  17 41 4.053147 1.394567 -2.050726 2 I A 21 0.06000 0.06000 "ILE " "HD11" "    " 1 0 3 1 FFFFFF  H17  0 <> <> <>
+  18 41 4.227620 0.885126 -0.375919 2 I A 21 0.06000 0.06000 "ILE " "HD12" "    " 1 0 3 1 FFFFFF  H18  0 <> <> <>
+  19 41 3.982702 -0.310361 -1.651055 2 I A 21 0.06000 0.06000 "ILE " "HD13" "    " 1 0 3 1 FFFFFF  H19  0 <> <> <>
+  20 44 0.412314 2.009400 1.382041 2 I A 21 0.33000 0.33000 "ILE " "    " "    " 1 0 3 1 FFFFFF  H20  0 <>   9.888    0.945 
+  21 42 -2.202503 -1.062074 2.238065 2 I A 21 0.45000 0.45000 "ILE " "    " "    " 1 0 0 1 FFFFFF  H21  0 <> <> <>
+  22 32 -0.098642 1.736687 0.554518 2 X A 43 -0.30000 -0.30000 "ILE " " N  " "  c1" 7 1 0 1 5757FF  N22  3 <> <> <>
+  23 44 0.235546 2.262849 -0.239788 2 X A 21 0.33000 0.33000 "ILE " "    " "    " 1 0 0 1 FFFFFF  H23  0 <> <> <>
+  :::
+ } 
+ m_bond[22] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 4 1 3 3
+  3 1 7 1 3 3
+  4 1 22 1 3 3
+  5 2 3 2 3 3
+  6 2 6 1 3 3
+  7 5 22 1 3 3
+  8 6 21 1 1 1
+  9 7 8 1 3 3
+  10 7 9 1 3 3
+  11 7 11 1 3 3
+  12 8 10 1 3 3
+  13 8 12 1 3 3
+  14 8 13 1 3 3
+  15 9 14 1 3 3
+  16 9 15 1 3 3
+  17 9 16 1 3 3
+  18 10 17 1 3 3
+  19 10 18 1 3 3
+  20 10 19 1 3 3
+  21 20 22 1 3 3
+  22 22 23 1 1 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_ionizer_Ion_state_n
+ i_ionizer_Tot_Q
+ s_ionizer_Ion_centers
+ s_ionizer_Ion_types
+ s_ionizer_Ion_ctrs_in
+ r_ionizer_Ionization_penalty
+ r_ionizer_Ionization_penalty_charging
+ r_ionizer_Ionization_penalty_neutral
+ s_lp_tautomerizer_action
+ r_mmod_Potential_Energy-OPLS-2005
+ b_mmod_Minimization_Converged-OPLS-2005
+ r_mmod_RMS_Derivative-OPLS-2005
+ i_mmod_Times_Found-OPLS-2005
+ r_mmod_Relative_Potential_Energy-OPLS-2005
+ b_mmod_Chiralities_Consistent-OPLS-2005
+ i_mmod_Conformation-OPLS-2005
+ i_mmod_Serial_Number-OPLS-2005
+ i_qp_#stars
+ i_qp_#amine
+ i_qp_#amidine
+ i_qp_#acid
+ i_qp_#amide
+ i_qp_#rotor
+ i_qp_#rtvFG
+ i_qp_CNS
+ r_qp_mol_MW
+ r_qp_dipole
+ r_qp_SASA
+ r_qp_FOSA
+ r_qp_FISA
+ r_qp_PISA
+ r_qp_WPSA
+ r_qp_volume
+ r_qp_donorHB
+ r_qp_accptHB
+ r_qp_dip^2/V
+ r_qp_ACxDN^.5/SA
+ r_qp_glob
+ r_qp_QPpolrz
+ r_qp_QPlogPC16
+ r_qp_QPlogPoct
+ r_qp_QPlogPw
+ r_qp_QPlogPo/w
+ r_qp_QPlogS
+ r_qp_CIQPlogS
+ r_qp_QPlogHERG
+ r_qp_QPPCaco
+ r_qp_QPlogBB
+ r_qp_QPPMDCK
+ r_qp_QPlogKp
+ r_qp_IP(eV)
+ r_qp_EA(eV)
+ i_qp_#metab
+ r_qp_QPlogKhsa
+ i_qp_HumanOralAbsorption
+ r_qp_PercentHumanOralAbsorption
+ r_qp_SAfluorine
+ r_qp_SAamideO
+ r_qp_PSA
+ i_qp_#NandO
+ i_qp_RuleOfFive
+ i_qp_RuleOfThree
+ i_qp_#ringatoms
+ i_qp_#in34
+ i_qp_#in56
+ i_qp_#noncon
+ i_qp_#nonHatm
+ r_qp_Jm
+ i_chemfeatures_acceptor_atom
+ i_chemfeatures_acceptor_dist
+ i_chemfeatures_donor_atom
+ i_chemfeatures_donor_dist
+ i_chemfeatures_positive_atom
+ i_chemfeatures_positive_dist
+ i_chemfeatures_negative_atom
+ i_chemfeatures_negative_dist
+ i_chemfeatures_aromatic_atom
+ i_chemfeatures_aromatic_dist
+ i_chemfeatures_hydrophobe_atom
+ i_chemfeatures_hydrophobe_dist
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_m_subgroup_title
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ Leu(L) 
+  162 
+  Structure2 
+  37012
+  1
+  2
+  1_S_22_2_7_4 
+  0
+  OPLS3 
+  9.16714047299197
+  1
+  Leu(L)-1 
+  1
+  1
+  22 
+  N5 
+  1 
+    0.0002 
+    0.0002 
+    0.0000 
+  " #1" 
+  17.8618030548096
+  1
+  0.04445531219244
+  1
+  0
+  1
+  1
+  1
+  1
+  1
+  0
+  0
+  0
+  4
+  1
+  1
+     129.202 
+       0.000 
+     368.115 
+     281.334 
+      86.781 
+       0.000 
+       0.000 
+     579.469 
+       2.000 
+       3.000 
+     0.0000000 
+     0.0115253 
+     0.9131358 
+      14.468 
+       4.736 
+       8.411 
+       6.197 
+       0.398 
+      -0.100 
+       0.229 
+      -3.664 
+     371.410 
+       0.027 
+     187.626 
+      -4.797 
+       0.000 
+       0.000 
+  3
+      -0.542 
+  3
+      75.274 
+       0.000 
+       0.000 
+      51.022 
+  2
+  0
+  0
+  0
+  0
+  0
+  0
+  9
+  1.63487223332298
+  3
+  2
+  5
+  4
+  22
+  3
+  0
+  0
+  0
+  0
+  0
+  0
+  "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation" 
+  peptide-reagent-preparation.bld 
+  15
+  peptide-reagent-preparation 
+  peptide-reagent-preparation 
+  0
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 s_st_Chirality_1 
+  3 10 i_ionizer_Ion_state_n 
+  4 10 i_ionizer_Tot_Q 
+  5 10 s_ionizer_Ion_centers 
+  6 10 s_ionizer_Ion_types 
+  7 10 s_ionizer_Ion_ctrs_in 
+  8 10 r_ionizer_Ionization_penalty 
+  9 10 r_ionizer_Ionization_penalty_charging 
+  10 10 r_ionizer_Ionization_penalty_neutral 
+  11 10 s_lp_tautomerizer_action 
+  12 20 r_mmod_Potential_Energy-OPLS-2005 
+  13 20 b_mmod_Minimization_Converged-OPLS-2005 
+  14 20 r_mmod_RMS_Derivative-OPLS-2005 
+  15 20 i_mmod_Times_Found-OPLS-2005 
+  16 20 r_mmod_Relative_Potential_Energy-OPLS-2005 
+  17 20 b_mmod_Chiralities_Consistent-OPLS-2005 
+  18 20 i_mmod_Conformation-OPLS-2005 
+  19 10 i_mmod_Serial_Number-OPLS-2005 
+  :::
+ } 
+ m_atom[23] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_Hcount
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 0.074758 -0.232547 0.481021 2 L A 24 0.25000 0.25000 "LEU " " CA " "    " 6 0 3 1 696969  C5  1 1 <> <>
+  2 2 -0.959575 -0.483804 1.585420 2 L A 24 0.52000 0.52000 "LEU " " C  " "rpc1" 6 0 3 1 696969  C6  0 <> <> <>
+  3 15 -0.649227 -1.029862 2.641996 2 L A 70 -0.44000 -0.44000 "LEU " " O  " "    " 8 0 3 1 FF2F2F  O7  0 <> <> <>
+  4 41 -0.335749 -0.676407 -0.425651 2 L A 21 0.06000 0.06000 "LEU " " HA " "    " 1 0 3 0 FFFFFF  H15  0 <> <> <>
+  5 44 -0.707742 1.598346 0.032952 2 L A 21 0.33000 0.33000 "LEU " " H  " "    " 1 0 3 1 FFFFFF  H5  0 <>   9.888    0.483 
+  6 16 -2.228348 -0.053440 1.332703 2 L A 70 -0.53000 -0.53000 "LEU " "    " "rpc2" 8 0 3 1 FF2F2F  O12  1 <>   2.474    0.520 
+  7 3 1.450844 -0.874761 0.784841 2 L A 2 -0.12000 -0.12000 "LEU " " CB " "    " 6 0 3 1 A0A0A0  C7  2 <> <> <>
+  8 3 2.511448 -0.733661 -0.331265 2 L A 2 -0.06000 -0.06000 "LEU " " CG " "    " 6 0 3 1 A0A0A0  C8  1 <> <> <>
+  9 3 3.882398 -1.217287 0.165912 2 L A 2 -0.18000 -0.18000 "LEU " " CD1" "    " 6 0 3 1 A0A0A0  C9  3 <> <> <>
+  10 3 2.118211 -1.480835 -1.616943 2 L A 2 -0.18000 -0.18000 "LEU " " CD2" "    " 6 0 3 1 A0A0A0  C10  3 <> <> <>
+  11 41 1.848203 -0.433275 1.700665 2 L A 21 0.06000 0.06000 "LEU " " HB2" "    " 1 0 3 1 FFFFFF  H11  0 <> <> <>
+  12 41 1.316795 -1.935809 1.003334 2 L A 21 0.06000 0.06000 "LEU " " HB3" "    " 1 0 3 1 FFFFFF  H12  0 <> <> <>
+  13 41 2.622921 0.322155 -0.579272 2 L A 21 0.06000 0.06000 "LEU " " HG " "    " 1 0 3 1 FFFFFF  H13  0 <> <> <>
+  14 41 4.648228 -1.085940 -0.599204 2 L A 21 0.06000 0.06000 "LEU " "HD11" "    " 1 0 3 1 FFFFFF  H14  0 <> <> <>
+  15 41 4.203202 -0.659894 1.046504 2 L A 21 0.06000 0.06000 "LEU " "HD12" "    " 1 0 3 1 FFFFFF  H15  0 <> <> <>
+  16 41 3.857714 -2.274502 0.432524 2 L A 21 0.06000 0.06000 "LEU " "HD13" "    " 1 0 3 1 FFFFFF  H16  0 <> <> <>
+  17 41 2.902344 -1.400676 -2.370530 2 L A 21 0.06000 0.06000 "LEU " "HD21" "    " 1 0 3 1 FFFFFF  H17  0 <> <> <>
+  18 41 1.953463 -2.541610 -1.424825 2 L A 21 0.06000 0.06000 "LEU " "HD22" "    " 1 0 3 1 FFFFFF  H18  0 <> <> <>
+  19 41 1.209396 -1.075679 -2.060697 2 L A 21 0.06000 0.06000 "LEU " "HD23" "    " 1 0 3 1 FFFFFF  H19  0 <> <> <>
+  20 44 0.567809 1.660958 1.075474 2 L A 21 0.33000 0.33000 "LEU " "    " "    " 1 0 3 1 FFFFFF  H20  0 <>   9.888    0.483 
+  21 42 -2.818197 -0.238980 2.048080 2 L A 21 0.45000 0.45000 "LEU " "    " "    " 1 0 0 1 FFFFFF  H21  0 <> <> <>
+  22 32 0.203374 1.216608 0.244950 2 X A 43 -0.30000 -0.30000 "LEU " " N  " "  c1" 7 1 0 1 5757FF  N22  3 <> <> <>
+  23 44 0.829099 1.380568 -0.530404 2 X A 21 0.33000 0.33000 "LEU " "    " "    " 1 0 0 1 FFFFFF  H23  0 <> <> <>
+  :::
+ } 
+ m_bond[22] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 4 1 3 3
+  3 1 7 1 3 3
+  4 1 22 1 3 3
+  5 2 3 2 3 3
+  6 2 6 1 3 3
+  7 5 22 1 3 3
+  8 6 21 1 1 1
+  9 7 8 1 3 3
+  10 7 11 1 3 3
+  11 7 12 1 3 3
+  12 8 9 1 3 3
+  13 8 10 1 3 3
+  14 8 13 1 3 3
+  15 9 14 1 3 3
+  16 9 15 1 3 3
+  17 9 16 1 3 3
+  18 10 17 1 3 3
+  19 10 18 1 3 3
+  20 10 19 1 3 3
+  21 20 22 1 3 3
+  22 22 23 1 1 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_ionizer_Ion_state_n
+ i_ionizer_Tot_Q
+ s_ionizer_Ion_centers
+ s_ionizer_Ion_types
+ s_ionizer_Ion_ctrs_in
+ r_ionizer_Ionization_penalty
+ r_ionizer_Ionization_penalty_charging
+ r_ionizer_Ionization_penalty_neutral
+ s_lp_tautomerizer_action
+ r_mmod_Potential_Energy-OPLS-2005
+ b_mmod_Minimization_Converged-OPLS-2005
+ r_mmod_RMS_Derivative-OPLS-2005
+ i_mmod_Times_Found-OPLS-2005
+ r_mmod_Relative_Potential_Energy-OPLS-2005
+ b_mmod_Chiralities_Consistent-OPLS-2005
+ i_mmod_Conformation-OPLS-2005
+ i_mmod_Serial_Number-OPLS-2005
+ i_qp_#stars
+ i_qp_#amine
+ i_qp_#amidine
+ i_qp_#acid
+ i_qp_#amide
+ i_qp_#rotor
+ i_qp_#rtvFG
+ i_qp_CNS
+ r_qp_mol_MW
+ r_qp_dipole
+ r_qp_SASA
+ r_qp_FOSA
+ r_qp_FISA
+ r_qp_PISA
+ r_qp_WPSA
+ r_qp_volume
+ r_qp_donorHB
+ r_qp_accptHB
+ r_qp_dip^2/V
+ r_qp_ACxDN^.5/SA
+ r_qp_glob
+ r_qp_QPpolrz
+ r_qp_QPlogPC16
+ r_qp_QPlogPoct
+ r_qp_QPlogPw
+ r_qp_QPlogPo/w
+ r_qp_QPlogS
+ r_qp_CIQPlogS
+ r_qp_QPlogHERG
+ r_qp_QPPCaco
+ r_qp_QPlogBB
+ r_qp_QPPMDCK
+ r_qp_QPlogKp
+ r_qp_IP(eV)
+ r_qp_EA(eV)
+ i_qp_#metab
+ r_qp_QPlogKhsa
+ i_qp_HumanOralAbsorption
+ r_qp_PercentHumanOralAbsorption
+ r_qp_SAfluorine
+ r_qp_SAamideO
+ r_qp_PSA
+ i_qp_#NandO
+ i_qp_RuleOfFive
+ i_qp_RuleOfThree
+ i_qp_#ringatoms
+ i_qp_#in34
+ i_qp_#in56
+ i_qp_#noncon
+ i_qp_#nonHatm
+ r_qp_Jm
+ i_chemfeatures_acceptor_atom
+ i_chemfeatures_acceptor_dist
+ i_chemfeatures_donor_atom
+ i_chemfeatures_donor_dist
+ i_chemfeatures_positive_atom
+ i_chemfeatures_positive_dist
+ i_chemfeatures_negative_atom
+ i_chemfeatures_negative_dist
+ i_chemfeatures_aromatic_atom
+ i_chemfeatures_aromatic_dist
+ i_chemfeatures_hydrophobe_atom
+ i_chemfeatures_hydrophobe_dist
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_m_subgroup_title
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ Lys(K) 
+  163 
+  Structure2 
+  37012
+  1
+  3
+  1_S_23_2_7_4 
+  0
+  OPLS3 
+  13.5739555299382
+  1
+  Lys(K)-1 
+  3
+  2
+  23_25 
+  N5_N5 
+  1_12 
+    0.0004 
+    0.0004 
+    0.0000 
+  " #1" 
+  22.1213932037354
+  1
+  0.0154003901407123
+  1
+  0
+  1
+  1
+  2
+  1
+  2
+  0
+  0
+  0
+  7
+  1
+  -1
+     144.216 
+       0.000 
+     397.342 
+     243.751 
+     153.591 
+       0.000 
+       0.000 
+     622.891 
+       4.000 
+       4.000 
+     0.0000000 
+     0.0201338 
+     0.8877193 
+      14.279 
+       5.893 
+      11.870 
+       9.974 
+      -1.013 
+       1.520 
+       1.279 
+      -4.801 
+      21.538 
+      -0.361 
+       9.561 
+      -7.803 
+       0.000 
+       0.000 
+  5
+      -0.807 
+  2
+      44.878 
+       0.000 
+       0.000 
+      78.853 
+  3
+  0
+  1
+  0
+  0
+  0
+  0
+  10
+  0.0751108146617552
+  3
+  2
+  19
+  8
+  25
+  7
+  0
+  0
+  0
+  0
+  0
+  0
+  "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation" 
+  peptide-reagent-preparation.bld 
+  16
+  peptide-reagent-preparation 
+  peptide-reagent-preparation 
+  0
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 s_st_Chirality_1 
+  3 10 i_ionizer_Ion_state_n 
+  4 10 i_ionizer_Tot_Q 
+  5 10 s_ionizer_Ion_centers 
+  6 10 s_ionizer_Ion_types 
+  7 10 s_ionizer_Ion_ctrs_in 
+  8 10 r_ionizer_Ionization_penalty 
+  9 10 r_ionizer_Ionization_penalty_charging 
+  10 10 r_ionizer_Ionization_penalty_neutral 
+  11 10 s_lp_tautomerizer_action 
+  12 20 r_mmod_Potential_Energy-OPLS-2005 
+  13 20 b_mmod_Minimization_Converged-OPLS-2005 
+  14 20 r_mmod_RMS_Derivative-OPLS-2005 
+  15 20 i_mmod_Times_Found-OPLS-2005 
+  16 20 r_mmod_Relative_Potential_Energy-OPLS-2005 
+  17 20 b_mmod_Chiralities_Consistent-OPLS-2005 
+  18 20 i_mmod_Conformation-OPLS-2005 
+  19 10 i_mmod_Serial_Number-OPLS-2005 
+  :::
+ } 
+ m_atom[26] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_Hcount
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 -0.141839 1.685953 -0.334627 2 K A 24 0.25000 0.25000 "LYS " " CA " "    " 6 0 3 1 696969  C5  1 1 <> <>
+  2 2 -0.563788 2.653117 -1.447705 2 K A 24 0.52000 0.52000 "LYS " " C  " "rpc1" 6 0 3 1 696969  C6  0 <> <> <>
+  3 15 -0.221623 2.474159 -2.614621 2 K A 70 -0.44000 -0.44000 "LYS " " O  " "    " 8 0 3 1 FF2F2F  O7  0 <> <> <>
+  4 41 0.306543 2.293913 0.452271 2 K A 21 0.06000 0.06000 "LYS " " HA " "    " 1 0 3 0 FFFFFF  H15  0 <> <> <>
+  5 44 -1.979664 1.746475 0.549634 2 K A 21 0.33000 0.33000 "LYS " " H  " "    " 1 0 3 1 FFFFFF  H5  0 <>   9.661    0.483 
+  6 16 -1.352500 3.699288 -1.070858 2 K A 70 -0.53000 -0.53000 "LYS " "    " "rpc2" 8 0 3 1 FF2F2F  O12  1 <>   2.371    0.460 
+  7 3 0.896171 0.639349 -0.801318 2 K A 2 -0.12000 -0.12000 "LYS " " CB " "    " 6 0 3 1 A0A0A0  C7  2 <> <> <>
+  8 3 1.524536 -0.164159 0.351227 2 K A 2 -0.12000 -0.12000 "LYS " " CG " "    " 6 0 3 1 A0A0A0  C8  2 <> <> <>
+  9 3 2.595660 -1.151835 -0.137435 2 K A 2 -0.12000 -0.12000 "LYS " " CD " "    " 6 0 3 1 A0A0A0  C9  2 <> <> <>
+  10 3 3.234555 -1.947497 1.010266 2 K A 2 0.19000 0.19000 "LYS " " CE " "    " 6 0 3 1 A0A0A0  C10  2 <> <> <>
+  11 41 0.439702 -0.044267 -1.519239 2 K A 21 0.06000 0.06000 "LYS " " HB2" "    " 1 0 3 1 FFFFFF  H12  0 <> <> <>
+  12 41 1.701632 1.145535 -1.336536 2 K A 21 0.06000 0.06000 "LYS " " HB3" "    " 1 0 3 1 FFFFFF  H13  0 <> <> <>
+  13 41 1.970655 0.523690 1.070892 2 K A 21 0.06000 0.06000 "LYS " " HG2" "    " 1 0 3 1 FFFFFF  H14  0 <> <> <>
+  14 41 0.749127 -0.712348 0.887302 2 K A 21 0.06000 0.06000 "LYS " " HG3" "    " 1 0 3 1 FFFFFF  H15  0 <> <> <>
+  15 41 2.149637 -1.841684 -0.855414 2 K A 21 0.06000 0.06000 "LYS " " HD2" "    " 1 0 3 1 FFFFFF  H16  0 <> <> <>
+  16 41 3.371345 -0.605070 -0.675727 2 K A 21 0.06000 0.06000 "LYS " " HD3" "    " 1 0 3 1 FFFFFF  H17  0 <> <> <>
+  17 41 3.697045 -1.270709 1.729671 2 K A 21 0.06000 0.06000 "LYS " " HE2" "    " 1 0 3 1 FFFFFF  H18  0 <> <> <>
+  18 41 2.474619 -2.516922 1.546622 2 K A 21 0.06000 0.06000 "LYS " " HE3" "    " 1 0 3 1 FFFFFF  H19  0 <> <> <>
+  19 44 4.661600 -3.386972 1.288881 2 K A 21 0.33000 0.33000 "LYS " " HZ3" "    " 1 0 3 1 FFFFFF  H20  0 <>  10.086    0.198 
+  20 44 3.840874 -3.534164 -0.132691 2 K A 21 0.33000 0.33000 "LYS " "    " "    " 1 0 3 1 FFFFFF  H21  0 <>  10.086    0.198 
+  21 44 -1.781150 0.470855 -0.474285 2 K A 21 0.33000 0.33000 "LYS " "    " "    " 1 0 3 1 FFFFFF  H22  0 <>   9.661    0.483 
+  22 42 -1.578842 4.258276 -1.799227 2 K A 21 0.45000 0.45000 "LYS " "    " "    " 1 0 0 1 FFFFFF  H23  0 <> <> <>
+  23 32 -1.335048 1.034714 0.235095 2 X A 43 -0.30000 -0.30000 "LYS " " N  " "  c1" 7 1 0 1 5757FF  N24  3 <> <> <>
+  24 44 -1.067681 0.451736 1.014802 2 X A 21 0.33000 0.33000 "LYS " "    " "    " 1 0 0 1 FFFFFF  H25  0 <> <> <>
+  25 32 4.260592 -2.879968 0.512478 2 X A 43 -0.30000 -0.30000 "LYS " " NZ " "  c1" 7 1 0 1 5757FF  N25  3 <> <> <>
+  26 44 4.988355 -2.362856 0.039827 2 X A 21 0.33000 0.33000 "LYS " "    " "    " 1 0 0 1 FFFFFF  H26  0 <> <> <>
+  :::
+ } 
+ m_bond[25] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 4 1 3 3
+  3 1 7 1 3 3
+  4 1 23 1 3 3
+  5 2 3 2 3 3
+  6 2 6 1 3 3
+  7 5 23 1 3 3
+  8 6 22 1 1 1
+  9 7 8 1 3 3
+  10 7 11 1 3 3
+  11 7 12 1 3 3
+  12 8 9 1 3 3
+  13 8 13 1 3 3
+  14 8 14 1 3 3
+  15 9 10 1 3 3
+  16 9 15 1 3 3
+  17 9 16 1 3 3
+  18 10 17 1 3 3
+  19 10 18 1 3 3
+  20 10 25 1 3 3
+  21 19 25 1 3 3
+  22 20 25 1 3 3
+  23 21 23 1 3 3
+  24 23 24 1 1 1
+  25 25 26 1 1 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_ionizer_Ion_state_n
+ i_ionizer_Tot_Q
+ s_ionizer_Ion_centers
+ s_ionizer_Ion_types
+ s_ionizer_Ion_ctrs_in
+ r_ionizer_Ionization_penalty
+ r_ionizer_Ionization_penalty_charging
+ r_ionizer_Ionization_penalty_neutral
+ s_lp_tautomerizer_action
+ r_mmod_Potential_Energy-OPLS-2005
+ b_mmod_Minimization_Converged-OPLS-2005
+ r_mmod_RMS_Derivative-OPLS-2005
+ i_mmod_Times_Found-OPLS-2005
+ r_mmod_Relative_Potential_Energy-OPLS-2005
+ b_mmod_Chiralities_Consistent-OPLS-2005
+ i_mmod_Conformation-OPLS-2005
+ i_mmod_Serial_Number-OPLS-2005
+ i_qp_#stars
+ i_qp_#amine
+ i_qp_#amidine
+ i_qp_#acid
+ i_qp_#amide
+ i_qp_#rotor
+ i_qp_#rtvFG
+ i_qp_CNS
+ r_qp_mol_MW
+ r_qp_dipole
+ r_qp_SASA
+ r_qp_FOSA
+ r_qp_FISA
+ r_qp_PISA
+ r_qp_WPSA
+ r_qp_volume
+ r_qp_donorHB
+ r_qp_accptHB
+ r_qp_dip^2/V
+ r_qp_ACxDN^.5/SA
+ r_qp_glob
+ r_qp_QPpolrz
+ r_qp_QPlogPC16
+ r_qp_QPlogPoct
+ r_qp_QPlogPw
+ r_qp_QPlogPo/w
+ r_qp_QPlogS
+ r_qp_CIQPlogS
+ r_qp_QPlogHERG
+ r_qp_QPPCaco
+ r_qp_QPlogBB
+ r_qp_QPPMDCK
+ r_qp_QPlogKp
+ r_qp_IP(eV)
+ r_qp_EA(eV)
+ i_qp_#metab
+ r_qp_QPlogKhsa
+ i_qp_HumanOralAbsorption
+ r_qp_PercentHumanOralAbsorption
+ r_qp_SAfluorine
+ r_qp_SAamideO
+ r_qp_PSA
+ i_qp_#NandO
+ i_qp_RuleOfFive
+ i_qp_RuleOfThree
+ i_qp_#ringatoms
+ i_qp_#in34
+ i_qp_#in56
+ i_qp_#noncon
+ i_qp_#nonHatm
+ r_qp_Jm
+ i_chemfeatures_acceptor_atom
+ i_chemfeatures_acceptor_dist
+ i_chemfeatures_donor_atom
+ i_chemfeatures_donor_dist
+ i_chemfeatures_positive_atom
+ i_chemfeatures_positive_dist
+ i_chemfeatures_negative_atom
+ i_chemfeatures_negative_dist
+ i_chemfeatures_aromatic_atom
+ i_chemfeatures_aromatic_dist
+ i_chemfeatures_hydrophobe_atom
+ i_chemfeatures_hydrophobe_dist
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_m_subgroup_title
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ Met(M) 
+  164 
+  Structure2 
+  37012
+  1
+  2
+  1_S_20_2_7_4 
+  0
+  OPLS3 
+  9.07320526992464
+  1
+  Met(M)-1 
+  1
+  1
+  20 
+  N5 
+  1 
+    0.0002 
+    0.0002 
+    0.0000 
+  " #1" 
+  11.7825870513916
+  1
+  0.00193044601473957
+  1
+  0
+  1
+  1
+  3
+  0
+  1
+  0
+  0
+  0
+  5
+  1
+  1
+     147.235 
+       0.000 
+     383.939 
+     251.616 
+      89.267 
+       0.000 
+      43.056 
+     597.110 
+       2.000 
+       3.500 
+     0.0000000 
+     0.0128920 
+     0.8931799 
+      14.532 
+       5.058 
+       8.746 
+       6.539 
+       0.478 
+      -0.300 
+       0.059 
+      -3.987 
+     351.786 
+       0.020 
+     304.558 
+      -4.747 
+       0.000 
+       0.000 
+  3
+      -0.608 
+  3
+      75.316 
+       0.000 
+       0.000 
+      51.472 
+  2
+  0
+  0
+  0
+  0
+  0
+  0
+  9
+  1.32084948969173
+  3
+  2
+  5
+  4
+  20
+  3
+  0
+  0
+  0
+  0
+  0
+  0
+  "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation" 
+  peptide-reagent-preparation.bld 
+  17
+  peptide-reagent-preparation 
+  peptide-reagent-preparation 
+  0
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 s_st_Chirality_1 
+  3 10 i_ionizer_Ion_state_n 
+  4 10 i_ionizer_Tot_Q 
+  5 10 s_ionizer_Ion_centers 
+  6 10 s_ionizer_Ion_types 
+  7 10 s_ionizer_Ion_ctrs_in 
+  8 10 r_ionizer_Ionization_penalty 
+  9 10 r_ionizer_Ionization_penalty_charging 
+  10 10 r_ionizer_Ionization_penalty_neutral 
+  11 10 s_lp_tautomerizer_action 
+  12 20 r_mmod_Potential_Energy-OPLS-2005 
+  13 20 b_mmod_Minimization_Converged-OPLS-2005 
+  14 20 r_mmod_RMS_Derivative-OPLS-2005 
+  15 20 i_mmod_Times_Found-OPLS-2005 
+  16 20 r_mmod_Relative_Potential_Energy-OPLS-2005 
+  17 20 b_mmod_Chiralities_Consistent-OPLS-2005 
+  18 20 i_mmod_Conformation-OPLS-2005 
+  19 10 i_mmod_Serial_Number-OPLS-2005 
+  :::
+ } 
+ m_atom[21] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_Hcount
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 0.070836 -0.286454 0.464831 2 M A 24 0.25000 0.25000 "MET " " CA " "    " 6 0 3 1 696969  C5  1 1 <> <>
+  2 2 -1.010788 -0.119188 1.539101 2 M A 24 0.52000 0.52000 "MET " " C  " "rpc1" 6 0 3 1 696969  C6  0 <> <> <>
+  3 15 -0.742762 -0.200176 2.735900 2 M A 70 -0.44000 -0.44000 "MET " " O  " "    " 8 0 3 1 FF2F2F  O7  0 <> <> <>
+  4 41 -0.303065 -1.029996 -0.240317 2 M A 21 0.06000 0.06000 "MET " " HA " "    " 1 0 3 0 FFFFFF  H15  0 <> <> <>
+  5 44 -0.657735 1.263561 -0.644696 2 M A 21 0.33000 0.33000 "MET " " H  " "    " 1 0 3 1 FFFFFF  H5  0 <>   9.430    0.483 
+  6 16 -2.270196 0.147350 1.090291 2 M A 70 -0.53000 -0.53000 "MET " "    " "rpc2" 8 0 3 1 FF2F2F  O12  1 <>   2.266    0.460 
+  7 3 1.420210 -0.779415 1.034508 2 M A 2 -0.12000 -0.12000 "MET " " CB " "    " 6 0 3 1 A0A0A0  C7  2 <> <> <>
+  8 3 2.410728 -1.239174 -0.045744 2 M A 2 0.04750 0.04750 "MET " " CG " "    " 6 0 3 1 A0A0A0  C8  2 <> <> <>
+  9 49 3.983632 -1.842381 0.620955 2 M A 13 -0.33500 -0.33500 "MET " " SD " "    " 16 0 3 1 E1E11E  S9  0 <> <> <>
+  10 3 4.822430 -2.281632 -0.923676 2 M A 2 -0.01250 -0.01250 "MET " " CE " "    " 6 0 3 1 A0A0A0  C10  3 <> <> <>
+  11 41 1.878095 0.002040 1.643227 2 M A 21 0.06000 0.06000 "MET " " HB2" "    " 1 0 3 1 FFFFFF  H11  0 <> <> <>
+  12 41 1.247128 -1.622780 1.705352 2 M A 21 0.06000 0.06000 "MET " " HB3" "    " 1 0 3 1 FFFFFF  H12  0 <> <> <>
+  13 41 1.965328 -2.037706 -0.640118 2 M A 21 0.06000 0.06000 "MET " " HG2" "    " 1 0 3 1 FFFFFF  H13  0 <> <> <>
+  14 41 2.629382 -0.419782 -0.730722 2 M A 21 0.06000 0.06000 "MET " " HG3" "    " 1 0 3 1 FFFFFF  H14  0 <> <> <>
+  15 41 5.816324 -2.676086 -0.712256 2 M A 21 0.06000 0.06000 "MET " " HE1" "    " 1 0 3 1 FFFFFF  H15  0 <> <> <>
+  16 41 4.256551 -3.041799 -1.462403 2 M A 21 0.06000 0.06000 "MET " " HE2" "    " 1 0 3 1 FFFFFF  H16  0 <> <> <>
+  17 41 4.927416 -1.405504 -1.563696 2 M A 21 0.06000 0.06000 "MET " " HE3" "    " 1 0 3 1 FFFFFF  H17  0 <> <> <>
+  18 44 0.574727 1.692768 0.361509 2 M A 21 0.33000 0.33000 "MET " "    " "    " 1 0 3 1 FFFFFF  H18  0 <>   9.430    0.483 
+  19 42 -2.890255 0.240142 1.798139 2 M A 21 0.45000 0.45000 "MET " "    " "    " 1 0 0 1 FFFFFF  H19  0 <> <> <>
+  20 32 0.236965 0.980517 -0.270074 2 X A 43 -0.30000 -0.30000 "MET " " N  " "  c1" 7 1 0 1 5757FF  N20  3 <> <> <>
+  21 44 0.895877 0.856047 -1.024891 2 X A 21 0.33000 0.33000 "MET " "    " "    " 1 0 0 1 FFFFFF  H21  0 <> <> <>
+  :::
+ } 
+ m_bond[20] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 4 1 3 3
+  3 1 7 1 3 3
+  4 1 20 1 3 3
+  5 2 3 2 3 3
+  6 2 6 1 3 3
+  7 5 20 1 3 3
+  8 6 19 1 1 1
+  9 7 8 1 3 3
+  10 7 11 1 3 3
+  11 7 12 1 3 3
+  12 8 9 1 3 3
+  13 8 13 1 3 3
+  14 8 14 1 3 3
+  15 9 10 1 3 3
+  16 10 15 1 3 3
+  17 10 16 1 3 3
+  18 10 17 1 3 3
+  19 18 20 1 3 3
+  20 20 21 1 1 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_ionizer_Ion_state_n
+ i_ionizer_Tot_Q
+ s_ionizer_Ion_centers
+ s_ionizer_Ion_types
+ s_ionizer_Ion_ctrs_in
+ r_ionizer_Ionization_penalty
+ r_ionizer_Ionization_penalty_charging
+ r_ionizer_Ionization_penalty_neutral
+ s_lp_tautomerizer_action
+ r_mmod_Potential_Energy-OPLS-2005
+ b_mmod_Minimization_Converged-OPLS-2005
+ r_mmod_RMS_Derivative-OPLS-2005
+ i_mmod_Times_Found-OPLS-2005
+ r_mmod_Relative_Potential_Energy-OPLS-2005
+ b_mmod_Chiralities_Consistent-OPLS-2005
+ i_mmod_Conformation-OPLS-2005
+ i_mmod_Serial_Number-OPLS-2005
+ i_qp_#stars
+ i_qp_#amine
+ i_qp_#amidine
+ i_qp_#acid
+ i_qp_#amide
+ i_qp_#rotor
+ i_qp_#rtvFG
+ i_qp_CNS
+ r_qp_mol_MW
+ r_qp_dipole
+ r_qp_SASA
+ r_qp_FOSA
+ r_qp_FISA
+ r_qp_PISA
+ r_qp_WPSA
+ r_qp_volume
+ r_qp_donorHB
+ r_qp_accptHB
+ r_qp_dip^2/V
+ r_qp_ACxDN^.5/SA
+ r_qp_glob
+ r_qp_QPpolrz
+ r_qp_QPlogPC16
+ r_qp_QPlogPoct
+ r_qp_QPlogPw
+ r_qp_QPlogPo/w
+ r_qp_QPlogS
+ r_qp_CIQPlogS
+ r_qp_QPlogHERG
+ r_qp_QPPCaco
+ r_qp_QPlogBB
+ r_qp_QPPMDCK
+ r_qp_QPlogKp
+ r_qp_IP(eV)
+ r_qp_EA(eV)
+ i_qp_#metab
+ r_qp_QPlogKhsa
+ i_qp_HumanOralAbsorption
+ r_qp_PercentHumanOralAbsorption
+ r_qp_SAfluorine
+ r_qp_SAamideO
+ r_qp_PSA
+ i_qp_#NandO
+ i_qp_RuleOfFive
+ i_qp_RuleOfThree
+ i_qp_#ringatoms
+ i_qp_#in34
+ i_qp_#in56
+ i_qp_#noncon
+ i_qp_#nonHatm
+ r_qp_Jm
+ i_chemfeatures_acceptor_atom
+ i_chemfeatures_acceptor_dist
+ i_chemfeatures_donor_atom
+ i_chemfeatures_donor_dist
+ i_chemfeatures_positive_atom
+ i_chemfeatures_positive_dist
+ i_chemfeatures_negative_atom
+ i_chemfeatures_negative_dist
+ i_chemfeatures_aromatic_atom
+ i_chemfeatures_aromatic_dist
+ i_chemfeatures_hydrophobe_atom
+ i_chemfeatures_hydrophobe_dist
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_m_subgroup_title
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ Phe(F) 
+  165 
+  Structure2 
+  37012
+  1
+  2
+  1_S_23_2_7_4 
+  0
+  OPLS3 
+  16.6248478852037
+  1
+  Phe(F)-1 
+  1
+  1
+  23 
+  N5 
+  1 
+    0.0002 
+    0.0002 
+    0.0000 
+  " #1" 
+  21.14768409729
+  1
+  0.00450087105855346
+  1
+  0
+  1
+  1
+  4
+  0
+  1
+  0
+  0
+  0
+  4
+  1
+  1
+     163.219 
+       0.000 
+     404.814 
+     126.266 
+      85.424 
+     193.124 
+       0.000 
+     649.124 
+       2.000 
+       3.000 
+     0.0000000 
+     0.0104805 
+     0.8956291 
+      19.100 
+       6.669 
+      10.235 
+       7.590 
+       1.042 
+      -0.553 
+      -0.685 
+      -4.868 
+     382.584 
+       0.011 
+     193.734 
+      -4.092 
+       0.000 
+       0.000 
+  4
+      -0.385 
+  3
+      79.273 
+       0.000 
+       0.000 
+      51.227 
+  2
+  0
+  0
+  6
+  0
+  6
+  0
+  12
+  2.68732292647356
+  3
+  2
+  5
+  4
+  23
+  3
+  0
+  0
+  13
+  7
+  13
+  7
+  "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation" 
+  peptide-reagent-preparation.bld 
+  18
+  peptide-reagent-preparation 
+  peptide-reagent-preparation 
+  0
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 s_st_Chirality_1 
+  3 10 i_ionizer_Ion_state_n 
+  4 10 i_ionizer_Tot_Q 
+  5 10 s_ionizer_Ion_centers 
+  6 10 s_ionizer_Ion_types 
+  7 10 s_ionizer_Ion_ctrs_in 
+  8 10 r_ionizer_Ionization_penalty 
+  9 10 r_ionizer_Ionization_penalty_charging 
+  10 10 r_ionizer_Ionization_penalty_neutral 
+  11 10 s_lp_tautomerizer_action 
+  12 20 r_mmod_Potential_Energy-OPLS-2005 
+  13 20 b_mmod_Minimization_Converged-OPLS-2005 
+  14 20 r_mmod_RMS_Derivative-OPLS-2005 
+  15 20 i_mmod_Times_Found-OPLS-2005 
+  16 20 r_mmod_Relative_Potential_Energy-OPLS-2005 
+  17 20 b_mmod_Chiralities_Consistent-OPLS-2005 
+  18 20 i_mmod_Conformation-OPLS-2005 
+  19 10 i_mmod_Serial_Number-OPLS-2005 
+  :::
+ } 
+ m_atom[24] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_Hcount
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 0.027706 -0.277713 0.606055 2 F A 24 0.25000 0.25000 "PHE " " CA " "    " 6 0 3 1 696969  C5  1 1 <> <>
+  2 2 -1.244246 0.229276 1.295819 2 F A 24 0.52000 0.52000 "PHE " " C  " "rpc1" 6 0 3 1 696969  C6  0 <> <> <>
+  3 15 -1.628604 -0.248988 2.360844 2 F A 70 -0.44000 -0.44000 "PHE " " O  " "    " 8 0 3 1 FF2F2F  O7  0 <> <> <>
+  4 41 -0.251072 -0.541364 -0.415005 2 F A 21 0.06000 0.06000 "PHE " " HA " "    " 1 0 3 0 FFFFFF  H15  0 <> <> <>
+  5 44 0.610147 1.596604 0.042131 2 F A 21 0.33000 0.33000 "PHE " " H  " "    " 1 0 3 1 FFFFFF  H5  0 <>   9.290    0.483 
+  6 16 -1.905529 1.244950 0.671411 2 F A 70 -0.53000 -0.53000 "PHE " "    " "rpc2" 8 0 3 1 FF2F2F  O12  1 <>   2.432    0.730 
+  7 3 0.632774 -1.522536 1.291246 2 F A 2 -0.00500 -0.00500 "PHE " " CB " "    " 6 0 3 1 A0A0A0  C7  2 <> <> <>
+  8 2 1.796749 -2.141189 0.537346 2 F A 2 -0.11500 -0.11500 "PHE " " CG " "    " 6 0 3 1 A0A0A0  C8  0 <> <> <>
+  9 2 3.121799 -1.930767 0.975321 2 F A 2 -0.11500 -0.11500 "PHE " " CD1" "    " 6 0 3 1 A0A0A0  C9  1 <> <> <>
+  10 2 1.557334 -2.927354 -0.609581 2 F A 2 -0.11500 -0.11500 "PHE " " CD2" "    " 6 0 3 1 A0A0A0  C10  1 <> <> <>
+  11 2 4.199086 -2.500412 0.268972 2 F A 2 -0.11500 -0.11500 "PHE " " CE1" "    " 6 0 3 1 A0A0A0  C11  1 <> <> <>
+  12 2 2.635245 -3.496488 -1.315268 2 F A 2 -0.11500 -0.11500 "PHE " " CE2" "    " 6 0 3 1 A0A0A0  C12  1 <> <> <>
+  13 2 3.956194 -3.282733 -0.876513 2 F A 2 -0.11500 -0.11500 "PHE " " CZ " "    " 6 0 3 1 A0A0A0  C13  1 <> <> <>
+  14 41 0.953278 -1.278031 2.305557 2 F A 21 0.06000 0.06000 "PHE " " HB2" "    " 1 0 3 1 FFFFFF  H14  0 <> <> <>
+  15 41 -0.131461 -2.294260 1.399385 2 F A 21 0.06000 0.06000 "PHE " " HB3" "    " 1 0 3 1 FFFFFF  H15  0 <> <> <>
+  16 41 3.318611 -1.333487 1.853712 2 F A 21 0.11500 0.11500 "PHE " " HD1" "    " 1 0 3 1 FFFFFF  H16  0 <> <> <>
+  17 41 0.546726 -3.096255 -0.952157 2 F A 21 0.11500 0.11500 "PHE " " HD2" "    " 1 0 3 1 FFFFFF  H17  0 <> <> <>
+  18 41 5.212324 -2.338463 0.606479 2 F A 21 0.11500 0.11500 "PHE " " HE1" "    " 1 0 3 1 FFFFFF  H18  0 <> <> <>
+  19 41 2.448838 -4.097913 -2.192937 2 F A 21 0.11500 0.11500 "PHE " " HE2" "    " 1 0 3 1 FFFFFF  H19  0 <> <> <>
+  20 41 4.782598 -3.720071 -1.417407 2 F A 21 0.11500 0.11500 "PHE " " HZ " "    " 1 0 3 1 FFFFFF  H20  0 <> <> <>
+  21 44 1.285318 1.091783 1.459486 2 F A 21 0.33000 0.33000 "PHE " "    " "    " 1 0 3 1 FFFFFF  H21  0 <>   9.290    0.483 
+  22 42 -2.680310 1.511648 1.143364 2 F A 21 0.45000 0.45000 "PHE " "    " "    " 1 0 0 1 FFFFFF  H22  0 <> <> <>
+  23 32 1.018997 0.810188 0.526945 2 X A 43 -0.30000 -0.30000 "PHE " " N  " "  c1" 7 1 0 1 5757FF  N23  3 <> <> <>
+  24 44 1.833539 0.486250 0.024848 2 X A 21 0.33000 0.33000 "PHE " "    " "    " 1 0 0 1 FFFFFF  H24  0 <> <> <>
+  :::
+ } 
+ m_bond[24] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 4 1 3 3
+  3 1 7 1 3 3
+  4 1 23 1 3 3
+  5 2 3 2 3 3
+  6 2 6 1 3 3
+  7 5 23 1 3 3
+  8 6 22 1 1 1
+  9 7 8 1 3 3
+  10 7 14 1 3 3
+  11 7 15 1 3 3
+  12 8 9 2 3 3
+  13 8 10 1 3 3
+  14 9 11 1 3 3
+  15 9 16 1 3 3
+  16 10 12 2 3 3
+  17 10 17 1 3 3
+  18 11 13 2 3 3
+  19 11 18 1 3 3
+  20 12 13 1 3 3
+  21 12 19 1 3 3
+  22 13 20 1 3 3
+  23 21 23 1 3 3
+  24 23 24 1 1 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_ionizer_Ion_state_n
+ i_ionizer_Tot_Q
+ s_ionizer_Ion_centers
+ s_ionizer_Ion_types
+ s_ionizer_Ion_ctrs_in
+ r_ionizer_Ionization_penalty
+ r_ionizer_Ionization_penalty_charging
+ r_ionizer_Ionization_penalty_neutral
+ s_lp_tautomerizer_action
+ r_mmod_Potential_Energy-OPLS-2005
+ b_mmod_Minimization_Converged-OPLS-2005
+ r_mmod_RMS_Derivative-OPLS-2005
+ i_mmod_Times_Found-OPLS-2005
+ r_mmod_Relative_Potential_Energy-OPLS-2005
+ b_mmod_Chiralities_Consistent-OPLS-2005
+ i_mmod_Conformation-OPLS-2005
+ i_mmod_Serial_Number-OPLS-2005
+ i_qp_#stars
+ i_qp_#amine
+ i_qp_#amidine
+ i_qp_#acid
+ i_qp_#amide
+ i_qp_#rotor
+ i_qp_#rtvFG
+ i_qp_CNS
+ r_qp_mol_MW
+ r_qp_dipole
+ r_qp_SASA
+ r_qp_FOSA
+ r_qp_FISA
+ r_qp_PISA
+ r_qp_WPSA
+ r_qp_volume
+ r_qp_donorHB
+ r_qp_accptHB
+ r_qp_dip^2/V
+ r_qp_ACxDN^.5/SA
+ r_qp_glob
+ r_qp_QPpolrz
+ r_qp_QPlogPC16
+ r_qp_QPlogPoct
+ r_qp_QPlogPw
+ r_qp_QPlogPo/w
+ r_qp_QPlogS
+ r_qp_CIQPlogS
+ r_qp_QPlogHERG
+ r_qp_QPPCaco
+ r_qp_QPlogBB
+ r_qp_QPPMDCK
+ r_qp_QPlogKp
+ r_qp_IP(eV)
+ r_qp_EA(eV)
+ i_qp_#metab
+ r_qp_QPlogKhsa
+ i_qp_HumanOralAbsorption
+ r_qp_PercentHumanOralAbsorption
+ r_qp_SAfluorine
+ r_qp_SAamideO
+ r_qp_PSA
+ i_qp_#NandO
+ i_qp_RuleOfFive
+ i_qp_RuleOfThree
+ i_qp_#ringatoms
+ i_qp_#in34
+ i_qp_#in56
+ i_qp_#noncon
+ i_qp_#nonHatm
+ r_qp_Jm
+ i_chemfeatures_acceptor_atom
+ i_chemfeatures_acceptor_dist
+ i_chemfeatures_donor_atom
+ i_chemfeatures_donor_dist
+ i_chemfeatures_positive_atom
+ i_chemfeatures_positive_dist
+ i_chemfeatures_negative_atom
+ i_chemfeatures_negative_dist
+ i_chemfeatures_aromatic_atom
+ i_chemfeatures_aromatic_dist
+ i_chemfeatures_hydrophobe_atom
+ i_chemfeatures_hydrophobe_dist
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_m_subgroup_title
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ Pro(P) 
+  166 
+  Structure2 
+  37012
+  1
+  2
+  1_S_16_2_7_4 
+  0
+  OPLS3 
+  12.6286916276203
+  1
+  Pro(P)-1 
+  1
+  1
+  16 
+  N5 
+  1 
+    0.0001 
+    0.0001 
+    0.0000 
+  " #1" 
+  35.5889587402344
+  1
+  0.00447099097073078
+  1
+  0
+  1
+  1
+  5
+  5
+  1
+  0
+  0
+  0
+  1
+  1
+  1
+     113.159 
+       0.000 
+     321.033 
+     258.939 
+      62.095 
+       0.000 
+       0.000 
+     488.103 
+       1.000 
+       3.500 
+     0.0000000 
+     0.0109023 
+     0.9338761 
+      12.738 
+       3.555 
+       6.724 
+       5.605 
+      -0.018 
+       0.226 
+       0.602 
+      -3.328 
+     636.729 
+       0.427 
+     335.991 
+      -4.630 
+       0.000 
+       0.000 
+  1
+      -0.656 
+  3
+      77.024 
+       0.000 
+       0.000 
+      41.222 
+  2
+  0
+  0
+  5
+  0
+  5
+  4
+  8
+  4.4577596184275
+  3
+  2
+  17
+  4
+  16
+  3
+  0
+  0
+  0
+  0
+  0
+  0
+  "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation" 
+  peptide-reagent-preparation.bld 
+  19
+  peptide-reagent-preparation 
+  peptide-reagent-preparation 
+  0
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 s_st_Chirality_1 
+  3 10 i_ionizer_Ion_state_n 
+  4 10 i_ionizer_Tot_Q 
+  5 10 s_ionizer_Ion_centers 
+  6 10 s_ionizer_Ion_types 
+  7 10 s_ionizer_Ion_ctrs_in 
+  8 10 r_ionizer_Ionization_penalty 
+  9 10 r_ionizer_Ionization_penalty_charging 
+  10 10 r_ionizer_Ionization_penalty_neutral 
+  11 10 s_lp_tautomerizer_action 
+  12 20 r_mmod_Potential_Energy-OPLS-2005 
+  13 20 b_mmod_Minimization_Converged-OPLS-2005 
+  14 20 r_mmod_RMS_Derivative-OPLS-2005 
+  15 20 i_mmod_Times_Found-OPLS-2005 
+  16 20 r_mmod_Relative_Potential_Energy-OPLS-2005 
+  17 20 b_mmod_Chiralities_Consistent-OPLS-2005 
+  18 20 i_mmod_Conformation-OPLS-2005 
+  19 10 i_mmod_Serial_Number-OPLS-2005 
+  :::
+ } 
+ m_atom[18] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_Hcount
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 0.136754 0.263192 0.329122 2 P A 24 0.23000 0.23000 "PRO " " CA " "    " 6 0 3 1 696969  C5  1 1 <> <>
+  2 2 1.586356 0.233404 -0.176285 2 P A 24 0.52000 0.52000 "PRO " " C  " "rpc1" 6 0 3 1 696969  C6  0 <> <> <>
+  3 15 1.936175 -0.528573 -1.074872 2 P A 70 -0.44000 -0.44000 "PRO " " O  " "    " 8 0 3 1 FF2F2F  O7  0 <> <> <>
+  4 41 0.170939 0.071471 1.402232 2 P A 21 0.06000 0.06000 "PRO " " HA " "    " 1 0 3 0 FFFFFF  H15  0 <> <> <>
+  5 16 2.450055 1.104901 0.417710 2 P A 70 -0.53000 -0.53000 "PRO " "    " "rpc2" 8 0 3 1 FF2F2F  O12  1 <>   4.100    1.474 
+  6 3 -1.438570 1.481831 -1.005708 2 P A 2 0.17000 0.17000 "PRO " " CD " "    " 6 0 3 1 A0A0A0  C6  2 <> <> <>
+  7 3 -0.815752 -0.738932 -0.341416 2 P A 2 -0.12000 -0.12000 "PRO " " CB " "    " 6 0 3 1 A0A0A0  C7  2 <> <> <>
+  8 3 -1.374421 0.041899 -1.523207 2 P A 2 -0.12000 -0.12000 "PRO " " CG " "    " 6 0 3 1 A0A0A0  C8  2 <> <> <>
+  9 41 -2.431614 1.699820 -0.611077 2 P A 21 0.06000 0.06000 "PRO " " HD3" "    " 1 0 3 1 FFFFFF  H9  0 <> <> <>
+  10 41 -1.226431 2.205684 -1.793173 2 P A 21 0.06000 0.06000 "PRO " " HD2" "    " 1 0 3 1 FFFFFF  H10  0 <> <> <>
+  11 41 -0.344140 -1.677082 -0.637235 2 P A 21 0.06000 0.06000 "PRO " " HB2" "    " 1 0 3 1 FFFFFF  H11  0 <> <> <>
+  12 41 -1.625383 -0.988780 0.345860 2 P A 21 0.06000 0.06000 "PRO " " HB3" "    " 1 0 3 1 FFFFFF  H12  0 <> <> <>
+  13 41 -2.341659 -0.330965 -1.861698 2 P A 21 0.06000 0.06000 "PRO " " HG3" "    " 1 0 3 1 FFFFFF  H13  0 <> <> <>
+  14 41 -0.681124 -0.018915 -2.363451 2 P A 21 0.06000 0.06000 "PRO " " HG2" "    " 1 0 3 1 FFFFFF  H14  0 <> <> <>
+  15 42 3.325563 1.035505 0.067409 2 P A 21 0.45000 0.45000 "PRO " "    " "    " 1 0 0 1 FFFFFF  H15  0 <> <> <>
+  16 32 -0.462064 1.594695 0.100717 2 X A 43 -0.20000 -0.20000 "PRO " " N  " "  c1" 7 1 0 1 5757FF  N16  2 <> <> <>
+  17 44 0.268169 2.254632 -0.128098 2 X A 21 0.31000 0.31000 "PRO " "    " "    " 1 0 0 1 FFFFFF  H17  0 <> <> <>
+  18 44 -0.944463 1.891496 0.936926 2 X A 21 0.31000 0.31000 "PRO " "    " "    " 1 0 0 1 FFFFFF  H18  0 <> <> <>
+  :::
+ } 
+ m_bond[18] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 4 1 3 3
+  3 1 7 1 3 3
+  4 1 16 1 3 3
+  5 2 3 2 3 3
+  6 2 5 1 3 3
+  7 5 15 1 1 1
+  8 6 8 1 3 3
+  9 6 9 1 3 3
+  10 6 10 1 3 3
+  11 6 16 1 3 3
+  12 7 8 1 3 3
+  13 7 11 1 3 3
+  14 7 12 1 3 3
+  15 8 13 1 3 3
+  16 8 14 1 3 3
+  17 16 17 1 1 1
+  18 16 18 1 1 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_ionizer_Ion_state_n
+ i_ionizer_Tot_Q
+ s_ionizer_Ion_centers
+ s_ionizer_Ion_types
+ s_ionizer_Ion_ctrs_in
+ r_ionizer_Ionization_penalty
+ r_ionizer_Ionization_penalty_charging
+ r_ionizer_Ionization_penalty_neutral
+ s_lp_tautomerizer_action
+ r_mmod_Potential_Energy-OPLS-2005
+ b_mmod_Minimization_Converged-OPLS-2005
+ r_mmod_RMS_Derivative-OPLS-2005
+ i_mmod_Times_Found-OPLS-2005
+ r_mmod_Relative_Potential_Energy-OPLS-2005
+ b_mmod_Chiralities_Consistent-OPLS-2005
+ i_mmod_Conformation-OPLS-2005
+ i_mmod_Serial_Number-OPLS-2005
+ i_qp_#stars
+ i_qp_#amine
+ i_qp_#amidine
+ i_qp_#acid
+ i_qp_#amide
+ i_qp_#rotor
+ i_qp_#rtvFG
+ i_qp_CNS
+ r_qp_mol_MW
+ r_qp_dipole
+ r_qp_SASA
+ r_qp_FOSA
+ r_qp_FISA
+ r_qp_PISA
+ r_qp_WPSA
+ r_qp_volume
+ r_qp_donorHB
+ r_qp_accptHB
+ r_qp_dip^2/V
+ r_qp_ACxDN^.5/SA
+ r_qp_glob
+ r_qp_QPpolrz
+ r_qp_QPlogPC16
+ r_qp_QPlogPoct
+ r_qp_QPlogPw
+ r_qp_QPlogPo/w
+ r_qp_QPlogS
+ r_qp_CIQPlogS
+ r_qp_QPlogHERG
+ r_qp_QPPCaco
+ r_qp_QPlogBB
+ r_qp_QPPMDCK
+ r_qp_QPlogKp
+ r_qp_IP(eV)
+ r_qp_EA(eV)
+ i_qp_#metab
+ r_qp_QPlogKhsa
+ i_qp_HumanOralAbsorption
+ r_qp_PercentHumanOralAbsorption
+ r_qp_SAfluorine
+ r_qp_SAamideO
+ r_qp_PSA
+ i_qp_#NandO
+ i_qp_RuleOfFive
+ i_qp_RuleOfThree
+ i_qp_#ringatoms
+ i_qp_#in34
+ i_qp_#in56
+ i_qp_#noncon
+ i_qp_#nonHatm
+ r_qp_Jm
+ i_chemfeatures_acceptor_atom
+ i_chemfeatures_acceptor_dist
+ i_chemfeatures_donor_atom
+ i_chemfeatures_donor_dist
+ i_chemfeatures_positive_atom
+ i_chemfeatures_positive_dist
+ i_chemfeatures_negative_atom
+ i_chemfeatures_negative_dist
+ i_chemfeatures_aromatic_atom
+ i_chemfeatures_aromatic_dist
+ i_chemfeatures_hydrophobe_atom
+ i_chemfeatures_hydrophobe_dist
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_m_subgroup_title
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ Ser(S) 
+  167 
+  Structure2 
+  37012
+  1
+  2
+  1_S_14_2_7_4 
+  0
+  OPLS3 
+  1.78169007823028
+  1
+  Ser(S)-1 
+  1
+  1
+  14 
+  N5 
+  1 
+    0.0002 
+    0.0002 
+    0.0000 
+  " #1" 
+  14.0767230987549
+  1
+  0.000994434696622193
+  1
+  0
+  1
+  1
+  1
+  7
+  1
+  0
+  0
+  0
+  4
+  1
+  0
+     103.121 
+       0.000 
+     295.155 
+     148.837 
+     146.319 
+       0.000 
+       0.000 
+     434.055 
+       2.000 
+       3.700 
+     0.0000000 
+     0.0177283 
+     0.9393147 
+       8.648 
+       3.828 
+       7.737 
+       7.116 
+      -1.028 
+       1.029 
+       0.668 
+      -3.240 
+     101.218 
+      -0.385 
+      46.029 
+      -5.895 
+       0.000 
+       0.000 
+  4
+      -0.882 
+  2
+      56.816 
+       0.000 
+       0.000 
+      74.873 
+  3
+  0
+  0
+  0
+  0
+  0
+  0
+  7
+  1.40390555129499
+  8
+  4
+  11
+  5
+  14
+  3
+  0
+  0
+  0
+  0
+  0
+  0
+  "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation" 
+  peptide-reagent-preparation.bld 
+  20
+  peptide-reagent-preparation 
+  peptide-reagent-preparation 
+  0
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 s_st_Chirality_1 
+  3 10 i_ionizer_Ion_state_n 
+  4 10 i_ionizer_Tot_Q 
+  5 10 s_ionizer_Ion_centers 
+  6 10 s_ionizer_Ion_types 
+  7 10 s_ionizer_Ion_ctrs_in 
+  8 10 r_ionizer_Ionization_penalty 
+  9 10 r_ionizer_Ionization_penalty_charging 
+  10 10 r_ionizer_Ionization_penalty_neutral 
+  11 10 s_lp_tautomerizer_action 
+  12 20 r_mmod_Potential_Energy-OPLS-2005 
+  13 20 b_mmod_Minimization_Converged-OPLS-2005 
+  14 20 r_mmod_RMS_Derivative-OPLS-2005 
+  15 20 i_mmod_Times_Found-OPLS-2005 
+  16 20 r_mmod_Relative_Potential_Energy-OPLS-2005 
+  17 20 b_mmod_Chiralities_Consistent-OPLS-2005 
+  18 20 i_mmod_Conformation-OPLS-2005 
+  19 10 i_mmod_Serial_Number-OPLS-2005 
+  :::
+ } 
+ m_atom[15] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_Hcount
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 0.139673 0.415989 0.182331 2 S A 24 0.25000 0.25000 "SER " " CA " "    " 6 0 3 1 696969  C5  1 1 <> <>
+  2 2 -0.620256 1.720315 -0.086025 2 S A 24 0.52000 0.52000 "SER " " C  " "rpc1" 6 0 3 1 696969  C6  0 <> <> <>
+  3 15 -0.078229 2.815313 0.048555 2 S A 70 -0.44000 -0.44000 "SER " " O  " "    " 8 0 3 1 FF2F2F  O7  0 <> <> <>
+  4 41 -0.469250 -0.161122 0.879933 2 S A 21 0.06000 0.06000 "SER " " HA " "    " 1 0 3 0 FFFFFF  H15  0 <> <> <>
+  5 44 -0.665658 -0.546244 -1.430172 2 S A 21 0.33000 0.33000 "SER " " H  " "    " 1 0 3 1 FFFFFF  H5  0 <>   9.903    2.220 
+  6 16 -1.912787 1.592062 -0.500648 2 S A 70 -0.53000 -0.53000 "SER " "    " "rpc2" 8 0 3 1 FF2F2F  O12  1 <>   2.078    0.528 
+  7 3 1.530963 0.643675 0.807595 2 S A 2 0.14500 0.14500 "SER " " CB " "    " 6 0 3 1 A0A0A0  C7  2 <> <> <>
+  8 16 2.042199 -0.583964 1.284275 2 S A 70 -0.68300 -0.68300 "SER " " OG " "    " 8 0 3 1 FF2F2F  O8  1 <>  -1.471    0.950 
+  9 41 2.227562 1.079621 0.089872 2 S A 21 0.06000 0.06000 "SER " " HB2" "    " 1 0 3 1 FFFFFF  H9  0 <> <> <>
+  10 41 1.468582 1.327256 1.655831 2 S A 21 0.06000 0.06000 "SER " " HB3" "    " 1 0 3 1 FFFFFF  H10  0 <> <> <>
+  11 42 2.869246 -0.422053 1.714201 2 S A 21 0.41800 0.41800 "SER " " HG " "    " 1 0 3 1 FFFFFF  H11  0 <>  13.655    2.000 
+  12 44 0.794531 0.159808 -1.738481 2 S A 21 0.33000 0.33000 "SER " "    " "    " 1 0 3 1 FFFFFF  H12  0 <>   9.903    2.220 
+  13 42 -2.326691 2.429183 -0.649074 2 S A 21 0.45000 0.45000 "SER " "    " "    " 1 0 0 1 FFFFFF  H13  0 <> <> <>
+  14 32 0.257005 -0.363010 -1.062291 2 X A 43 -0.30000 -0.30000 "SER " " N  " "  c1" 7 1 0 1 5757FF  N14  3 <> <> <>
+  15 44 0.725169 -1.234800 -0.858347 2 X A 21 0.33000 0.33000 "SER " "    " "    " 1 0 0 1 FFFFFF  H15  0 <> <> <>
+  :::
+ } 
+ m_bond[14] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 4 1 3 3
+  3 1 7 1 3 3
+  4 1 14 1 3 3
+  5 2 3 2 3 3
+  6 2 6 1 3 3
+  7 5 14 1 3 3
+  8 6 13 1 1 1
+  9 7 8 1 3 3
+  10 7 9 1 3 3
+  11 7 10 1 3 3
+  12 8 11 1 3 3
+  13 12 14 1 3 3
+  14 14 15 1 1 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_st_Chirality_2
+ i_ionizer_Ion_state_n
+ i_ionizer_Tot_Q
+ s_ionizer_Ion_centers
+ s_ionizer_Ion_types
+ s_ionizer_Ion_ctrs_in
+ r_ionizer_Ionization_penalty
+ r_ionizer_Ionization_penalty_charging
+ r_ionizer_Ionization_penalty_neutral
+ s_lp_tautomerizer_action
+ r_mmod_Potential_Energy-OPLS-2005
+ b_mmod_Minimization_Converged-OPLS-2005
+ r_mmod_RMS_Derivative-OPLS-2005
+ i_mmod_Times_Found-OPLS-2005
+ r_mmod_Relative_Potential_Energy-OPLS-2005
+ b_mmod_Chiralities_Consistent-OPLS-2005
+ i_mmod_Conformation-OPLS-2005
+ i_mmod_Serial_Number-OPLS-2005
+ i_qp_#stars
+ i_qp_#amine
+ i_qp_#amidine
+ i_qp_#acid
+ i_qp_#amide
+ i_qp_#rotor
+ i_qp_#rtvFG
+ i_qp_CNS
+ r_qp_mol_MW
+ r_qp_dipole
+ r_qp_SASA
+ r_qp_FOSA
+ r_qp_FISA
+ r_qp_PISA
+ r_qp_WPSA
+ r_qp_volume
+ r_qp_donorHB
+ r_qp_accptHB
+ r_qp_dip^2/V
+ r_qp_ACxDN^.5/SA
+ r_qp_glob
+ r_qp_QPpolrz
+ r_qp_QPlogPC16
+ r_qp_QPlogPoct
+ r_qp_QPlogPw
+ r_qp_QPlogPo/w
+ r_qp_QPlogS
+ r_qp_CIQPlogS
+ r_qp_QPlogHERG
+ r_qp_QPPCaco
+ r_qp_QPlogBB
+ r_qp_QPPMDCK
+ r_qp_QPlogKp
+ r_qp_IP(eV)
+ r_qp_EA(eV)
+ i_qp_#metab
+ r_qp_QPlogKhsa
+ i_qp_HumanOralAbsorption
+ r_qp_PercentHumanOralAbsorption
+ r_qp_SAfluorine
+ r_qp_SAamideO
+ r_qp_PSA
+ i_qp_#NandO
+ i_qp_RuleOfFive
+ i_qp_RuleOfThree
+ i_qp_#ringatoms
+ i_qp_#in34
+ i_qp_#in56
+ i_qp_#noncon
+ i_qp_#nonHatm
+ r_qp_Jm
+ i_chemfeatures_acceptor_atom
+ i_chemfeatures_acceptor_dist
+ i_chemfeatures_donor_atom
+ i_chemfeatures_donor_dist
+ i_chemfeatures_positive_atom
+ i_chemfeatures_positive_dist
+ i_chemfeatures_negative_atom
+ i_chemfeatures_negative_dist
+ i_chemfeatures_aromatic_atom
+ i_chemfeatures_aromatic_dist
+ i_chemfeatures_hydrophobe_atom
+ i_chemfeatures_hydrophobe_dist
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_m_subgroup_title
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ Thr(T) 
+  168 
+  Structure2 
+  37012
+  1
+  2
+  1_S_17_2_7_4 
+  0
+  OPLS3 
+  6.14758150885476
+  1
+  Thr(T)-1 
+  7_R_8_1_9_10 
+  1
+  1
+  17 
+  N5 
+  1 
+    0.0002 
+    0.0002 
+    0.0000 
+  " #1" 
+  -4.31362342834473
+  1
+  0.0488606803119183
+  1
+  0
+  1
+  1
+  2
+  4
+  1
+  0
+  0
+  0
+  4
+  1
+  0
+     117.147 
+       0.000 
+     321.254 
+     198.846 
+     122.408 
+       0.000 
+       0.000 
+     486.780 
+       2.000 
+       3.700 
+     0.0000000 
+     0.0162880 
+     0.9315469 
+      10.759 
+       4.166 
+       8.068 
+       7.016 
+      -0.582 
+       0.678 
+       0.520 
+      -3.366 
+     170.612 
+      -0.219 
+      80.932 
+      -5.454 
+       0.000 
+       0.000 
+  4
+      -0.792 
+  2
+      63.484 
+       0.000 
+       0.000 
+      70.732 
+  3
+  0
+  0
+  0
+  0
+  0
+  0
+  8
+  1.96248585284853
+  8
+  4
+  11
+  5
+  17
+  3
+  0
+  0
+  0
+  0
+  0
+  0
+  "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation" 
+  peptide-reagent-preparation.bld 
+  21
+  peptide-reagent-preparation 
+  peptide-reagent-preparation 
+  0
+  2
+ m_depend[20] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 s_st_Chirality_1 
+  3 10 s_st_Chirality_2 
+  4 10 i_ionizer_Ion_state_n 
+  5 10 i_ionizer_Tot_Q 
+  6 10 s_ionizer_Ion_centers 
+  7 10 s_ionizer_Ion_types 
+  8 10 s_ionizer_Ion_ctrs_in 
+  9 10 r_ionizer_Ionization_penalty 
+  10 10 r_ionizer_Ionization_penalty_charging 
+  11 10 r_ionizer_Ionization_penalty_neutral 
+  12 10 s_lp_tautomerizer_action 
+  13 20 r_mmod_Potential_Energy-OPLS-2005 
+  14 20 b_mmod_Minimization_Converged-OPLS-2005 
+  15 20 r_mmod_RMS_Derivative-OPLS-2005 
+  16 20 i_mmod_Times_Found-OPLS-2005 
+  17 20 r_mmod_Relative_Potential_Energy-OPLS-2005 
+  18 20 b_mmod_Chiralities_Consistent-OPLS-2005 
+  19 20 i_mmod_Conformation-OPLS-2005 
+  20 10 i_mmod_Serial_Number-OPLS-2005 
+  :::
+ } 
+ m_atom[18] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_Hcount
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 0.062404 -0.005392 0.131406 2 T A 24 0.25000 0.25000 "THR " " CA " "    " 6 0 3 1 696969  C5  1 1 <> <>
+  2 2 -0.446644 -0.397125 1.527637 2 T A 24 0.52000 0.52000 "THR " " C  " "rpc1" 6 0 3 1 696969  C6  0 <> <> <>
+  3 15 0.225803 -1.094633 2.284412 2 T A 70 -0.44000 -0.44000 "THR " " O  " "    " 8 0 3 1 FF2F2F  O7  0 <> <> <>
+  4 41 -0.665153 -0.400347 -0.578820 2 T A 21 0.06000 0.06000 "THR " " HA " "    " 1 0 3 0 FFFFFF  H15  0 <> <> <>
+  5 44 -0.868352 1.813346 0.216866 2 T A 21 0.33000 0.33000 "THR " " H  " "    " 1 0 3 1 FFFFFF  H5  0 <>   9.903    2.220 
+  6 16 -1.680301 0.070359 1.872775 2 T A 70 -0.53000 -0.53000 "THR " "    " "rpc2" 8 0 3 1 FF2F2F  O12  1 <>   2.291    0.775 
+  7 3 1.455507 -0.582841 -0.234497 2 T A 2 0.20500 0.20500 "THR " " CB " "    " 6 0 3 1 A0A0A0  C7  1 1 <> <>
+  8 16 2.460197 -0.100700 0.639323 2 T A 70 -0.68300 -0.68300 "THR " " OG1" "    " 8 0 3 1 FF2F2F  O8  1 <>  -1.471    0.950 
+  9 3 1.876122 -0.293844 -1.684174 2 T A 2 -0.18000 -0.18000 "THR " " CG2" "    " 6 0 3 1 A0A0A0  C9  3 <> <> <>
+  10 41 1.424686 -1.667194 -0.115340 2 T A 21 0.06000 0.06000 "THR " " HB " "    " 1 0 3 1 FFFFFF  H10  0 <> <> <>
+  11 42 2.302830 -0.453600 1.503672 2 T A 21 0.41800 0.41800 "THR " " HG1" "    " 1 0 3 1 FFFFFF  H11  0 <>  15.413    2.000 
+  12 41 2.823579 -0.780703 -1.918063 2 T A 21 0.06000 0.06000 "THR " "HG21" "    " 1 0 3 1 FFFFFF  H12  0 <> <> <>
+  13 41 1.134310 -0.667909 -2.390356 2 T A 21 0.06000 0.06000 "THR " "HG22" "    " 1 0 3 1 FFFFFF  H13  0 <> <> <>
+  14 41 2.004165 0.773413 -1.866705 2 T A 21 0.06000 0.06000 "THR " "HG23" "    " 1 0 3 1 FFFFFF  H14  0 <> <> <>
+  15 44 0.735256 1.858469 0.611250 2 T A 21 0.33000 0.33000 "THR " "    " "    " 1 0 3 1 FFFFFF  H15  0 <>   9.903    2.220 
+  16 42 -1.941485 -0.210614 2.737133 2 T A 21 0.45000 0.45000 "THR " "    " "    " 1 0 0 1 FFFFFF  H16  0 <> <> <>
+  17 32 0.049632 1.461735 -0.015760 2 X A 43 -0.30000 -0.30000 "THR " " N  " "  c1" 7 1 0 1 5757FF  N17  3 <> <> <>
+  18 44 0.282240 1.708779 -0.966650 2 X A 21 0.33000 0.33000 "THR " "    " "    " 1 0 0 1 FFFFFF  H18  0 <> <> <>
+  :::
+ } 
+ m_bond[17] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 4 1 3 3
+  3 1 7 1 3 3
+  4 1 17 1 3 3
+  5 2 3 2 3 3
+  6 2 6 1 3 3
+  7 5 17 1 3 3
+  8 6 16 1 1 1
+  9 7 8 1 3 3
+  10 7 9 1 3 3
+  11 7 10 1 3 3
+  12 8 11 1 3 3
+  13 9 12 1 3 3
+  14 9 13 1 3 3
+  15 9 14 1 3 3
+  16 15 17 1 3 3
+  17 17 18 1 1 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_ionizer_Ion_state_n
+ i_ionizer_Tot_Q
+ s_ionizer_Ion_centers
+ s_ionizer_Ion_types
+ s_ionizer_Ion_ctrs_in
+ r_ionizer_Ionization_penalty
+ r_ionizer_Ionization_penalty_charging
+ r_ionizer_Ionization_penalty_neutral
+ s_lp_tautomerizer_action
+ r_mmod_Potential_Energy-OPLS-2005
+ b_mmod_Minimization_Converged-OPLS-2005
+ r_mmod_RMS_Derivative-OPLS-2005
+ i_mmod_Times_Found-OPLS-2005
+ r_mmod_Relative_Potential_Energy-OPLS-2005
+ b_mmod_Chiralities_Consistent-OPLS-2005
+ i_mmod_Conformation-OPLS-2005
+ i_mmod_Serial_Number-OPLS-2005
+ i_qp_#stars
+ i_qp_#amine
+ i_qp_#amidine
+ i_qp_#acid
+ i_qp_#amide
+ i_qp_#rotor
+ i_qp_#rtvFG
+ i_qp_CNS
+ r_qp_mol_MW
+ r_qp_dipole
+ r_qp_SASA
+ r_qp_FOSA
+ r_qp_FISA
+ r_qp_PISA
+ r_qp_WPSA
+ r_qp_volume
+ r_qp_donorHB
+ r_qp_accptHB
+ r_qp_dip^2/V
+ r_qp_ACxDN^.5/SA
+ r_qp_glob
+ r_qp_QPpolrz
+ r_qp_QPlogPC16
+ r_qp_QPlogPoct
+ r_qp_QPlogPw
+ r_qp_QPlogPo/w
+ r_qp_QPlogS
+ r_qp_CIQPlogS
+ r_qp_QPlogHERG
+ r_qp_QPPCaco
+ r_qp_QPlogBB
+ r_qp_QPPMDCK
+ r_qp_QPlogKp
+ r_qp_IP(eV)
+ r_qp_EA(eV)
+ i_qp_#metab
+ r_qp_QPlogKhsa
+ i_qp_HumanOralAbsorption
+ r_qp_PercentHumanOralAbsorption
+ r_qp_SAfluorine
+ r_qp_SAamideO
+ r_qp_PSA
+ i_qp_#NandO
+ i_qp_RuleOfFive
+ i_qp_RuleOfThree
+ i_qp_#ringatoms
+ i_qp_#in34
+ i_qp_#in56
+ i_qp_#noncon
+ i_qp_#nonHatm
+ r_qp_Jm
+ i_chemfeatures_acceptor_atom
+ i_chemfeatures_acceptor_dist
+ i_chemfeatures_donor_atom
+ i_chemfeatures_donor_dist
+ i_chemfeatures_positive_atom
+ i_chemfeatures_positive_dist
+ i_chemfeatures_negative_atom
+ i_chemfeatures_negative_dist
+ i_chemfeatures_aromatic_atom
+ i_chemfeatures_aromatic_dist
+ i_chemfeatures_hydrophobe_atom
+ i_chemfeatures_hydrophobe_dist
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_m_subgroup_title
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ Trp(W) 
+  169 
+  Structure2 
+  37012
+  1
+  2
+  1_S_27_2_7_4 
+  0
+  OPLS3 
+  11.9768626632654
+  1
+  Trp(W)-1 
+  1
+  1
+  27 
+  N5 
+  1 
+    0.0002 
+    0.0002 
+    0.0000 
+  " #1" 
+  11.1535177230835
+  1
+  0.00427388167008758
+  1
+  0
+  1
+  1
+  3
+  0
+  1
+  0
+  0
+  0
+  4
+  1
+  0
+     202.255 
+       0.000 
+     445.071 
+     121.126 
+     114.347 
+     209.598 
+       0.000 
+     733.486 
+       3.000 
+       3.000 
+     0.0000000 
+     0.0116749 
+     0.8837517 
+      22.633 
+       8.000 
+      13.100 
+       9.460 
+       1.165 
+      -1.172 
+      -1.480 
+      -5.139 
+     203.447 
+      -0.255 
+      97.892 
+      -4.567 
+       0.000 
+       0.000 
+  4
+      -0.273 
+  3
+      75.081 
+       0.000 
+       0.000 
+      65.236 
+  3
+  0
+  0
+  9
+  0
+  9
+  0
+  15
+  0.368780938166823
+  3
+  2
+  20
+  7
+  27
+  3
+  0
+  0
+  16
+  8
+  16
+  8
+  "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation" 
+  peptide-reagent-preparation.bld 
+  22
+  peptide-reagent-preparation 
+  peptide-reagent-preparation 
+  0
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 s_st_Chirality_1 
+  3 10 i_ionizer_Ion_state_n 
+  4 10 i_ionizer_Tot_Q 
+  5 10 s_ionizer_Ion_centers 
+  6 10 s_ionizer_Ion_types 
+  7 10 s_ionizer_Ion_ctrs_in 
+  8 10 r_ionizer_Ionization_penalty 
+  9 10 r_ionizer_Ionization_penalty_charging 
+  10 10 r_ionizer_Ionization_penalty_neutral 
+  11 10 s_lp_tautomerizer_action 
+  12 20 r_mmod_Potential_Energy-OPLS-2005 
+  13 20 b_mmod_Minimization_Converged-OPLS-2005 
+  14 20 r_mmod_RMS_Derivative-OPLS-2005 
+  15 20 i_mmod_Times_Found-OPLS-2005 
+  16 20 r_mmod_Relative_Potential_Energy-OPLS-2005 
+  17 20 b_mmod_Chiralities_Consistent-OPLS-2005 
+  18 20 i_mmod_Conformation-OPLS-2005 
+  19 10 i_mmod_Serial_Number-OPLS-2005 
+  :::
+ } 
+ m_atom[28] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_Hcount
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 0.115311 -0.280616 0.498772 2 W A 24 0.25000 0.25000 "TRP " " CA " "    " 6 0 3 1 696969  C5  1 1 <> <>
+  2 2 -1.194185 0.191235 1.141643 2 W A 24 0.52000 0.52000 "TRP " " C  " "rpc1" 6 0 3 1 696969  C6  0 <> <> <>
+  3 15 -1.656866 -0.366038 2.134658 2 W A 70 -0.44000 -0.44000 "TRP " " O  " "    " 8 0 3 1 FF2F2F  O7  0 <> <> <>
+  4 41 -0.103198 -0.484779 -0.550034 2 W A 21 0.06000 0.06000 "TRP " " HA " "    " 1 0 3 0 FFFFFF  H15  0 <> <> <>
+  5 44 0.728033 1.619414 0.070047 2 W A 21 0.33000 0.33000 "TRP " " H  " "    " 1 0 3 1 FFFFFF  H5  0 <>   9.184    0.483 
+  6 16 -1.801013 1.263469 0.557844 2 W A 70 -0.53000 -0.53000 "TRP " "    " "rpc2" 8 0 3 1 FF2F2F  O12  1 <>   2.154    0.535 
+  7 3 0.679717 -1.567113 1.139191 2 W A 2 -0.12000 -0.12000 "TRP " " CB " "    " 6 0 3 1 A0A0A0  C7  2 <> <> <>
+  8 2 1.953626 -2.083317 0.536582 2 W A 2 0.07500 0.07500 "TRP " " CG " "    " 6 0 3 1 A0A0A0  C8  0 <> <> <>
+  9 2 3.159606 -2.105062 1.148984 2 W A 2 -0.11500 -0.11500 "TRP " " CD1" "    " 6 0 3 1 A0A0A0  C9  1 <> <> <>
+  10 2 2.170258 -2.648468 -0.793643 2 W A 2 -0.05500 -0.05500 "TRP " " CD2" "    " 6 0 3 1 A0A0A0  C10  0 <> <> <>
+  11 25 4.103266 -2.635271 0.294198 2 W A 43 -0.57000 -0.57000 "TRP " " NE1" "    " 7 0 3 1 5757FF  N11  1 <> <> <>
+  12 2 3.552075 -2.989535 -0.919612 2 W A 2 0.13000 0.13000 "TRP " " CE2" "    " 6 0 3 1 A0A0A0  C12  0 <> <> <>
+  13 2 1.341770 -2.909865 -1.911324 2 W A 2 -0.11500 -0.11500 "TRP " " CE3" "    " 6 0 3 1 A0A0A0  C13  1 <> <> <>
+  14 2 4.083855 -3.556998 -2.091198 2 W A 2 -0.11500 -0.11500 "TRP " " CZ2" "    " 6 0 3 1 A0A0A0  C14  1 <> <> <>
+  15 2 1.863633 -3.478402 -3.091624 2 W A 2 -0.11500 -0.11500 "TRP " " CZ3" "    " 6 0 3 1 A0A0A0  C15  1 <> <> <>
+  16 2 3.231597 -3.801565 -3.183383 2 W A 2 -0.11500 -0.11500 "TRP " " CH2" "    " 6 0 3 1 A0A0A0  C16  1 <> <> <>
+  17 41 0.852906 -1.402401 2.204206 2 W A 21 0.06000 0.06000 "TRP " " HB2" "    " 1 0 3 1 FFFFFF  H17  0 <> <> <>
+  18 41 -0.058475 -2.367896 1.074548 2 W A 21 0.06000 0.06000 "TRP " " HB3" "    " 1 0 3 1 FFFFFF  H18  0 <> <> <>
+  19 41 3.343096 -1.754285 2.154256 2 W A 21 0.11500 0.11500 "TRP " " HD1" "    " 1 0 3 1 FFFFFF  H19  0 <> <> <>
+  20 43 5.073358 -2.746940 0.553909 2 W A 21 0.42000 0.42000 "TRP " " HE1" "    " 1 0 3 1 FFFFFF  H20  0 <>  15.535    1.060 
+  21 41 0.289720 -2.671648 -1.859759 2 W A 21 0.11500 0.11500 "TRP " " HE3" "    " 1 0 3 1 FFFFFF  H21  0 <> <> <>
+  22 41 5.133703 -3.802976 -2.152554 2 W A 21 0.11500 0.11500 "TRP " " HZ2" "    " 1 0 3 1 FFFFFF  H22  0 <> <> <>
+  23 41 1.210190 -3.668469 -3.930453 2 W A 21 0.11500 0.11500 "TRP " " HZ3" "    " 1 0 3 1 FFFFFF  H23  0 <> <> <>
+  24 41 3.625257 -4.237426 -4.089868 2 W A 21 0.11500 0.11500 "TRP " " HH2" "    " 1 0 3 1 FFFFFF  H24  0 <> <> <>
+  25 44 1.334503 1.032058 1.486265 2 W A 21 0.33000 0.33000 "TRP " "    " "    " 1 0 3 1 FFFFFF  H25  0 <>   9.184    0.483 
+  26 42 -2.603626 1.503049 0.996617 2 W A 21 0.45000 0.45000 "TRP " "    " "    " 1 0 0 1 FFFFFF  H26  0 <> <> <>
+  27 32 1.112479 0.804831 0.527627 2 X A 43 -0.30000 -0.30000 "TRP " " N  " "  c1" 7 1 0 1 5757FF  N27  3 <> <> <>
+  28 44 1.949889 0.507991 0.047009 2 X A 21 0.33000 0.33000 "TRP " "    " "    " 1 0 0 1 FFFFFF  H28  0 <> <> <>
+  :::
+ } 
+ m_bond[29] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 4 1 3 3
+  3 1 7 1 3 3
+  4 1 27 1 3 3
+  5 2 3 2 3 3
+  6 2 6 1 3 3
+  7 5 27 1 3 3
+  8 6 26 1 1 1
+  9 7 8 1 3 3
+  10 7 17 1 3 3
+  11 7 18 1 3 3
+  12 8 9 2 3 3
+  13 8 10 1 3 3
+  14 9 11 1 3 3
+  15 9 19 1 3 3
+  16 10 12 2 3 3
+  17 10 13 1 3 3
+  18 11 12 1 3 3
+  19 11 20 1 3 3
+  20 12 14 1 3 3
+  21 13 15 2 3 3
+  22 13 21 1 3 3
+  23 14 16 2 3 3
+  24 14 22 1 3 3
+  25 15 16 1 3 3
+  26 15 23 1 3 3
+  27 16 24 1 3 3
+  28 25 27 1 3 3
+  29 27 28 1 1 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_ionizer_Ion_state_n
+ i_ionizer_Tot_Q
+ s_ionizer_Ion_centers
+ s_ionizer_Ion_types
+ s_ionizer_Ion_ctrs_in
+ r_ionizer_Ionization_penalty
+ r_ionizer_Ionization_penalty_charging
+ r_ionizer_Ionization_penalty_neutral
+ s_lp_tautomerizer_action
+ r_mmod_Potential_Energy-OPLS-2005
+ b_mmod_Minimization_Converged-OPLS-2005
+ r_mmod_RMS_Derivative-OPLS-2005
+ i_mmod_Times_Found-OPLS-2005
+ r_mmod_Relative_Potential_Energy-OPLS-2005
+ b_mmod_Chiralities_Consistent-OPLS-2005
+ i_mmod_Conformation-OPLS-2005
+ i_mmod_Serial_Number-OPLS-2005
+ i_qp_#stars
+ i_qp_#amine
+ i_qp_#amidine
+ i_qp_#acid
+ i_qp_#amide
+ i_qp_#rotor
+ i_qp_#rtvFG
+ i_qp_CNS
+ r_qp_mol_MW
+ r_qp_dipole
+ r_qp_SASA
+ r_qp_FOSA
+ r_qp_FISA
+ r_qp_PISA
+ r_qp_WPSA
+ r_qp_volume
+ r_qp_donorHB
+ r_qp_accptHB
+ r_qp_dip^2/V
+ r_qp_ACxDN^.5/SA
+ r_qp_glob
+ r_qp_QPpolrz
+ r_qp_QPlogPC16
+ r_qp_QPlogPoct
+ r_qp_QPlogPw
+ r_qp_QPlogPo/w
+ r_qp_QPlogS
+ r_qp_CIQPlogS
+ r_qp_QPlogHERG
+ r_qp_QPPCaco
+ r_qp_QPlogBB
+ r_qp_QPPMDCK
+ r_qp_QPlogKp
+ r_qp_IP(eV)
+ r_qp_EA(eV)
+ i_qp_#metab
+ r_qp_QPlogKhsa
+ i_qp_HumanOralAbsorption
+ r_qp_PercentHumanOralAbsorption
+ r_qp_SAfluorine
+ r_qp_SAamideO
+ r_qp_PSA
+ i_qp_#NandO
+ i_qp_RuleOfFive
+ i_qp_RuleOfThree
+ i_qp_#ringatoms
+ i_qp_#in34
+ i_qp_#in56
+ i_qp_#noncon
+ i_qp_#nonHatm
+ r_qp_Jm
+ i_chemfeatures_acceptor_atom
+ i_chemfeatures_acceptor_dist
+ i_chemfeatures_donor_atom
+ i_chemfeatures_donor_dist
+ i_chemfeatures_positive_atom
+ i_chemfeatures_positive_dist
+ i_chemfeatures_negative_atom
+ i_chemfeatures_negative_dist
+ i_chemfeatures_aromatic_atom
+ i_chemfeatures_aromatic_dist
+ i_chemfeatures_hydrophobe_atom
+ i_chemfeatures_hydrophobe_dist
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_m_subgroup_title
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ TYR(Y) 
+  170 
+  Structure2 
+  37012
+  0.999999999997365
+  2
+  1_S_24_2_7_4 
+  0
+  OPLS3 
+  10.7445589047885
+  1
+  TYR(Y)-1 
+  1
+  1
+  24 
+  N5 
+  1 
+    0.0008 
+    0.0002 
+    0.0006 
+  "phenol from phenol_1 to phenol_1 #1" 
+  19.6629314422607
+  1
+  0.0100411567837
+  1
+  0
+  1
+  1
+  4
+  0
+  1
+  0
+  0
+  0
+  5
+  1
+  0
+     179.218 
+       0.000 
+     417.085 
+     126.293 
+     139.998 
+     150.794 
+       0.000 
+     671.771 
+       3.000 
+       3.750 
+     0.0000000 
+     0.0155728 
+     0.8893807 
+      18.960 
+       7.168 
+      12.420 
+       9.685 
+       0.323 
+      -0.476 
+      -0.722 
+      -4.767 
+     116.198 
+      -0.519 
+      53.434 
+      -5.151 
+       0.000 
+       0.000 
+  5
+      -0.526 
+  2
+      65.801 
+       0.000 
+       0.000 
+      73.758 
+  3
+  0
+  0
+  6
+  0
+  6
+  0
+  13
+  0.423197001973863
+  14
+  8
+  21
+  9
+  24
+  3
+  0
+  0
+  13
+  7
+  13
+  7
+  "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation" 
+  peptide-reagent-preparation.bld 
+  23
+  peptide-reagent-preparation 
+  peptide-reagent-preparation 
+  0
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 s_st_Chirality_1 
+  3 10 i_ionizer_Ion_state_n 
+  4 10 i_ionizer_Tot_Q 
+  5 10 s_ionizer_Ion_centers 
+  6 10 s_ionizer_Ion_types 
+  7 10 s_ionizer_Ion_ctrs_in 
+  8 10 r_ionizer_Ionization_penalty 
+  9 10 r_ionizer_Ionization_penalty_charging 
+  10 10 r_ionizer_Ionization_penalty_neutral 
+  11 10 s_lp_tautomerizer_action 
+  12 20 r_mmod_Potential_Energy-OPLS-2005 
+  13 20 b_mmod_Minimization_Converged-OPLS-2005 
+  14 20 r_mmod_RMS_Derivative-OPLS-2005 
+  15 20 i_mmod_Times_Found-OPLS-2005 
+  16 20 r_mmod_Relative_Potential_Energy-OPLS-2005 
+  17 20 b_mmod_Chiralities_Consistent-OPLS-2005 
+  18 20 i_mmod_Conformation-OPLS-2005 
+  19 10 i_mmod_Serial_Number-OPLS-2005 
+  :::
+ } 
+ m_atom[25] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_Hcount
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 0.002035 -0.269931 0.543258 2 Y A 24 0.25000 0.25000 "TYR " " CA " "    " 6 0 3 1 696969  C5  1 1 <> <>
+  2 2 -1.216394 0.413322 1.175171 2 Y A 24 0.52000 0.52000 "TYR " " C  " "rpc1" 6 0 3 1 696969  C6  0 <> <> <>
+  3 15 -1.603593 0.115494 2.303049 2 Y A 70 -0.44000 -0.44000 "TYR " " O  " "    " 8 0 3 1 FF2F2F  O7  0 <> <> <>
+  4 41 -0.319046 -0.653221 -0.426174 2 Y A 21 0.06000 0.06000 "TYR " " HA " "    " 1 0 3 0 FFFFFF  H15  0 <> <> <>
+  5 44 0.690405 1.464418 -0.286386 2 Y A 21 0.33000 0.33000 "TYR " " H  " "    " 1 0 3 1 FFFFFF  H5  0 <>   9.241    0.483 
+  6 16 -1.826123 1.374437 0.424673 2 Y A 70 -0.53000 -0.53000 "TYR " "    " "rpc2" 8 0 3 1 FF2F2F  O12  1 <>   2.587    0.763 
+  7 3 0.541478 -1.446060 1.386550 2 Y A 2 -0.00500 -0.00500 "TYR " " CB " "    " 6 0 3 1 A0A0A0  C7  2 <> <> <>
+  8 2 1.639699 -2.244888 0.706961 2 Y A 2 -0.11500 -0.11500 "TYR " " CG " "    " 6 0 3 1 A0A0A0  C8  0 <> <> <>
+  9 2 2.988725 -2.059226 1.077052 2 Y A 2 -0.11500 -0.11500 "TYR " " CD1" "    " 6 0 3 1 A0A0A0  C9  1 <> <> <>
+  10 2 1.314918 -3.175614 -0.302396 2 Y A 2 -0.11500 -0.11500 "TYR " " CD2" "    " 6 0 3 1 A0A0A0  C10  1 <> <> <>
+  11 2 4.005058 -2.797070 0.439545 2 Y A 2 -0.11500 -0.11500 "TYR " " CE1" "    " 6 0 3 1 A0A0A0  C11  1 <> <> <>
+  12 2 2.331534 -3.913630 -0.939464 2 Y A 2 -0.11500 -0.11500 "TYR " " CE2" "    " 6 0 3 1 A0A0A0  C12  1 <> <> <>
+  13 2 3.677644 -3.724186 -0.569018 2 Y A 2 0.15000 0.15000 "TYR " " CZ " "    " 6 0 3 1 A0A0A0  C13  0 <> <> <>
+  14 16 4.665256 -4.436451 -1.184263 2 Y A 70 -0.58500 -0.58500 "TYR " " OH " "    " 8 0 3 1 FF2F2F  O14  1 <> <> <>
+  15 41 0.906037 -1.085102 2.349957 2 Y A 21 0.06000 0.06000 "TYR " " HB2" "    " 1 0 3 1 FFFFFF  H15  0 <> <> <>
+  16 41 -0.269452 -2.139278 1.617142 2 Y A 21 0.06000 0.06000 "TYR " " HB3" "    " 1 0 3 1 FFFFFF  H16  0 <> <> <>
+  17 41 3.250956 -1.352162 1.850532 2 Y A 21 0.11500 0.11500 "TYR " " HD1" "    " 1 0 3 1 FFFFFF  H17  0 <> <> <>
+  18 41 0.285047 -3.326607 -0.591809 2 Y A 21 0.11500 0.11500 "TYR " " HD2" "    " 1 0 3 1 FFFFFF  H18  0 <> <> <>
+  19 41 5.036406 -2.651603 0.726391 2 Y A 21 0.11500 0.11500 "TYR " " HE1" "    " 1 0 3 1 FFFFFF  H19  0 <> <> <>
+  20 41 2.073452 -4.623927 -1.711368 2 Y A 21 0.11500 0.11500 "TYR " " HE2" "    " 1 0 3 1 FFFFFF  H20  0 <> <> <>
+  21 42 4.341507 -5.036441 -1.838515 2 Y A 21 0.43500 0.43500 "TYR " " HH " "    " 1 0 3 1 FFFFFF  H21  0 <>   9.473    0.640 
+  22 44 1.367272 1.116043 1.176364 2 Y A 21 0.33000 0.33000 "TYR " "    " "    " 1 0 3 1 FFFFFF  H22  0 <>   9.241    0.483 
+  23 42 -2.569637 1.756359 0.866813 2 Y A 21 0.45000 0.45000 "TYR " "    " "    " 1 0 0 1 FFFFFF  H23  0 <> <> <>
+  24 32 1.059662 0.726685 0.296781 2 X A 43 -0.30000 -0.30000 "TYR " " N  " "  c1" 7 1 0 1 5757FF  N24  3 <> <> <>
+  25 44 1.838562 0.282345 -0.168331 2 X A 21 0.33000 0.33000 "TYR " "    " "    " 1 0 0 1 FFFFFF  H25  0 <> <> <>
+  :::
+ } 
+ m_bond[25] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 4 1 3 3
+  3 1 7 1 3 3
+  4 1 24 1 3 3
+  5 2 3 2 3 3
+  6 2 6 1 3 3
+  7 5 24 1 3 3
+  8 6 23 1 1 1
+  9 7 8 1 3 3
+  10 7 15 1 3 3
+  11 7 16 1 3 3
+  12 8 9 2 3 3
+  13 8 10 1 3 3
+  14 9 11 1 3 3
+  15 9 17 1 3 3
+  16 10 12 2 3 3
+  17 10 18 1 3 3
+  18 11 13 2 3 3
+  19 11 19 1 3 3
+  20 12 13 1 3 3
+  21 12 20 1 3 3
+  22 13 14 1 3 3
+  23 14 21 1 3 3
+  24 22 24 1 3 3
+  25 24 25 1 1 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ i_ionizer_Ion_state_n
+ i_ionizer_Tot_Q
+ s_ionizer_Ion_centers
+ s_ionizer_Ion_types
+ s_ionizer_Ion_ctrs_in
+ r_ionizer_Ionization_penalty
+ r_ionizer_Ionization_penalty_charging
+ r_ionizer_Ionization_penalty_neutral
+ s_lp_tautomerizer_action
+ r_mmod_Potential_Energy-OPLS-2005
+ b_mmod_Minimization_Converged-OPLS-2005
+ r_mmod_RMS_Derivative-OPLS-2005
+ i_mmod_Times_Found-OPLS-2005
+ r_mmod_Relative_Potential_Energy-OPLS-2005
+ b_mmod_Chiralities_Consistent-OPLS-2005
+ i_mmod_Conformation-OPLS-2005
+ i_mmod_Serial_Number-OPLS-2005
+ i_qp_#stars
+ i_qp_#amine
+ i_qp_#amidine
+ i_qp_#acid
+ i_qp_#amide
+ i_qp_#rotor
+ i_qp_#rtvFG
+ i_qp_CNS
+ r_qp_mol_MW
+ r_qp_dipole
+ r_qp_SASA
+ r_qp_FOSA
+ r_qp_FISA
+ r_qp_PISA
+ r_qp_WPSA
+ r_qp_volume
+ r_qp_donorHB
+ r_qp_accptHB
+ r_qp_dip^2/V
+ r_qp_ACxDN^.5/SA
+ r_qp_glob
+ r_qp_QPpolrz
+ r_qp_QPlogPC16
+ r_qp_QPlogPoct
+ r_qp_QPlogPw
+ r_qp_QPlogPo/w
+ r_qp_QPlogS
+ r_qp_CIQPlogS
+ r_qp_QPlogHERG
+ r_qp_QPPCaco
+ r_qp_QPlogBB
+ r_qp_QPPMDCK
+ r_qp_QPlogKp
+ r_qp_IP(eV)
+ r_qp_EA(eV)
+ i_qp_#metab
+ r_qp_QPlogKhsa
+ i_qp_HumanOralAbsorption
+ r_qp_PercentHumanOralAbsorption
+ r_qp_SAfluorine
+ r_qp_SAamideO
+ r_qp_PSA
+ i_qp_#NandO
+ i_qp_RuleOfFive
+ i_qp_RuleOfThree
+ i_qp_#ringatoms
+ i_qp_#in34
+ i_qp_#in56
+ i_qp_#noncon
+ i_qp_#nonHatm
+ r_qp_Jm
+ i_chemfeatures_acceptor_atom
+ i_chemfeatures_acceptor_dist
+ i_chemfeatures_donor_atom
+ i_chemfeatures_donor_dist
+ i_chemfeatures_positive_atom
+ i_chemfeatures_positive_dist
+ i_chemfeatures_negative_atom
+ i_chemfeatures_negative_dist
+ i_chemfeatures_aromatic_atom
+ i_chemfeatures_aromatic_dist
+ i_chemfeatures_hydrophobe_atom
+ i_chemfeatures_hydrophobe_dist
+ s_m_Source_Path
+ s_m_Source_File
+ i_m_Source_File_Index
+ s_m_subgroup_title
+ s_m_subgroupid
+ b_m_subgroup_collapsed
+ i_m_ct_format
+ :::
+ Asp(V) 
+  171 
+  Structure2 
+  37012
+  1
+  2
+  1_S_19_2_7_4 
+  0
+  OPLS3 
+  11.8040038968064
+  1
+  Asp(V)-1 
+  1
+  1
+  19 
+  N5 
+  1 
+    0.0002 
+    0.0002 
+    0.0000 
+  " #1" 
+  18.7639694213867
+  1
+  0.000181099254405126
+  1
+  0
+  1
+  1
+  5
+  3
+  1
+  0
+  0
+  0
+  3
+  1
+  1
+     115.175 
+       0.000 
+     332.708 
+     256.150 
+      76.558 
+       0.000 
+       0.000 
+     518.027 
+       2.000 
+       3.000 
+     0.0000000 
+     0.0127518 
+     0.9375682 
+      12.651 
+       4.255 
+       7.765 
+       6.263 
+       0.123 
+       0.285 
+       0.429 
+      -3.268 
+     464.302 
+       0.201 
+     238.825 
+      -4.705 
+       0.000 
+       0.000 
+  3
+      -0.625 
+  3
+      75.395 
+       0.000 
+       0.000 
+      48.692 
+  2
+  0
+  0
+  0
+  0
+  0
+  0
+  8
+  4.38051447719221
+  3
+  2
+  5
+  4
+  19
+  3
+  0
+  0
+  0
+  0
+  0
+  0
+  "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation" 
+  peptide-reagent-preparation.bld 
+  24
+  peptide-reagent-preparation 
+  peptide-reagent-preparation 
+  0
+  2
+ m_depend[19] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 s_st_Chirality_1 
+  3 10 i_ionizer_Ion_state_n 
+  4 10 i_ionizer_Tot_Q 
+  5 10 s_ionizer_Ion_centers 
+  6 10 s_ionizer_Ion_types 
+  7 10 s_ionizer_Ion_ctrs_in 
+  8 10 r_ionizer_Ionization_penalty 
+  9 10 r_ionizer_Ionization_penalty_charging 
+  10 10 r_ionizer_Ionization_penalty_neutral 
+  11 10 s_lp_tautomerizer_action 
+  12 20 r_mmod_Potential_Energy-OPLS-2005 
+  13 20 b_mmod_Minimization_Converged-OPLS-2005 
+  14 20 r_mmod_RMS_Derivative-OPLS-2005 
+  15 20 i_mmod_Times_Found-OPLS-2005 
+  16 20 r_mmod_Relative_Potential_Energy-OPLS-2005 
+  17 20 b_mmod_Chiralities_Consistent-OPLS-2005 
+  18 20 i_mmod_Conformation-OPLS-2005 
+  19 10 i_mmod_Serial_Number-OPLS-2005 
+  :::
+ } 
+ m_atom[20] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_Hcount
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 0.121732 0.365322 0.344276 2 V A 24 0.25000 0.25000 "VAL " " CA " "    " 6 0 3 1 696969  C5  1 1 <> <>
+  2 2 -0.659258 -0.533635 1.316030 2 V A 24 0.52000 0.52000 "VAL " " C  " "rpc1" 6 0 3 1 696969  C6  0 <> <> <>
+  3 15 -0.427354 -1.736876 1.409044 2 V A 70 -0.44000 -0.44000 "VAL " " O  " "    " 8 0 3 1 FF2F2F  O7  0 <> <> <>
+  4 41 -0.615227 0.712277 -0.381247 2 V A 21 0.06000 0.06000 "VAL " " HA " "    " 1 0 3 0 FFFFFF  H15  0 <> <> <>
+  5 44 -0.155482 2.021452 1.505543 2 V A 21 0.33000 0.33000 "VAL " " H  " "    " 1 0 3 1 FFFFFF  H5  0 <>   9.940    0.860 
+  6 16 -1.631783 0.076603 2.051992 2 V A 70 -0.53000 -0.53000 "VAL " "    " "rpc2" 8 0 3 1 FF2F2F  O12  1 <>   2.497    0.791 
+  7 3 1.261689 -0.351581 -0.433534 2 V A 2 -0.06000 -0.06000 "VAL " " CB " "    " 6 0 3 1 A0A0A0  C7  1 <> <> <>
+  8 3 1.728554 0.482064 -1.639525 2 V A 2 -0.18000 -0.18000 "VAL " " CG1" "    " 6 0 3 1 A0A0A0  C8  3 <> <> <>
+  9 3 2.469898 -0.742760 0.443051 2 V A 2 -0.18000 -0.18000 "VAL " " CG2" "    " 6 0 3 1 A0A0A0  C9  3 <> <> <>
+  10 41 0.851889 -1.274787 -0.847108 2 V A 21 0.06000 0.06000 "VAL " " HB " "    " 1 0 3 1 FFFFFF  H10  0 <> <> <>
+  11 41 2.467028 -0.062815 -2.228646 2 V A 21 0.06000 0.06000 "VAL " "HG11" "    " 1 0 3 1 FFFFFF  H11  0 <> <> <>
+  12 41 0.896285 0.718835 -2.303155 2 V A 21 0.06000 0.06000 "VAL " "HG12" "    " 1 0 3 1 FFFFFF  H12  0 <> <> <>
+  13 41 2.185848 1.421842 -1.329015 2 V A 21 0.06000 0.06000 "VAL " "HG13" "    " 1 0 3 1 FFFFFF  H13  0 <> <> <>
+  14 41 3.202359 -1.303807 -0.138197 2 V A 21 0.06000 0.06000 "VAL " "HG21" "    " 1 0 3 1 FFFFFF  H14  0 <> <> <>
+  15 41 2.979487 0.133033 0.845275 2 V A 21 0.06000 0.06000 "VAL " "HG22" "    " 1 0 3 1 FFFFFF  H15  0 <> <> <>
+  16 41 2.180613 -1.373374 1.283305 2 V A 21 0.06000 0.06000 "VAL " "HG23" "    " 1 0 3 1 FFFFFF  H16  0 <> <> <>
+  17 44 1.301982 1.285991 1.736677 2 V A 21 0.33000 0.33000 "VAL " "    " "    " 1 0 3 1 FFFFFF  H17  0 <>   9.940    0.860 
+  18 42 -2.085027 -0.530430 2.617926 2 V A 21 0.45000 0.45000 "VAL " "    " "    " 1 0 0 1 FFFFFF  H18  0 <> <> <>
+  19 32 0.619108 1.563272 1.046331 2 X A 43 -0.30000 -0.30000 "VAL " " N  " "  c1" 7 1 0 1 5757FF  N19  3 <> <> <>
+  20 44 1.044214 2.193990 0.382280 2 X A 21 0.33000 0.33000 "VAL " "    " "    " 1 0 0 1 FFFFFF  H20  0 <> <> <>
+  :::
+ } 
+ m_bond[19] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 4 1 3 3
+  3 1 7 1 3 3
+  4 1 19 1 3 3
+  5 2 3 2 3 3
+  6 2 6 1 3 3
+  7 5 19 1 3 3
+  8 6 18 1 1 1
+  9 7 8 1 3 3
+  10 7 9 1 3 3
+  11 7 10 1 3 3
+  12 8 11 1 3 3
+  13 8 12 1 3 3
+  14 8 13 1 3 3
+  15 9 14 1 3 3
+  16 9 15 1 3 3
+  17 9 16 1 3 3
+  18 17 19 1 3 3
+  19 19 20 1 1 1
+  :::
+ } 
+} 
+

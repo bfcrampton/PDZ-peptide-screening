@@ -1,0 +1,4 @@
+[O-]C(=O)C([H])N([H])C(=O)C([H])N([H])C(=O)C([H])N([H])C(=O)CN([H])C(=O)C1([H])C([H])([H])C([H])([H])C([H])([H])N1C(C)=O
+
+
+/opt/schrodinger/suites2017-1/glide glide-dock-run3.in -OVERWRITE -NJOBS 8 -HOST localhost:1,researcher8:8 -PROJ /Users/bryancrampton/Desktop/Research/Schrodinger/CALP.prj -DISP append -VIEWNAME glide_docking_gui.DockingPanel -TMPLAUNCHDIR -ATTACHED

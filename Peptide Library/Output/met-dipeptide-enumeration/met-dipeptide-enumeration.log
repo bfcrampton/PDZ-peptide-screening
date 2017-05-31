@@ -1,0 +1,23 @@
+Run as:
+combgen -m met-dipeptide-enumeration-mmfrag.ini -logfile met-dipeptide-enumeration.log -infile met-dipeptide-enumeration.in -outfile met-dipeptide-enumeration.mae -r 5 -unt
+Running on Bryans-Retina-Macbook
+
+Now handling input command file, echoing non-comment lines,
+prefixed by line numbers; ignore any WARNING messages....
+
+[4] Core: met-dipeptide-enumeration-core.mae
+[7] Chain: 1 1 1 1f 1t
+[8] Frag: 1 1 peptide-reagent-preparation
+
+Input specs lead to 22-member comb lib
+
+Proceed with generation....
+Reached end of comb lib
+
+Running the untangler:
+ "/opt/schrodinger/suites2017-1/ligprep" -HOST "localhost:4" -NJOBS 4 -unt -bff 14 -imae "met-dipeptide-enumeration-tang.mae" -omae "met-dipeptide-enumeration-unt.mae"
+Untangler started; jobid=Bryans-Retina-Macbook-0-5912461d, launch succeeded
+"met-dipeptide-enumeration-unt"  	Bryans-Retina-Macbook-0-5912461d	finished 2017-05-09-18:44:06 on Bryans-Retina-Macbook
+Untangler succeeded
+
+Size of output file "met-dipeptide-enumeration.mae" is 143022 bytes

@@ -1,0 +1,2865 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_name
+ s_m_entry_id
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_m_job_name
+ :::
+ Ala(A) 
+  Structure2 
+  101 
+  amino-acid-prep.maegz 
+  1
+  37012
+  1
+    0.0014 
+    0.0014 
+    0.0000 
+    0.0000 
+  0.00136663983590927
+  0
+  2
+  2_S_1_3_5_7 
+  0
+  OPLS3 
+  2.50476898825495
+  1
+  Ala(A)-1 
+  amino-acid-prep 
+ m_depend[9] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  8 10 s_st_Chirality_1 
+  9 30 s_m_job_name 
+  :::
+ } 
+ m_atom[13] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_secondary_structure
+  i_m_ribbon_style
+  i_m_ribbon_color
+  s_m_label_format
+  i_m_label_color
+  s_m_label_user_text
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -0.108714 -0.057555 -0.056588 2 A A 38 0.37127 0.37127 "ALA " " N  " "  c1" 7 1 3 1 2E2EFF  "N4"  -1 0 1 ""  1 ""  <> <> <>
+  2 3 1.429591 -0.032252 -0.030737 2 A A 24 -0.05308 -0.05308 "ALA " " CA " "  g0" 6 0 3 1 808080  "C5"  -1 0 1 ""  1 ""  1 <> <>
+  3 2 1.947300 0.735841 -1.285321 2 A A 24 0.72767 0.72767 "ALA " " C  " "  n1" 6 0 3 1 808080  "C6"  -1 0 1 ""  1 ""  <> <> <>
+  4 15 3.183221 0.923869 -1.352865 2 A A 70 -0.72197 -0.72197 "ALA " " O  " "    " 8 0 3 1 FF2E2E  "O7"  -1 0 1 ""  1 ""  <> <> <>
+  5 3 2.098214 -1.401946 0.099564 2 A A 24 -0.23622 -0.23622 "ALA " " CB " "  g1" 6 0 3 1 808080  "C8"  -1 0 1 ""  1 ""  <> <> <>
+  6 44 -0.470659 0.884647 -0.093175 2 A A 21 0.12438 0.12438 "ALA " " H  " "    " 1 0 3 1 FFFFFF  "H14"  -1 0 1 ""  1 ""  <>   9.641    1.474 
+  7 41 1.613520 0.578526 0.854150 2 A A 21 0.00615 0.00615 "ALA " " HA " "    " 1 0 3 0 FFFFFF  "H15"  -1 0 1 ""  1 ""  <> <> <>
+  8 41 3.176902 -1.298371 0.228086 2 A A 21 0.08500 0.08500 "ALA " " HB1" "    " 1 0 3 0 FFFFFF  "H16"  -1 0 1 ""  1 ""  <> <> <>
+  9 41 1.901377 -2.012327 -0.783443 2 A A 21 0.08500 0.08500 "ALA " " HB2" "    " 1 0 3 0 FFFFFF  "H17"  -1 0 1 ""  1 ""  <> <> <>
+  10 41 1.703458 -1.920379 0.973836 2 A A 21 0.08500 0.08500 "ALA " " HB3" "    " 1 0 3 0 FFFFFF  "H18"  -1 0 1 ""  1 ""  <> <> <>
+  11 44 -0.458770 -0.505436 0.778026 2 A A 21 0.12438 0.12438 "ALA " " H  " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.641    1.474 
+  12 18 1.144169 1.149261 -2.155841 2 X A 70 -0.72197 -0.72197 "ALA " "    " "  c1" 8 -1 3 1 FF2E2E  "O12"  -1 0 1 ""  1 ""  <>   2.362    0.775 
+  13 44 -0.434729 -0.572508 -0.861880 2 A A 21 0.12438 0.12438 "ALA " "    " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.641    1.474 
+  :::
+ } 
+ m_bond[12] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 6 1 3 3
+  3 1 11 1 3 3
+  4 1 13 1 3 3
+  5 2 3 1 3 3
+  6 2 5 1 3 3
+  7 2 7 1 3 3
+  8 3 4 2 3 3
+  9 3 12 1 3 3
+  10 5 8 1 3 3
+  11 5 9 1 3 3
+  12 5 10 1 3 3
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_name
+ s_m_entry_id
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_m_job_name
+ s_epik_Chemistry_Notes
+ :::
+ Arg(R) 
+  Structure2 
+  102 
+  amino-acid-prep.maegz 
+  2
+  37012
+  1
+    0.0016 
+    0.0016 
+    0.0000 
+    0.0000 
+  0.00164887027348048
+  1
+  3
+  2_S_1_3_9_6 
+  0
+  OPLS3 
+  18.015720038936
+  1
+  Arg(R)-1 
+  amino-acid-prep 
+  "This compound has an imine and may undergo hydrolysis." 
+ m_depend[9] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  8 10 s_st_Chirality_1 
+  9 30 s_m_job_name 
+  :::
+ } 
+ m_atom[27] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_secondary_structure
+  i_m_ribbon_style
+  i_m_ribbon_color
+  s_m_label_format
+  i_m_label_color
+  s_m_label_user_text
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -1.885502 1.546786 0.378072 2 R A 38 0.34846 0.34846 "ARG " " N  " "  c1" 7 1 3 1 2E2EFF  "N4"  -1 0 1 ""  1 ""  <> <> <>
+  2 3 -0.482695 1.503822 -0.161400 2 R A 24 -0.15811 -0.15811 "ARG " " CA " "  g0" 6 0 3 1 808080  "C5"  -1 0 1 ""  1 ""  1 <> <>
+  3 2 -0.513154 2.190476 -1.585621 2 R A 24 0.74350 0.74350 "ARG " " C  " "  n1" 6 0 3 1 808080  "C6"  -1 0 1 ""  1 ""  <> <> <>
+  4 15 -1.245575 3.203513 -1.694097 2 R A 70 -0.70799 -0.70799 "ARG " " O  " "    " 8 0 3 1 FF2E2E  "O7"  -1 0 1 ""  1 ""  <> <> <>
+  5 44 -2.200865 2.506341 0.392967 2 R A 21 0.13059 0.13059 "ARG " " H  " "    " 1 0 3 1 FFFFFF  "H14"  -1 0 1 ""  1 ""  <>   9.559    0.483 
+  6 41 0.069045 2.152993 0.520178 2 R A 21 0.08172 0.08172 "ARG " " HA " "    " 1 0 3 0 FFFFFF  "H15"  -1 0 1 ""  1 ""  <> <> <>
+  7 44 -1.885206 1.173758 1.316556 2 R A 21 0.13059 0.13059 "ARG " " H  " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.559    0.483 
+  8 18 0.277873 1.722673 -2.435541 2 R A 70 -0.70799 -0.70799 "ARG " "    " "  c1" 8 -1 3 1 FF2E2E  "O12"  -1 0 1 ""  1 ""  <>   2.324    0.460 
+  9 3 0.095444 0.057382 -0.132390 2 R A 2 -0.11685 -0.11685 "ARG " " CB " "  g1" 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  10 3 1.634636 -0.014233 -0.075781 2 R A 2 -0.13680 -0.13680 "ARG " " CG " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  11 3 2.160447 -1.456901 -0.100910 2 R A 2 0.03486 0.03486 "ARG " " CD " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  12 25 3.603394 -1.519045 0.168105 2 R A 43 -0.31154 -0.31154 "ARG " " NE " "    " 7 0 3 1 5757FF  ""  -1 0 1 ""  1 ""  <> <> <>
+  13 2 4.171025 -1.531002 1.387842 2 R A 2 0.39146 0.39146 "ARG " " CZ " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  14 25 3.430061 -1.514948 2.507291 2 R A 43 -0.61072 -0.61072 "ARG " " NH1" "    " 7 0 3 1 5757FF  ""  -1 0 1 ""  1 ""  <> <> <>
+  15 31 5.507088 -1.559971 1.488173 2 R A 43 -0.61072 -0.61072 "ARG " " NH2" "    " 7 1 3 1 5757FF  ""  -1 0 1 ""  1 ""  <> <> <>
+  16 41 -0.271029 -0.444325 0.764737 2 R A 21 0.06955 0.06955 "ARG " " HB2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  17 41 -0.287735 -0.531376 -0.968142 2 R A 21 0.06955 0.06955 "ARG " " HB3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  18 41 2.011421 0.474101 -0.973665 2 R A 21 0.09902 0.09902 "ARG " " HG2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  19 41 2.048926 0.546557 0.762916 2 R A 21 0.09902 0.09902 "ARG " " HG3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  20 41 1.563790 -2.160716 0.480173 2 R A 21 0.07517 0.07517 "ARG " " HD2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  21 41 2.094234 -1.793606 -1.136230 2 R A 21 0.07517 0.07517 "ARG " " HD3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  22 43 4.209135 -1.490390 -0.640159 2 R A 21 0.32166 0.32166 "ARG " " HE " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>  12.254    0.860 
+  23 43 3.875963 -1.523666 3.413694 2 R A 21 0.38995 0.38995 "ARG " "HH12" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>  14.552    1.650 
+  24 43 2.422128 -1.496008 2.445502 2 R A 21 0.38995 0.38995 "ARG " "HH11" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>  14.552    1.650 
+  25 44 6.078895 -1.574848 0.655301 2 R A 21 0.38995 0.38995 "ARG " "HH21" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>  11.629    0.860 
+  26 44 5.948671 -1.569532 2.396702 2 R A 21 0.38995 0.38995 "ARG " "    " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>  11.629    0.860 
+  27 44 -2.484323 0.987714 -0.212603 2 R A 21 0.13059 0.13059 "ARG " "    " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.559    0.483 
+  :::
+ } 
+ m_bond[26] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 7 1 3 3
+  4 1 27 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 9 1 3 3
+  8 3 4 2 3 3
+  9 3 8 1 3 3
+  10 9 10 1 3 3
+  11 9 16 1 3 3
+  12 9 17 1 3 3
+  13 10 11 1 3 3
+  14 10 18 1 3 3
+  15 10 19 1 3 3
+  16 11 12 1 3 3
+  17 11 20 1 3 3
+  18 11 21 1 3 3
+  19 12 13 1 3 3
+  20 12 22 1 3 3
+  21 13 14 1 3 3
+  22 13 15 2 3 3
+  23 14 23 1 3 3
+  24 14 24 1 3 3
+  25 15 25 1 3 3
+  26 15 26 1 3 3
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_name
+ s_m_entry_id
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_m_job_name
+ :::
+ Asn(N) 
+  Structure2 
+  103 
+  amino-acid-prep.maegz 
+  3
+  37012
+  1
+    0.0034 
+    0.0034 
+    0.0000 
+    0.0000 
+  0.00343003795067748
+  0
+  2
+  2_S_1_3_9_6 
+  0
+  OPLS3 
+  7.09886455168414
+  1
+  Asn(N)-1 
+  amino-acid-prep 
+ m_depend[9] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  8 10 s_st_Chirality_1 
+  9 30 s_m_job_name 
+  :::
+ } 
+ m_atom[17] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_secondary_structure
+  i_m_ribbon_style
+  i_m_ribbon_color
+  s_m_label_format
+  i_m_label_color
+  s_m_label_user_text
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -0.315656 1.458152 0.010632 2 N A 38 0.33859 0.33859 "ASN " " N  " "  c1" 7 1 3 1 2E2EFF  "N4"  -1 0 1 ""  1 ""  <> <> <>
+  2 3 0.063454 0.010472 0.153662 2 N A 24 -0.14371 -0.14371 "ASN " " CA " "  g0" 6 0 3 1 808080  "C5"  -1 0 1 ""  1 ""  1 <> <>
+  3 2 -0.706288 -0.571666 1.408108 2 N A 24 0.74326 0.74326 "ASN " " C  " "  n1" 6 0 3 1 808080  "C6"  -1 0 1 ""  1 ""  <> <> <>
+  4 15 -0.146155 -1.525544 1.993011 2 N A 70 -0.71227 -0.71227 "ASN " " O  " "    " 8 0 3 1 FF2E2E  "O7"  -1 0 1 ""  1 ""  <> <> <>
+  5 44 -1.321427 1.528945 -0.051042 2 N A 21 0.12493 0.12493 "ASN " " H  " "    " 1 0 3 1 FFFFFF  "H14"  -1 0 1 ""  1 ""  <>   9.238    0.483 
+  6 41 -0.373688 -0.444654 -0.736678 2 N A 21 0.10061 0.10061 "ASN " " HA " "    " 1 0 3 0 FFFFFF  "H15"  -1 0 1 ""  1 ""  <> <> <>
+  7 44 0.104335 1.823256 -0.832033 2 N A 21 0.12493 0.12493 "ASN " " H  " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.238    0.483 
+  8 18 -1.849967 -0.104158 1.627030 2 N A 70 -0.71227 -0.71227 "ASN " "    " "  c1" 8 -1 3 1 FF2E2E  "O12"  -1 0 1 ""  1 ""  <>   2.368    0.815 
+  9 3 1.614631 -0.170101 0.174763 2 N A 2 -0.15084 -0.15084 "ASN " " CB " "  g1" 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  10 2 2.107752 -1.556915 -0.261499 2 N A 2 0.57396 0.57396 "ASN " " CG " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  11 15 2.659759 -2.304209 0.542409 2 N A 70 -0.52439 -0.52439 "ASN " " OD1" "    " 8 0 3 1 FF2F2F  ""  -1 0 1 ""  1 ""  <>  -1.424    0.900 
+  12 25 1.923824 -1.896038 -1.540162 2 N A 43 -0.72735 -0.72735 "ASN " " ND2" "    " 7 0 3 1 5757FF  ""  -1 0 1 ""  1 ""  <> <> <>
+  13 41 2.072003 0.540529 -0.515732 2 N A 21 0.07544 0.07544 "ASN " " HB2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  14 41 2.024425 0.077703 1.155808 2 N A 21 0.07544 0.07544 "ASN " " HB3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  15 43 1.472112 -1.260518 -2.181132 2 N A 21 0.34437 0.34437 "ASN " "HD22" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>  14.107    0.950 
+  16 43 2.234780 -2.797451 -1.873110 2 N A 21 0.34437 0.34437 "ASN " "HD21" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>  14.107    0.950 
+  17 44 0.025362 1.969285 0.812229 2 N A 21 0.12493 0.12493 "ASN " "    " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.238    0.483 
+  :::
+ } 
+ m_bond[16] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 7 1 3 3
+  4 1 17 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 9 1 3 3
+  8 3 4 2 3 3
+  9 3 8 1 3 3
+  10 9 10 1 3 3
+  11 9 13 1 3 3
+  12 9 14 1 3 3
+  13 10 11 2 3 3
+  14 10 12 1 3 3
+  15 12 15 1 3 3
+  16 12 16 1 3 3
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_name
+ s_m_entry_id
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_m_job_name
+ :::
+ Asp(D) 
+  Structure2 
+  104 
+  amino-acid-prep.maegz 
+  4
+  37012
+  1
+    0.0054 
+    0.0054 
+    0.0000 
+    0.0000 
+  0.00544610570333974
+  -1
+  3
+  2_S_1_3_9_6 
+  0
+  OPLS3 
+  2.38935736022831
+  1
+  Asp(D)-1 
+  amino-acid-prep 
+ m_depend[9] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  8 10 s_st_Chirality_1 
+  9 30 s_m_job_name 
+  :::
+ } 
+ m_atom[15] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_secondary_structure
+  i_m_ribbon_style
+  i_m_ribbon_color
+  s_m_label_format
+  i_m_label_color
+  s_m_label_user_text
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -0.401697 1.425422 -0.087865 2 D A 38 0.33475 0.33475 "ASP " " N  " "  c1" 7 1 3 1 2E2EFF  "N4"  -1 0 1 ""  1 ""  <> <> <>
+  2 3 -0.017626 -0.050604 0.117740 2 D A 24 -0.00115 -0.00115 "ASP " " CA " "  g0" 6 0 3 1 808080  "C5"  -1 0 1 ""  1 ""  1 <> <>
+  3 2 -0.756439 -0.600190 1.376024 2 D A 24 0.73040 0.73040 "ASP " " C  " "  n1" 6 0 3 1 808080  "C6"  -1 0 1 ""  1 ""  <> <> <>
+  4 15 -0.570006 -1.807042 1.647651 2 D A 70 -0.74500 -0.74500 "ASP " " O  " "    " 8 0 3 1 FF2E2E  "O7"  -1 0 1 ""  1 ""  <> <> <>
+  5 44 -1.403370 1.513332 -0.182803 2 D A 21 0.11253 0.11253 "ASP " " H  " "    " 1 0 3 1 FFFFFF  "H14"  -1 0 1 ""  1 ""  <>   9.070    0.860 
+  6 41 -0.419850 -0.498626 -0.792380 2 D A 21 0.02169 0.02169 "ASP " " HA " "    " 1 0 3 0 FFFFFF  "H15"  -1 0 1 ""  1 ""  <> <> <>
+  7 44 0.034787 1.778639 -0.927244 2 D A 21 0.11253 0.11253 "ASP " " H  " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.070    0.860 
+  8 18 -1.509470 0.143979 2.049764 2 D A 70 -0.74500 -0.74500 "ASP " "    " "  c1" 8 -1 3 1 FF2E2E  "O12"  -1 0 1 ""  1 ""  <>   2.397    0.535 
+  9 3 1.537080 -0.137609 0.217274 2 D A 2 -0.16644 -0.16644 "ASP " " CB " "  g1" 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  10 2 2.110929 -1.473443 -0.285372 2 D A 2 0.63315 0.63315 "ASP " " CG " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  11 15 1.632297 -1.962316 -1.333201 2 D A 70 -0.75083 -0.75083 "ASP " " OD1" "    " 8 0 3 1 FF2F2F  ""  -1 0 1 ""  1 ""  <> <> <>
+  12 18 3.054288 -1.965257 0.371848 2 D A 70 -0.75083 -0.75083 "ASP " " OD2" "    " 8 -1 3 1 FF2F2F  ""  -1 0 1 ""  1 ""  <>   3.837    0.746 
+  13 41 1.995591 0.625516 -0.413751 2 D A 21 0.05083 0.05083 "ASP " " HB2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  14 41 1.882411 0.075848 1.231219 2 D A 21 0.05083 0.05083 "ASP " " HB3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  15 44 -0.088929 1.978265 0.697284 2 D A 21 0.11253 0.11253 "ASP " "    " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.070    0.860 
+  :::
+ } 
+ m_bond[14] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 7 1 3 3
+  4 1 15 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 9 1 3 3
+  8 3 4 2 3 3
+  9 3 8 1 3 3
+  10 9 10 1 3 3
+  11 9 13 1 3 3
+  12 9 14 1 3 3
+  13 10 11 2 3 3
+  14 10 12 1 3 3
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_name
+ s_m_entry_id
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_m_job_name
+ :::
+ Cys(C) 
+  Structure2 
+  105 
+  amino-acid-prep.maegz 
+  5
+  37012
+  1
+    0.0199 
+    0.0021 
+    0.0178 
+    0.0000 
+  0.0021010946305266
+  0
+  2
+  2_R_1_9_3_6 
+  0
+  OPLS3 
+  1.93578465203792
+  1
+  Cys(C)-1 
+  amino-acid-prep 
+ m_depend[9] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  8 10 s_st_Chirality_1 
+  9 30 s_m_job_name 
+  :::
+ } 
+ m_atom[14] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_secondary_structure
+  i_m_ribbon_style
+  i_m_ribbon_color
+  s_m_label_format
+  i_m_label_color
+  s_m_label_user_text
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -0.444673 -0.736960 -1.238236 2 C A 38 0.35400 0.35400 "CYS " " N  " "  c1" 7 1 3 1 2E2EFF  "N4"  -1 0 1 ""  1 ""  <> <> <>
+  2 3 -0.010592 0.082094 -0.008993 2 C A 24 -0.07879 -0.07879 "CYS " " CA " "  g0" 6 0 3 1 808080  "C5"  -1 0 1 ""  1 ""  1 <> <>
+  3 2 -0.635237 1.507441 -0.099224 2 C A 24 0.72639 0.72639 "CYS " " C  " "  n1" 6 0 3 1 808080  "C6"  -1 0 1 ""  1 ""  <> <> <>
+  4 15 -0.481532 2.247519 0.897302 2 C A 70 -0.70908 -0.70908 "CYS " " O  " "    " 8 0 3 1 FF2E2E  "O7"  -1 0 1 ""  1 ""  <> <> <>
+  5 44 -1.452464 -0.786998 -1.283024 2 C A 21 0.12852 0.12852 "CYS " " H  " "    " 1 0 3 1 FFFFFF  "H14"  -1 0 1 ""  1 ""  <>   9.451    0.700 
+  6 41 -0.449942 -0.485190 0.813067 2 C A 21 0.02278 0.02278 "CYS " " HA " "    " 1 0 3 0 FFFFFF  "H15"  -1 0 1 ""  1 ""  <> <> <>
+  7 44 -0.077401 -1.675438 -1.173474 2 C A 21 0.12852 0.12852 "CYS " " H  " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.451    0.700 
+  8 18 -1.264498 1.862411 -1.124607 2 C A 70 -0.70908 -0.70908 "CYS " "    " "  c1" 8 -1 3 1 FF2E2E  "O12"  -1 0 1 ""  1 ""  <>   1.996    0.535 
+  9 3 1.540657 0.083462 0.047362 2 C A 2 -0.04444 -0.04444 "CYS " " CB " "  g1" 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  10 49 2.172129 0.450793 1.712293 2 C A 13 -0.28151 -0.28151 "CYS " " SG " "    " 16 0 3 1 E1E11E  ""  -1 0 1 ""  1 ""  <> <> <>
+  11 41 1.933313 -0.899820 -0.215798 2 C A 21 0.08207 0.08207 "CYS " " HB2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  12 41 1.969384 0.786608 -0.668771 2 C A 21 0.08207 0.08207 "CYS " " HB3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  13 41 3.467436 0.378950 1.392792 2 C A 21 0.17003 0.17003 "CYS " " HG " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   8.515    0.860 
+  14 44 -0.093272 -0.309123 -2.082979 2 C A 21 0.12852 0.12852 "CYS " "    " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.451    0.700 
+  :::
+ } 
+ m_bond[13] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 7 1 3 3
+  4 1 14 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 9 1 3 3
+  8 3 4 2 3 3
+  9 3 8 1 3 3
+  10 9 10 1 3 3
+  11 9 11 1 3 3
+  12 9 12 1 3 3
+  13 10 13 1 3 3
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_name
+ s_m_entry_id
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_m_job_name
+ :::
+ Gln(Q) 
+  Structure2 
+  106 
+  amino-acid-prep.maegz 
+  6
+  37012
+  1
+    0.0024 
+    0.0024 
+    0.0000 
+    0.0000 
+  0.0024278191861647
+  0
+  2
+  2_S_1_3_9_6 
+  0
+  OPLS3 
+  8.03879276699776
+  1
+  Gln(Q)-1 
+  amino-acid-prep 
+ m_depend[9] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  8 10 s_st_Chirality_1 
+  9 30 s_m_job_name 
+  :::
+ } 
+ m_atom[20] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_secondary_structure
+  i_m_ribbon_style
+  i_m_ribbon_color
+  s_m_label_format
+  i_m_label_color
+  s_m_label_user_text
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -0.686382 1.308118 -0.423547 2 Q A 38 0.34721 0.34721 "GLN " " N  " "  c1" 7 1 3 1 2E2EFF  "N4"  -1 0 1 ""  1 ""  <> <> <>
+  2 3 -0.108271 0.006118 0.056924 2 Q A 24 -0.16122 -0.16122 "GLN " " CA " "  g0" 6 0 3 1 808080  "C5"  -1 0 1 ""  1 ""  1 <> <>
+  3 2 -0.795080 -0.382482 1.420502 2 Q A 24 0.73795 0.73795 "GLN " " C  " "  n1" 6 0 3 1 808080  "C6"  -1 0 1 ""  1 ""  <> <> <>
+  4 15 -0.725955 -1.604237 1.682453 2 Q A 70 -0.71485 -0.71485 "GLN " " O  " "    " 8 0 3 1 FF2E2E  "O7"  -1 0 1 ""  1 ""  <> <> <>
+  5 44 -1.685181 1.204753 -0.532087 2 Q A 21 0.12499 0.12499 "GLN " " H  " "    " 1 0 3 1 FFFFFF  "H14"  -1 0 1 ""  1 ""  <>   9.388    0.483 
+  6 41 -0.394407 -0.711413 -0.714446 2 Q A 21 0.07222 0.07222 "GLN " " HA " "    " 1 0 3 0 FFFFFF  "H15"  -1 0 1 ""  1 ""  <> <> <>
+  7 44 -0.268582 1.541147 -1.312906 2 Q A 21 0.12499 0.12499 "GLN " " H  " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.388    0.483 
+  8 18 -1.307531 0.536125 2.104661 2 Q A 70 -0.71485 -0.71485 "GLN " "    " "  c1" 8 -1 3 1 FF2E2E  "O12"  -1 0 1 ""  1 ""  <>   2.247    0.460 
+  9 3 1.437420 0.104702 0.184747 2 Q A 2 -0.10680 -0.10680 "GLN " " CB " "  g1" 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  10 3 2.176295 -1.199974 0.563560 2 Q A 2 -0.14133 -0.14133 "GLN " " CG " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  11 2 3.701969 -1.093276 0.464211 2 Q A 2 0.54690 0.54690 "GLN " " CD " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  12 15 4.260307 -0.008922 0.306180 2 Q A 70 -0.54177 -0.54177 "GLN " " OE1" "    " 8 0 3 1 FF2F2F  ""  -1 0 1 ""  1 ""  <>  -0.645    0.900 
+  13 25 4.387351 -2.233661 0.573280 2 Q A 43 -0.74525 -0.74525 "GLN " " NE2" "    " 7 0 3 1 5757FF  ""  -1 0 1 ""  1 ""  <> <> <>
+  14 41 1.827178 0.446851 -0.775929 2 Q A 21 0.07603 0.07603 "GLN " " HB2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  15 41 1.698293 0.884003 0.903837 2 Q A 21 0.07603 0.07603 "GLN " " HB3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  16 41 1.933737 -1.492666 1.585041 2 Q A 21 0.10187 0.10187 "GLN " " HG2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  17 41 1.843043 -2.009556 -0.087027 2 Q A 21 0.10187 0.10187 "GLN " " HG3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  18 43 3.904841 -3.109917 0.711139 2 Q A 21 0.34550 0.34550 "GLN " "HE22" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>  14.673    0.950 
+  19 43 5.395836 -2.226550 0.523507 2 Q A 21 0.34550 0.34550 "GLN " "HE21" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>  14.673    0.950 
+  20 44 -0.477351 2.029488 0.252012 2 Q A 21 0.12499 0.12499 "GLN " "    " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.388    0.483 
+  :::
+ } 
+ m_bond[19] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 7 1 3 3
+  4 1 20 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 9 1 3 3
+  8 3 4 2 3 3
+  9 3 8 1 3 3
+  10 9 10 1 3 3
+  11 9 14 1 3 3
+  12 9 15 1 3 3
+  13 10 11 1 3 3
+  14 10 16 1 3 3
+  15 10 17 1 3 3
+  16 11 12 2 3 3
+  17 11 13 1 3 3
+  18 13 18 1 3 3
+  19 13 19 1 3 3
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_name
+ s_m_entry_id
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_m_job_name
+ :::
+ Glu(E) 
+  Structure2 
+  107 
+  amino-acid-prep.maegz 
+  7
+  37012
+  1
+    0.0027 
+    0.0027 
+    0.0000 
+    0.0000 
+  0.00270099915882496
+  -1
+  3
+  2_S_1_3_9_6 
+  0
+  OPLS3 
+  9.35096518682759
+  1
+  Glu(E)-1 
+  amino-acid-prep 
+ m_depend[9] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  8 10 s_st_Chirality_1 
+  9 30 s_m_job_name 
+  :::
+ } 
+ m_atom[18] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_secondary_structure
+  i_m_ribbon_style
+  i_m_ribbon_color
+  s_m_label_format
+  i_m_label_color
+  s_m_label_user_text
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -0.477259 1.463456 -0.003281 2 E A 38 0.33833 0.33833 "GLU " " N  " "  c1" 7 1 3 1 2E2EFF  "N4"  -1 0 1 ""  1 ""  <> <> <>
+  2 3 -0.048611 0.024351 0.061178 2 E A 24 -0.16083 -0.16083 "GLU " " CA " "  g0" 6 0 3 1 808080  "C5"  -1 0 1 ""  1 ""  1 <> <>
+  3 2 -0.715441 -0.649031 1.320768 2 E A 24 0.73531 0.73531 "GLU " " C  " "  n1" 6 0 3 1 808080  "C6"  -1 0 1 ""  1 ""  <> <> <>
+  4 15 -0.772476 -1.896865 1.247726 2 E A 70 -0.73308 -0.73308 "GLU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  -1 0 1 ""  1 ""  <> <> <>
+  5 44 -1.484357 1.504753 -0.066557 2 E A 21 0.11505 0.11505 "GLU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  -1 0 1 ""  1 ""  <>  10.003    0.483 
+  6 41 -0.457935 -0.413799 -0.850958 2 E A 21 0.06490 0.06490 "GLU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  -1 0 1 ""  1 ""  <> <> <>
+  7 44 -0.065451 1.888400 -0.821535 2 E A 21 0.11505 0.11505 "GLU " " H  " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>  10.003    0.483 
+  8 18 -1.109614 0.096022 2.250591 2 E A 70 -0.73308 -0.73308 "GLU " "    " "  c1" 8 -1 3 1 FF2E2E  "O12"  -1 0 1 ""  1 ""  <>   2.526    0.460 
+  9 3 1.501068 -0.080702 0.087373 2 E A 2 -0.10430 -0.10430 "GLU " " CB " "  g1" 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  10 3 2.092601 -1.500746 -0.032327 2 E A 2 -0.08326 -0.08326 "GLU " " CG " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  11 2 3.616357 -1.463443 -0.145089 2 E A 2 0.61279 0.61279 "GLU " " CD " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  12 15 4.268650 -1.440887 0.921488 2 E A 70 -0.77189 -0.77189 "GLU " " OE1" "    " 8 0 3 1 FF2F2F  ""  -1 0 1 ""  1 ""  <> <> <>
+  13 18 4.102001 -1.444008 -1.297324 2 E A 70 -0.77189 -0.77189 "GLU " " OE2" "    " 8 -1 3 1 FF2F2F  ""  -1 0 1 ""  1 ""  <>   4.549    0.220 
+  14 41 1.896270 0.515745 -0.737223 2 E A 21 0.06331 0.06331 "GLU " " HB2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  15 41 1.884590 0.390364 0.994813 2 E A 21 0.06331 0.06331 "GLU " " HB3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  16 41 1.832900 -2.107357 0.834976 2 E A 21 0.06761 0.06761 "GLU " " HG2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  17 41 1.681657 -2.007777 -0.906242 2 E A 21 0.06761 0.06761 "GLU " " HG3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  18 44 -0.155189 1.938603 0.827812 2 E A 21 0.11505 0.11505 "GLU " "    " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>  10.003    0.483 
+  :::
+ } 
+ m_bond[17] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 7 1 3 3
+  4 1 18 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 9 1 3 3
+  8 3 4 2 3 3
+  9 3 8 1 3 3
+  10 9 10 1 3 3
+  11 9 14 1 3 3
+  12 9 15 1 3 3
+  13 10 11 1 3 3
+  14 10 16 1 3 3
+  15 10 17 1 3 3
+  16 11 12 2 3 3
+  17 11 13 1 3 3
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_name
+ s_m_entry_id
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_m_job_name
+ :::
+ Gly(G) 
+  Structure2 
+  108 
+  amino-acid-prep.maegz 
+  8
+  37012
+  1
+    0.0014 
+    0.0014 
+    0.0000 
+    0.0000 
+  0.00136513601731829
+  0
+  2
+  0
+  OPLS3 
+  2.02671047598636
+  1
+  Gly(G)-1 
+  amino-acid-prep 
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  8 30 s_m_job_name 
+  :::
+ } 
+ m_atom[10] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_secondary_structure
+  i_m_ribbon_style
+  i_m_ribbon_color
+  s_m_label_format
+  i_m_label_color
+  s_m_label_user_text
+  i_m_Hcount
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 0.001664 -0.005757 0.000012 2 G A 38 0.35088 0.35088 "GLY " " N  " "  c1" 7 1 3 1 2E2EFF  "N4"  -1 0 1 ""  1 ""  3 <> <>
+  2 3 1.532290 0.030753 0.000002 2 G A 24 -0.04282 -0.04282 "GLY " " CA " "  g0" 6 0 3 1 808080  "C5"  -1 0 1 ""  1 ""  2 <> <>
+  3 2 1.968576 -1.437282 -0.000009 2 G A 24 0.72774 0.72774 "GLY " " C  " "  n1" 6 0 3 1 808080  "C6"  -1 0 1 ""  1 ""  0 <> <>
+  4 15 2.125171 -1.990241 -1.111444 2 G A 70 -0.72005 -0.72005 "GLY " " O  " "    " 8 0 3 1 FF2E2E  "O7"  -1 0 1 ""  1 ""  0 <> <>
+  5 44 -0.363511 0.935722 -0.000001 2 G A 21 0.12832 0.12832 "GLY " " H  " "    " 1 0 3 1 FFFFFF  "H14"  -1 0 1 ""  1 ""  0   9.641    1.474 
+  6 41 1.812279 0.582780 -0.898755 2 G A 21 0.00967 0.00967 "GLY " " HA " "    " 1 0 3 0 FFFFFF  "H15"  -1 0 1 ""  1 ""  0 <> <>
+  7 44 -0.334516 -0.482474 0.824581 2 G A 21 0.12832 0.12832 "GLY " " H  " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  0   9.641    1.474 
+  8 18 2.125169 -1.990245 1.111452 2 G A 70 -0.72005 -0.72005 "GLY " "    " "  c1" 8 -1 3 1 FF2E2E  "O12"  -1 0 1 ""  1 ""  0   2.311    0.430 
+  9 41 1.812278 0.582779 0.898753 2 G A 21 0.00967 0.00967 "GLY " " HA3" "  g1" 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  0 <> <>
+  10 44 -0.334520 -0.482479 -0.824592 2 G A 21 0.12832 0.12832 "GLY " "    " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  0   9.641    1.474 
+  :::
+ } 
+ m_bond[9] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 7 1 3 3
+  4 1 10 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 9 1 3 3
+  8 3 4 2 3 3
+  9 3 8 1 3 3
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_name
+ s_m_entry_id
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_m_job_name
+ :::
+ His(H) 
+  Structure2 
+  109 
+  amino-acid-prep.maegz 
+  9
+  37012
+  1
+    0.0801 
+    0.0801 
+    0.0000 
+    0.0000 
+  0.0800662044605739
+  0
+  2
+  2_S_1_3_9_6 
+  0
+  OPLS3 
+  4.03727164021185
+  1
+  His(H)-1 
+  amino-acid-prep 
+ m_depend[9] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  8 10 s_st_Chirality_1 
+  9 30 s_m_job_name 
+  :::
+ } 
+ m_atom[20] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_secondary_structure
+  i_m_ribbon_style
+  i_m_ribbon_color
+  s_m_label_format
+  i_m_label_color
+  s_m_label_user_text
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -0.399458 1.493250 -0.082460 2 H A 38 0.34848 0.34848 "HIS " " N  " "  c1" 7 1 3 1 2E2EFF  "N4"  -1 0 1 ""  1 ""  <> <> <>
+  2 3 -0.018440 0.007846 0.051567 2 H A 24 -0.09030 -0.09030 "HIS " " CA " "  g0" 6 0 3 1 808080  "C5"  -1 0 1 ""  1 ""  1 <> <>
+  3 2 -0.806559 -0.617121 1.241980 2 H A 24 0.73142 0.73142 "HIS " " C  " "  n1" 6 0 3 1 808080  "C6"  -1 0 1 ""  1 ""  <> <> <>
+  4 15 -0.732687 -1.860037 1.363799 2 H A 70 -0.71529 -0.71529 "HIS " " O  " "    " 8 0 3 1 FF2E2E  "O7"  -1 0 1 ""  1 ""  <> <> <>
+  5 44 -1.395905 1.584922 -0.219334 2 H A 21 0.12644 0.12644 "HIS " " H  " "    " 1 0 3 1 FFFFFF  "H14"  -1 0 1 ""  1 ""  <>   8.788    0.483 
+  6 41 -0.355353 -0.408817 -0.899153 2 H A 21 0.00971 0.00971 "HIS " " HA " "    " 1 0 3 0 FFFFFF  "H15"  -1 0 1 ""  1 ""  <> <> <>
+  7 44 0.074143 1.899463 -0.876462 2 H A 21 0.12644 0.12644 "HIS " " H  " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   8.788    0.483 
+  8 18 -1.479829 0.109624 2.011065 2 H A 70 -0.71529 -0.71529 "HIS " "    " "  c1" 8 -1 3 1 FF2E2E  "O12"  -1 0 1 ""  1 ""  <>   1.975    0.535 
+  9 3 1.524351 -0.080763 0.208643 2 H A 2 -0.26953 -0.26953 "HIS " " CB " "  g1" 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  10 2 2.077146 -1.479992 0.041886 2 H A 2 0.31659 0.31659 "HIS " " CG " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  11 25 2.745132 -2.154415 1.070906 2 H A 43 -0.38087 -0.38087 "HIS " " ND1" "    " 7 0 3 1 5757FF  ""  -1 0 1 ""  1 ""  <>   6.102    0.763 
+  12 2 2.031977 -2.299711 -1.068335 2 H A 2 -0.30930 -0.30930 "HIS " " CD2" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  13 2 3.063533 -3.334311 0.555355 2 H A 2 0.11048 0.11048 "HIS " " CE1" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  14 25 2.666166 -3.475515 -0.709563 2 H A 43 -0.26579 -0.26579 "HIS " " NE2" "    " 7 0 3 1 5757FF  ""  -1 0 1 ""  1 ""  <> <> <>
+  15 41 2.011328 0.536791 -0.547569 2 H A 21 0.10421 0.10421 "HIS " " HB2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  16 41 1.837765 0.323578 1.173321 2 H A 21 0.10421 0.10421 "HIS " " HB3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  17 41 1.607120 -2.148368 -2.049506 2 H A 21 0.18076 0.18076 "HIS " " HD2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  18 41 3.589599 -4.101329 1.104588 2 H A 21 0.13912 0.13912 "HIS " " HE1" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  19 43 2.799207 -4.289224 -1.292797 2 H A 21 0.32207 0.32207 "HIS " " HE2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>  12.944    0.763 
+  20 44 -0.127753 1.997570 0.749399 2 H A 21 0.12644 0.12644 "HIS " "    " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   8.788    0.483 
+  :::
+ } 
+ m_bond[20] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 7 1 3 3
+  4 1 20 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 9 1 3 3
+  8 3 4 2 3 3
+  9 3 8 1 3 3
+  10 9 10 1 3 3
+  11 9 15 1 3 3
+  12 9 16 1 3 3
+  13 10 11 1 3 3
+  14 10 12 2 3 3
+  15 11 13 2 3 3
+  16 12 14 1 3 3
+  17 12 17 1 3 3
+  18 13 14 1 3 3
+  19 13 18 1 3 3
+  20 14 19 1 3 3
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_name
+ s_m_entry_id
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_m_job_name
+ s_st_Chirality_2
+ :::
+ Ile(I) 
+  Structure2 
+  110 
+  amino-acid-prep.maegz 
+  10
+  37012
+  1
+    0.0008 
+    0.0008 
+    0.0000 
+    0.0000 
+  0.000784145532055113
+  0
+  2
+  2_S_1_3_9_6 
+  0
+  OPLS3 
+  13.5420051565174
+  1
+  Ile(I)-1 
+  amino-acid-prep 
+  9_S_2_10_11_13 
+ m_depend[10] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  8 10 s_st_Chirality_1 
+  9 30 s_m_job_name 
+  10 10 s_st_Chirality_2 
+  :::
+ } 
+ m_atom[22] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_secondary_structure
+  i_m_ribbon_style
+  i_m_ribbon_color
+  s_m_label_format
+  i_m_label_color
+  s_m_label_user_text
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -0.532186 1.467428 0.068822 2 I A 38 0.33605 0.33605 "ILE " " N  " "  c1" 7 1 3 1 2E2EFF  "N4"  -1 0 1 ""  1 ""  <> <> <>
+  2 3 -0.050703 0.042339 0.041682 2 I A 24 -0.14911 -0.14911 "ILE " " CA " "  g0" 6 0 3 1 808080  "C5"  -1 0 1 ""  1 ""  1 <> <>
+  3 2 -0.679988 -0.672085 1.294188 2 I A 24 0.73405 0.73405 "ILE " " C  " "  n1" 6 0 3 1 808080  "C6"  -1 0 1 ""  1 ""  <> <> <>
+  4 15 -0.971747 -1.872253 1.091289 2 I A 70 -0.71537 -0.71537 "ILE " " O  " "    " 8 0 3 1 FF2E2E  "O7"  -1 0 1 ""  1 ""  <> <> <>
+  5 44 -1.542219 1.474433 0.068781 2 I A 21 0.12426 0.12426 "ILE " " H  " "    " 1 0 3 1 FFFFFF  "H14"  -1 0 1 ""  1 ""  <>   9.888    0.945 
+  6 41 -0.510861 -0.357595 -0.864535 2 I A 21 0.07855 0.07855 "ILE " " HA " "    " 1 0 3 0 FFFFFF  "H15"  -1 0 1 ""  1 ""  <> <> <>
+  7 44 -0.187398 1.942036 -0.753131 2 I A 21 0.12426 0.12426 "ILE " " H  " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.888    0.945 
+  8 18 -0.749008 -0.012723 2.359642 2 I A 70 -0.71537 -0.71537 "ILE " "    " "  c1" 8 -1 3 1 FF2E2E  "O12"  -1 0 1 ""  1 ""  <>   2.474    0.791 
+  9 3 1.506572 -0.084399 -0.041155 2 I A 2 -0.08949 -0.08949 "ILE " " CB " "  g1" 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  1 <> <>
+  10 3 2.067440 0.612825 -1.305408 2 I A 2 -0.14094 -0.14094 "ILE " " CG1" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  11 3 2.031111 -1.536407 0.046696 2 I A 2 -0.15405 -0.15405 "ILE " " CG2" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  12 3 3.592946 0.794637 -1.299804 2 I A 2 -0.17004 -0.17004 "ILE " " CD1" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  13 41 1.915450 0.443690 0.822517 2 I A 21 0.08596 0.08596 "ILE " " HB " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  14 41 1.777536 0.043315 -2.189394 2 I A 21 0.04823 0.04823 "ILE " "HG12" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  15 41 1.617397 1.597595 -1.429065 2 I A 21 0.04823 0.04823 "ILE " "HG13" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  16 41 1.622570 -2.151835 -0.755423 2 I A 21 0.07710 0.07710 "ILE " "HG21" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  17 41 1.771151 -2.007192 0.994507 2 I A 21 0.07710 0.07710 "ILE " "HG22" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  18 41 3.117549 -1.578003 -0.025508 2 I A 21 0.07710 0.07710 "ILE " "HG23" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  19 41 3.884977 1.636560 -1.928112 2 I A 21 0.06640 0.06640 "ILE " "HD11" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  20 41 4.096423 -0.091629 -1.686669 2 I A 21 0.06640 0.06640 "ILE " "HD12" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  21 41 3.973524 0.985898 -0.296058 2 I A 21 0.06640 0.06640 "ILE " "HD13" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  22 44 -0.175419 1.918617 0.899112 2 I A 21 0.12426 0.12426 "ILE " "    " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.888    0.945 
+  :::
+ } 
+ m_bond[21] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 7 1 3 3
+  4 1 22 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 9 1 3 3
+  8 3 4 2 3 3
+  9 3 8 1 3 3
+  10 9 10 1 3 3
+  11 9 11 1 3 3
+  12 9 13 1 3 3
+  13 10 12 1 3 3
+  14 10 14 1 3 3
+  15 10 15 1 3 3
+  16 11 16 1 3 3
+  17 11 17 1 3 3
+  18 11 18 1 3 3
+  19 12 19 1 3 3
+  20 12 20 1 3 3
+  21 12 21 1 3 3
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_name
+ s_m_entry_id
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_m_job_name
+ :::
+ Leu(L) 
+  Structure2 
+  111 
+  amino-acid-prep.maegz 
+  11
+  37012
+  1
+    0.0008 
+    0.0008 
+    0.0000 
+    0.0000 
+  0.000784145532055113
+  0
+  2
+  2_S_1_3_9_6 
+  0
+  OPLS3 
+  9.16714047299197
+  1
+  Leu(L)-1 
+  amino-acid-prep 
+ m_depend[9] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  8 10 s_st_Chirality_1 
+  9 30 s_m_job_name 
+  :::
+ } 
+ m_atom[22] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_secondary_structure
+  i_m_ribbon_style
+  i_m_ribbon_color
+  s_m_label_format
+  i_m_label_color
+  s_m_label_user_text
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -0.417943 1.430308 0.071198 2 L A 38 0.34893 0.34893 "LEU " " N  " "  c1" 7 1 3 1 2E2EFF  "N4"  -1 0 1 ""  1 ""  <> <> <>
+  2 3 -0.002972 -0.008265 0.206192 2 L A 24 -0.15941 -0.15941 "LEU " " CA " "  g0" 6 0 3 1 808080  "C5"  -1 0 1 ""  1 ""  1 <> <>
+  3 2 -0.875978 -0.641883 1.363275 2 L A 24 0.74354 0.74354 "LEU " " C  " "  n1" 6 0 3 1 808080  "C6"  -1 0 1 ""  1 ""  <> <> <>
+  4 15 -0.329040 -1.556771 2.019368 2 L A 70 -0.71841 -0.71841 "LEU " " O  " "    " 8 0 3 1 FF2E2E  "O7"  -1 0 1 ""  1 ""  <> <> <>
+  5 44 -1.413611 1.469021 -0.094669 2 L A 21 0.12277 0.12277 "LEU " " H  " "    " 1 0 3 1 FFFFFF  "H14"  -1 0 1 ""  1 ""  <>   9.888    0.483 
+  6 41 -0.325917 -0.446934 -0.738174 2 L A 21 0.07787 0.07787 "LEU " " HA " "    " 1 0 3 0 FFFFFF  "H15"  -1 0 1 ""  1 ""  <> <> <>
+  7 44 0.073994 1.839026 -0.710304 2 L A 21 0.12277 0.12277 "LEU " " H  " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.888    0.483 
+  8 18 -2.065446 -0.249707 1.441055 2 L A 70 -0.71841 -0.71841 "LEU " "    " "  c1" 8 -1 3 1 FF2E2E  "O12"  -1 0 1 ""  1 ""  <>   2.474    0.520 
+  9 3 1.540456 -0.136840 0.399282 2 L A 2 -0.14470 -0.14470 "LEU " " CB " "  g1" 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  10 3 2.159545 -1.480303 -0.060170 2 L A 2 -0.10124 -0.10124 "LEU " " CG " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  11 3 1.954423 -1.736033 -1.569634 2 L A 2 -0.17177 -0.17177 "LEU " " CD1" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  12 3 3.644412 -1.575402 0.353639 2 L A 2 -0.17177 -0.17177 "LEU " " CD2" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  13 41 2.039324 0.650694 -0.168573 2 L A 21 0.10980 0.10980 "LEU " " HB2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  14 41 1.799064 0.063166 1.441132 2 L A 21 0.10980 0.10980 "LEU " " HB3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  15 41 1.649437 -2.285495 0.467512 2 L A 21 0.03273 0.03273 "LEU " " HG " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  16 41 2.860325 -2.080449 -2.068186 2 L A 21 0.06579 0.06579 "LEU " "HD11" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  17 41 1.623242 -0.840384 -2.095625 2 L A 21 0.06579 0.06579 "LEU " "HD12" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  18 41 1.196659 -2.503905 -1.728271 2 L A 21 0.06579 0.06579 "LEU " "HD13" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  19 41 4.322017 -1.598698 -0.499675 2 L A 21 0.06579 0.06579 "LEU " "HD21" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  20 41 3.825161 -2.480037 0.934842 2 L A 21 0.06579 0.06579 "LEU " "HD22" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  21 41 3.952364 -0.732599 0.973066 2 L A 21 0.06579 0.06579 "LEU " "HD23" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  22 44 -0.182262 1.923471 0.920482 2 L A 21 0.12277 0.12277 "LEU " "    " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.888    0.483 
+  :::
+ } 
+ m_bond[21] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 7 1 3 3
+  4 1 22 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 9 1 3 3
+  8 3 4 2 3 3
+  9 3 8 1 3 3
+  10 9 10 1 3 3
+  11 9 13 1 3 3
+  12 9 14 1 3 3
+  13 10 11 1 3 3
+  14 10 12 1 3 3
+  15 10 15 1 3 3
+  16 11 16 1 3 3
+  17 11 17 1 3 3
+  18 11 18 1 3 3
+  19 12 19 1 3 3
+  20 12 20 1 3 3
+  21 12 21 1 3 3
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_name
+ s_m_entry_id
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_m_job_name
+ :::
+ Lys(K) 
+  Structure2 
+  112 
+  amino-acid-prep.maegz 
+  12
+  37012
+  1
+    0.0018 
+    0.0018 
+    0.0000 
+    0.0000 
+  0.00179235442229703
+  1
+  3
+  2_S_1_3_9_6 
+  0
+  OPLS3 
+  13.5739555299382
+  1
+  Lys(K)-1 
+  amino-acid-prep 
+ m_depend[9] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  8 10 s_st_Chirality_1 
+  9 30 s_m_job_name 
+  :::
+ } 
+ m_atom[25] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_secondary_structure
+  i_m_ribbon_style
+  i_m_ribbon_color
+  s_m_label_format
+  i_m_label_color
+  s_m_label_user_text
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -2.049701 1.402807 0.103647 2 K A 38 0.34869 0.34869 "LYS " " N  " "  c1" 7 1 3 1 2E2EFF  "N4"  -1 0 1 ""  1 ""  <> <> <>
+  2 3 -0.575580 1.455007 -0.187946 2 K A 24 -0.15886 -0.15886 "LYS " " CA " "  g0" 6 0 3 1 808080  "C5"  -1 0 1 ""  1 ""  1 <> <>
+  3 2 -0.391275 2.332447 -1.490519 2 K A 24 0.74124 0.74124 "LYS " " C  " "  n1" 6 0 3 1 808080  "C6"  -1 0 1 ""  1 ""  <> <> <>
+  4 15 0.546742 1.997135 -2.248253 2 K A 70 -0.70436 -0.70436 "LYS " " O  " "    " 8 0 3 1 FF2E2E  "O7"  -1 0 1 ""  1 ""  <> <> <>
+  5 44 -2.398321 2.346245 0.197898 2 K A 21 0.12947 0.12947 "LYS " " H  " "    " 1 0 3 1 FFFFFF  "H14"  -1 0 1 ""  1 ""  <>   9.661    0.483 
+  6 41 -0.170316 2.010387 0.659091 2 K A 21 0.08045 0.08045 "LYS " " HA " "    " 1 0 3 0 FFFFFF  "H15"  -1 0 1 ""  1 ""  <> <> <>
+  7 44 -2.193737 0.898515 0.966609 2 K A 21 0.12947 0.12947 "LYS " " H  " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.661    0.483 
+  8 18 -1.131334 3.340938 -1.585631 2 K A 70 -0.70436 -0.70436 "LYS " "    " "  c1" 8 -1 3 1 FF2E2E  "O12"  -1 0 1 ""  1 ""  <>   2.371    0.460 
+  9 3 0.042544 0.027035 -0.256703 2 K A 2 -0.11705 -0.11705 "LYS " " CB " "  g1" 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  10 3 1.559227 -0.025462 0.016468 2 K A 2 -0.11196 -0.11196 "LYS " " CG " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  11 3 2.118927 -1.454740 -0.031112 2 K A 2 -0.15718 -0.15718 "LYS " " CD " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  12 3 3.631841 -1.501811 0.226793 2 K A 2 -0.10381 -0.10381 "LYS " " CE " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  13 32 4.144839 -2.881152 0.164669 2 K A 43 -0.23506 -0.23506 "LYS " " NZ " "    " 7 1 3 1 5757FF  ""  -1 0 1 ""  1 ""  <> <> <>
+  14 41 -0.435221 -0.596569 0.500870 2 K A 21 0.06708 0.06708 "LYS " " HB2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  15 41 -0.191982 -0.449439 -1.210464 2 K A 21 0.06708 0.06708 "LYS " " HB3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  16 41 2.098937 0.589290 -0.703020 2 K A 21 0.10046 0.10046 "LYS " " HG2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  17 41 1.762398 0.409972 0.995641 2 K A 21 0.10046 0.10046 "LYS " " HG3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  18 41 1.603559 -2.070286 0.707592 2 K A 21 0.08692 0.08692 "LYS " " HD2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  19 41 1.899338 -1.895933 -1.004585 2 K A 21 0.08692 0.08692 "LYS " " HD3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  20 41 4.161154 -0.898949 -0.512370 2 K A 21 0.14098 0.14098 "LYS " " HE2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  21 41 3.862875 -1.085167 1.207807 2 K A 21 0.14098 0.14098 "LYS " " HE3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  22 44 5.139640 -2.880261 0.340558 2 K A 21 0.31431 0.31431 "LYS " " HZ2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>  10.086    0.198 
+  23 44 3.967809 -3.266955 -0.751997 2 K A 21 0.31431 0.31431 "LYS " " HZ3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>  10.086    0.198 
+  24 44 3.682231 -3.446780 0.862078 2 K A 21 0.31431 0.31431 "LYS " "    " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>  10.086    0.198 
+  25 44 -2.519713 0.927159 -0.653308 2 K A 21 0.12947 0.12947 "LYS " "    " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.661    0.483 
+  :::
+ } 
+ m_bond[24] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 7 1 3 3
+  4 1 25 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 9 1 3 3
+  8 3 4 2 3 3
+  9 3 8 1 3 3
+  10 9 10 1 3 3
+  11 9 14 1 3 3
+  12 9 15 1 3 3
+  13 10 11 1 3 3
+  14 10 16 1 3 3
+  15 10 17 1 3 3
+  16 11 12 1 3 3
+  17 11 18 1 3 3
+  18 11 19 1 3 3
+  19 12 13 1 3 3
+  20 12 20 1 3 3
+  21 12 21 1 3 3
+  22 13 22 1 3 3
+  23 13 23 1 3 3
+  24 13 24 1 3 3
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_name
+ s_m_entry_id
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_m_job_name
+ :::
+ Met(M) 
+  Structure2 
+  113 
+  amino-acid-prep.maegz 
+  13
+  37012
+  1
+    0.0022 
+    0.0022 
+    0.0000 
+    0.0000 
+  0.00220828419267234
+  0
+  2
+  2_S_1_3_9_6 
+  0
+  OPLS3 
+  9.07320526992464
+  1
+  Met(M)-1 
+  amino-acid-prep 
+ m_depend[9] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  8 10 s_st_Chirality_1 
+  9 30 s_m_job_name 
+  :::
+ } 
+ m_atom[20] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_secondary_structure
+  i_m_ribbon_style
+  i_m_ribbon_color
+  s_m_label_format
+  i_m_label_color
+  s_m_label_user_text
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -0.561544 1.390711 -0.199226 2 M A 38 0.34601 0.34601 "MET " " N  " "  c1" 7 1 3 1 2E2EFF  "N4"  -1 0 1 ""  1 ""  <> <> <>
+  2 3 -0.087750 0.004210 0.134238 2 M A 24 -0.15646 -0.15646 "MET " " CA " "  g0" 6 0 3 1 808080  "C5"  -1 0 1 ""  1 ""  1 <> <>
+  3 2 -0.848751 -0.443395 1.445490 2 M A 24 0.74257 0.74257 "MET " " C  " "  n1" 6 0 3 1 808080  "C6"  -1 0 1 ""  1 ""  <> <> <>
+  4 15 -2.062258 -0.130916 1.508421 2 M A 70 -0.71604 -0.71604 "MET " " O  " "    " 8 0 3 1 FF2E2E  "O7"  -1 0 1 ""  1 ""  <> <> <>
+  5 44 -1.568309 1.381579 -0.280976 2 M A 21 0.12411 0.12411 "MET " " H  " "    " 1 0 3 1 FFFFFF  "H14"  -1 0 1 ""  1 ""  <>   9.430    0.483 
+  6 41 -0.462019 -0.597328 -0.695413 2 M A 21 0.08344 0.08344 "MET " " HA " "    " 1 0 3 0 FFFFFF  "H15"  -1 0 1 ""  1 ""  <> <> <>
+  7 44 -0.150663 1.672866 -1.077419 2 M A 21 0.12411 0.12411 "MET " " H  " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.430    0.483 
+  8 18 -0.198257 -1.148884 2.248391 2 M A 70 -0.71604 -0.71604 "MET " "    " "  c1" 8 -1 3 1 FF2E2E  "O12"  -1 0 1 ""  1 ""  <>   2.266    0.460 
+  9 3 1.466410 -0.064171 0.195344 2 M A 2 -0.11695 -0.11695 "MET " " CB " "  g1" 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  10 3 2.066236 -1.475329 0.053501 2 M A 2 -0.08020 -0.08020 "MET " " CG " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  11 49 3.878031 -1.492892 0.014028 2 M A 13 -0.25687 -0.25687 "MET " " SD " "    " 16 0 3 1 E1E11E  ""  -1 0 1 ""  1 ""  <> <> <>
+  12 3 4.159481 -3.275143 -0.145339 2 M A 2 -0.12970 -0.12970 "MET " " CE " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  13 41 1.874389 0.533064 -0.621887 2 M A 21 0.07112 0.07112 "MET " " HB2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  14 41 1.835269 0.409387 1.106845 2 M A 21 0.07112 0.07112 "MET " " HB3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  15 41 1.748363 -2.123088 0.868994 2 M A 21 0.10621 0.10621 "MET " " HG2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  16 41 1.704044 -1.935379 -0.866054 2 M A 21 0.10621 0.10621 "MET " " HG3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  17 41 5.228396 -3.485188 -0.180779 2 M A 21 0.09108 0.09108 "MET " " HE1" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  18 41 3.701912 -3.653366 -1.059511 2 M A 21 0.09108 0.09108 "MET " " HE2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  19 41 3.730823 -3.806168 0.704666 2 M A 21 0.09108 0.09108 "MET " " HE3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  20 44 -0.272133 2.023435 0.532874 2 M A 21 0.12411 0.12411 "MET " "    " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.430    0.483 
+  :::
+ } 
+ m_bond[19] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 7 1 3 3
+  4 1 20 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 9 1 3 3
+  8 3 4 2 3 3
+  9 3 8 1 3 3
+  10 9 10 1 3 3
+  11 9 13 1 3 3
+  12 9 14 1 3 3
+  13 10 11 1 3 3
+  14 10 15 1 3 3
+  15 10 16 1 3 3
+  16 11 12 1 3 3
+  17 12 17 1 3 3
+  18 12 18 1 3 3
+  19 12 19 1 3 3
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_name
+ s_m_entry_id
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_m_job_name
+ :::
+ Phe(F) 
+  Structure2 
+  114 
+  amino-acid-prep.maegz 
+  14
+  37012
+  1
+    0.0030 
+    0.0030 
+    0.0000 
+    0.0000 
+  0.00304771503799203
+  0
+  2
+  2_S_1_3_9_6 
+  0
+  OPLS3 
+  16.6248478852037
+  1
+  Phe(F)-1 
+  amino-acid-prep 
+ m_depend[9] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  8 10 s_st_Chirality_1 
+  9 30 s_m_job_name 
+  :::
+ } 
+ m_atom[23] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_secondary_structure
+  i_m_ribbon_style
+  i_m_ribbon_color
+  s_m_label_format
+  i_m_label_color
+  s_m_label_user_text
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -0.373323 1.517284 -0.106799 2 F A 38 0.34192 0.34192 "PHE " " N  " "  c1" 7 1 3 1 2E2EFF  "N4"  -1 0 1 ""  1 ""  <> <> <>
+  2 3 -0.010556 0.075606 0.115039 2 F A 24 -0.15437 -0.15437 "PHE " " CA " "  g0" 6 0 3 1 808080  "C5"  -1 0 1 ""  1 ""  1 <> <>
+  3 2 -0.898804 -0.468536 1.304891 2 F A 24 0.74139 0.74139 "PHE " " C  " "  n1" 6 0 3 1 808080  "C6"  -1 0 1 ""  1 ""  <> <> <>
+  4 15 -0.392908 -1.385816 1.988468 2 F A 70 -0.71274 -0.71274 "PHE " " O  " "    " 8 0 3 1 FF2E2E  "O7"  -1 0 1 ""  1 ""  <> <> <>
+  5 44 -1.369731 1.584577 -0.258743 2 F A 21 0.12378 0.12378 "PHE " " H  " "    " 1 0 3 1 FFFFFF  "H14"  -1 0 1 ""  1 ""  <>   9.290    0.483 
+  6 41 -0.349772 -0.407724 -0.802278 2 F A 21 0.07788 0.07788 "PHE " " HA " "    " 1 0 3 0 FFFFFF  "H15"  -1 0 1 ""  1 ""  <> <> <>
+  7 44 0.119113 1.855348 -0.921061 2 F A 21 0.12378 0.12378 "PHE " " H  " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.290    0.483 
+  8 18 -2.064822 -0.011460 1.382114 2 F A 70 -0.71274 -0.71274 "PHE " "    " "  c1" 8 -1 3 1 FF2E2E  "O12"  -1 0 1 ""  1 ""  <>   2.432    0.730 
+  9 3 1.527865 -0.099541 0.283632 2 F A 2 -0.06848 -0.06848 "PHE " " CB " "  g1" 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  10 2 2.079025 -1.508003 0.111147 2 F A 2 -0.06403 -0.06403 "PHE " " CG " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  11 2 2.580732 -2.227064 1.217546 2 F A 2 -0.10692 -0.10692 "PHE " " CD1" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  12 2 2.024112 -2.140225 -1.149388 2 F A 2 -0.10692 -0.10692 "PHE " " CD2" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  13 2 3.038358 -3.527624 1.050793 2 F A 2 -0.12596 -0.12596 "PHE " " CE1" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  14 2 2.487510 -3.441269 -1.294912 2 F A 2 -0.12596 -0.12596 "PHE " " CE2" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  15 2 2.994441 -4.130427 -0.200224 2 F A 2 -0.12244 -0.12244 "PHE " " CZ " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  16 41 2.026631 0.496372 -0.482406 2 F A 21 0.06155 0.06155 "PHE " " HB2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  17 41 1.861305 0.317841 1.235507 2 F A 21 0.06155 0.06155 "PHE " " HB3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  18 41 2.608126 -1.771353 2.196575 2 F A 21 0.12725 0.12725 "PHE " " HD1" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  19 41 1.622833 -1.615360 -2.003873 2 F A 21 0.12725 0.12725 "PHE " " HD2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  20 41 3.424847 -4.073861 1.898605 2 F A 21 0.13073 0.13073 "PHE " " HE1" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  21 41 2.449186 -3.920692 -2.261970 2 F A 21 0.13073 0.13073 "PHE " " HE2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  22 41 3.350350 -5.142974 -0.321169 2 F A 21 0.12900 0.12900 "PHE " " HZ " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  23 44 -0.102740 2.054296 0.704691 2 F A 21 0.12378 0.12378 "PHE " "    " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.290    0.483 
+  :::
+ } 
+ m_bond[23] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 7 1 3 3
+  4 1 23 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 9 1 3 3
+  8 3 4 2 3 3
+  9 3 8 1 3 3
+  10 9 10 1 3 3
+  11 9 16 1 3 3
+  12 9 17 1 3 3
+  13 10 11 2 3 3
+  14 10 12 1 3 3
+  15 11 13 1 3 3
+  16 11 18 1 3 3
+  17 12 14 2 3 3
+  18 12 19 1 3 3
+  19 13 15 2 3 3
+  20 13 20 1 3 3
+  21 14 15 1 3 3
+  22 14 21 1 3 3
+  23 15 22 1 3 3
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_name
+ s_m_entry_id
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_m_job_name
+ :::
+ Pro(P) 
+  Structure2 
+  115 
+  amino-acid-prep.maegz 
+  15
+  37012
+  1
+    0.0009 
+    0.0009 
+    0.0000 
+    0.0000 
+  0.00090018358765947
+  0
+  2
+  2_S_1_3_8_5 
+  0
+  OPLS3 
+  12.6286916276203
+  1
+  Pro(P)-1 
+  amino-acid-prep 
+ m_depend[9] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  8 10 s_st_Chirality_1 
+  9 30 s_m_job_name 
+  :::
+ } 
+ m_atom[17] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_secondary_structure
+  i_m_ribbon_style
+  i_m_ribbon_color
+  s_m_label_format
+  i_m_label_color
+  s_m_label_user_text
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -0.601279 1.438757 0.062277 2 P A 38 -0.18013 -0.18013 "PRO " " N  " "  c1" 7 1 3 1 2E2EFF  "N4"  -1 0 1 ""  1 ""  <> <> <>
+  2 3 0.048526 0.035215 0.028126 2 P A 24 0.05457 0.05457 "PRO " " CA " "  g0" 6 0 3 1 808080  "C5"  -1 0 1 ""  1 ""  1 <> <>
+  3 2 1.570204 0.170338 -0.252964 2 P A 24 0.73354 0.73354 "PRO " " C  " "  n1" 6 0 3 1 808080  "C6"  -1 0 1 ""  1 ""  <> <> <>
+  4 15 2.193736 -0.904064 -0.400229 2 P A 70 -0.72186 -0.72186 "PRO " " O  " "    " 8 0 3 1 FF2E2E  "O7"  -1 0 1 ""  1 ""  <> <> <>
+  5 41 -0.098780 -0.324270 1.048219 2 P A 21 0.00451 0.00451 "PRO " " HA " "    " 1 0 3 0 FFFFFF  "H15"  -1 0 1 ""  1 ""  <> <> <>
+  6 18 2.112212 1.300416 -0.302538 2 P A 70 -0.72186 -0.72186 "PRO " "    " "  c1" 8 -1 3 1 FF2E2E  "O12"  -1 0 1 ""  1 ""  <>   4.100    1.474 
+  7 3 -1.982850 1.295285 -0.582439 2 P A 2 -0.06146 -0.06146 "PRO " " CD " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  8 3 -0.831568 -0.774475 -0.951583 2 P A 2 -0.20251 -0.20251 "PRO " " CB " "  g1" 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  9 3 -1.740990 0.234188 -1.646986 2 P A 2 -0.15874 -0.15874 "PRO " " CG " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  10 41 -2.646990 0.955910 0.213963 2 P A 21 0.10835 0.10835 "PRO " " HD3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  11 41 -2.289486 2.271197 -0.959865 2 P A 21 0.10835 0.10835 "PRO " " HD2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  12 41 -0.254240 -1.355640 -1.672590 2 P A 21 0.10853 0.10853 "PRO " " HB2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  13 41 -1.436594 -1.488408 -0.389844 2 P A 21 0.10853 0.10853 "PRO " " HB3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  14 41 -2.667685 -0.222406 -1.996370 2 P A 21 0.10354 0.10354 "PRO " " HG3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  15 41 -1.239509 0.675420 -2.510076 2 P A 21 0.10354 0.10354 "PRO " " HG2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  16 44 -0.641610 1.820042 0.996618 2 P A 21 0.30655 0.30655 "PRO " " H  " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>  10.583    1.474 
+  17 44 -0.039471 2.064935 -0.497844 2 P A 21 0.30655 0.30655 "PRO " "    " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>  10.583    1.474 
+  :::
+ } 
+ m_bond[17] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 7 1 3 3
+  3 1 16 1 3 3
+  4 1 17 1 3 3
+  5 2 3 1 3 3
+  6 2 5 1 3 3
+  7 2 8 1 3 3
+  8 3 4 2 3 3
+  9 3 6 1 3 3
+  10 7 9 1 3 3
+  11 7 10 1 3 3
+  12 7 11 1 3 3
+  13 8 9 1 3 3
+  14 8 12 1 3 3
+  15 8 13 1 3 3
+  16 9 14 1 3 3
+  17 9 15 1 3 3
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_name
+ s_m_entry_id
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_m_job_name
+ :::
+ Ser(S) 
+  Structure2 
+  116 
+  amino-acid-prep.maegz 
+  16
+  37012
+  1
+    0.0007 
+    0.0007 
+    0.0000 
+    0.0000 
+  0.000747601593621184
+  0
+  2
+  2_S_1_3_9_6 
+  0
+  OPLS3 
+  1.78169007823028
+  1
+  Ser(S)-1 
+  amino-acid-prep 
+ m_depend[9] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  8 10 s_st_Chirality_1 
+  9 30 s_m_job_name 
+  :::
+ } 
+ m_atom[14] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_secondary_structure
+  i_m_ribbon_style
+  i_m_ribbon_color
+  s_m_label_format
+  i_m_label_color
+  s_m_label_user_text
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -0.312546 -0.609554 -1.413332 2 S A 38 0.34674 0.34674 "SER " " N  " "  c1" 7 1 3 1 2E2EFF  "N4"  -1 0 1 ""  1 ""  <> <> <>
+  2 3 -0.005678 0.051312 -0.099372 2 S A 24 -0.16166 -0.16166 "SER " " CA " "  g0" 6 0 3 1 808080  "C5"  -1 0 1 ""  1 ""  1 <> <>
+  3 2 -0.630184 1.504266 -0.141280 2 S A 24 0.74101 0.74101 "SER " " C  " "  n1" 6 0 3 1 808080  "C6"  -1 0 1 ""  1 ""  <> <> <>
+  4 15 -0.013101 2.386561 0.497221 2 S A 70 -0.70662 -0.70662 "SER " " O  " "    " 8 0 3 1 FF2E2E  "O7"  -1 0 1 ""  1 ""  <> <> <>
+  5 44 -1.311576 -0.594493 -1.561812 2 S A 21 0.12502 0.12502 "SER " " H  " "    " 1 0 3 1 FFFFFF  "H14"  -1 0 1 ""  1 ""  <>   9.903    2.220 
+  6 41 -0.572363 -0.536652 0.623947 2 S A 21 0.08984 0.08984 "SER " " HA " "    " 1 0 3 0 FFFFFF  "H15"  -1 0 1 ""  1 ""  <> <> <>
+  7 44 0.012585 -1.565109 -1.380341 2 S A 21 0.12502 0.12502 "SER " " H  " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.903    2.220 
+  8 18 -1.737526 1.612489 -0.721628 2 S A 70 -0.70662 -0.70662 "SER " "    " "  c1" 8 -1 3 1 FF2E2E  "O12"  -1 0 1 ""  1 ""  <>   2.078    0.528 
+  9 3 1.513683 -0.013339 0.221450 2 S A 2 0.14856 0.14856 "SER " " CB " "  g1" 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  10 16 1.797959 0.307710 1.569345 2 S A 70 -0.62429 -0.62429 "SER " " OG " "    " 8 0 3 1 FF2F2F  ""  -1 0 1 ""  1 ""  <>  -1.471    0.950 
+  11 41 1.886338 -1.024545 0.053077 2 S A 21 0.03509 0.03509 "SER " " HB2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  12 41 2.086855 0.640789 -0.437488 2 S A 21 0.03509 0.03509 "SER " " HB3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  13 42 2.750496 0.328524 1.686719 2 S A 21 0.42778 0.42778 "SER " " HG " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>  13.655    2.000 
+  14 44 0.162192 -0.111387 -2.152540 2 S A 21 0.12502 0.12502 "SER " "    " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.903    2.220 
+  :::
+ } 
+ m_bond[13] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 7 1 3 3
+  4 1 14 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 9 1 3 3
+  8 3 4 2 3 3
+  9 3 8 1 3 3
+  10 9 10 1 3 3
+  11 9 11 1 3 3
+  12 9 12 1 3 3
+  13 10 13 1 3 3
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_name
+ s_m_entry_id
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_m_job_name
+ s_st_Chirality_2
+ :::
+ Thr(T) 
+  Structure2 
+  117 
+  amino-acid-prep.maegz 
+  17
+  37012
+  1
+    0.0008 
+    0.0008 
+    0.0000 
+    0.0000 
+  0.000752078324083264
+  0
+  2
+  2_S_1_3_9_6 
+  0
+  OPLS3 
+  6.14758150885476
+  1
+  Thr(T)-1 
+  amino-acid-prep 
+  9_R_10_2_11_12 
+ m_depend[10] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  8 10 s_st_Chirality_1 
+  9 30 s_m_job_name 
+  10 10 s_st_Chirality_2 
+  :::
+ } 
+ m_atom[17] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_secondary_structure
+  i_m_ribbon_style
+  i_m_ribbon_color
+  s_m_label_format
+  i_m_label_color
+  s_m_label_user_text
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -0.442692 1.479815 0.023052 2 T A 38 0.33998 0.33998 "THR " " N  " "  c1" 7 1 3 1 2E2EFF  "N4"  -1 0 1 ""  1 ""  <> <> <>
+  2 3 0.019312 0.047287 0.035554 2 T A 24 -0.16389 -0.16389 "THR " " CA " "  g0" 6 0 3 1 808080  "C5"  -1 0 1 ""  1 ""  1 <> <>
+  3 2 -0.639325 -0.646734 1.286065 2 T A 24 0.73538 0.73538 "THR " " C  " "  n1" 6 0 3 1 808080  "C6"  -1 0 1 ""  1 ""  <> <> <>
+  4 15 -0.804693 -1.878621 1.140472 2 T A 70 -0.71375 -0.71375 "THR " " O  " "    " 8 0 3 1 FF2E2E  "O7"  -1 0 1 ""  1 ""  <> <> <>
+  5 44 -1.452045 1.499707 -0.007206 2 T A 21 0.12569 0.12569 "THR " " H  " "    " 1 0 3 1 FFFFFF  "H14"  -1 0 1 ""  1 ""  <>   9.903    2.220 
+  6 41 -0.415613 -0.368804 -0.875830 2 T A 21 0.09503 0.09503 "THR " " HA " "    " 1 0 3 0 FFFFFF  "H15"  -1 0 1 ""  1 ""  <> <> <>
+  7 44 -0.068229 1.934888 -0.796956 2 T A 21 0.12569 0.12569 "THR " " H  " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.903    2.220 
+  8 18 -0.871434 0.060695 2.296464 2 T A 70 -0.71375 -0.71375 "THR " "    " "  c1" 8 -1 3 1 FF2E2E  "O12"  -1 0 1 ""  1 ""  <>   2.291    0.775 
+  9 3 1.571281 -0.092087 0.023355 2 T A 2 0.16605 0.16605 "THR " " CB " "  g1" 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  1 <> <>
+  10 16 2.098390 0.592448 -1.098560 2 T A 70 -0.69686 -0.69686 "THR " " OG1" "    " 8 0 3 1 FF2F2F  ""  -1 0 1 ""  1 ""  <>  -1.471    0.950 
+  11 3 2.104607 -1.534545 -0.064696 2 T A 2 -0.17024 -0.17024 "THR " " CG2" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  12 41 1.989971 0.380860 0.913525 2 T A 21 0.07077 0.07077 "THR " " HB " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  13 42 1.975094 1.535892 -0.973282 2 T A 21 0.41858 0.41858 "THR " " HG1" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>  15.413    2.000 
+  14 41 1.886745 -2.099828 0.841282 2 T A 21 0.08520 0.08520 "THR " "HG21" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  15 41 3.187906 -1.546647 -0.190613 2 T A 21 0.08520 0.08520 "THR " "HG22" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  16 41 1.665713 -2.069528 -0.907492 2 T A 21 0.08520 0.08520 "THR " "HG23" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  17 44 -0.105093 1.941380 0.855697 2 T A 21 0.12569 0.12569 "THR " "    " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.903    2.220 
+  :::
+ } 
+ m_bond[16] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 7 1 3 3
+  4 1 17 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 9 1 3 3
+  8 3 4 2 3 3
+  9 3 8 1 3 3
+  10 9 10 1 3 3
+  11 9 11 1 3 3
+  12 9 12 1 3 3
+  13 10 13 1 3 3
+  14 11 14 1 3 3
+  15 11 15 1 3 3
+  16 11 16 1 3 3
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_name
+ s_m_entry_id
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_m_job_name
+ :::
+ Trp(W) 
+  Structure2 
+  118 
+  amino-acid-prep.maegz 
+  18
+  37012
+  1
+    0.0039 
+    0.0039 
+    0.0000 
+    0.0000 
+  0.00387357080902633
+  0
+  2
+  2_S_1_3_9_6 
+  0
+  OPLS3 
+  11.9768626632654
+  1
+  Trp(W)-1 
+  amino-acid-prep 
+ m_depend[9] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  8 10 s_st_Chirality_1 
+  9 30 s_m_job_name 
+  :::
+ } 
+ m_atom[27] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_secondary_structure
+  i_m_ribbon_style
+  i_m_ribbon_color
+  s_m_label_format
+  i_m_label_color
+  s_m_label_user_text
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -0.301158 1.480008 -0.139619 2 W A 38 0.34351 0.34351 "TRP " " N  " "  c1" 7 1 3 1 2E2EFF  "N4"  -1 0 1 ""  1 ""  <> <> <>
+  2 3 0.050533 0.034992 0.076847 2 W A 24 -0.15604 -0.15604 "TRP " " CA " "  g0" 6 0 3 1 808080  "C5"  -1 0 1 ""  1 ""  1 <> <>
+  3 2 -0.906363 -0.535233 1.199574 2 W A 24 0.73958 0.73958 "TRP " " C  " "  n1" 6 0 3 1 808080  "C6"  -1 0 1 ""  1 ""  <> <> <>
+  4 15 -0.443908 -1.476408 1.882222 2 W A 70 -0.71090 -0.71090 "TRP " " O  " "    " 8 0 3 1 FF2E2E  "O7"  -1 0 1 ""  1 ""  <> <> <>
+  5 44 -1.283706 1.547904 -0.363950 2 W A 21 0.12305 0.12305 "TRP " " H  " "    " 1 0 3 1 FFFFFF  "H14"  -1 0 1 ""  1 ""  <>   9.184    0.483 
+  6 41 -0.225838 -0.432457 -0.869328 2 W A 21 0.07188 0.07188 "TRP " " HA " "    " 1 0 3 0 FFFFFF  "H15"  -1 0 1 ""  1 ""  <> <> <>
+  7 44 0.249635 1.837165 -0.906884 2 W A 21 0.12305 0.12305 "TRP " " H  " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.184    0.483 
+  8 18 -2.072197 -0.071809 1.226549 2 W A 70 -0.71090 -0.71090 "TRP " "    " "  c1" 8 -1 3 1 FF2E2E  "O12"  -1 0 1 ""  1 ""  <>   2.154    0.535 
+  9 3 1.573667 -0.141755 0.340850 2 W A 2 -0.11793 -0.11793 "TRP " " CB " "  g1" 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  10 2 2.146640 -1.522766 0.179946 2 W A 2 -0.06237 -0.06237 "TRP " " CG " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  11 2 2.595971 -2.312743 1.182282 2 W A 2 0.06168 0.06168 "TRP " " CD1" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  12 2 2.299890 -2.306644 -1.043768 2 W A 2 -0.05238 -0.05238 "TRP " " CD2" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  13 25 3.027714 -3.516799 0.666561 2 W A 43 -0.59239 -0.59239 "TRP " " NE1" "    " 7 0 3 1 5757FF  ""  -1 0 1 ""  1 ""  <> <> <>
+  14 2 2.867296 -3.572679 -0.702153 2 W A 2 0.14789 0.14789 "TRP " " CE2" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  15 2 2.015359 -2.080478 -2.411593 2 W A 2 -0.07586 -0.07586 "TRP " " CE3" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  16 2 3.140342 -4.559863 -1.665687 2 W A 2 -0.15710 -0.15710 "TRP " " CZ2" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  17 2 2.282537 -3.063493 -3.386729 2 W A 2 -0.16038 -0.16038 "TRP " " CZ3" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  18 2 2.843928 -4.301182 -3.016455 2 W A 2 -0.10253 -0.10253 "TRP " " CH2" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  19 41 2.125358 0.479614 -0.366062 2 W A 21 0.06056 0.06056 "TRP " " HB2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  20 41 1.835888 0.243992 1.327611 2 W A 21 0.06056 0.06056 "TRP " " HB3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  21 41 2.604452 -2.030693 2.224963 2 W A 21 0.14201 0.14201 "TRP " " HD1" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  22 43 3.401040 -4.253995 1.247142 2 W A 21 0.38292 0.38292 "TRP " " HE1" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>  15.535    1.060 
+  23 41 1.584453 -1.137297 -2.713045 2 W A 21 0.12857 0.12857 "TRP " " HE3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  24 41 3.569418 -5.506415 -1.372071 2 W A 21 0.12776 0.12776 "TRP " " HZ2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  25 41 2.054597 -2.866214 -4.423864 2 W A 21 0.13154 0.13154 "TRP " " HZ3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  26 41 3.045146 -5.050715 -3.767510 2 W A 21 0.13117 0.13117 "TRP " " HH2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  27 44 -0.093923 1.999233 0.701469 2 W A 21 0.12305 0.12305 "TRP " "    " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.184    0.483 
+  :::
+ } 
+ m_bond[28] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 7 1 3 3
+  4 1 27 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 9 1 3 3
+  8 3 4 2 3 3
+  9 3 8 1 3 3
+  10 9 10 1 3 3
+  11 9 19 1 3 3
+  12 9 20 1 3 3
+  13 10 11 2 3 3
+  14 10 12 1 3 3
+  15 11 13 1 3 3
+  16 11 21 1 3 3
+  17 12 14 2 3 3
+  18 12 15 1 3 3
+  19 13 14 1 3 3
+  20 13 22 1 3 3
+  21 14 16 1 3 3
+  22 15 17 2 3 3
+  23 15 23 1 3 3
+  24 16 18 2 3 3
+  25 16 24 1 3 3
+  26 17 18 1 3 3
+  27 17 25 1 3 3
+  28 18 26 1 3 3
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_name
+ s_m_entry_id
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_m_job_name
+ :::
+ TYR(Y) 
+  Structure2 
+  119 
+  amino-acid-prep.maegz 
+  19
+  37012
+  1
+    0.0054 
+    0.0034 
+    0.0020 
+    0.0000 
+  0.00341371985801902
+  0
+  2
+  2_S_1_3_9_6 
+  0
+  OPLS3 
+  10.7445589047885
+  1
+  TYR(Y)-1 
+  amino-acid-prep 
+ m_depend[9] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  8 10 s_st_Chirality_1 
+  9 30 s_m_job_name 
+  :::
+ } 
+ m_atom[24] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_secondary_structure
+  i_m_ribbon_style
+  i_m_ribbon_color
+  s_m_label_format
+  i_m_label_color
+  s_m_label_user_text
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -0.342112 1.553143 -0.083697 2 Y A 38 0.34205 0.34205 "TYR " " N  " "  c1" 7 1 3 1 2E2EFF  "N4"  -1 0 1 ""  1 ""  <> <> <>
+  2 3 -0.009349 0.097306 0.085469 2 Y A 24 -0.15538 -0.15538 "TYR " " CA " "  g0" 6 0 3 1 808080  "C5"  -1 0 1 ""  1 ""  1 <> <>
+  3 2 -0.960686 -0.492394 1.202965 2 Y A 24 0.74144 0.74144 "TYR " " C  " "  n1" 6 0 3 1 808080  "C6"  -1 0 1 ""  1 ""  <> <> <>
+  4 15 -0.501166 -1.453504 1.859200 2 Y A 70 -0.71274 -0.71274 "TYR " " O  " "    " 8 0 3 1 FF2E2E  "O7"  -1 0 1 ""  1 ""  <> <> <>
+  5 44 -1.328373 1.642390 -0.283045 2 Y A 21 0.12370 0.12370 "TYR " " H  " "    " 1 0 3 1 FFFFFF  "H14"  -1 0 1 ""  1 ""  <>   9.241    0.483 
+  6 41 -0.309510 -0.336973 -0.868952 2 Y A 21 0.07653 0.07653 "TYR " " HA " "    " 1 0 3 0 FFFFFF  "H15"  -1 0 1 ""  1 ""  <> <> <>
+  7 44 0.196244 1.922732 -0.854025 2 Y A 21 0.12370 0.12370 "TYR " " H  " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.241    0.483 
+  8 18 -2.121580 -0.018896 1.250977 2 Y A 70 -0.71274 -0.71274 "TYR " "    " "  c1" 8 -1 3 1 FF2E2E  "O12"  -1 0 1 ""  1 ""  <>   2.587    0.763 
+  9 3 1.515651 -0.110007 0.323246 2 Y A 2 -0.06336 -0.06336 "TYR " " CB " "  g1" 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  10 2 2.047754 -1.526928 0.156995 2 Y A 2 -0.10197 -0.10197 "TYR " " CG " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  11 2 2.661206 -2.190212 1.241363 2 Y A 2 -0.06903 -0.06903 "TYR " " CD1" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  12 2 1.939149 -2.182278 -1.087855 2 Y A 2 -0.06903 -0.06903 "TYR " " CD2" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  13 2 3.154564 -3.500048 1.083837 2 Y A 2 -0.18812 -0.18812 "TYR " " CE1" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  14 2 2.432095 -3.492115 -1.245505 2 Y A 2 -0.18812 -0.18812 "TYR " " CE2" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  15 2 3.039451 -4.152106 -0.159291 2 Y A 2 0.21227 0.21227 "TYR " " CZ " "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  16 16 3.516753 -5.421230 -0.310067 2 Y A 70 -0.59104 -0.59104 "TYR " " OH " "    " 8 0 3 1 FF2F2F  ""  -1 0 1 ""  1 ""  <> <> <>
+  17 41 2.068717 0.493782 -0.398016 2 Y A 21 0.06014 0.06014 "TYR " " HB2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  18 41 1.799881 0.280138 1.302242 2 Y A 21 0.06014 0.06014 "TYR " " HB3" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  19 41 2.749707 -1.699682 2.199663 2 Y A 21 0.13125 0.13125 "TYR " " HD1" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  20 41 1.475866 -1.683054 -1.926178 2 Y A 21 0.13125 0.13125 "TYR " " HD2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  21 41 3.619332 -4.003196 1.919101 2 Y A 21 0.13943 0.13943 "TYR " " HE1" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  22 41 2.341831 -3.987228 -2.201244 2 Y A 21 0.13943 0.13943 "TYR " " HE2" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  23 42 3.380509 -5.771728 -1.193212 2 Y A 21 0.44647 0.44647 "TYR " " HH " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.473    0.640 
+  24 44 -0.107416 2.046151 0.765905 2 Y A 21 0.12370 0.12370 "TYR " "    " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.241    0.483 
+  :::
+ } 
+ m_bond[24] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 7 1 3 3
+  4 1 24 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 9 1 3 3
+  8 3 4 2 3 3
+  9 3 8 1 3 3
+  10 9 10 1 3 3
+  11 9 17 1 3 3
+  12 9 18 1 3 3
+  13 10 11 2 3 3
+  14 10 12 1 3 3
+  15 11 13 1 3 3
+  16 11 19 1 3 3
+  17 12 14 2 3 3
+  18 12 20 1 3 3
+  19 13 15 2 3 3
+  20 13 21 1 3 3
+  21 14 15 1 3 3
+  22 14 22 1 3 3
+  23 15 16 1 3 3
+  24 16 23 1 3 3
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_name
+ s_m_entry_id
+ s_m_source_file
+ i_m_source_file_index
+ i_lp_mmshare_version
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ s_st_Chirality_1
+ i_f3d_flags
+ s_lp_Force_Field
+ r_lp_Energy
+ b_lp_Chiralities_Consistent
+ s_lp_Variant
+ s_m_job_name
+ :::
+ Asp(V) 
+  Structure2 
+  120 
+  amino-acid-prep.maegz 
+  20
+  37012
+  1
+    0.0007 
+    0.0007 
+    0.0000 
+    0.0000 
+  0.000698683823872152
+  0
+  2
+  2_S_1_3_9_6 
+  0
+  OPLS3 
+  11.8040038968064
+  1
+  Asp(V)-1 
+  amino-acid-prep 
+ m_depend[9] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 r_lp_tautomer_probability 
+  2 10 r_epik_Ionization_Penalty 
+  3 10 r_epik_Ionization_Penalty_Charging 
+  4 10 r_epik_Ionization_Penalty_Neutral 
+  5 10 r_epik_State_Penalty 
+  6 10 r_epik_Charging_Adjusted_Penalty 
+  7 10 i_epik_Tot_Q 
+  8 10 s_st_Chirality_1 
+  9 30 s_m_job_name 
+  :::
+ } 
+ m_atom[19] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_mmod_res
+  s_m_chain_name
+  i_m_color
+  r_m_charge1
+  r_m_charge2
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  s_m_grow_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  i_m_visibility
+  s_m_color_rgb
+  s_m_atom_name
+  i_m_secondary_structure
+  i_m_ribbon_style
+  i_m_ribbon_color
+  s_m_label_format
+  i_m_label_color
+  s_m_label_user_text
+  b_st_NoSrcChirality
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 32 -0.570167 1.419095 -0.015225 2 V A 38 0.33841 0.33841 "VAL " " N  " "  c1" 7 1 3 1 2E2EFF  "N4"  -1 0 1 ""  1 ""  <> <> <>
+  2 3 -0.040313 0.011986 0.051488 2 V A 24 -0.14780 -0.14780 "VAL " " CA " "  g0" 6 0 3 1 808080  "C5"  -1 0 1 ""  1 ""  1 <> <>
+  3 2 -0.623941 -0.634749 1.362493 2 V A 24 0.73511 0.73511 "VAL " " C  " "  n1" 6 0 3 1 808080  "C6"  -1 0 1 ""  1 ""  <> <> <>
+  4 15 -0.821213 -1.866701 1.264816 2 V A 70 -0.71615 -0.71615 "VAL " " O  " "    " 8 0 3 1 FF2E2E  "O7"  -1 0 1 ""  1 ""  <> <> <>
+  5 44 -1.579826 1.391833 -0.005571 2 V A 21 0.12385 0.12385 "VAL " " H  " "    " 1 0 3 1 FFFFFF  "H14"  -1 0 1 ""  1 ""  <>   9.940    0.860 
+  6 41 -0.492995 -0.462764 -0.821581 2 V A 21 0.07891 0.07891 "VAL " " HA " "    " 1 0 3 0 FFFFFF  "H15"  -1 0 1 ""  1 ""  <> <> <>
+  7 44 -0.248854 1.846195 -0.872108 2 V A 21 0.12385 0.12385 "VAL " " H  " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.940    0.860 
+  8 18 -0.761363 0.106648 2.365833 2 V A 70 -0.71615 -0.71615 "VAL " "    " "  c1" 8 -1 3 1 FF2E2E  "O12"  -1 0 1 ""  1 ""  <>   2.497    0.791 
+  9 3 1.518048 -0.072812 -0.025639 2 V A 2 -0.09353 -0.09353 "VAL " " CB " "  g1" 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  10 3 2.060222 -1.515038 -0.099372 2 V A 2 -0.17606 -0.17606 "VAL " " CG1" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  11 3 2.090365 0.740917 -1.203255 2 V A 2 -0.17606 -0.17606 "VAL " " CG2" "    " 6 0 3 1 A0A0A0  ""  -1 0 1 ""  1 ""  <> <> <>
+  12 41 1.928994 0.377987 0.879824 2 V A 21 0.09241 0.09241 "VAL " " HB " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  13 41 1.625576 -2.057575 -0.939355 2 V A 21 0.06822 0.06822 "VAL " "HG11" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  14 41 1.845544 -2.076606 0.809536 2 V A 21 0.06822 0.06822 "VAL " "HG12" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  15 41 3.143414 -1.524228 -0.223952 2 V A 21 0.06822 0.06822 "VAL " "HG13" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  16 41 1.688167 0.392466 -2.155053 2 V A 21 0.06822 0.06822 "VAL " "HG21" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  17 41 3.176346 0.655167 -1.252153 2 V A 21 0.06822 0.06822 "VAL " "HG22" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  18 41 1.860268 1.802333 -1.111218 2 V A 21 0.06822 0.06822 "VAL " "HG23" "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <> <> <>
+  19 44 -0.223153 1.939779 0.777700 2 V A 21 0.12385 0.12385 "VAL " "    " "    " 1 0 3 1 FFFFFF  ""  -1 0 1 ""  1 ""  <>   9.940    0.860 
+  :::
+ } 
+ m_bond[18] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 5 1 3 3
+  3 1 7 1 3 3
+  4 1 19 1 3 3
+  5 2 3 1 3 3
+  6 2 6 1 3 3
+  7 2 9 1 3 3
+  8 3 4 2 3 3
+  9 3 8 1 3 3
+  10 9 10 1 3 3
+  11 9 11 1 3 3
+  12 9 12 1 3 3
+  13 10 13 1 3 3
+  14 10 14 1 3 3
+  15 10 15 1 3 3
+  16 11 16 1 3 3
+  17 11 17 1 3 3
+  18 11 18 1 3 3
+  :::
+ } 
+} 
+

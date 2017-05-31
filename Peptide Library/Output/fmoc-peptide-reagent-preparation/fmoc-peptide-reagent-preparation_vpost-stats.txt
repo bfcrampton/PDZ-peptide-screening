@@ -1,0 +1,12 @@
+Functional group:  Carboxylic_Acid_C_O
+
+Number of structures after LigPrep: 30
+Number of input reagents remaining after LigPrep: 23
+MW avg: 364.265
+MW stddev: 26.004
+MW min: 297.313
+MW max: 426.476
+Heavy atoms avg: 26.800
+Heavy atoms stddev: 2.056
+Heavy atoms min: 22
+Heavy atoms max: 32

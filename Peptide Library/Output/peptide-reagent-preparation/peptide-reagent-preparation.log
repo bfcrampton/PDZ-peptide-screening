@@ -1,0 +1,663 @@
+STARTUP COMMAND:
+/opt/schrodinger/suites2017-1/macromodel-v11.5/bin/Darwin-x86_64/ligprep_driver.py -W i,-ph,7.0,-pht,2.0 -W rp,-mult,a -imae "/Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation/peptide-reagent-preparation.mae" -omae peptide-reagent-preparation.bld -NJOBS 4 -vcs Carboxylic_Acid_C_O -i 2 -s 10 -r 1 -bff 14
+MMSHARE_EXEC: /opt/schrodinger/suites2017-1/mmshare-v3.7/bin/Darwin-x86_64
+STARTUP SCRIPT:
+/opt/schrodinger/suites2017-1/macromodel-v11.5/bin/Darwin-x86_64/ligprep_startup.py
+SCHRODINGER:  /opt/schrodinger/suites2017-1
+
+ligprep_driver. Copyright (c) Schrodinger, LLC.
+
+[running at reduced cpu priority]
+Job id: Bryans-Retina-Macbook-0-59123f41
+Launch directory: /Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation
+Job directory: /Users/bryancrampton/scratch/bryancrampton/peptide-reagent-preparation
+Running locally: False
+======================================
+Running ligprep_driver
+Tue, 09 May 2017 18:14:30.439831
+Version: 41012
+Command: /opt/schrodinger/suites2017-1/macromodel-v11.5/bin/Darwin-x86_64/ligprep_driver.py -W i,-ph,7.0,-pht,2.0 -W rp,-mult,a -imae /Users/bryancrampton/Research/Peptide Library/Output/peptide-reagent-preparation/peptide-reagent-preparation.mae -omae peptide-reagent-preparation.bld -NJOBS 4 -vcs Carboxylic_Acid_C_O -i 2 -s 10 -r 1 -bff 14
+.....................................
+
+All output structures will be stored in one file called 'peptide-reagent-preparation.bld'
+Number of structures to process                     : 20
+Generated 4 jobs
+Preparing subjobs...
+ subjobinfo subjobname peptide-reagent-preparation_subjob_1
+ subjobinfo input      peptide-reagent-preparation_subjob_1.mae
+ subjobinfo output     peptide-reagent-preparation_subjob_1.bld
+ subjobinfo log        peptide-reagent-preparation_subjob_1.log
+ subjobinfo subjobname peptide-reagent-preparation_subjob_2
+ subjobinfo input      peptide-reagent-preparation_subjob_2.mae
+ subjobinfo output     peptide-reagent-preparation_subjob_2.bld
+ subjobinfo log        peptide-reagent-preparation_subjob_2.log
+ subjobinfo subjobname peptide-reagent-preparation_subjob_3
+ subjobinfo input      peptide-reagent-preparation_subjob_3.mae
+ subjobinfo output     peptide-reagent-preparation_subjob_3.bld
+ subjobinfo log        peptide-reagent-preparation_subjob_3.log
+ subjobinfo subjobname peptide-reagent-preparation_subjob_4
+ subjobinfo input      peptide-reagent-preparation_subjob_4.mae
+ subjobinfo output     peptide-reagent-preparation_subjob_4.bld
+ subjobinfo log        peptide-reagent-preparation_subjob_4.log
+Running subjobs...
+
+Running subjobs on hosts:
+  localhost (Max: 4)
+Number of jobs:       4
+Max retries per job:  2
+Max allowed failures: unlimited
+Run with -LOCAL:      False
+Verbosity:            verbose
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 3 | launched  Bryans-Retina-Macbook-0-59123f4f peptide-reagent-preparation_subjob_1 localhost [Bryans-Retina-Macbook]
+0 2 2 | launched  Bryans-Retina-Macbook-0-59123f58 peptide-reagent-preparation_subjob_2 localhost [Bryans-Retina-Macbook]
+0 3 1 | launched  Bryans-Retina-Macbook-0-59123f62 peptide-reagent-preparation_subjob_3 localhost [Bryans-Retina-Macbook]
+0 4 0 | launched  Bryans-Retina-Macbook-0-59123f6d peptide-reagent-preparation_subjob_4 localhost [Bryans-Retina-Macbook]
+1 3 0 | finished  Bryans-Retina-Macbook-0-59123f4f peptide-reagent-preparation_subjob_1 localhost [Bryans-Retina-Macbook]
+2 2 0 | finished  Bryans-Retina-Macbook-0-59123f58 peptide-reagent-preparation_subjob_2 localhost [Bryans-Retina-Macbook]
+3 1 0 | finished  Bryans-Retina-Macbook-0-59123f62 peptide-reagent-preparation_subjob_3 localhost [Bryans-Retina-Macbook]
+4 0 0 | finished  Bryans-Retina-Macbook-0-59123f6d peptide-reagent-preparation_subjob_4 localhost [Bryans-Retina-Macbook]
+
+All jobs have completed.
+
+4 of 4 job(s) succeeded; 0 job(s) failed.
+
+###########################################
+###########################################
+ Organizing Output Files:                  
+...........................................
+ Collecting Results from Job: peptide-reagent-preparation_subjob_1           
+   -------------------------------------   
+
+STARTUP COMMAND:
+/opt/schrodinger/suites2017-1/macromodel-v11.5/bin/Darwin-x86_64/ligprep.py -W i,-ph,7.0,-pht,2.0 -W rp,-mult,a -imae peptide-reagent-preparation_subjob_1.mae -omae peptide-reagent-preparation_subjob_1.bld -vcs Carboxylic_Acid_C_O -i 2 -s 10 -r 1 -bff 14 -nz -indx 1
+MMSHARE_EXEC: /opt/schrodinger/suites2017-1/mmshare-v3.7/bin/Darwin-x86_64
+STARTUP SCRIPT:
+/opt/schrodinger/suites2017-1/macromodel-v11.5/bin/Darwin-x86_64/ligprep_startup.py
+SCHRODINGER:  /opt/schrodinger/suites2017-1
+
+LIGPREP_VERSION  41012
+Ligprep. Copyright Schrodinger, LLC. All rights reserved.
+
+JobID:  Bryans-Retina-Macbook-0-59123f4f
+ input and output are peptide-reagent-preparation_subjob_1.mae peptide-reagent-preparation_subjob_1.bld
+-----------------------------------------
+
+Running ligprep
+  input file: peptide-reagent-preparation_subjob_1.mae
+  output file: peptide-reagent-preparation_subjob_1.bld
+  # of input structures: 5
+Options:
+  -W i,-ph,7.0,-pht,2.0 -W rp,-mult,a -imae peptide-reagent-preparation_subjob_1.mae -omae peptide-reagent-preparation_subjob_1.bld -vcs Carboxylic_Acid_C_O -i 2 -s 10 -r 1 -bff 14 -nz -indx 1
+--------------------------------
+ligprep running: maelabel
+maelabel # of output structures: 5
+--------------------------------
+
+ligprep running: vcs_pre
+vcsprep -pre -imae peptide-reagent-preparation_subjob_1_mae.maegz -o peptide-reagent-preparation_subjob_1_vpre.maegz > peptide-reagent-preparation_subjob_1_vpre.log 2>&1
+vcsprep # of output structures: 5
+--------------------------------
+
+ligprep running: applyhtreat
+applyhtreat peptide-reagent-preparation_subjob_1_vpre.maegz peptide-reagent-preparation_subjob_1_htout.maegz All-None all 1 > peptide-reagent-preparation_subjob_1_ht.log 2>&1
+applyhtreat # of output structures: 5
+--------------------------------
+
+ligprep running: desalter
+desalter peptide-reagent-preparation_subjob_1_htout.maegz peptide-reagent-preparation_subjob_1_dsout.maegz > peptide-reagent-preparation_subjob_1_ds.log 2>&1
+desalter # of output structures: 5
+--------------------------------
+
+ligprep running: neutralizer
+neutralizer -d peptide-reagent-preparation_subjob_1_dsout.maegz peptide-reagent-preparation_subjob_1_nuout.maegz > peptide-reagent-preparation_subjob_1_nu.log 2>&1
+neutralizer # of output structures: 5
+--------------------------------
+
+ligprep running: reagentprep
+reagentprep -n peptide-reagent-preparation_subjob_1_rp-nomatch.maegz -m peptide-reagent-preparation_subjob_1_rp-mult.maegz -r peptide-reagent-preparation_subjob_1_rp-ring.maegz -mult a -g Carboxylic_Acid_C_O -l peptide-reagent-preparation_subjob_1_rp_detail.log -i peptide-reagent-preparation_subjob_1_nuout.maegz -o peptide-reagent-preparation_subjob_1_rpout.maegz > peptide-reagent-preparation_subjob_1_rp.log 2>&1
+reagentprep # of output structures: 6
+--------------------------------
+
+ligprep running: ionizer
+ionizer -mg 10 -ph 7.0 -pht 2.0 -avoid_grow -i peptide-reagent-preparation_subjob_1_rpout.maegz -o peptide-reagent-preparation_subjob_1_ionout.maegz -b peptide-reagent-preparation_subjob_1_ionout-bad.maegz > peptide-reagent-preparation_subjob_1_ion.log 2>&1
+ionizer # of output structures: 6
+--------------------------------
+
+ligprep running: tautomerizer
+tautomerizer -n 8 -p 0.01 -ma 200 -vcs peptide-reagent-preparation_subjob_1_ionout.maegz peptide-reagent-preparation_subjob_1_taout.maegz > peptide-reagent-preparation_subjob_1_ta.log 2>&1
+tautomerizer # of output structures: 6
+--------------------------------
+
+ligprep running: stereoizer
+stereoizer -n 10 peptide-reagent-preparation_subjob_1_taout.maegz peptide-reagent-preparation_subjob_1_stout.maegz > peptide-reagent-preparation_subjob_1_st.log 2>&1
+stereoizer # of output structures: 6
+--------------------------------
+
+ligprep running: ring_conf
+ring_conf -l 3 -n 1 peptide-reagent-preparation_subjob_1_stout.maegz peptide-reagent-preparation_subjob_1_rcout.maegz > peptide-reagent-preparation_subjob_1_rc.log 2>&1
+ring_conf # of output structures: 6
+--------------------------------
+
+ligprep running: premin
+OK structures in:        peptide-reagent-preparation_subjob_1_prout.maegz
+problematic structures in: peptide-reagent-preparation_subjob_1_prout_bad.maegz
+premin -lic ligprep -m filter -f 14 -s peptide-reagent-preparation_subjob_1_prout.maegz -u peptide-reagent-preparation_subjob_1_prout_bad.maegz peptide-reagent-preparation_subjob_1_rcout.maegz > peptide-reagent-preparation_subjob_1_pr.log 2>&1
+premin # of output structures: 6
+--------------------------------
+
+ligprep running: bmin
+input file: peptide-reagent-preparation_subjob_1_prout.maegz
+output file : peptide-reagent-preparation_subjob_1_bmout.maegz
+bmin -LOCAL -INTERVAL 5 -NO_REDIRECT peptide-reagent-preparation_subjob_1_bmrun > peptide-reagent-preparation_subjob_1_bm.log 2>&1
+bmin # of output structures: 6
+--------------------------------
+
+ligprep running: qikprop
+qikprop -WAIT -fast -recap -lp -outname peptide-reagent-preparation_subjob_1_qpout peptide-reagent-preparation_subjob_1_bmout.maegz
+Jobname: peptide-reagent-preparation_subjob_1_qpout
+[Bryans-Retina-Macbook.local]
+JobId: Bryans-Retina-Macbook-0-59123fb0
+
+qikprop # of output structures: 6
+qikprop number of structures in peptide-reagent-preparation_subjob_1_qpout.CSV : 6
+--------------------------------
+
+ligprep running: chem_features
+chem_features -r -p -v 1 -o peptide-reagent-preparation_subjob_1_cfout.maegz peptide-reagent-preparation_subjob_1_qpout.maegz > peptide-reagent-preparation_subjob_1_cfout.log 2>&1
+chem_features # of output structures: 6
+--------------------------------
+
+ligprep running: vcs_post
+vcsprep -post -s peptide-reagent-preparation_subjob_1_vpost-stats.txt -f Carboxylic_Acid_C_O -imae peptide-reagent-preparation_subjob_1_cfout.maegz -o peptide-reagent-preparation_subjob_1_vpost.maegz > peptide-reagent-preparation_subjob_1_vpost.log 2>&1
+vcsprep # of output structures: 6
+Statistics for compounds in peptide-reagent-preparation_subjob_1.bld:
+Functional group: Carboxylic_Acid_C_O
+
+
+Number of structures after LigPrep: 6
+Number of input reagents remaining after LigPrep: 6
+MW avg:  131.304
+MW stddev:   25.194
+MW min:   90.103
+MW max:  176.220
+Heavy atoms avg:    8.667
+Heavy atoms stddev:    1.886
+Heavy atoms min: 6
+Heavy atoms max: 12
+
+Copying peptide-reagent-preparation_subjob_1_vpost.maegz to peptide-reagent-preparation_subjob_1.bld
+--------------------------------
+
+ligprep Building sqlite database
+mae_to_sqlite -p s_m_title -p _qp_ -p _chemfeatures_ -m peptide-reagent-preparation_subjob_1.bld -s peptide-reagent-preparation_subjob_1.sqlite -f > peptide-reagent-preparation_subjob_1_sqlite.log 2>&1
+build_sqlite_database succeeded
+----------------------------------------
+ligprep  complete.
+ # of structures in output file ( peptide-reagent-preparation_subjob_1.bld ): 6 
+----------------------------------------
+
+Summary
+# of processed structures in  peptide-reagent-preparation_subjob_1.bld :  6
+# of failed structures in  peptide-reagent-preparation_subjob_1-failed.mae :  0
+----------------------------------------
+Time: 0 hours 2 minutes  3.09 seconds
+
+   -------------------------------------   
+...........................................
+
+...........................................
+ Collecting Results from Job: peptide-reagent-preparation_subjob_2           
+   -------------------------------------   
+
+STARTUP COMMAND:
+/opt/schrodinger/suites2017-1/macromodel-v11.5/bin/Darwin-x86_64/ligprep.py -W i,-ph,7.0,-pht,2.0 -W rp,-mult,a -imae peptide-reagent-preparation_subjob_2.mae -omae peptide-reagent-preparation_subjob_2.bld -vcs Carboxylic_Acid_C_O -i 2 -s 10 -r 1 -bff 14 -nz -indx 6
+MMSHARE_EXEC: /opt/schrodinger/suites2017-1/mmshare-v3.7/bin/Darwin-x86_64
+STARTUP SCRIPT:
+/opt/schrodinger/suites2017-1/macromodel-v11.5/bin/Darwin-x86_64/ligprep_startup.py
+SCHRODINGER:  /opt/schrodinger/suites2017-1
+
+LIGPREP_VERSION  41012
+Ligprep. Copyright Schrodinger, LLC. All rights reserved.
+
+JobID:  Bryans-Retina-Macbook-0-59123f58
+ input and output are peptide-reagent-preparation_subjob_2.mae peptide-reagent-preparation_subjob_2.bld
+-----------------------------------------
+
+Running ligprep
+  input file: peptide-reagent-preparation_subjob_2.mae
+  output file: peptide-reagent-preparation_subjob_2.bld
+  # of input structures: 5
+Options:
+  -W i,-ph,7.0,-pht,2.0 -W rp,-mult,a -imae peptide-reagent-preparation_subjob_2.mae -omae peptide-reagent-preparation_subjob_2.bld -vcs Carboxylic_Acid_C_O -i 2 -s 10 -r 1 -bff 14 -nz -indx 6
+--------------------------------
+ligprep running: maelabel
+maelabel # of output structures: 5
+--------------------------------
+
+ligprep running: vcs_pre
+vcsprep -pre -imae peptide-reagent-preparation_subjob_2_mae.maegz -o peptide-reagent-preparation_subjob_2_vpre.maegz > peptide-reagent-preparation_subjob_2_vpre.log 2>&1
+vcsprep # of output structures: 5
+--------------------------------
+
+ligprep running: applyhtreat
+applyhtreat peptide-reagent-preparation_subjob_2_vpre.maegz peptide-reagent-preparation_subjob_2_htout.maegz All-None all 1 > peptide-reagent-preparation_subjob_2_ht.log 2>&1
+applyhtreat # of output structures: 5
+--------------------------------
+
+ligprep running: desalter
+desalter peptide-reagent-preparation_subjob_2_htout.maegz peptide-reagent-preparation_subjob_2_dsout.maegz > peptide-reagent-preparation_subjob_2_ds.log 2>&1
+desalter # of output structures: 5
+--------------------------------
+
+ligprep running: neutralizer
+neutralizer -d peptide-reagent-preparation_subjob_2_dsout.maegz peptide-reagent-preparation_subjob_2_nuout.maegz > peptide-reagent-preparation_subjob_2_nu.log 2>&1
+neutralizer # of output structures: 5
+--------------------------------
+
+ligprep running: reagentprep
+reagentprep -n peptide-reagent-preparation_subjob_2_rp-nomatch.maegz -m peptide-reagent-preparation_subjob_2_rp-mult.maegz -r peptide-reagent-preparation_subjob_2_rp-ring.maegz -mult a -g Carboxylic_Acid_C_O -l peptide-reagent-preparation_subjob_2_rp_detail.log -i peptide-reagent-preparation_subjob_2_nuout.maegz -o peptide-reagent-preparation_subjob_2_rpout.maegz > peptide-reagent-preparation_subjob_2_rp.log 2>&1
+reagentprep # of output structures: 6
+--------------------------------
+
+ligprep running: ionizer
+ionizer -mg 10 -ph 7.0 -pht 2.0 -avoid_grow -i peptide-reagent-preparation_subjob_2_rpout.maegz -o peptide-reagent-preparation_subjob_2_ionout.maegz -b peptide-reagent-preparation_subjob_2_ionout-bad.maegz > peptide-reagent-preparation_subjob_2_ion.log 2>&1
+ionizer # of output structures: 7
+--------------------------------
+
+ligprep running: tautomerizer
+tautomerizer -n 8 -p 0.01 -ma 200 -vcs peptide-reagent-preparation_subjob_2_ionout.maegz peptide-reagent-preparation_subjob_2_taout.maegz > peptide-reagent-preparation_subjob_2_ta.log 2>&1
+tautomerizer # of output structures: 8
+--------------------------------
+
+ligprep running: stereoizer
+stereoizer -n 10 peptide-reagent-preparation_subjob_2_taout.maegz peptide-reagent-preparation_subjob_2_stout.maegz > peptide-reagent-preparation_subjob_2_st.log 2>&1
+stereoizer # of output structures: 8
+--------------------------------
+
+ligprep running: ring_conf
+ring_conf -l 3 -n 1 peptide-reagent-preparation_subjob_2_stout.maegz peptide-reagent-preparation_subjob_2_rcout.maegz > peptide-reagent-preparation_subjob_2_rc.log 2>&1
+ring_conf # of output structures: 8
+--------------------------------
+
+ligprep running: premin
+OK structures in:        peptide-reagent-preparation_subjob_2_prout.maegz
+problematic structures in: peptide-reagent-preparation_subjob_2_prout_bad.maegz
+premin -lic ligprep -m filter -f 14 -s peptide-reagent-preparation_subjob_2_prout.maegz -u peptide-reagent-preparation_subjob_2_prout_bad.maegz peptide-reagent-preparation_subjob_2_rcout.maegz > peptide-reagent-preparation_subjob_2_pr.log 2>&1
+premin # of output structures: 8
+--------------------------------
+
+ligprep running: bmin
+input file: peptide-reagent-preparation_subjob_2_prout.maegz
+output file : peptide-reagent-preparation_subjob_2_bmout.maegz
+bmin -LOCAL -INTERVAL 5 -NO_REDIRECT peptide-reagent-preparation_subjob_2_bmrun > peptide-reagent-preparation_subjob_2_bm.log 2>&1
+bmin # of output structures: 8
+--------------------------------
+
+ligprep running: qikprop
+qikprop -WAIT -fast -recap -lp -outname peptide-reagent-preparation_subjob_2_qpout peptide-reagent-preparation_subjob_2_bmout.maegz
+Jobname: peptide-reagent-preparation_subjob_2_qpout
+[Bryans-Retina-Macbook.local]
+JobId: Bryans-Retina-Macbook-0-59123fb8
+
+qikprop # of output structures: 8
+qikprop number of structures in peptide-reagent-preparation_subjob_2_qpout.CSV : 8
+--------------------------------
+
+ligprep running: chem_features
+chem_features -r -p -v 1 -o peptide-reagent-preparation_subjob_2_cfout.maegz peptide-reagent-preparation_subjob_2_qpout.maegz > peptide-reagent-preparation_subjob_2_cfout.log 2>&1
+chem_features # of output structures: 8
+--------------------------------
+
+ligprep running: vcs_post
+vcsprep -post -s peptide-reagent-preparation_subjob_2_vpost-stats.txt -f Carboxylic_Acid_C_O -imae peptide-reagent-preparation_subjob_2_cfout.maegz -o peptide-reagent-preparation_subjob_2_vpost.maegz > peptide-reagent-preparation_subjob_2_vpost.log 2>&1
+vcsprep # of output structures: 8
+Statistics for compounds in peptide-reagent-preparation_subjob_2.bld:
+Functional group: Carboxylic_Acid_C_O
+
+
+Number of structures after LigPrep: 8
+Number of input reagents remaining after LigPrep: 6
+MW avg:  139.898
+MW stddev:   25.293
+MW min:   76.076
+MW max:  157.173
+Heavy atoms avg:    9.625
+Heavy atoms stddev:    1.867
+Heavy atoms min: 5
+Heavy atoms max: 11
+
+Copying peptide-reagent-preparation_subjob_2_vpost.maegz to peptide-reagent-preparation_subjob_2.bld
+--------------------------------
+
+ligprep Building sqlite database
+mae_to_sqlite -p s_m_title -p _qp_ -p _chemfeatures_ -m peptide-reagent-preparation_subjob_2.bld -s peptide-reagent-preparation_subjob_2.sqlite -f > peptide-reagent-preparation_subjob_2_sqlite.log 2>&1
+build_sqlite_database succeeded
+----------------------------------------
+ligprep  complete.
+ # of structures in output file ( peptide-reagent-preparation_subjob_2.bld ): 8 
+----------------------------------------
+
+Summary
+# of processed structures in  peptide-reagent-preparation_subjob_2.bld :  8
+# of failed structures in  peptide-reagent-preparation_subjob_2-failed.mae :  0
+----------------------------------------
+Time: 0 hours 2 minutes  1.35 seconds
+
+   -------------------------------------   
+...........................................
+
+...........................................
+ Collecting Results from Job: peptide-reagent-preparation_subjob_3           
+   -------------------------------------   
+
+STARTUP COMMAND:
+/opt/schrodinger/suites2017-1/macromodel-v11.5/bin/Darwin-x86_64/ligprep.py -W i,-ph,7.0,-pht,2.0 -W rp,-mult,a -imae peptide-reagent-preparation_subjob_3.mae -omae peptide-reagent-preparation_subjob_3.bld -vcs Carboxylic_Acid_C_O -i 2 -s 10 -r 1 -bff 14 -nz -indx 11
+MMSHARE_EXEC: /opt/schrodinger/suites2017-1/mmshare-v3.7/bin/Darwin-x86_64
+STARTUP SCRIPT:
+/opt/schrodinger/suites2017-1/macromodel-v11.5/bin/Darwin-x86_64/ligprep_startup.py
+SCHRODINGER:  /opt/schrodinger/suites2017-1
+
+LIGPREP_VERSION  41012
+Ligprep. Copyright Schrodinger, LLC. All rights reserved.
+
+JobID:  Bryans-Retina-Macbook-0-59123f62
+ input and output are peptide-reagent-preparation_subjob_3.mae peptide-reagent-preparation_subjob_3.bld
+-----------------------------------------
+
+Running ligprep
+  input file: peptide-reagent-preparation_subjob_3.mae
+  output file: peptide-reagent-preparation_subjob_3.bld
+  # of input structures: 5
+Options:
+  -W i,-ph,7.0,-pht,2.0 -W rp,-mult,a -imae peptide-reagent-preparation_subjob_3.mae -omae peptide-reagent-preparation_subjob_3.bld -vcs Carboxylic_Acid_C_O -i 2 -s 10 -r 1 -bff 14 -nz -indx 11
+--------------------------------
+ligprep running: maelabel
+maelabel # of output structures: 5
+--------------------------------
+
+ligprep running: vcs_pre
+vcsprep -pre -imae peptide-reagent-preparation_subjob_3_mae.maegz -o peptide-reagent-preparation_subjob_3_vpre.maegz > peptide-reagent-preparation_subjob_3_vpre.log 2>&1
+vcsprep # of output structures: 5
+--------------------------------
+
+ligprep running: applyhtreat
+applyhtreat peptide-reagent-preparation_subjob_3_vpre.maegz peptide-reagent-preparation_subjob_3_htout.maegz All-None all 1 > peptide-reagent-preparation_subjob_3_ht.log 2>&1
+applyhtreat # of output structures: 5
+--------------------------------
+
+ligprep running: desalter
+desalter peptide-reagent-preparation_subjob_3_htout.maegz peptide-reagent-preparation_subjob_3_dsout.maegz > peptide-reagent-preparation_subjob_3_ds.log 2>&1
+desalter # of output structures: 5
+--------------------------------
+
+ligprep running: neutralizer
+neutralizer -d peptide-reagent-preparation_subjob_3_dsout.maegz peptide-reagent-preparation_subjob_3_nuout.maegz > peptide-reagent-preparation_subjob_3_nu.log 2>&1
+neutralizer # of output structures: 5
+--------------------------------
+
+ligprep running: reagentprep
+reagentprep -n peptide-reagent-preparation_subjob_3_rp-nomatch.maegz -m peptide-reagent-preparation_subjob_3_rp-mult.maegz -r peptide-reagent-preparation_subjob_3_rp-ring.maegz -mult a -g Carboxylic_Acid_C_O -l peptide-reagent-preparation_subjob_3_rp_detail.log -i peptide-reagent-preparation_subjob_3_nuout.maegz -o peptide-reagent-preparation_subjob_3_rpout.maegz > peptide-reagent-preparation_subjob_3_rp.log 2>&1
+reagentprep # of output structures: 5
+--------------------------------
+
+ligprep running: ionizer
+ionizer -mg 10 -ph 7.0 -pht 2.0 -avoid_grow -i peptide-reagent-preparation_subjob_3_rpout.maegz -o peptide-reagent-preparation_subjob_3_ionout.maegz -b peptide-reagent-preparation_subjob_3_ionout-bad.maegz > peptide-reagent-preparation_subjob_3_ion.log 2>&1
+ionizer # of output structures: 5
+--------------------------------
+
+ligprep running: tautomerizer
+tautomerizer -n 8 -p 0.01 -ma 200 -vcs peptide-reagent-preparation_subjob_3_ionout.maegz peptide-reagent-preparation_subjob_3_taout.maegz > peptide-reagent-preparation_subjob_3_ta.log 2>&1
+tautomerizer # of output structures: 5
+--------------------------------
+
+ligprep running: stereoizer
+stereoizer -n 10 peptide-reagent-preparation_subjob_3_taout.maegz peptide-reagent-preparation_subjob_3_stout.maegz > peptide-reagent-preparation_subjob_3_st.log 2>&1
+stereoizer # of output structures: 5
+--------------------------------
+
+ligprep running: ring_conf
+ring_conf -l 3 -n 1 peptide-reagent-preparation_subjob_3_stout.maegz peptide-reagent-preparation_subjob_3_rcout.maegz > peptide-reagent-preparation_subjob_3_rc.log 2>&1
+ring_conf # of output structures: 5
+--------------------------------
+
+ligprep running: premin
+OK structures in:        peptide-reagent-preparation_subjob_3_prout.maegz
+problematic structures in: peptide-reagent-preparation_subjob_3_prout_bad.maegz
+premin -lic ligprep -m filter -f 14 -s peptide-reagent-preparation_subjob_3_prout.maegz -u peptide-reagent-preparation_subjob_3_prout_bad.maegz peptide-reagent-preparation_subjob_3_rcout.maegz > peptide-reagent-preparation_subjob_3_pr.log 2>&1
+premin # of output structures: 5
+--------------------------------
+
+ligprep running: bmin
+input file: peptide-reagent-preparation_subjob_3_prout.maegz
+output file : peptide-reagent-preparation_subjob_3_bmout.maegz
+bmin -LOCAL -INTERVAL 5 -NO_REDIRECT peptide-reagent-preparation_subjob_3_bmrun > peptide-reagent-preparation_subjob_3_bm.log 2>&1
+bmin # of output structures: 5
+--------------------------------
+
+ligprep running: qikprop
+qikprop -WAIT -fast -recap -lp -outname peptide-reagent-preparation_subjob_3_qpout peptide-reagent-preparation_subjob_3_bmout.maegz
+Jobname: peptide-reagent-preparation_subjob_3_qpout
+[Bryans-Retina-Macbook.local]
+JobId: Bryans-Retina-Macbook-0-59123fc2
+
+qikprop # of output structures: 5
+qikprop number of structures in peptide-reagent-preparation_subjob_3_qpout.CSV : 5
+--------------------------------
+
+ligprep running: chem_features
+chem_features -r -p -v 1 -o peptide-reagent-preparation_subjob_3_cfout.maegz peptide-reagent-preparation_subjob_3_qpout.maegz > peptide-reagent-preparation_subjob_3_cfout.log 2>&1
+chem_features # of output structures: 5
+--------------------------------
+
+ligprep running: vcs_post
+vcsprep -post -s peptide-reagent-preparation_subjob_3_vpost-stats.txt -f Carboxylic_Acid_C_O -imae peptide-reagent-preparation_subjob_3_cfout.maegz -o peptide-reagent-preparation_subjob_3_vpost.maegz > peptide-reagent-preparation_subjob_3_vpost.log 2>&1
+vcsprep # of output structures: 5
+Statistics for compounds in peptide-reagent-preparation_subjob_3.bld:
+Functional group: Carboxylic_Acid_C_O
+
+
+Number of structures after LigPrep: 5
+Number of input reagents remaining after LigPrep: 5
+MW avg:  142.591
+MW stddev:   17.059
+MW min:  116.141
+MW max:  166.201
+Heavy atoms avg:    9.600
+Heavy atoms stddev:    1.356
+Heavy atoms min: 8
+Heavy atoms max: 12
+
+Copying peptide-reagent-preparation_subjob_3_vpost.maegz to peptide-reagent-preparation_subjob_3.bld
+--------------------------------
+
+ligprep Building sqlite database
+mae_to_sqlite -p s_m_title -p _qp_ -p _chemfeatures_ -m peptide-reagent-preparation_subjob_3.bld -s peptide-reagent-preparation_subjob_3.sqlite -f > peptide-reagent-preparation_subjob_3_sqlite.log 2>&1
+build_sqlite_database succeeded
+----------------------------------------
+ligprep  complete.
+ # of structures in output file ( peptide-reagent-preparation_subjob_3.bld ): 5 
+----------------------------------------
+
+Summary
+# of processed structures in  peptide-reagent-preparation_subjob_3.bld :  5
+# of failed structures in  peptide-reagent-preparation_subjob_3-failed.mae :  0
+----------------------------------------
+Time: 0 hours 2 minutes  5.22 seconds
+
+   -------------------------------------   
+...........................................
+
+...........................................
+ Collecting Results from Job: peptide-reagent-preparation_subjob_4           
+   -------------------------------------   
+
+STARTUP COMMAND:
+/opt/schrodinger/suites2017-1/macromodel-v11.5/bin/Darwin-x86_64/ligprep.py -W i,-ph,7.0,-pht,2.0 -W rp,-mult,a -imae peptide-reagent-preparation_subjob_4.mae -omae peptide-reagent-preparation_subjob_4.bld -vcs Carboxylic_Acid_C_O -i 2 -s 10 -r 1 -bff 14 -nz -indx 16
+MMSHARE_EXEC: /opt/schrodinger/suites2017-1/mmshare-v3.7/bin/Darwin-x86_64
+STARTUP SCRIPT:
+/opt/schrodinger/suites2017-1/macromodel-v11.5/bin/Darwin-x86_64/ligprep_startup.py
+SCHRODINGER:  /opt/schrodinger/suites2017-1
+
+LIGPREP_VERSION  41012
+Ligprep. Copyright Schrodinger, LLC. All rights reserved.
+
+JobID:  Bryans-Retina-Macbook-0-59123f6d
+ input and output are peptide-reagent-preparation_subjob_4.mae peptide-reagent-preparation_subjob_4.bld
+-----------------------------------------
+
+Running ligprep
+  input file: peptide-reagent-preparation_subjob_4.mae
+  output file: peptide-reagent-preparation_subjob_4.bld
+  # of input structures: 5
+Options:
+  -W i,-ph,7.0,-pht,2.0 -W rp,-mult,a -imae peptide-reagent-preparation_subjob_4.mae -omae peptide-reagent-preparation_subjob_4.bld -vcs Carboxylic_Acid_C_O -i 2 -s 10 -r 1 -bff 14 -nz -indx 16
+--------------------------------
+ligprep running: maelabel
+maelabel # of output structures: 5
+--------------------------------
+
+ligprep running: vcs_pre
+vcsprep -pre -imae peptide-reagent-preparation_subjob_4_mae.maegz -o peptide-reagent-preparation_subjob_4_vpre.maegz > peptide-reagent-preparation_subjob_4_vpre.log 2>&1
+vcsprep # of output structures: 5
+--------------------------------
+
+ligprep running: applyhtreat
+applyhtreat peptide-reagent-preparation_subjob_4_vpre.maegz peptide-reagent-preparation_subjob_4_htout.maegz All-None all 1 > peptide-reagent-preparation_subjob_4_ht.log 2>&1
+applyhtreat # of output structures: 5
+--------------------------------
+
+ligprep running: desalter
+desalter peptide-reagent-preparation_subjob_4_htout.maegz peptide-reagent-preparation_subjob_4_dsout.maegz > peptide-reagent-preparation_subjob_4_ds.log 2>&1
+desalter # of output structures: 5
+--------------------------------
+
+ligprep running: neutralizer
+neutralizer -d peptide-reagent-preparation_subjob_4_dsout.maegz peptide-reagent-preparation_subjob_4_nuout.maegz > peptide-reagent-preparation_subjob_4_nu.log 2>&1
+neutralizer # of output structures: 5
+--------------------------------
+
+ligprep running: reagentprep
+reagentprep -n peptide-reagent-preparation_subjob_4_rp-nomatch.maegz -m peptide-reagent-preparation_subjob_4_rp-mult.maegz -r peptide-reagent-preparation_subjob_4_rp-ring.maegz -mult a -g Carboxylic_Acid_C_O -l peptide-reagent-preparation_subjob_4_rp_detail.log -i peptide-reagent-preparation_subjob_4_nuout.maegz -o peptide-reagent-preparation_subjob_4_rpout.maegz > peptide-reagent-preparation_subjob_4_rp.log 2>&1
+reagentprep # of output structures: 5
+--------------------------------
+
+ligprep running: ionizer
+ionizer -mg 10 -ph 7.0 -pht 2.0 -avoid_grow -i peptide-reagent-preparation_subjob_4_rpout.maegz -o peptide-reagent-preparation_subjob_4_ionout.maegz -b peptide-reagent-preparation_subjob_4_ionout-bad.maegz > peptide-reagent-preparation_subjob_4_ion.log 2>&1
+ionizer # of output structures: 5
+--------------------------------
+
+ligprep running: tautomerizer
+tautomerizer -n 8 -p 0.01 -ma 200 -vcs peptide-reagent-preparation_subjob_4_ionout.maegz peptide-reagent-preparation_subjob_4_taout.maegz > peptide-reagent-preparation_subjob_4_ta.log 2>&1
+tautomerizer # of output structures: 5
+--------------------------------
+
+ligprep running: stereoizer
+stereoizer -n 10 peptide-reagent-preparation_subjob_4_taout.maegz peptide-reagent-preparation_subjob_4_stout.maegz > peptide-reagent-preparation_subjob_4_st.log 2>&1
+stereoizer # of output structures: 5
+--------------------------------
+
+ligprep running: ring_conf
+ring_conf -l 3 -n 1 peptide-reagent-preparation_subjob_4_stout.maegz peptide-reagent-preparation_subjob_4_rcout.maegz > peptide-reagent-preparation_subjob_4_rc.log 2>&1
+ring_conf # of output structures: 5
+--------------------------------
+
+ligprep running: premin
+OK structures in:        peptide-reagent-preparation_subjob_4_prout.maegz
+problematic structures in: peptide-reagent-preparation_subjob_4_prout_bad.maegz
+premin -lic ligprep -m filter -f 14 -s peptide-reagent-preparation_subjob_4_prout.maegz -u peptide-reagent-preparation_subjob_4_prout_bad.maegz peptide-reagent-preparation_subjob_4_rcout.maegz > peptide-reagent-preparation_subjob_4_pr.log 2>&1
+premin # of output structures: 5
+--------------------------------
+
+ligprep running: bmin
+input file: peptide-reagent-preparation_subjob_4_prout.maegz
+output file : peptide-reagent-preparation_subjob_4_bmout.maegz
+bmin -LOCAL -INTERVAL 5 -NO_REDIRECT peptide-reagent-preparation_subjob_4_bmrun > peptide-reagent-preparation_subjob_4_bm.log 2>&1
+bmin # of output structures: 5
+--------------------------------
+
+ligprep running: qikprop
+qikprop -WAIT -fast -recap -lp -outname peptide-reagent-preparation_subjob_4_qpout peptide-reagent-preparation_subjob_4_bmout.maegz
+Jobname: peptide-reagent-preparation_subjob_4_qpout
+[Bryans-Retina-Macbook.local]
+JobId: Bryans-Retina-Macbook-0-59123fcd
+
+qikprop # of output structures: 5
+qikprop number of structures in peptide-reagent-preparation_subjob_4_qpout.CSV : 5
+--------------------------------
+
+ligprep running: chem_features
+chem_features -r -p -v 1 -o peptide-reagent-preparation_subjob_4_cfout.maegz peptide-reagent-preparation_subjob_4_qpout.maegz > peptide-reagent-preparation_subjob_4_cfout.log 2>&1
+chem_features # of output structures: 5
+--------------------------------
+
+ligprep running: vcs_post
+vcsprep -post -s peptide-reagent-preparation_subjob_4_vpost-stats.txt -f Carboxylic_Acid_C_O -imae peptide-reagent-preparation_subjob_4_cfout.maegz -o peptide-reagent-preparation_subjob_4_vpost.maegz > peptide-reagent-preparation_subjob_4_vpost.log 2>&1
+vcsprep # of output structures: 5
+Statistics for compounds in peptide-reagent-preparation_subjob_4.bld:
+Functional group: Carboxylic_Acid_C_O
+
+
+Number of structures after LigPrep: 5
+Number of input reagents remaining after LigPrep: 5
+MW avg:  146.366
+MW stddev:   39.637
+MW min:  106.102
+MW max:  205.238
+Heavy atoms avg:   10.200
+Heavy atoms stddev:    3.187
+Heavy atoms min: 7
+Heavy atoms max: 15
+
+Copying peptide-reagent-preparation_subjob_4_vpost.maegz to peptide-reagent-preparation_subjob_4.bld
+--------------------------------
+
+ligprep Building sqlite database
+mae_to_sqlite -p s_m_title -p _qp_ -p _chemfeatures_ -m peptide-reagent-preparation_subjob_4.bld -s peptide-reagent-preparation_subjob_4.sqlite -f > peptide-reagent-preparation_subjob_4_sqlite.log 2>&1
+build_sqlite_database succeeded
+----------------------------------------
+ligprep  complete.
+ # of structures in output file ( peptide-reagent-preparation_subjob_4.bld ): 5 
+----------------------------------------
+
+Summary
+# of processed structures in  peptide-reagent-preparation_subjob_4.bld :  5
+# of failed structures in  peptide-reagent-preparation_subjob_4-failed.mae :  0
+----------------------------------------
+Time: 0 hours 1 minutes  56.9 seconds
+
+   -------------------------------------   
+...........................................
+
+
+   -------------------------------------   
+...........................................
+End of Log files for subjobs.              
+
+-------------------------------------------
+
+All structure file output placed in one output structure file: peptide-reagent-preparation.bld.
+Number of structures placed in peptide-reagent-preparation.bld: 24.
+###########################################
+Tue, 09 May 2017 18:17:09.822776
+Job Complete
+---------------------------- 
+
+Summary 
+# of processed structures in peptide-reagent-preparation.bld: 24
+# of failed structures in peptide-reagent-preparation-failed.mae: 0
+---------------------------- 
+Database created
+Database tables created
+Data for 24 CTs added to database
+Time: 0 hours 2 minutes  47.4 seconds

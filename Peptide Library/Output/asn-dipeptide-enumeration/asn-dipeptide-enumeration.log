@@ -1,0 +1,23 @@
+Run as:
+combgen -m asn-dipeptide-enumeration-mmfrag.ini -logfile asn-dipeptide-enumeration.log -infile asn-dipeptide-enumeration.in -outfile asn-dipeptide-enumeration.mae -r 5 -unt
+Running on Bryans-Retina-Macbook
+
+Now handling input command file, echoing non-comment lines,
+prefixed by line numbers; ignore any WARNING messages....
+
+[4] Core: asn-dipeptide-enumeration-core.mae
+[7] Chain: 1 1 1 1f 1t
+[8] Frag: 1 1 peptide-reagent-preparation
+
+Input specs lead to 22-member comb lib
+
+Proceed with generation....
+Reached end of comb lib
+
+Running the untangler:
+ "/opt/schrodinger/suites2017-1/ligprep" -HOST "localhost:4" -NJOBS 4 -unt -bff 14 -imae "asn-dipeptide-enumeration-tang.mae" -omae "asn-dipeptide-enumeration-unt.mae"
+Untangler started; jobid=Bryans-Retina-Macbook-0-5912438f, launch succeeded
+"asn-dipeptide-enumeration-unt"  	Bryans-Retina-Macbook-0-5912438f	finished 2017-05-09-18:33:12 on Bryans-Retina-Macbook
+Untangler succeeded
+
+Size of output file "asn-dipeptide-enumeration.mae" is 135372 bytes

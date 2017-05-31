@@ -1,0 +1,9 @@
+#CombGen input file
+
+#Core molecule
+Core: his3-dipeptide-enumeration-core.mae
+
+#Attachment 1
+Chain: 1 1 1 1f 1t
+Frag: 1 1 peptide-reagent-preparation
+
