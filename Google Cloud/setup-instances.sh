@@ -42,7 +42,3 @@ for i in `seq 1 $length`; do
 	# Create reverse SSH tunnel for license traffic through admin computer (local)
 	ssh -o "StrictHostKeyChecking no" -nfNT -R 27008:LICENSE_SERVER_URL:27008 -R 53000:LICENSE_SERVER_URL:53000 username@$IP.ADDRESS
 done
-
-echo "Starting /etc/hosts file monitoring (changed by Schrodinger ruins SSH tunnel licensing)"
-# exec sudo ./monitor-hosts-file.sh # Only if necessary for the specific license
-# server
