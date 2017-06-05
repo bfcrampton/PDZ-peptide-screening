@@ -1,10 +1,5 @@
 # Peptide Virtual Screening Overview
 
-## ToDo
-- [x] Install Schrödinger software on Mac in Spaller Lab
-- [ ] Export `researcher-5-9-17.raw.gz` from GCE (after bill is paid)
-- [ ] ???
-
 ## Introduction
 This is a guide and summary of the peptide virtual screening work I (Bryan
 Crampton 17') completed, with direction from Professor Spaller, from October 2016 to
@@ -255,13 +250,13 @@ initialized with an active Google Cloud account (run `gloud init` and sign in).
 The Google Cloud account should have Firewall rules allowing unlimited access
 on ports `5901`, `27008`, and `53000` (IP ranges: 0.0.0.0/0) tcp and udp.
 1. A vnc viewer, such as [Real VNC](https://www.realvnc.com/download/viewer/)
-1. A custom `researcher-5-9-17` image on your Google Cloud Console. A
-`researcher-5-9-17.raw.gz` file should be provided outside of this repository.
-This can be uploaded to Google Cloud storage bucket. An image on GCE
-can then be created using this bucket URL. Details on this process can be found
+1. A custom `researcher-5-9-17` image on your Google Cloud Console. This was
+the custom OS image I created and should be included in the Google Cloud account
+I passed off to Professor Spaller. Details on this process of making custom
+images can be found
 [here](https://cloud.google.com/compute/docs/images/create-delete-deprecate-private-images)
-or within `image-disk.sh`. This image can be further customized. It has
-installed:
+or within `image-disk.sh`. This image can be further customized. Currently, it
+has installed:
   - Based on [Ubuntu 16.04](http://releases.ubuntu.com/16.04/)
   - The newest version of Schrödinger suite at the time of writing (2017-1)
   - [vncserver](https://linux.die.net/man/1/vncserver)
@@ -497,20 +492,17 @@ peptides that have high binding affinity from similar ones which have a poor
 affinity.
 
 
-## Results –– [RWPTS(X-K)I Virtual Screening Results](https://docs.google.com/spreadsheets/d/1QsGFdNXZ9uxQNUd8bgr-QRWKyXIml03Ninsr090tUzU/edit?usp=sharing)
+## Results
 My results for CAL PDZ screening thus far are preliminary, as they are
 completely untested with empirical experimentation. However, four acids were
 chosen to be synthesized after the coupling protocol was developed. These
 targets were the second and third best binders based on the Prime MMGBSA
 prediction. Additionally, they had similar counterparts which were predicted
-to have poor binding as shown below:
-
- The full results table is also available in [TOP-HITS.md](CAL/TOP-HITS.md)
- and this
- [Google Sheet](https://docs.google.com/spreadsheets/d/1QsGFdNXZ9uxQNUd8bgr-QRWKyXIml03Ninsr090tUzU/edit?usp=sharing)
+to have poor binding. Speak to Professor Spaller to get access to my results
+output data.
 
 Interestingly, most of the top hits displayed similarities in binding mode
-and/or structure. Additionally, acid with ID 6 is Cbz-protected L-Proline. This
+and/or structure. Many of the top hits were also modified amino acids. This
 opens the obvious question of coupling not only a single acid to the Lysine
 residue, but potentially a series of amino acids in a branched form. The
 preliminary setup for screening these branched peptides has been setup in
@@ -521,12 +513,3 @@ similar manner to normal fmoc
 Before investigating further, these preliminary results should be verified
 experimentally, as well as additional top targets which have not been
 synthesized yet.
-
-I also ran a virtual screen of the same acid library on GIPC, and with the exact
-same parameters. However, I did not compile the data into a similar
-spreadsheet document as it was out of the scope of my project. The raw output
-data is located in two output structure files:
-`$REPO_ROOT/GIPC/Output/prime-mmgbsa-1/prime-mmgbsa-1-out.maegz` and
-`$REPO_ROOT/GIPC/Output/prime-mmgbsa-2/prime-mmgbsa-2-out.maegz`. Using the
-**Data Processing** protocol, these structure files can be parsed easily and
-exported into a spreadsheet for manipulation.
