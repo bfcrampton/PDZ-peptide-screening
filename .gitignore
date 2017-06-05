@@ -1,4 +1,5 @@
 *.lic
+*/TOP-HITS.md
 GIPC/Input/*
 GIPC/Output/*
 GIPC/GIPC.prj/*

@@ -1,8 +1,13 @@
-# Peptide Virtual Screening Overview: 
+# Peptide Virtual Screening Overview
+
+## ToDo
+- [x] Install Schrödinger software on Mac in Spaller Lab
+- [ ] Export `researcher-5-9-17.raw.gz` from GCE (after bill is paid)
+- [ ] ???
 
 ## Introduction
 This is a guide and summary of the peptide virtual screening work I (Bryan
-Crampton 17') did, with direction from Professor Spaller, from October 2016 to
+Crampton 17') completed, with direction from Professor Spaller, from October 2016 to
 June 2017.
 
 #### Previous Work
@@ -24,7 +29,7 @@ for these modified peptides *in silico* due to the time consuming and costly
 nature of synthesizing and purifying peptides, followed by running binding
 assays with CAL PDZ (which must also be expressed!). Additionally, these are
 not standard peptides and require a
-[modified synthesis procedure](LINK TO MY PROTOCOL). The idea was to narrow down
+modified synthesis procedure. The idea was to narrow down
 a library of roughly 700 organic acids––which was pre-filtered for
 synthesizability––to a few top hits which could be physically made and tested
 in the lab. I completed the screening process in early April, and synthesized
@@ -89,7 +94,7 @@ interface. This can be accessed via your Applications folder (macOS) or by
 running `$SCHRODINGER/Maestro` in terminal.
 [Maestro](https://www.schrodinger.com/Maestro) is a highly customizable
 molecular visualization software. A reference guide to its use can be found
-[here](http://content.schrodinger.com/Training+Material/Maestro11/Maestro+11+Beta+Reference+Guide.pdf)
+[here](http://content.schrodinger.com/Training+Material/Maestro11/Maestro+11+Beta+Reference+Guide.pdf).
 Jobs from all of the various pieces of software included in the Schrödinger
 suite can be executed via the **Tasks** dropdown menu in the upper-right hand
 corner of the window. These jobs' statuses can be monitored by clicking the
@@ -164,7 +169,7 @@ atoms, then hovering over `Mutate Residue` and selecting *Lys*.
   - In the case of CAL PDZ, `4NMO` has the docked sequence `RWPTSK(Ac)I` which
   already has *Lys* at P(-1). For GIPC, the docked sequence `QSTYSEA` required
   mutation of P(-1) from *Glu* to *Lys*.
-1. The protein and peptide structures have now been prepared for receptor
+12. The protein and peptide structures have now been prepared for receptor
 grid generation and library enumeration.
 
 #### Glide Receptor Grid Generation
@@ -249,6 +254,7 @@ the `Google Cloud` directory.
 initialized with an active Google Cloud account (run `gloud init` and sign in).
 The Google Cloud account should have Firewall rules allowing unlimited access
 on ports `5901`, `27008`, and `53000` (IP ranges: 0.0.0.0/0) tcp and udp.
+1. A vnc viewer, such as [Real VNC](https://www.realvnc.com/download/viewer/)
 1. A custom `researcher-5-9-17` image on your Google Cloud Console. A
 `researcher-5-9-17.raw.gz` file should be provided outside of this repository.
 This can be uploaded to Google Cloud storage bucket. An image on GCE
@@ -263,7 +269,6 @@ installed:
   - python 2.7
   - [gcloud sdk](https://cloud.google.com/sdk/)
   - Various other dependencies for above software
-1. A vnc viewer, such as [Real VNC](https://www.realvnc.com/download/viewer/)
 
 #### Instance Creation
 1. Customize the `zones`, `cpu_counts`, and `memory_counts` variables in
@@ -277,8 +282,8 @@ and custom machine types (maximum memory per CPU ratio) is outlined [here](https
   the instances run out of memory (which happens often). That being said, the
   Prime MMGBSA simulations are not very memory intensive and it would probably
   be cheaper to use lower-memory instances for these jobs.
-1. Execute `./create-instances.sh` and watch logs to ensure no errors occur
-1. Verify the instances have been created on
+2. Execute `./create-instances.sh` and watch logs to ensure no errors occur
+3. Verify the instances have been created on
 [Google Cloud Console](https://console.cloud.google.com/compute/instances)
 
 #### Instance Setup
@@ -299,15 +304,15 @@ tunnels can be removed.
   current computer to access the license server. This is  the crux of what
   allows these remote cloud instances to access the license server without a
   VPN on each one of them.
-1. Verify success by using Real VNC Viewer pointed to `localhost::5901` (not
+4. Verify success by using Real VNC Viewer pointed to `localhost::5901` (not
 sure why the two colons but its required). It may warn you that the connection
 is not encrypted, but don't worry about that or any other errors that pop up.
 You should have full access to Desktop of the remote instance at this point.
-1. Through the the VNC Viewer, right click on the desktop and click open new
+5. Through the the VNC Viewer, right click on the desktop and click open new
 terminal. In the window, run `~/schrodinger2017-1/utilities/configure` and a
 configuration window should open. Input the necessary information to access
 the Schrödinger license (either enter the license text or the server info).
-1. Verify the success of the license configuration by running
+6. Verify the success of the license configuration by running
 `~/schrodinger2017-1/maestro`. If the main window shows up, then the license
 settings, local VPN, and SSH tunnels are working correctly.  
 
@@ -468,7 +473,8 @@ structure file if it's not already in your project.
 1. Shift-select all the acids then click `Export` ––> `Export to PNG`
 1. Create a folder to hold all the images and save it.
 1. These can then be upload to Google Cloud Storage, and shared publicly via
-the Google Cloud Console
+the Google Cloud Console. You could also host them using github as they are now,
+if this repository remains public.
 1. I loaded the spreadsheet into a Google Drive sheet (excel doesn't support
 images in cells). Using the Entry Name field you can convert that to an acid
 "ID" number which should correspond to the number attached to the exported
@@ -480,8 +486,8 @@ similar "excel" functions can be utilized to manipulate the data.
 which stands for Simplified molecular-input line-entry system and represents
 the 2D structure of molecules. This
 [can be converted](http://www.webqc.org/molecularformatsconverter.php) to
-various other formula representation standards, MW, etc. which can be added
-to the data table.
+various other formula representation standards, Molecular Weight, etc. which
+can be added to the data table and allow for sorting of similar compounds.
 
 My results data table for CAL PDZ are available here:
 [RWPTS(X-K)I Virtual Screening Results](https://docs.google.com/spreadsheets/d/1QsGFdNXZ9uxQNUd8bgr-QRWKyXIml03Ninsr090tUzU/edit?usp=sharing). I compiled all of the data and also searched the library for acids similar
@@ -491,4 +497,36 @@ peptides that have high binding affinity from similar ones which have a poor
 affinity.
 
 
-## Results
+## Results –– [RWPTS(X-K)I Virtual Screening Results](https://docs.google.com/spreadsheets/d/1QsGFdNXZ9uxQNUd8bgr-QRWKyXIml03Ninsr090tUzU/edit?usp=sharing)
+My results for CAL PDZ screening thus far are preliminary, as they are
+completely untested with empirical experimentation. However, four acids were
+chosen to be synthesized after the coupling protocol was developed. These
+targets were the second and third best binders based on the Prime MMGBSA
+prediction. Additionally, they had similar counterparts which were predicted
+to have poor binding as shown below:
+
+ The full results table is also available in [TOP-HITS.md](CAL/TOP-HITS.md)
+ and this
+ [Google Sheet](https://docs.google.com/spreadsheets/d/1QsGFdNXZ9uxQNUd8bgr-QRWKyXIml03Ninsr090tUzU/edit?usp=sharing)
+
+Interestingly, most of the top hits displayed similarities in binding mode
+and/or structure. Additionally, acid with ID 6 is Cbz-protected L-Proline. This
+opens the obvious question of coupling not only a single acid to the Lysine
+residue, but potentially a series of amino acids in a branched form. The
+preliminary setup for screening these branched peptides has been setup in
+the Peptide Library directory. This could be expanded to both natural and
+unnatural amino acids which could be coupled in this type of synthesis in a
+similar manner to normal fmoc
+[SPPS procedures](https://en.wikipedia.org/wiki/Peptide_synthesis#Solid-phase_synthesis).
+Before investigating further, these preliminary results should be verified
+experimentally, as well as additional top targets which have not been
+synthesized yet.
+
+I also ran a virtual screen of the same acid library on GIPC, and with the exact
+same parameters. However, I did not compile the data into a similar
+spreadsheet document as it was out of the scope of my project. The raw output
+data is located in two output structure files:
+`$REPO_ROOT/GIPC/Output/prime-mmgbsa-1/prime-mmgbsa-1-out.maegz` and
+`$REPO_ROOT/GIPC/Output/prime-mmgbsa-2/prime-mmgbsa-2-out.maegz`. Using the
+**Data Processing** protocol, these structure files can be parsed easily and
+exported into a spreadsheet for manipulation.
